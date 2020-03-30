@@ -1,7 +1,7 @@
 # My_Project
   A Toolset For Automated Detection of Cross-Site Scripting Vulnerablilities in Web Applications
   
-  The Major Steps for this Projects are as follows:
+  Major Steps of this Tool are as follows:
   
   1. Input is a website (url)
   
