@@ -1,0 +1,1050 @@
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset="xyz'yxz</zxy&_dynSessConf=1440707658512274214&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf="xyz'yxz</zxy&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:optinEmailAddress="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL="xyz'yxz</zxy&errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl="xyz'yxz</zxy&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference="xyz'yxz</zxy&_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS="xyz'yxz</zxy
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/browse;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset="xyz'yxz</zxy&Ntt=&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/browse;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&Ntt="xyz'yxz</zxy&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/browse;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&Ntt=&_D:search="xyz'yxz</zxy&_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/browse;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_dyncharset=UTF-8&Ntt=&_D:search= &_DARGS="xyz'yxz</zxy
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset="xyz'yxz</zxy&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf="xyz'yxz</zxy&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email="xyz'yxz</zxy&_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl="xyz'yxz</zxy&_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False
+
+https://www.harbourbayflorist.com/account/info.jsp;jsessionid=eSn408KE5yiirdZ4ZDCXsR5Xgs_KHGtLVF9R_iPK?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=1440707658512274214&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS="xyz'yxz</zxy
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		False		False	False	False	False
+URL:		False		False	False	False	False

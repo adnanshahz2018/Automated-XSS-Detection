@@ -1,0 +1,112 @@
+
+https://www.nearlynatural.com/collections/search-results?type="xyz'yxz</zxy&keywords=
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<span itemscope itemtype="http://schema.org/Thing"
+          itemprop="item" id="https://www.nearlynatural.com/collections/search-results?type=%22xyz%27yxz%3c%2fzxy" href="https://www.nearlynatural.com/collections/search-results?type=%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"0bf6bd37-a062-49bd-b216-abffbf39e3dc","pageurl":"www.nearlynatural.com\/collections\/search-results?type=%22xyz'yxz%3C\/zxy\u0026keywords=","u":"a1f95eb13335","p":"collection","rtyp":"collection","rid":121861111908};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link rel="alternate" type="application/json+oembed" href="https://www.nearlynatural.com/collections/search-results.oembed?type=%22xyz%27yxz%3c%2fzxy">
+<meta property="og:url" content="https://www.nearlynatural.com/collections/search-results?type=%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		True		True	True	True	False
+HTML:		False		False	False	False	False
+SCRIPT:		True		True	False	True	False
+URL:		True		True	True	True	False
+
+https://www.nearlynatural.com/collections/search-results?type=product&keywords="xyz'yxz</zxy
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"da801444-cd45-40f6-a41f-b4010217454b","pageurl":"www.nearlynatural.com\/collections\/search-results?type=product\u0026keywords=%22xyz'yxz%3C\/zxy","u":"cea7ba3b718b","p":"collection","rtyp":"collection","rid":121861111908};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		True		True	False	True	False
+URL:		False		False	False	False	False
+
+https://www.nearlynatural.com/collections/search-results?keywords="xyz'yxz</zxy
+
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"82ee3e60-207a-4300-a704-b0e53c13732a","pageurl":"www.nearlynatural.com\/collections\/search-results?keywords=%22xyz'yxz%3C\/zxy","u":"4bee02f94f59","p":"collection","rtyp":"collection","rid":121861111908};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+		 		ENCODING SUMMARY 
+	   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+HTML:		False		False	False	False	False
+SCRIPT:		True		True	False	True	False
+URL:		False		False	False	False	False
