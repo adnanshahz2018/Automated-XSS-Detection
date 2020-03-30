@@ -11,13 +11,13 @@
   
   4. Analysis of the Contexts obtained
     
-    a. Encoding Anaylysis
+      a. Encoding Anaylysis
     
-    b. Filtering Analysis
+      b. Filtering Analysis
     
-    c. Attack Methodology
+      c. Attack Methodology
     
-    d. Selection of Payloads
+      d. Selection of Payloads
   
   5. After selecting Attack-Mehtodology and Attack-Payloads, attacks the webpage with new payloads
   
