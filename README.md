@@ -1,5 +1,5 @@
 # My_Project
-  A Toolset For Automated Detection of Cross-Site Scripting Vulnerablilities in Web Applications
+  A Toolset For Automated Detection of Cross-Site Scripting Vulnerabilities in Web Applications
   
   Major Steps of this Tool are as follows:
   
