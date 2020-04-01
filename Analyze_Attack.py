@@ -103,6 +103,7 @@ class analyze_attack:
                 url = url.replace(pay, attack)
                 pay = attack
                 print('\n', Context, 'Attack Url: ', url)
+                self.Text.write_directly('\n'+ Context + ' Attack Url: ' + url)
                 data = self.get_source(url)
                 if( str(data).__contains__(attack)):
                     print('\n\n=> ATTACK SUCCESSFUL with Payload: ', str(attack))
@@ -115,9 +116,9 @@ class analyze_attack:
                     self.Text.write_directly('\nDetection of Payload: ' + '\n')
                     for v in value:
                         self.Text.write_directly(str(v) + "\n")
-                    self.Text.write_directly('\n')
+                    # self.Text.write_directly('\n')
                     # input('Press Enter To Proceed.. ')
                 else:
                     print('\n\n ______ UnSuccessful with payload: ', attack, '\n\n')
-                    self.Text.write_directly('\n\n ______ UnSuccessful with payload: ' + str(attack) + '\n')
+                    self.Text.write_directly('\n\n ______ UnSuccessful with payload: ' + str(attack) + '\n\n')
         

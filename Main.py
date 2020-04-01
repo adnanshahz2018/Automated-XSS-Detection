@@ -138,12 +138,12 @@ if __name__ == "__main__":
 
     # links += ['https://www.ces.ncsu.edu/']
     # links += ['http://drudgereportarchives.com/']
-    # links += ['https://www.zentechnologies.com/']
+    links += ['https://www.zentechnologies.com/']
     # links += ['https://ifu-institut.at/']
     # links += ['https://www.sweetwater.com/']
     # links += ['https://www.drdelphinium.com/']
     # links += ['https://www.harbourbayflorist.com/']
-    links += ['https://www.nearlynatural.com']
+    # links += ['https://www.nearlynatural.com']
 
     # links = Post.read_excel()
     M = main_class(links[0])

@@ -1,6 +1,5 @@
-
-https://www.drdelphinium.com/browse;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_dyncharset="xyz'yxz</zxy&Ntt=&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset="xyz'yxz</zxy&Ntt=&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -35,15 +34,37 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		True		False	False	False	False
+
+Attack Payloads for SCRIPT
+['"; confirm(1); "', "'; confirm(1); '", '</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset="; confirm(1); "&Ntt=&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+=> ATTACK SUCCESSFUL with Payload: "; confirm(1); "
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset='; confirm(1); '&Ntt=&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+=> ATTACK SUCCESSFUL with Payload: '; confirm(1); '
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=</script><script>alert(1)</script>&Ntt=&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+ENCODING   	  Presence		"		'		<		/ 
 URL:		True		True	True	True	False
 
-https://www.drdelphinium.com/browse;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_dyncharset=UTF-8&Ntt="xyz'yxz</zxy&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
-
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt="xyz'yxz</zxy&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -82,15 +103,42 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		True		False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=<img src=x onerror="alert(1)">&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		True		False	False	False	False
+
+Attack Payloads for SCRIPT
+['"; confirm(1); "', "'; confirm(1); '", '</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt="; confirm(1); "&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+=> ATTACK SUCCESSFUL with Payload: "; confirm(1); "
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt='; confirm(1); '&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+=> ATTACK SUCCESSFUL with Payload: '; confirm(1); '
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=</script><script>alert(1)</script>&_D:search= &_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/browse;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_dyncharset=UTF-8&Ntt=&_D:search="xyz'yxz</zxy&_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search="xyz'yxz</zxy&_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -125,15 +173,37 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		True		False	False	False	False
+
+Attack Payloads for SCRIPT
+['"; confirm(1); "', "'; confirm(1); '", '</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search="; confirm(1); "&_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+=> ATTACK SUCCESSFUL with Payload: "; confirm(1); "
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search='; confirm(1); '&_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+=> ATTACK SUCCESSFUL with Payload: '; confirm(1); '
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search=</script><script>alert(1)</script>&_DARGS=/cartridges/SearchBox/SearchBox.jsp.searchForm
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+ENCODING   	  Presence		"		'		<		/ 
 URL:		True		True	True	True	False
 
-https://www.drdelphinium.com/browse;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_dyncharset=UTF-8&Ntt=&_D:search= &_DARGS="xyz'yxz</zxy
-
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search= &_DARGS="xyz'yxz</zxy
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -168,15 +238,37 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		True		False	False	False	False
+
+Attack Payloads for SCRIPT
+['"; confirm(1); "', "'; confirm(1); '", '</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search= &_DARGS="; confirm(1); "
+
+=> ATTACK SUCCESSFUL with Payload: "; confirm(1); "
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search= &_DARGS='; confirm(1); '
+
+=> ATTACK SUCCESSFUL with Payload: '; confirm(1); '
+Detection of Payload: 
+
+SCRIPT Attack Url: https://www.drdelphinium.com/browse;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_dyncharset=UTF-8&Ntt=&_D:search= &_DARGS=</script><script>alert(1)</script>
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+ENCODING   	  Presence		"		'		<		/ 
 URL:		True		True	True	True	False
 
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset="xyz'yxz</zxy&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset="xyz'yxz</zxy&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -203,15 +295,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf="xyz'yxz</zxy&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf="xyz'yxz</zxy&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -238,15 +331,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email="xyz'yxz</zxy&_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email="xyz'yxz</zxy&_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -273,15 +367,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -308,15 +403,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -343,15 +439,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -378,15 +475,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -413,15 +511,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -448,15 +547,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -483,15 +583,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -518,15 +619,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -553,15 +655,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -588,15 +691,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -623,15 +727,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp="xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -658,15 +763,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl="xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -693,15 +799,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl="xyz'yxz</zxy&_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl="xyz'yxz</zxy&_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -728,15 +835,16 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
-
-https://www.drdelphinium.com/account/info.jsp;jsessionid=QHLgyUOGPRb0tKlH5yoF6btKBJdNK9cmmIB43kC5?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=7637213523437744727&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS="xyz'yxz</zxy
-
+_______________________________________________________________________________________________________
+https://www.drdelphinium.com/account/info.jsp;jsessionid=bIo06KT_Y0cuHu-uQQXKcUi5s8gzEj-GFNR69Fih?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm&_dyncharset=UTF-8&_dynSessConf=2810546621723554754&_D:email= &_D:password= &_D:/atg/userprofiling/ProfileFormHandler.login= &/atg/userprofiling/ProfileFormHandler.loginErrorURL=/account/login.jsp?message=loginFailed&_D:/atg/userprofiling/ProfileFormHandler.loginErrorURL= &/atg/userprofiling/ProfileFormHandler.loginFromHeader=true&_D:/atg/userprofiling/ProfileFormHandler.loginFromHeader= &/atg/userprofiling/ProfileFormHandler.value.secure=true&_D:/atg/userprofiling/ProfileFormHandler.value.secure= &/atg/userprofiling/ProfileFormHandler.loginSuccessURL=/&_D:/atg/userprofiling/ProfileFormHandler.loginSuccessURL= &_D:/atg/userprofiling/ProfileFormHandler.signUp= &/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl=/account/signup.jsp&_D:/atg/userprofiling/ProfileFormHandler.sessionValidationSuccessUrl= &_DARGS="xyz'yxz</zxy
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -763,9 +871,11 @@ Same Script : [0]
 Same URI : [0]
 
 
-		 		ENCODING SUMMARY 
-	   	  Presence		"		'		<		/ 
+ENCODING   	  Presence		"		'		<		/ 
 ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
 URL:		False		False	False	False	False
