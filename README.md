@@ -69,7 +69,7 @@ Data Extracted From Website:
   
   a. ['<input type="hidden" name="query" value="' onmouseover='alert(1)">', '<input type="hidden" name="name" value="'onmouseover='alert(1)" />']
   
-  b. ['<q><img src=x onmouseover="confirm(1)"></q>']
+  b. ['<q><img src=x onerror="confirm(1)"></q>']
       
    
    
