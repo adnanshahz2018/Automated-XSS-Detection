@@ -70,7 +70,8 @@ Data Extracted From Website:
   Detection of Payload:
   
   a. ['<input type="hidden" name="query" value="' onmouseover='alert(1)">', '<input type="hidden" name="name" value="'onmouseover='alert(1)" />']
-  b. ['<q><img src=x onerror="alert(1)"></q>']
+  
+  b. ['<q>< img src=x onerror="alert(1)"></q>']
       
    
    
