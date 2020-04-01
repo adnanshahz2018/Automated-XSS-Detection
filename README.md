@@ -61,7 +61,7 @@ Data Extracted From Website:
    
    6. Attack URL: e.g: 
    
-   SCRIPT Attack Url:  https://www.nearlynatural.com/collections/search-results?type=product&keywords='; confirm(1); '
+      SCRIPT Attack Url:  https://www.nearlynatural.com/collections/search-results?type=product&keywords='; confirm(1); '
    
    7. Success of Attack: e.g: [UnSuccessful with payload:  '; confirm(1); ']
    
