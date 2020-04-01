@@ -55,7 +55,7 @@ Data Extracted From Website:
       
       c. Less-than sign
       
-      d. Forward Slash
+      d. Forward slash
       
    5. Selected Attack-Payloads: e.g: ["'; confirm(1); '"]
    
@@ -64,6 +64,14 @@ Data Extracted From Website:
       SCRIPT Attack Url:  https://www.nearlynatural.com/collections/search-results?type=product&keywords='; confirm(1); '
    
    7. Success of Attack: e.g: [UnSuccessful with payload:  '; confirm(1); ']
+   
+   8. Reflection of Attack-Payload in the Response against Attack URL e.g:
+   
+  Detection of Payload:
+  
+  a. ['<input type="hidden" name="query" value="' onmouseover='alert(1)">', '<input type="hidden" name="name" value="'onmouseover='alert(1)" />']
+  b. ['<q><img src=x onerror="alert(1)"></q>']
+      
    
    
    .....
