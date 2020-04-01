@@ -149,7 +149,7 @@ if __name__ == "__main__":
     M = main_class(links[0])
 
     # Collecting all the links of a web page (these are the references of webpages)
-    index = 0
+    index = 0 
     for bfs_levels in range(0):
         index, links = M.bfs_crawling(index,links)      
 
