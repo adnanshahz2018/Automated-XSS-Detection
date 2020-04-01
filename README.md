@@ -66,8 +66,6 @@ Data Extracted From Website:
    7. Success of Attack: e.g: [UnSuccessful with payload:  '; confirm(1); ']
    
    8. Reflection of Attack-Payload in the Response against Attack URL e.g:
-   
-  Detection of Payload:
   
   a. ['<input type="hidden" name="query" value="' onmouseover='alert(1)">', '<input type="hidden" name="name" value="'onmouseover='alert(1)" />']
   
