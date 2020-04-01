@@ -11,7 +11,7 @@
   
   4. Analysis of the Contexts obtained
     
-      a. Encoding Anaylysis
+      a. Encoding Analysis
     
       b. Filtering Analysis
     
