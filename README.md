@@ -51,13 +51,13 @@ Data Extracted From Website:
       
       a. Single Quotes
       
-      b. Double Qoutes
+      b. Double Quotes
       
       c. Less-than sign
       
       d. Forward Slash
       
-   5. Selected Attack-Payload: e.g: ["'; confirm(1); '"]
+   5. Selected Attack-Payloads: e.g: ["'; confirm(1); '"]
    
    6. Attack URL: e.g: 
    
