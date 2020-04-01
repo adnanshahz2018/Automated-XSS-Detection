@@ -22,3 +22,48 @@
   5. After selecting Attack-Mehtodology and Attack-Payloads, attacks the webpage with new payloads
   
   6. Analyzes the Response against Attack-Payloads to find out if the attack was successful or NOT
+
+Data Extracted From Website:
+  
+  1. GET Urls (with Payloads): [ https://www.zentechnologies.com/search/search.php?query="xyz'yxz</zxy&search=1 ]
+  
+  2. No. of GET Urls: e.g: [2] 
+  
+  3. Context Data : 
+      
+      a. Attribute
+      
+      b. HTML
+      
+      c. Script
+      
+      d. URL 
+      
+      e. Same Attribute
+      
+      f. Same HTML
+      
+      g. Same Script
+      
+      h. Same URL
+   
+   4. Encoding Analysis: 
+      
+      a. Single Quotes
+      
+      b. Double Qoutes
+      
+      c. Less-than sign
+      
+      d. Forward Slash
+      
+   5. Selected Attack-Payload: e.g: ["'; confirm(1); '"]
+   
+   6. Attack URL: e.g: 
+   
+   SCRIPT Attack Url:  https://www.nearlynatural.com/collections/search-results?type=product&keywords='; confirm(1); '
+   
+   7. Success of Attack: e.g: [UnSuccessful with payload:  '; confirm(1); ']
+   
+   
+   .....
