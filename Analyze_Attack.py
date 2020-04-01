@@ -9,6 +9,7 @@ from AttackMethodology import attack_methodology
 
 class analyze_attack:
     payload = '"' + "xyz'yxz</zxy"
+    Text = None     # write_text_file() Object
 
     def get_source(self,url):
         Web = web_request(url,'GET')
@@ -46,7 +47,7 @@ class analyze_attack:
         count = 0
 
         # Single Text File Containing Both GET and POST Form Response.
-        Text = write_text_file(link, self.payload)
+        self.Text = write_text_file(link, self.payload)
         # print( 'Unique GET URLs [', len(unique_get_urls) , ']\n', unique_get_urls ,'\n' )
 
         # Collecting Context Data of  <GET Forms>
@@ -58,25 +59,25 @@ class analyze_attack:
                 print('[', count , '/', len(unique_get_urls), ']', 'Checking Encoding =>',  url )
                 source = self.get_source(url) # Retrieving source code of the webpage
                 # Fucntion Call
-                self.record_data(url,source,Text)
+                self.record_data(url,source)
 
     # ----- Finding Contexts, selecting attack-Methodology and attack-payloads
-    def record_data(self,url,source,Text):
+    def record_data(self,url,source):
         Find = find_contexts()
         # Finding All Contexts
         attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls = Find.find_context(url, self.payload, str(source) )
         # Writing Contexts to Text File
-        Text.write_contexts(url, attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)
-        # The function { encoding_analyzer() } returns True for the encoding or escaping of special chars and False otherwise.
-        Text.write_encoding( None, '','','','','')
+        self.Text.write_contexts(url, attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)
+        # self.Text.write_encoding( None, '','','','','')
         # Cotext Encoding and Attack Methodology for each Context
-        self.check_encoding_and_attack( url, Text, 'ATTR', attrs)
-        self.check_encoding_and_attack( url, Text, 'HTML', htmls)
-        self.check_encoding_and_attack( url, Text, 'SCRIPT', scripts)
-        self.check_encoding_and_attack( url, Text, 'URL', urls)
+        self.check_encoding_and_attack( url, 'ATTR', attrs)
+        self.check_encoding_and_attack( url, 'HTML', htmls)
+        self.check_encoding_and_attack( url, 'SCRIPT', scripts)
+        self.check_encoding_and_attack( url, 'URL', urls)
 
-    def check_encoding_and_attack(self, url,Text, context_name, context_data):
+    def check_encoding_and_attack(self, url, context_name, context_data):
         CE = context_encoding()
+        # For each Context { encoding_analyzer() } returns True for encoding or escaping of special chars and False otherwise.
         presence, double_quotes, single_quotes, lessthan_sign, forward_slash = CE.encoding_analyzer(context_data)
         if context_name == 'URL' or context_name == 'HTML' or context_name == 'ATTR':
             print_presence = str(presence) + '  '
@@ -86,7 +87,7 @@ class analyze_attack:
         print('Special Chars = Context Presence   \"\t \'\t<\t/')
         print(context_name,'Encoding=\t', print_presence, '\t   ', double_quotes, single_quotes, lessthan_sign, forward_slash )
         
-        Text.write_encoding(context_name, presence, double_quotes, single_quotes, lessthan_sign, forward_slash)
+        self.Text.write_encoding(context_name, presence, double_quotes, single_quotes, lessthan_sign, forward_slash)
         self.try_attacks(url, context_name, presence, double_quotes, single_quotes, lessthan_sign, forward_slash)
 
     def try_attacks(self, url, Context, presence, double_quotes, single_quotes, lessthan_sign, forward_slash):
@@ -97,18 +98,26 @@ class analyze_attack:
         print('Attack Payloads: ', attack_payloads)
         
         if tag:
+            self.Text.write_directly('\nAttack Payloads for ' + str(Context) + '\n' + str(attack_payloads) + '\n')
             for attack in attack_payloads:
                 url = url.replace(pay, attack)
                 pay = attack
                 print('\n', Context, 'Attack Url: ', url)
                 data = self.get_source(url)
                 if( str(data).__contains__(attack)):
-                    print('\n\n=> ATTACK SUCCESSFUL with Payload: ', attack)
+                    print('\n\n=> ATTACK SUCCESSFUL with Payload: ', str(attack))
+                    self.Text.write_directly('\n\n=> ATTACK SUCCESSFUL with Payload: ' + str(attack))
                     # print('=>The Automated Tool Assumes that there is a potential XSS Present in the Website\n')
                     RegExp = regular_expression(data)
                     RegExp.set_payload(attack)
-                    print('Detection of Payload:\n', RegExp.cotext_attack(Context) , '\n\n')
+                    value = RegExp.cotext_attack(Context)
+                    print('Detection of Payload:\n', value  , '\n\n')
+                    self.Text.write_directly('\nDetection of Payload: ' + '\n')
+                    for v in value:
+                        self.Text.write_directly(str(v) + "\n")
+                    self.Text.write_directly('\n')
                     # input('Press Enter To Proceed.. ')
                 else:
                     print('\n\n ______ UnSuccessful with payload: ', attack, '\n\n')
+                    self.Text.write_directly('\n\n ______ UnSuccessful with payload: ' + str(attack) + '\n')
         
