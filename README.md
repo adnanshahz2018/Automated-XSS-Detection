@@ -9,7 +9,7 @@
   
   3. Analysis of the Response against Form Submissions, extracts XSS-context data
   
-  4. Analysis of the Contexts obtained
+  4. Analysis of the Contexts Data extracted
     
       a. Encoding Analysis
     
