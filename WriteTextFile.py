@@ -5,34 +5,54 @@ import os
 
 class write_text_file:
     url = ''
+    folder = 'SingleWebsite_Data/'
     filename = ''
     payload = ''
 
     def __init__(self,url,payload):
         self.url = url
+        # self.folder = self.core_url(url) + '/'
         self.payload = payload
         self.createfile()
 
+    def core_url(self,link):
+        exp = re.compile('\.?\-?[\w]+\.[\.\w]+')
+        core = exp.findall(link)
+        print('Core Url ', core)
+        return core[0]
+
     def createfile(self):
         filename = self.get_filename()
-        path = 'SingleWebsite_Data/' + filename + '.txt'
+        path = self.folder + filename + '.txt'
         textfile = open(path, "w")
+        textfile.write(self.url + '\n')
         textfile.close()
 
     def get_filename(self):
-        if self.url.__contains__('?'):  f = self.url.split("?")
-        else: f = self.url.split("=")
-
-        f = f[0].replace("/", "_")
+        f = self.url
+        f = f.replace("/", "_")
+        f = f.replace("\\", "_")
         f = f.replace(":", "_")
+        f = f.replace(" ", "")
+        f = f.replace("\\n", "")
         
+        f = f.replace("*", "_")
+        f = f.replace("<", "_")
+        f = f.replace(">", "_")
+        f = f.replace("&", "_")
+        
+        f = f.replace("\"", "_")
+        f = f.replace("|", "_")
+        f = f.replace("?", "_")
+        
+        f = f.rstrip("\n")
         # print('filename => ', f)
         return f
 
     def write_contexts(self, url, attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls):
         breakline = "\n----------------------------------------------------------------------------------\n"
         filename = self.get_filename()
-        path = 'SingleWebsite_Data/' + filename + '.txt'
+        path = self.folder + filename + '.txt'
         textfile = open(path, "a", encoding='utf-8')
 
         print( "\nWriting Data in => ", filename + '.txt' , '\n' )
@@ -90,7 +110,7 @@ class write_text_file:
         breakline = "\n__________________________________________________________________________________"
         print('\n Writing Post Form Data to TEXT_FILE\n')
         filename = self.get_filename()
-        path = 'SingleWebsite_Data/' + filename + '.txt'
+        path = self.folder + filename + '.txt'
         textfile = open(path, "a")
         textfile.write(breakline )
         textfile.write('\nPost Forms' + breakline + '\n')
@@ -100,20 +120,20 @@ class write_text_file:
 
     def write_directly(self,data):
         filename = self.get_filename()
-        path = 'SingleWebsite_Data/' + filename + '.txt'
+        path = self.folder + filename + '.txt'
         textfile = open(path, "a")
         textfile.write(data)
         textfile.close()
         
     def write_encoding(self, Context, presence, double_quotes, single_quotes, lessthan_sign, forward_slash):
         filename = self.get_filename()
-        path = 'SingleWebsite_Data/' + filename + '.txt'
+        path = self.folder + filename + '.txt'
         textfile = open(path, "a")
         if Context is None: 
             textfile.write('\n\n\t\t \t\tENCODING SUMMARY \n\t   \t  Presence\t\t"' + "\t\t'" + '\t\t<' + "\t\t/ \n")
             return
-        textfile.write('ENCODING   \t  Presence\t\t"' + "\t\t'" + '\t\t<' + "\t\t/ \n")
-        textfile.write(Context +':\t\t'+ str(presence) +'\t\t'+ str(double_quotes) +'\t')
+        textfile.write('ENCODING     Presence\t"' + "\t'" + '\t<' + "\t/ \n")
+        textfile.write(Context +':\t\t'+ str(presence) +'\t'+ str(double_quotes) +'\t')
         textfile.write( str(single_quotes) +'\t'+ str(lessthan_sign) +'\t'+ str(forward_slash) + '\n' )
         textfile.close()
 

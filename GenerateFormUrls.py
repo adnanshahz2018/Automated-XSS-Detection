@@ -12,6 +12,7 @@ class generate_form_urls_with_payloads:
     payload = '"' + "xyz'yxz</zxy"
     complete_link = original_url = ''
     formvalues = {}
+    get_params = []
 
     def start_search(self,link):
         complete_links = []
@@ -23,9 +24,15 @@ class generate_form_urls_with_payloads:
         else: source = s2
 
         # print(link)
+        self.get_params = []
         complete_links = self.analyse_forms(source, 'get') 
         # print('\nForm Links [', len(complete_links), '] \n',  complete_links)
-        return complete_links
+
+        params = []
+        for x in self.get_params:
+            # Removing Duplicates
+            if x not in params: params.append(x) 
+        return params, complete_links
     
     def core_url(self,link):
         exp = re.compile('https?:\/\/[\w]+?\.?\-?[\w]+\.[\.\w]+')
@@ -49,6 +56,7 @@ class generate_form_urls_with_payloads:
             if flag:    links += form_links  
         return links
         
+
     def check_get_urls(self, form):
         if not form: return False, ['']
         fields = form.find_all('input')
@@ -61,10 +69,12 @@ class generate_form_urls_with_payloads:
         for field in fields:
             if(field.get('type') == 'hidden' or field.get('type') == 'text' or field.get('type') == 'Text' or 
             field.get('type') == 'TEXT' or field.get('type') == 'search' or field.get('type') == 'Search' or 
-            field.get('type') == 'SEARCH' ):    formdata[field.get('name')] = field.get('value')
+            field.get('type') == 'SEARCH' ):    
+                self.get_params.append(field.get('name'))
+                formdata[field.get('name')] = field.get('value')
         
         if not form.get('action'): return False, ['No FormAction']
-        print('form-action: ' , form.get('action'))
+        # print('form-action: ' , form.get('action'))
         url = self.make_link(form.get('action'))
         self.formvalues = formdata.copy()
         num_inputs = len(formdata)
@@ -73,7 +83,7 @@ class generate_form_urls_with_payloads:
         for f in formdata:
             formdata[f] = self.payload
             data = self.merge(form.get('action'), formdata)
-            print('URL: ', url)
+            # print('URL: ', url)
             get_url = url + data
             links.append(get_url)
             formdata = self.formvalues.copy()

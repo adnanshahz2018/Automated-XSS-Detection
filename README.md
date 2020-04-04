@@ -72,5 +72,4 @@ Data Extracted From Website:
   b. ['<q><img src=x onerror="alert(1)"></q>']
       
    
-   
    .....

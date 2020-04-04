@@ -36,18 +36,20 @@ class analyze_attack:
             if not link == [] and link.__contains__('http'):   
                 # generates links/urls from every <form ... method="get">. 
                 # We receive a list of links/urls. 
-                get_urls = Search.start_search(link) 
+                get_params, get_urls = Search.start_search(link) 
+                self.get_params = get_params
             else: continue
             unique_get_urls = self.remove_duplicate_get_urls(get_urls)
-            print('\nUnique GET URLs:[',len(unique_get_urls), ']\n', unique_get_urls)
+            print('\nUnique GET URLs:[',len(unique_get_urls), ']\n') #, unique_get_urls)
             self.collect_response_data(link, unique_get_urls)
 
     def collect_response_data(self,link, unique_get_urls): # adds payload in GET params..?
         attack_urls = []
         count = 0
 
-        # Single Text File Containing Both GET and POST Form Response.
+        # Text File Containing GET Form Response.
         self.Text = write_text_file(link, self.payload)
+        self.Text.write_directly( '\nGET Params:[' + str(len(self.get_params)) + ']\n' + str( self.get_params )  + '\n')
         # print( 'Unique GET URLs [', len(unique_get_urls) , ']\n', unique_get_urls ,'\n' )
 
         # Collecting Context Data of  <GET Forms>

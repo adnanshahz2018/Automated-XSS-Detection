@@ -52,7 +52,10 @@ class main_class:
             if self.valid_link(tag['href'],links):    links.append(tag['href'])
         # print(links)
         return links
-    
+
+    def set_base_url(self,url):
+        self.base = url 
+
     # Validata link
     def valid_link(self,link,links):
         if str(link).__contains__(self.base):  
@@ -68,28 +71,28 @@ class main_class:
         # print('Base Url ', base)
         return base
 
-    def set_base_url(self,url):
-        self.base = url 
+    
 
-    def bfs_crawling(self,index, website):
+    def bfs_crawling(self,index, web_links):
         count = index
-        self.links = website.copy()
+        self.links = web_links.copy()
         print('\n\t\t WE ARE FETCHING LINKS \n\n')
-        for i in range(index, len(website) ):
+        for i in range(index, len(web_links) ):
             count+=1
-            self.url = website[i]
+            self.url = web_links[i]
             print(' LINK  [' , count ,']  =>  ' ,self.url)
 
             self.web = web_request(self.url,'GET')
             self.base = self.find_base_url(self.url)
             self.source = self.get_source(self.url)
             bfs_links = self.get_links()
-
+            
+            # Removing Duplicates
             for new_link in bfs_links: 
                 if new_link not in self.links:
                     self.links.append(new_link)
 
-        return count , self.links
+        return len(self.links) , self.links
 
 #-------------------------------------------------------------------------------------------------------------
 #  End of Class: main_class
@@ -113,17 +116,17 @@ class main_class:
 
 
 if __name__ == "__main__":
-    print('\n=> The Automated Tool Assumes that there is a potential XSS Present in the Website\n')
+    print('\n=> This Automated Tool assists in finding XSS Vulnerablilities.\n=> It assumes that there is a potential XSS Present in the Website\n')
 
     Post = post_links()
-    A = analyze_attack()
+    Analyzer = analyze_attack()
     links = []
 # -----------------------  Links for Testing -------------------------------
     # links += ['https://www.moma.org/']      # 376 Unique Links in this website with 2 level bfs...  
     # links += ['https://www.britannica.com/explore/yearinreview/']
     # links += ['https://www.roomandboard.com/']
     # links += ['https://www.harryanddavid.com/']
-    # links += ['https://www.keh.com/']
+    links += ['https://www.keh.com/']
     # links += ['https://www.cat.com/en_US']
     # links += ['https://www.1000bulbs.com/']
     # links += ['https://www.discountpartysupplies.com/']
@@ -138,42 +141,48 @@ if __name__ == "__main__":
 
     # links += ['https://www.ces.ncsu.edu/']
     # links += ['http://drudgereportarchives.com/']
-    links += ['https://www.zentechnologies.com/']
+    # links += ['https://www.zentechnologies.com/']
     # links += ['https://ifu-institut.at/']
     # links += ['https://www.sweetwater.com/']
     # links += ['https://www.drdelphinium.com/']
     # links += ['https://www.harbourbayflorist.com/']
     # links += ['https://www.nearlynatural.com']
 
+
+
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+
+
+  
     # links = Post.read_excel()
     M = main_class(links[0])
 
     # Collecting all the links of a web page (these are the references of webpages)
     index = 0 
-    for bfs_levels in range(0):
-        index, links = M.bfs_crawling(index,links)      
+    for bfs in range(3):
+        index, links = M.bfs_crawling(index,links)
+        if (index > 21): break      
 
-    # collecting links from an Excel File ('data.xlsx') 
-    A.collect_data(links)  
+    # print('Index = ', index)
+    new_links = []
+    if len(links) > 19 :
+        for i in range(20): new_links.append(links[i]) 
+    else:
+        new_links = links
+    # print(len(new_links), '\n')
+    for link in new_links: print(link)
 
-    # Check Post links here
-    # Post.collect_data(links)
+    """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
+    Analyzer.collect_data(new_links)
     
-print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
+    print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 
-"""   <--   Suggested WORK / Algorithms -->
-
-Attack Urls: 
-1. replace the old payload with the NEW payloads one by one. 
-2. So, in this way they'll be a value to the GET Param that caused that vulnerability.  
-3. Get their source. 
-4. find Same Context Appearance. if exact same Appearance is detected then [ Attack is successful..!! ]
-5. Move On to Next Attack Url 
-
-"""
-
-"""  <===     Upgrades  ===>
-    
-1. I've added headers {} in the open_request() function of the WebRequest Class
-
-"""

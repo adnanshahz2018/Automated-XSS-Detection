@@ -68,3 +68,17 @@ class BASEMENT:
 
 if __name__ == "__main__":
     print('{BASEMENT}')
+
+
+"""             UPDATES REQUIRED
+
+1. Extract Unique GET Params.
+2. If 2 forms have same 2 GET Params, then 4 GET URLs will be generated: DONE: later unique GET URLS are extracted
+ 
+
+"""
+
+
+"""     ==>>    UPDATES SUGGESTED 
+
+"""
