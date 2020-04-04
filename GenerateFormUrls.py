@@ -9,7 +9,7 @@ from FindContexts import find_contexts
 
 
 class generate_form_urls_with_payloads:
-    payload = '"' + "xyz'yxz</zxy"
+    payload = 'u"' + "xyz('yxz</zxy"
     complete_link = original_url = ''
     formvalues = {}
     get_params = []
@@ -29,9 +29,10 @@ class generate_form_urls_with_payloads:
         # print('\nForm Links [', len(complete_links), '] \n',  complete_links)
 
         params = []
-        for x in self.get_params:
-            # Removing Duplicates
+        # Removing Duplicates
+        for x in self.get_params:   
             if x not in params: params.append(x) 
+
         return params, complete_links
     
     def core_url(self,link):

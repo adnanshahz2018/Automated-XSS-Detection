@@ -8,7 +8,7 @@ from ContextEncoding import context_encoding
 from AttackMethodology import attack_methodology
 
 class analyze_attack:
-    payload = '"' + "xyz'yxz</zxy"
+    payload = 'u"' + "xyz('yxz</zxy"
     Text = None     # write_text_file() Object
 
     def get_source(self,url):
@@ -80,7 +80,7 @@ class analyze_attack:
     def check_encoding_and_attack(self, url, context_name, context_data):
         CE = context_encoding()
         # For each Context { encoding_analyzer() } returns True for encoding or escaping of special chars and False otherwise.
-        presence, double_quotes, single_quotes, lessthan_sign, forward_slash = CE.encoding_analyzer(context_data)
+        presence, double_quotes, single_quotes, lessthan_sign, forward_slash = CE.encoding_analyzer(context_name, context_data)
         if context_name == 'URL' or context_name == 'HTML' or context_name == 'ATTR':
             print_presence = str(presence) + '  '
         else:   

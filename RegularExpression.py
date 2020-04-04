@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 class regular_expression:
     pagesource = ''
-    payload = '"' + "xyz'yxz</zxy"
+    payload = 'u"' + "xyz('yxz</zxy"
     soup = None
 
     def __init__(self,data):
@@ -105,10 +105,11 @@ class regular_expression:
 
     def RegExp_postforms(self):
         value = list()
-        attr = re.compile(r',.*[xX][yY][zZ].*,')
+        attr = re.compile(r'.*[xX][yY][zZ].*')
         # html = re.compile(r',.*[xX][yY][zZ].*,')
         value = attr.findall(self.pagesource) # + html.findall(self.pagesource)
         return value
 
 if __name__ == "__main__":
+    
     print('{RegularExpression}')

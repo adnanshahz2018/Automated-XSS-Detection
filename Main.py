@@ -5,7 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 
 from WebRequest import web_request
-from PostLinks import post_links 
 # from WriteExcelFile import write_excel_file
 from Analyze_Attack import analyze_attack
 
@@ -118,7 +117,6 @@ class main_class:
 if __name__ == "__main__":
     print('\n=> This Automated Tool assists in finding XSS Vulnerablilities.\n=> It assumes that there is a potential XSS Present in the Website\n')
 
-    Post = post_links()
     Analyzer = analyze_attack()
     links = []
 # -----------------------  Links for Testing -------------------------------
@@ -126,11 +124,11 @@ if __name__ == "__main__":
     # links += ['https://www.britannica.com/explore/yearinreview/']
     # links += ['https://www.roomandboard.com/']
     # links += ['https://www.harryanddavid.com/']
-    links += ['https://www.keh.com/']
+    # links += ['https://www.keh.com/']
     # links += ['https://www.cat.com/en_US']
     # links += ['https://www.1000bulbs.com/']
     # links += ['https://www.discountpartysupplies.com/']
-    # links += ['https://www.kirklands.com/']
+    links += ['https://www.kirklands.com/']
     # links += ['https://www.africanews.com/']
     # links += ['https://www.ars.usda.gov/']      #200
     # links += ['https://www.iita.org/']
@@ -162,8 +160,7 @@ if __name__ == "__main__":
     # links += ['']
 
 
-  
-    # links = Post.read_excel()
+
     M = main_class(links[0])
 
     # Collecting all the links of a web page (these are the references of webpages)
