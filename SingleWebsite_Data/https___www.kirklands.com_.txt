@@ -42,7 +42,13 @@ ________________________________________________________________________________
 https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=(uvw"xyz'yxz</zxy&defaultSearchKey=
 
 ----------------------------------------------------------------------------------
-Attribute Context: [0]
+Attribute Context: [2]
+<input type="text" title="Search Text"
+						class="form-control border-right-0 searchField" id="js-keyword" style="min-width:200px;"
+						value='(uvwxyzyxz/zxy' name="q" size="12" maxlength="40" placeholder="Search Kirkland's" />
+<input type="text" title="Search Text"
+						class="form-control border-right-0 searchField" id="mjs-keyword"
+						value='(uvwxyzyxz/zxy' name="q" size="12" maxlength="40" placeholder="Search Kirkland's" style="border: 0px;"/>
 
 ----------------------------------------------------------------------------------
 HTML Context: [2]
@@ -112,7 +118,10 @@ Same URI : [0]
 
 
 ENCODING     Presence	"	'	<	( 
-ATTR:		False	False	False	False	False
+ATTR:		True	True	True	False	False
+
+Attack Payloads for ATTR
+[]
 ENCODING     Presence	"	'	<	( 
 HTML:		True	False	False	True	False
 

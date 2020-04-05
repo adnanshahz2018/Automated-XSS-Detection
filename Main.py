@@ -179,7 +179,7 @@ if __name__ == "__main__":
     for link in new_links: print(link)
 
     """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
-    # Analyzer.collect_data(new_links)
+    Analyzer.collect_data(new_links)
     
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 

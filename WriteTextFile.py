@@ -35,6 +35,7 @@ class write_text_file:
         f = f.replace(":", "_")
         f = f.replace(" ", "")
         f = f.replace("\\n", "")
+        f = f.replace('%', '_')
         
         f = f.replace("*", "_")
         f = f.replace("<", "_")
@@ -47,7 +48,7 @@ class write_text_file:
         f = f.replace("+", "_")
         
         f = f.rstrip("\n")
-        if len(f) > 160: f = f[:160]
+        if len(f) > 100: f = f[:100]
         # print('filename => ', f)
         return f
 
