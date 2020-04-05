@@ -1,9 +1,9 @@
-https://www.kirklands.com/
+https://www.kirklands.com/category/Art-Wall-Decor/All-Wall-Decor/pc/2283/3116.uts?i=1&q=*&q1=Art+%26+Wall+Decor&q2=Animals&store=1&type=nav&x1=primary-cat-name1&x2=subject-name&icid=mcwdsubjectanimal
 
 GET Params:[3]
 ['form_state', 'q', 'defaultSearchKey']
 _______________________________________________________________________________________________________
-https://www.kirklands.com/catalog/search_sp.cmd?form_state=(uvw"xyz'yxz</zxy&q=&defaultSearchKey=
+https://www.kirklands.com/catalog/search_sp.cmd?form_state=(uvw"xyz'yxz</zxy&q=*&defaultSearchKey=
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]
@@ -126,7 +126,7 @@ Attack Payloads for SCRIPT
 ENCODING     Presence	"	'	<	( 
 URL:		False	False	False	False	False
 _______________________________________________________________________________________________________
-https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=&defaultSearchKey=(uvw"xyz'yxz</zxy
+https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=*&defaultSearchKey=(uvw"xyz'yxz</zxy
 
 ----------------------------------------------------------------------------------
 Attribute Context: [0]

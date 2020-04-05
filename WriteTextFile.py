@@ -48,7 +48,7 @@ class write_text_file:
         f = f.replace("+", "_")
         
         f = f.rstrip("\n")
-        if len(f) > 100: f = f[:100]
+        if len(f) > 150: f = f[:150]
         # print('filename => ', f)
         return f
 
