@@ -8,7 +8,7 @@ from ContextEncoding import context_encoding
 from AttackMethodology import attack_methodology
 
 class analyze_attack:
-    payload = 'u"' + "xyz('yxz</zxy"
+    payload = '(uvw"' + "xyz'yxz</zxy"
     Text = None     # write_text_file() Object
 
     def get_source(self,url):
@@ -80,23 +80,23 @@ class analyze_attack:
     def check_encoding_and_attack(self, url, context_name, context_data):
         CE = context_encoding()
         # For each Context { encoding_analyzer() } returns True for encoding or escaping of special chars and False otherwise.
-        presence, double_quotes, single_quotes, lessthan_sign, forward_slash = CE.encoding_analyzer(context_name, context_data)
+        presence, double_quotes, single_quotes, lessthan_sign, parantheses = CE.encoding_analyzer(context_name, context_data)
         if context_name == 'URL' or context_name == 'HTML' or context_name == 'ATTR':
             print_presence = str(presence) + '  '
         else:   
             print_presence = str(presence)
         
-        print('Special Chars = Context Presence   \"\t \'\t<\t/')
-        print(context_name,'Encoding=\t', print_presence, '\t   ', double_quotes, single_quotes, lessthan_sign, forward_slash )
+        print('Special Chars = Context Presence   \"\t \'\t<\t(')
+        print(context_name,'Encoding=\t', print_presence, '\t   ', double_quotes, single_quotes, lessthan_sign, parantheses )
         
-        self.Text.write_encoding(context_name, presence, double_quotes, single_quotes, lessthan_sign, forward_slash)
-        self.try_attacks(url, context_name, presence, double_quotes, single_quotes, lessthan_sign, forward_slash)
+        self.Text.write_encoding(context_name, presence, double_quotes, single_quotes, lessthan_sign, parantheses)
+        self.try_attacks(url, context_name, presence, double_quotes, single_quotes, lessthan_sign, parantheses)
 
-    def try_attacks(self, url, Context, presence, double_quotes, single_quotes, lessthan_sign, forward_slash):
+    def try_attacks(self, url, Context, presence, double_quotes, single_quotes, lessthan_sign, parantheses ):
         AM = attack_methodology()
         pay = self.payload
         attack_payloads = []
-        tag, attack_payloads = AM.get_attack_payload(Context, presence, double_quotes, single_quotes, lessthan_sign, forward_slash )
+        tag, attack_payloads = AM.get_attack_payload(Context, presence, double_quotes, single_quotes, lessthan_sign, parantheses )
         print('Attack Payloads: ', attack_payloads)
         
         if tag:

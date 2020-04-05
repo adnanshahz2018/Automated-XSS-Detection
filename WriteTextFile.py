@@ -44,8 +44,10 @@ class write_text_file:
         f = f.replace("\"", "_")
         f = f.replace("|", "_")
         f = f.replace("?", "_")
+        f = f.replace("+", "_")
         
         f = f.rstrip("\n")
+        if len(f) > 160: f = f[:160]
         # print('filename => ', f)
         return f
 
@@ -130,9 +132,9 @@ class write_text_file:
         path = self.folder + filename + '.txt'
         textfile = open(path, "a")
         if Context is None: 
-            textfile.write('\n\n\t\t \t\tENCODING SUMMARY \n\t   \t  Presence\t\t"' + "\t\t'" + '\t\t<' + "\t\t/ \n")
+            textfile.write('\n\n\t\t \t\tENCODING SUMMARY \n\t   \t  Presence\t\t"' + "\t\t'" + '\t\t<' + "\t\t( \n")
             return
-        textfile.write('ENCODING     Presence\t"' + "\t'" + '\t<' + "\t/ \n")
+        textfile.write('ENCODING     Presence\t"' + "\t'" + '\t<' + "\t( \n")
         textfile.write(Context +':\t\t'+ str(presence) +'\t'+ str(double_quotes) +'\t')
         textfile.write( str(single_quotes) +'\t'+ str(lessthan_sign) +'\t'+ str(forward_slash) + '\n' )
         textfile.close()

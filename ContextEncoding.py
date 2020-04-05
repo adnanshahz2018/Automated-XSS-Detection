@@ -5,7 +5,7 @@
 import re
 
 class context_encoding:
-    double_quotes = single_quotes = lessthan_sign = forward_slash = presence = False
+    double_quotes = single_quotes = lessthan_sign = parantheses = presence = False
 
     def display(self,context):
         for value in context:   print(value)
@@ -13,7 +13,7 @@ class context_encoding:
 # Function / Class Name can also be "Check_Mitigation()" 
 
     def initialzie_context_encoding_variables(self):
-        self.double_quotes = self.single_quotes = self.lessthan_sign = self.forward_slash = self.presence = False
+        self.double_quotes = self.single_quotes = self.lessthan_sign = self.parantheses = self.presence = False
 
 
     def encoding_analyzer(self, name, contexts):  # You Can ADD another Argument name to Specify the Context Name
@@ -39,8 +39,15 @@ class context_encoding:
                 self.lessthan_sign = True 
             else: 
                 self.lessthan_sign = self.filtering_analyzer('less_than',name,context)
+            
+            if( context.__contains__('%28') or context.__contains__('&#40') or
+                context.__contains__('&#x28') or context.__contains__("\\" + "u0028") ):
+                self.parantheses = True 
+            else:
+                self.parantheses = self.filtering_analyzer('parantheses', name, context)
+            
 
-        return self.presence, self.double_quotes, self.single_quotes, self.lessthan_sign, self.forward_slash
+        return self.presence, self.double_quotes, self.single_quotes, self.lessthan_sign, self.parantheses
 
 
     def filtering_analyzer(self,special_char, name, context):
@@ -58,6 +65,9 @@ class context_encoding:
             return self.script_single(context)
         if name == 'SCRIPT' and special_char == 'less_than' : 
             return self.script_less_than(context)
+        if special_char == 'parantheses' :
+            return self.script_parantheses(context)
+        
 
         return False
     
@@ -74,7 +84,6 @@ class context_encoding:
 
     def attr_single(self, context):
         pattern1 = re.compile(r"'[\s]*yxz")
-        # soup = ('<input id="search" type="search" name="q" value="u"xyz' + "'" + 'yxz</zxy" class="input-text required-entry" maxlength="128" placeholder="Search" />')
         value = pattern1.findall(context)
         if value:        
             print('\nFiltering Value = ',value)
@@ -92,9 +101,17 @@ class context_encoding:
         
         return True     # Filtering is PRESENT
 
+    def script_parantheses(self, context):
+        pattern1 = re.compile(r"\(\s*uvw")
+        value = pattern1.findall(context)
+        if value:        
+            print('\nFiltering Value = ',value)
+            return False    # No Filtering 
+
+        return True     # Filtering is PRESENT
+
     def script_double(self, context): 
         pattern1 = re.compile(r'"[\s]*xyz')
-        # soup = ('<input id="search" type="search" name="q" value="u"xyz' + "'" + 'yxz</zxy" class="input-text required-entry" maxlength="128" placeholder="Search" />')
         value = pattern1.findall(context)
         if value:        
             print('\nFiltering Value = ',value)

@@ -70,15 +70,16 @@ if __name__ == "__main__":
     print('{BASEMENT}')
 
 
-"""             UPDATES REQUIRED
+"""             
+==>>    UPDATES Created - DONE
 
 1. Extract Unique GET Params.
 2. If 2 forms have same 2 GET Params, then 4 GET URLs will be generated: DONE: later unique GET URLS are extracted
-3. Payload = u"xyz('yxz</zxy
-
-"""
+3. Payload = (uvw"xyz'yxz</zxy. DONE
 
 
-"""     ==>>    UPDATES SUGGESTED 
+==>>    UPDATES REQUIRED 
+
+1. Base Url for all websites. Resolve issues like ifu-institut.at
 
 """

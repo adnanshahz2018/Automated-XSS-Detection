@@ -9,7 +9,7 @@ from FindContexts import find_contexts
 
 
 class generate_form_urls_with_payloads:
-    payload = 'u"' + "xyz('yxz</zxy"
+    payload = '(uvw"' + "xyz'yxz</zxy"
     complete_link = original_url = ''
     formvalues = {}
     get_params = []
