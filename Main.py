@@ -68,7 +68,7 @@ class main_class:
         # print(part)
         base = part[0]
         print('\nBase Url = [', base , ']')
-        return base
+        return base # 'madeinoregon.com'
 
     
 
@@ -122,29 +122,39 @@ if __name__ == "__main__":
 # -----------------------  Links for Testing -------------------------------
     # links += ['https://www.moma.org/']      # 376 Unique Links in this website with 2 level bfs...  
     # links += ['https://www.britannica.com/explore/yearinreview/']
-    # links += ['https://www.roomandboard.com/']
+    # links += ['https://www.roomandboard.com/']    # Check for the problem: where you find the get parama: 'query' but further the *Requests Fails*
     # links += ['https://www.harryanddavid.com/']
-    # links += ['https://www.keh.com/']
-    # links += ['https://www.cat.com/en_US']
     # links += ['https://www.1000bulbs.com/']
-    # links += ['https://www.discountpartysupplies.com/']
-    # links += ['https://www.kirklands.com/']
     # links += ['https://www.africanews.com/']
     # links += ['https://www.ars.usda.gov/']      #200
     # links += ['https://www.iita.org/']
     # links += ['https://www.agricultureinformation.com/forums/']
-    # links += ['https://www.acehardware.com']
+    # links += ['https://www.acehardware.com'] # NOt GET URLs has 1 Get form 
     # links += ['https://www.vanhalenstore.com/']
     # links += ['http://www.lllreptile.com/']
-    links += ['https://www.burpee.com/']
-    # links += ['https://www.ces.ncsu.edu/']
-    # links += ['http://drudgereportarchives.com/']
-    # links += ['https://www.zentechnologies.com/']
-    # links += ['https://ifu-institut.at/']
+    # links += ['http://www.drudgereportarchives.com/']
+    # links += ['https://www.ifu-institut.at/']
     # links += ['https://www.sweetwater.com/']
     # links += ['https://www.drdelphinium.com/']
     # links += ['https://www.harbourbayflorist.com/']
     # links += ['https://www.nearlynatural.com']
+
+    # links += ['https://www.cat.com/en_US'] #DOne
+    # links += ['https://www.kirklands.com/']   # Done  
+    # links += ['https://www.discountpartysupplies.com/'] # Done 
+    # links += ['https://www.burpee.com/']      # Done
+    # links += ['https://www.bangalla.com/'] # done
+    # links += ['https://www.zentechnologies.com/']     # done
+    # links += ['https://www.madeinoregon.com/']        # Done Well 
+    # links += ['https://www.gsmarena.com/']            # Done well// Request Failure
+    # links += ['https://www.theverge.com/']            # Done well // Request Failue
+    # links += ['https://www.crazycrow.com/site/']                #Done Well
+    # links += ['https://www.keh.com/']     #done
+    # links += ['https://www.ces.ncsu.edu/'] # Done 
+    # links += ['https://www.abcstores.com/']             #Done Well
+    # links += ['https://www.rods.com/']                      # Done well
+    # links += ['https://www.tenthousandvillages.com/']       # Done well
+    links += ['https://www.ruralking.com/']               # Done well 
 
 
 
@@ -179,7 +189,7 @@ if __name__ == "__main__":
     for link in new_links: print(link)
 
     """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
-    # Analyzer.collect_data(new_links)
+    Analyzer.collect_data(new_links)
     
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 

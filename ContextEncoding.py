@@ -70,11 +70,17 @@ class context_encoding:
         if special_char == 'parantheses' :
             return self.script_parantheses(context)
         
+        if name == 'URL' and special_char == 'double' : 
+            return self.url_double(context)
+        if name == 'URL' and special_char == 'single' : 
+            return self.url_single(context)
+        if name == 'URL' and special_char == 'less_than' : 
+            return self.url_less_than(context)
 
         return False
     
     def attr_double(self,context): 
-        pattern1 = re.compile(r'"[\s]*xyz')
+        pattern1 = re.compile(r'\"[\s]*xyz')
         # soup = ('<input id="search" type="search" name="q" value="u"xyz' + "'" + 'yxz</zxy" class="input-text required-entry" maxlength="128" placeholder="Search" />')
         value = pattern1.findall(context)
         if value:        
@@ -85,7 +91,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
     def attr_single(self, context):
-        pattern1 = re.compile(r"'[\s]*yxz")
+        pattern1 = re.compile(r"\'[\s]*yxz")
         value = pattern1.findall(context)
         if value:        
             print('\nFiltering Value = ',value)
@@ -95,7 +101,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
     def html_less_than(self, context): 
-        pattern1 = re.compile(r'<[\s]*\/?zxy')
+        pattern1 = re.compile(r'\<[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
             print('\nhtml Filtering Value = ',value)
@@ -113,7 +119,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
     def script_double(self, context): 
-        pattern1 = re.compile(r'"[\s]*xyz')
+        pattern1 = re.compile(r'\"[\s]*xyz')
         value = pattern1.findall(context)
         if value:        
             print('\nFiltering Value = ',value)
@@ -123,7 +129,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
     def script_single(self, context):
-        pattern1 = re.compile(r'<[\s]*\/?zxy')
+        pattern1 = re.compile(r'\'[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
             print('\nFiltering Value = ',value)
@@ -133,7 +139,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
     def script_less_than(self, context): 
-        pattern1 = re.compile(r'<[\s]*\/?zxy')
+        pattern1 = re.compile(r'\<[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
             print('\nFiltering Value = ',value)
@@ -149,6 +155,33 @@ class context_encoding:
             return False
         
         return True
+
+    def url_double(self, context):
+        pattern1 = re.compile(r'\"[\s]*\/?zxy')
+        value = pattern1.findall(context)
+        if value:        
+            print('\nFiltering Value = ',value)
+            return False    # No Filtering 
+        
+        return True     # Filtering is PRESENT
+
+    def url_single(self, context):
+        pattern1 = re.compile(r'\'[\s]*\/?zxy')
+        value = pattern1.findall(context)
+        if value:        
+            print('\nFiltering Value = ',value)
+            return False    # No Filtering 
+        
+        return True     # Filtering is PRESENT
+
+    def url_less_than(self, context):
+        pattern1 = re.compile(r'\<[\s]*\/?zxy')
+        value = pattern1.findall(context)
+        if value:        
+            print('\nFiltering Value = ',value)
+            return False    # No Filtering 
+        
+        return True     # Filtering is PRESENT
 
 
 if __name__ == "__main__":

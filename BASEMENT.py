@@ -24,5 +24,11 @@ ISSUE NO. 1:
 3. Now, I think I have to break the tags in parts, in order to check this.
 4. In my opinion, We shall give priority to the Non-Encoded and Non-Filtered attribute of the TAG.
 
+ISSUE NO. 2:
+1. https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
+2. payload <img src=x onerror="alert(1)"> dones not work, it is in the <title> tag.
+3. if we first close the </title> TAG , then it is XSSed
+4. payload </title><img src=x onerror="alert(1)"> is SUCCESSFUL
+
 """
 

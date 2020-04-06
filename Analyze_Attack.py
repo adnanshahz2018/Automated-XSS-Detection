@@ -40,7 +40,7 @@ class analyze_attack:
                 self.get_params = get_params
             else: continue
             unique_get_urls = self.remove_duplicate_get_urls(get_urls)
-            print('\nUnique GET URLs:[',len(unique_get_urls), ']\n') #, unique_get_urls)
+            print('\nUnique GET URLs:[',len(unique_get_urls), ']') #, unique_get_urls)
             self.collect_response_data(link, unique_get_urls)
 
     def collect_response_data(self,link, unique_get_urls): # adds payload in GET params..?

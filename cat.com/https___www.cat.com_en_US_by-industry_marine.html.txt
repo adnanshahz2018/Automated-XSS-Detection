@@ -1,0 +1,84 @@
+https://www.cat.com/en_US/by-industry/marine.html
+
+GET Params:[2]
+['search', 'pagePath']
+_______________________________________________________________________________________________________
+https://www.cat.com/en_US/search/search-results.html?search=(uvw"xyz'yxz</zxy&pagePath=/content/catdotcom/en_US/by-industry/marine
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="search" class="input-large search-input" id="searchInput" name="search" placeholder="What are you looking for?" value="(uvw&#34;xyz&#39;yxz&lt;/zxy" autocomplete="off" onkeyup="youAutocompleteMe(this, 'search', 'https://vsearchmc.cat.com/vivisimo/cgi-bin/velocity?v.app=cat-aem-autocomplete-json&v.function=autocomplete-collection&bag-of-words=true&num=10&filter=&dictionary=cat-aem-catdotcom-site-autocomplete-dictionary&lang=en&sChan=US&str=');"/>
+<input class="site-search-form__input" type="text" id="searchInput" name="search" placeholder="Search" autocomplete="off" value="(uvw&#34;xyz&#39;yxz&lt;/zxy" onkeyup="youAutocompleteMe(this, 'searchResults', 'https://vsearchmc.cat.com/vivisimo/cgi-bin/velocity?v.app=cat-aem-autocomplete-json&v.function=autocomplete-collection&bag-of-words=true&num=10&filter=&dictionary=cat-aem-catdotcom-site-autocomplete-dictionary&lang=en&sChan=US&str=');"/>
+<div id="searchResultsDiv" class="row global-searchResults" mappedUrl="/content/catdotcom/en_US/search/search-results/jcr:content/CATcontentArea/searchresults" queryStr="search=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;pagePath=%2Fcontent%2Fcatdotcom%2Fen_US%2Fby-industry%2Fmarine&amp;lang=en&amp;sChan=US&amp;v%3Astate=root%7Croot-0-16%7C0">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.cat.com/en_US/search/search-results.html?search=&pagePath=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div id="searchResultsDiv" class="row global-searchResults" mappedUrl="/content/catdotcom/en_US/search/search-results/jcr:content/CATcontentArea/searchresults" queryStr="search=&amp;pagePath=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;lang=en&amp;sChan=US&amp;v%3Astate=root%7Croot-0-16%7C0">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]

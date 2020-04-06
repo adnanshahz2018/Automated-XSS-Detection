@@ -94,9 +94,15 @@ class generate_form_urls_with_payloads:
         data = '?'
         # print(formdata)
         if action.__contains__('?'):    data = '&'
-        for f in formdata:  
-            if formdata[f]: data += f + '=' + formdata[f] + '&' 
-            else:   data += f + '=' + '' + '&'
+        for f in formdata:
+            # print('Generate form urls: fdata = ', formdata[f])
+            # print('Generate form urls: f = ', f)  
+            if formdata[f] and f:
+                # print('inside if ')
+                data += f + '=' + formdata[f] + '&' 
+            elif f:
+                # print('else part')   
+                data += f + '=' + '' + '&'
         # print('form_data = ', data[:-1])
         form_data = data[:-1]
         return form_data
@@ -156,34 +162,18 @@ if __name__ == '__main__':
     # # link = 'https://www.cat.com/en_US'              # Done well
     # link = 'https://www.deere.com/en/'                # Done well
     link = 'https://leica-geosystems.com/'            # No <form with method='get'
-    # link = 'https://www.ruralking.com/'               # Done well 
     # link = 'https://www.burpee.com/'                    # Done Well
     # link = 'https://www.equinenow.com/'                 # Failure: action="#"
     # link = 'https://everythingaustralian.com.au/'       # Done well
-    # link = 'https://www.rods.com/'                      # Done well
-    # link = 'https://www.tenthousandvillages.com/'       # Done well
-    # link = 'https://www.dollsofindia.com/'              # Done well
     # link = 'https://africaimports.com/'                 # Done well
     link = 'https://www.serrv.org/'                     # No <form with method='get'
-    # link = 'https://madeinoregon.com/'                  # Done Well 
-    # link = 'https://www.crazycrow.com/site/'                #Done Well
     # link = 'https://www.shamansmarket.com/'                 # No <form with method='get'
     # link = 'https://www.scotweb.co.uk/'                 # No <form with method='get'
     # link = 'https://www.countrystorecatalog.com/'       # No <form with method='get', 228 hidden inputs in post form. Failed to detect form in source 
-    # link = 'https://www.bangalla.com/'                  # Done well
     # link = 'https://tulumba.com/'               # No <form with method='get', blocks payloads and goes back to default page 
-    # link = 'https://www.abcstores.com/'             #Done Well
     # link = 'https://www.yelp.com/'               # A sencond Input Field was to be selected by user, so it was Not defined Already {Location}
-    # link = 'https://www.gsmarena.com/'              #Done well
-    # link = 'https://www.theverge.com/'               #Done well
     # link = 'https://www.digitaltrends.com/'         # Does Not work with payload having special chars { ', ", <, /}, No post forms
     # link = 'https://www.engadget.com/'              # No <form with method='get', has post and adding payload works, gives results
-
-    # links.append( 'https://www.yelp.com/')                # A sencond Input Field was to be selected by user, so it was Not defined Already {Location}
-    # links.append( 'https://www.gsmarena.com/'  )             #Done well
-    # links.append( 'https://www.theverge.com/'   )            #Done well
-    # links.append( 'https://www.digitaltrends.com/')         # Does Not work with payload having special chars { ', ", <, /}
-    # links.append( 'https://www.engadget.com/'      )        # No <form with method='get'
 
     # links.append( '' )
     # links.append( '' )

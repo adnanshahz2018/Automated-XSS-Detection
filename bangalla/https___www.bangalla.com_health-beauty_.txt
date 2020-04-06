@@ -1,0 +1,112 @@
+https://www.bangalla.com/health-beauty/
+
+GET Params:[1]
+['search_query']
+_______________________________________________________________________________________________________
+https://www.bangalla.com/search.php?search_query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" class="Field250" name="search_query_adv" id="search_query_adv" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>Bangalla - Search Results for "(uvw&quot;xyz&#039;yxz&lt;/zxy"</title>
+<p class="txt24">Search Results for "(uvw&quot;xyz&#039;yxz&lt;/zxy"</p>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+(function () {
+    var xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', '/events/trigger-visit-event');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"initiator":{"id":"","session_id":"2d706dd1c29120cbfc286a46c667d7957136317a","type":"ANONYMOUS","visit_id":"ecde8663-088c-4925-80c5-aafa6f1e2e92","visitor_id":"39bcbc1c-c126-4de7-961d-6c208079bab5"},"referer":{"url":""},"request":{"url":"https:\/\/www.bangalla.com\/search.php?search_query=(uvw&quot;xyz&#039;yxz&lt;\/zxy"}}');
+})();
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [6]
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=product#results" onclick="showSearchTabs('product'); return false;">
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=content#results" onclick="showSearchTabs('content'); return false;">
+<a href="https://www.bangalla.com/rss.php?action=searchproducts&amp;type=rss&search_query=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<a href="https://www.bangalla.com/rss.php?action=searchproducts&amp;type=rss&search_query=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<link rel="alternate" type="application/rss+xml" title="Product Search (RSS 2.0)" href="https://www.bangalla.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;type=rss" />
+<link rel="alternate" type="application/atom+xml" title="Product Search (Atom 0.3)" href="https://www.bangalla.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;type=atom" />
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

@@ -1,0 +1,63 @@
+https://madeinoregon.com/gift-guide/interests/new-and-notable.html
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://madeinoregon.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input class="input-text UI-SEARCH" type="text" autocomplete="off" name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" maxlength="128" />
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<strong>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'</strong>
+<h1>Search results for '(uvw&quot;xyz'yxz&lt;/zxy'</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+        ga('send', 'pageview', '/catalogsearch/result?q=(uvw%22xyz%27yxz%3C/zxy');
+                    </script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://madeinoregon.com/catalogsearch/result/?q=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]

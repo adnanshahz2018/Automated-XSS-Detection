@@ -77,6 +77,21 @@ HTML:		True	True	True	True	False
 Attack Payloads for HTML
 []
 ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
 SCRIPT:		True	True	True	True	False
 
 Attack Payloads for SCRIPT
