@@ -9,7 +9,7 @@ class attack_methodology:
     #  '%3Ca%20href%3D%22XSS%22%3Eclick_me%3C%2Fa%3E']
 
     def get_attack_payload(self, context, presence, double_quotes, single_quotes, lessthan_sign, parantheses):
-        payloads = []
+        payloads = [] 
         
         if context == 'ATTR':
             if not presence : return False, None

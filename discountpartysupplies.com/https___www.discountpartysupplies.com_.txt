@@ -1,7 +1,7 @@
 https://www.discountpartysupplies.com/
 
 GET Params:[1]
-['q']
+['q'] 
 _______________________________________________________________________________________________________
 https://www.discountpartysupplies.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
 

@@ -1,6 +1,6 @@
 https://www.burpee.com
 
-GET Params:[1]
+GET Params:[1] 
 ['q']
 _______________________________________________________________________________________________________
 https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy

@@ -14,7 +14,7 @@ class regular_expression:
         self.soup = BeautifulSoup(data,features="lxml")
 
     def set_payload(self,payload):
-        self.payload = payload
+        self.payload = payload 
 
     def RegExpAttribute(self):
         pattern = re.compile(r'<(?!a)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{1,10}\s[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*[xX][yY][zZ][@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
