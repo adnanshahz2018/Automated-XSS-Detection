@@ -67,7 +67,7 @@ class main_class:
         part = exp.findall(link)
         # print(part)
         base = part[0]
-        # print('Base Url ', base)
+        print('\nBase Url = [', base , ']')
         return base
 
     
@@ -128,7 +128,7 @@ if __name__ == "__main__":
     # links += ['https://www.cat.com/en_US']
     # links += ['https://www.1000bulbs.com/']
     # links += ['https://www.discountpartysupplies.com/']
-    links += ['https://www.kirklands.com/']
+    # links += ['https://www.kirklands.com/']
     # links += ['https://www.africanews.com/']
     # links += ['https://www.ars.usda.gov/']      #200
     # links += ['https://www.iita.org/']
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     # links += ['https://www.acehardware.com']
     # links += ['https://www.vanhalenstore.com/']
     # links += ['http://www.lllreptile.com/']
-
+    links += ['https://www.burpee.com/']
     # links += ['https://www.ces.ncsu.edu/']
     # links += ['http://drudgereportarchives.com/']
     # links += ['https://www.zentechnologies.com/']

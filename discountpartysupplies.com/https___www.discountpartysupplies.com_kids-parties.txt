@@ -1,0 +1,88 @@
+https://www.discountpartysupplies.com/kids-parties
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.discountpartysupplies.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://www.discountpartysupplies.com/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }' type="text" name="q" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="Search entire store here..." class="input-text" maxlength="60" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" />
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</title>
+<strong>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</strong>
+<span class="base" data-ui-id="page-title-wrapper">Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script>
+        require([
+                'jquery',
+                'Mirasvit_SearchAutocomplete/js/autocomplete',
+                'Mirasvit_SearchAutocomplete/js/typeahead'
+            ], function ($, autocomplete, typeahead) {
+                var selector = 'input#search, input#mobile_search, .minisearch input[type="text"]';
+
+                $(document).ready(function () {
+                    $('#search_mini_form').prop("minSearchLength", 10000);
+
+                    var $input = $(selector);
+
+                    $input.each(function (index, searchInput) {
+                        
+                        new autocomplete($(searchInput)).init({"query":"(uvw&quot;xyz&#039;yxz&lt;\/zxy","priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"minSearchLength":3,"url":"https:\/\/www.discountpartysupplies.com\/searchautocomplete\/ajax\/suggest\/","storeId":"1","delay":300,"layout":"1column","popularTitle":"Hot Searches","popularSearches":[],"isTypeaheadEnabled":"0","typeaheadUrl":"https:\/\/www.discountpartysupplies.com\/searchautocomplete\/ajax\/typeahead\/","minSuggestLength":2});
+                    });
+                });
+            }
+        );
+    </script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.discountpartysupplies.com\/page_cache\/block\/render\/","handles":["default","catalogsearch_result_index","catalogsearch_result_index_noresults"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta name="title" content="Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;" />
+
+----------------------------------------------------------------------------------
+Same Attr : [0]
+
+----------------------------------------------------------------------------------
+Same HTML : [0]
+
+----------------------------------------------------------------------------------
+Same Script : [0]
+
+----------------------------------------------------------------------------------
+Same URI : [0]
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
