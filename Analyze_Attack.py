@@ -72,10 +72,10 @@ class analyze_attack:
         self.Text.write_contexts(url, attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)
         # self.Text.write_encoding( None, '','','','','')
         # Cotext Encoding and Attack Methodology for each Context
-        self.check_encoding_and_attack( url, 'ATTR', attrs)
-        self.check_encoding_and_attack( url, 'HTML', htmls)
-        self.check_encoding_and_attack( url, 'SCRIPT', scripts)
-        self.check_encoding_and_attack( url, 'URL', urls)
+        for attr in attrs       :   self.check_encoding_and_attack( url, 'ATTR', attr)
+        for html in htmls       :   self.check_encoding_and_attack( url, 'HTML', html)
+        for script in scripts   :   self.check_encoding_and_attack( url, 'SCRIPT', script)
+        for my_url in urls      :   self.check_encoding_and_attack( url, 'URL', my_url)
 
     def check_encoding_and_attack(self, url, context_name, context_data):
         CE = context_encoding()

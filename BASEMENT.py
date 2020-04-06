@@ -83,6 +83,7 @@ if __name__ == "__main__":
 1. Base Url for all websites. Resolve issues like ifu-institut.at
 2. Check encdoing separarately for each value of a context. 
     Issue: one value has encoding and others may not have..!!
+3. Try the Vertical format of the EXCEL FILE 
 
 ==>>    FINDINGS:
 
@@ -92,7 +93,7 @@ if __name__ == "__main__":
 
 3. Encoding Summary for this URL is as follows:
 Special Chars = Context Presence   "     '      <       (
-HTML Encoding=   True               True True True True
+HTML Encoding=   True              True  True   True    True
 Attack Payloads:  []
 
 4. you can see no attack payloads are selected as per depicted by our methodology. 

