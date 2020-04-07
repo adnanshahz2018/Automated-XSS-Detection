@@ -5,8 +5,8 @@ import os
 
 class write_text_file:
     url = ''
-    # folder = 'SingleWebsite_Data/'
-    folder = 'sample_data/rural/'
+    folder = 'SingleWebsite_Data/'
+    # folder = 'sample_data/rural/'
     filename = ''
     payload = ''
 
@@ -79,22 +79,23 @@ class write_text_file:
         for u in urls:
             textfile.write(str(u) + "\n")
 
-        textfile.write(breakline + 'Same Attr : [' + str( len(same_attrs) ) + ']\n')
-        for s in same_attrs:
-            textfile.write(str(s) + "\n")
+        # textfile.write(breakline + 'Same Attr : [' + str( len(same_attrs) ) + ']\n')
+        # for s in same_attrs:
+        #     textfile.write(str(s) + "\n")
         
-        textfile.write(breakline + 'Same HTML : [' + str( len(same_htmls) ) + ']\n')
-        for s in same_htmls:
-            textfile.write(str(s) + "\n")
+        # textfile.write(breakline + 'Same HTML : [' + str( len(same_htmls) ) + ']\n')
+        # for s in same_htmls:
+        #     textfile.write(str(s) + "\n")
 
-        textfile.write(breakline + 'Same Script : [' + str( len(same_scripts) ) + ']\n')
-        for s in same_scripts:
-            textfile.write(str(s) + "\n")
+        # textfile.write(breakline + 'Same Script : [' + str( len(same_scripts) ) + ']\n')
+        # for s in same_scripts:
+        #     textfile.write(str(s) + "\n")
         
-        textfile.write(breakline + 'Same URI : [' + str( len(same_urls) ) + ']\n')
-        for s in same_urls:
-            textfile.write(str(s) + "\n")
-        textfile.write('\n\n')
+        # textfile.write(breakline + 'Same URI : [' + str( len(same_urls) ) + ']\n')
+        # for s in same_urls:
+        #     textfile.write(str(s) + "\n")
+        
+        textfile.write(breakline + '\n\n')
         textfile.close()
     
     def write_response(self, filename, data):
