@@ -66,8 +66,9 @@ class regular_expression:
     def RegExpSameScript(self):
         p = re.compile(r'<script[_!\"*#\\*,*\(*\)\s\'*\/*›\.*\w*\+*\?*:*=*&*;*\-*%*\d*]*\w{2,10}\-?\w{2,10}[_!\\*,*#\(*\)›\s\'*\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*"]*' + re.escape(self.payload) +  r'[_›"\(*\)*\s\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*\'*,*!#]*>')
         p1 = re.compile(r'<script[_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/script>')
-        return p.findall(self.pagesource) +  self.soup.find_all( 'script', text=re.escape(self.payload) ) # + p1.findall(self.pagesource)
-    
+        return p.findall(self.pagesource)  + p1.findall(self.pagesource)
+        # + self.soup.find_all( 'script', text=re.escape(self.payload) ) #
+
     def attack_script(self):
         p = re.compile(r'<script.*' + re.escape(self.payload) +  r'.*<\/script>')
         return p.findall(self.pagesource) +  self.soup.find_all( 'script', text=re.escape(self.payload) ) # + p1.findall(self.pagesource)
@@ -112,4 +113,11 @@ class regular_expression:
 
 if __name__ == "__main__":
     
+    
+    data = '<script type="text/javascript">UnbxdAnalyticsConf = window.UnbxdAnalyticsConf || {};UnbxdAnalyticsConf["query"] = "</script><script>alert(1)</script>";</script>'
+    RegExp = regular_expression(data)
+    RegExp.set_payload('</script><script>alert(1)</script>')
+    
+    value = RegExp.RegExpSameScript()
+    print(value)
     print('{RegularExpression}')
