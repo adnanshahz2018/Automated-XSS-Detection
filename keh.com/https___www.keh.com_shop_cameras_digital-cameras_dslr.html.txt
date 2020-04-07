@@ -28,16 +28,6 @@ URI Context: [1]
 <a itemprop="item" class="breadcrumb-last" style="pointer-events: none;cursor: default;text-decoration: none;" href="https://www.keh.com/shop/catalogsearch/result?q=(uvw%22xyz'yxz%3C/zxy" title="Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'">
 
 ----------------------------------------------------------------------------------
-Same Attr : [0]
-
-----------------------------------------------------------------------------------
-Same HTML : [0]
-
-----------------------------------------------------------------------------------
-Same Script : [0]
-
-----------------------------------------------------------------------------------
-Same URI : [0]
 
 
 ENCODING     Presence	"	'	<	( 

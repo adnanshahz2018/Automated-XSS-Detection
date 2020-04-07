@@ -68,7 +68,8 @@ class main_class:
         # print(part)
         base = part[0]
         print('\nBase Url = [', base , ']')
-        return base # 'madeinoregon.com'
+        return base
+        # return 'madeinoregon.com'
 
     
 
@@ -132,8 +133,8 @@ if __name__ == "__main__":
     # links += ['https://www.acehardware.com'] # NOt GET URLs has 1 Get form 
     # links += ['https://www.vanhalenstore.com/']
     # links += ['http://www.lllreptile.com/']
-    # links += ['http://www.drudgereportarchives.com/']
-    # links += ['https://www.ifu-institut.at/']
+    # links += ['http://drudgereportarchives.com/']
+    # links += ['https://ifu-institut.at/']
     # links += ['https://www.sweetwater.com/']
     # links += ['https://www.drdelphinium.com/']
     # links += ['https://www.harbourbayflorist.com/']
@@ -145,16 +146,16 @@ if __name__ == "__main__":
     # links += ['https://www.burpee.com/']      # Done
     # links += ['https://www.bangalla.com/'] # done
     # links += ['https://www.zentechnologies.com/']     # done
-    # links += ['https://www.madeinoregon.com/']        # Done Well 
+    # links += ['https://madeinoregon.com/']        # Done Well 
     # links += ['https://www.gsmarena.com/']            # Done well// Request Failure
     # links += ['https://www.theverge.com/']            # Done well // Request Failue
-    # links += ['https://www.crazycrow.com/site/']                #Done Well
+    links += ['https://www.crazycrow.com/site/']                #Done Well
     # links += ['https://www.keh.com/']     #done
     # links += ['https://www.ces.ncsu.edu/'] # Done 
     # links += ['https://www.abcstores.com/']             #Done Well
     # links += ['https://www.rods.com/']                      # Done well
     # links += ['https://www.tenthousandvillages.com/']       # Done well
-    links += ['https://www.ruralking.com/']               # Done well 
+    # links += ['https://www.ruralking.com/']               # Done well 
 
 
 
@@ -163,6 +164,7 @@ if __name__ == "__main__":
     # links += ['']
     # links += ['']
     # links += ['']
+
     # links += ['']
     # links += ['']
     # links += ['']

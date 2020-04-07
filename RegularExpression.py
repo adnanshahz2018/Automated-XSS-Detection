@@ -16,6 +16,12 @@ class regular_expression:
     def set_payload(self,payload):
         self.payload = payload 
 
+    def unify_values(self,values):
+        new_value = list()
+        for value in values:
+            if value not in new_value: new_value.append(value)
+        return new_value
+
     def RegExpAttribute(self):
         pattern = re.compile(r'<(?!a)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{1,10}\s[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*[xX][yY][zZ][@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
         values = pattern.findall(self.pagesource)
@@ -29,9 +35,10 @@ class regular_expression:
 
     def RegExpScript(self):
         pattern = re.compile(r'<script[\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][\*|$@_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/?>')
-        # pattern1 = re.compile(r'<script[@\*!~|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\*!|@$_,}+*"~*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*>&*;*\-*%*\d*]*[xX][yY][zZ][@!\\$_#*"~*}\[\]+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*\<?[@!\\$_#*"*}\[\]~+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*<\/script>')
-        values = pattern.findall(self.pagesource) +  self.soup.find_all('script', text=re.compile('xyz'))
-        return values
+        pattern1 = re.compile(r'<script[@\*!~|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\*!|@$_,}+*"~*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*>&*;*\-*%*\d*]*[xX][yY][zZ][@!\\$_#*"~*}\[\]+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*\<?[@!\\$_#*"*}\[\]~+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*<\/script>')
+        values = pattern.findall(self.pagesource) +  pattern1.findall(self.pagesource) +  self.soup.find_all('script', text=re.compile('xyz'))
+        
+        return self.unify_values(values)
 
     def RegExpURI(self):
         value = list()
@@ -70,9 +77,10 @@ class regular_expression:
         # + self.soup.find_all( 'script', text=re.escape(self.payload) ) #
 
     def attack_script(self):
+        values = list()
         p = re.compile(r'<script.*' + re.escape(self.payload) +  r'.*<\/script>')
-        return p.findall(self.pagesource) +  self.soup.find_all( 'script', text=re.escape(self.payload) ) # + p1.findall(self.pagesource)
-
+        values = p.findall(self.pagesource) +  self.soup.find_all( 'script', text=re.escape(self.payload) )  + p1.findall(self.pagesource)
+        return self.unify_values(values)
 
     def RegExpSameURI(self):
         value = list()

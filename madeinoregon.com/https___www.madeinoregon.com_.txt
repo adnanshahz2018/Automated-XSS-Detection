@@ -1,4 +1,4 @@
-https://madeinoregon.com/gift-guide.html
+https://www.madeinoregon.com/
 
 GET Params:[1]
 ['q']

