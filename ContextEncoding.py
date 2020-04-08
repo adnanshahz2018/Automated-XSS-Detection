@@ -84,7 +84,7 @@ class context_encoding:
         # soup = ('<input id="search" type="search" name="q" value="u"xyz' + "'" + 'yxz</zxy" class="input-text required-entry" maxlength="128" placeholder="Search" />')
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
 
     # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g: 'special_url' : ' u\"xyz'yxz
@@ -94,7 +94,7 @@ class context_encoding:
         pattern1 = re.compile(r"\'[\s]*yxz")
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
 
     # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g: 'special_url' : ' u\"xyz'yxz
@@ -104,7 +104,7 @@ class context_encoding:
         pattern1 = re.compile(r'\<[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
-            print('\nhtml Filtering Value = ',value)
+            # print('\nhtml Filtering Value = ',value)
             return False    # No Filtering 
         
         return True     # Filtering is PRESENT
@@ -113,7 +113,7 @@ class context_encoding:
         pattern1 = re.compile(r"\(\s*uvw")
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
 
         return True     # Filtering is PRESENT
@@ -122,7 +122,7 @@ class context_encoding:
         pattern1 = re.compile(r'\"[\s]*xyz')
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
 
     # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g:  'special_url' : ' u\"xyz'yxz
@@ -132,7 +132,7 @@ class context_encoding:
         pattern1 = re.compile(r'\'[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
         
     # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g:  'special_url' : ' u\"xyz'yxz
@@ -142,7 +142,7 @@ class context_encoding:
         pattern1 = re.compile(r'\<[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
         
         return True     # Filtering is PRESENT
@@ -160,7 +160,7 @@ class context_encoding:
         pattern1 = re.compile(r'\"[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
         
         return True     # Filtering is PRESENT
@@ -169,7 +169,7 @@ class context_encoding:
         pattern1 = re.compile(r'\'[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
         
         return True     # Filtering is PRESENT
@@ -178,7 +178,7 @@ class context_encoding:
         pattern1 = re.compile(r'\<[\s]*\/?zxy')
         value = pattern1.findall(context)
         if value:        
-            print('\nFiltering Value = ',value)
+            # print('\nFiltering Value = ',value)
             return False    # No Filtering 
         
         return True     # Filtering is PRESENT
