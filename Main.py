@@ -140,20 +140,20 @@ if __name__ == "__main__":
     # links += ['https://www.harbourbayflorist.com/']
     # links += ['https://www.nearlynatural.com']
 
-    # links += ['https://www.cat.com/en_US'] #DOne
-    # links += ['https://www.kirklands.com/']   # Done  
-    # links += ['https://www.discountpartysupplies.com/'] # Done 
-    # links += ['https://www.burpee.com/']      # Done
-    # links += ['https://www.bangalla.com/'] # done
-    # links += ['https://www.zentechnologies.com/']     # done
+    # links += ['https://www.cat.com/en_US'] #DOne stored
+    # links += ['https://www.kirklands.com/']   # Done  stored
+    # links += ['https://www.discountpartysupplies.com/'] # Done stored 
+    # links += ['https://www.burpee.com/']      # Done stored
+    # links += ['https://www.bangalla.com/'] # done stored
+    # links += ['https://www.zentechnologies.com/']     # done stored
     # links += ['https://madeinoregon.com/']        # Done Well 
     # links += ['https://www.gsmarena.com/']            # Done well// Request Failure
     # links += ['https://www.theverge.com/']            # Done well // Request Failue
-    links += ['https://www.crazycrow.com/site/']                #Done Well
-    # links += ['https://www.keh.com/']     #done
-    # links += ['https://www.ces.ncsu.edu/'] # Done 
-    # links += ['https://www.abcstores.com/']             #Done Well
-    # links += ['https://www.rods.com/']                      # Done well
+    # links += ['https://www.crazycrow.com/site/']       #Done Well stored
+    # links += ['https://www.keh.com/']     #done stored
+    # links += ['https://www.ces.ncsu.edu/'] # Done  stored
+    # links += ['https://www.abcstores.com/']             #Done Well stored
+    links += ['https://www.rods.com/']                      # Done well stored
     # links += ['https://www.tenthousandvillages.com/']       # Done well
     # links += ['https://www.ruralking.com/']               # Done well 
 
@@ -191,7 +191,7 @@ if __name__ == "__main__":
     for link in new_links: print(link)
 
     """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
-    Analyzer.collect_data(new_links)
+    # Analyzer.collect_data(new_links)
     
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 
