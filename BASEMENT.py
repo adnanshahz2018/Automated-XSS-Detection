@@ -6,14 +6,14 @@
 1. Extract Unique GET Params.
 2. If 2 forms have same 2 GET Params, then 4 GET URLs will be generated: DONE: later unique GET URLS are extracted
 3. Payload = (uvw"xyz'yxz</zxy. DONE
+4. Check encdoing separarately for each value of a context.     DONE
+    Issue: one value has encoding and others may not have..!!
 
 
 ==>>    UPDATES REQUIRED 
 
-1. Base Url for all websites. Resolve issues like ifu-institut.at
-2. Check encdoing separarately for each value of a context. 
-    Issue: one value has encoding and others may not have..!!
-3. Try the Vertical format of the EXCEL FILE 
+1. Base Url for all websites. Resolve issues like ifu-institut.at and drudgereportarchives.com
+2. Try the Vertical format of the EXCEL FILE 
 
 ==>>    FINDINGS:
 
