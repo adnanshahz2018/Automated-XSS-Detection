@@ -162,10 +162,12 @@ if __name__ == "__main__":
     # links += ['https://www.geappliances.com/'] # No Forms
     # links += ['https://www.wayfair.com']    # DONE WELL & STORED
 
-    links += ['https://www.lowes.com/']
+    # links += ['https://www.lowes.com/']   # Done well , stored
     # links += ['https://www.husqvarna.com/']   #Nothing found
     # links += ['http://www.beistle.com']   #nothing found
     # links += ['https://www.nobleworkscards.com']  #nothing found
+    links += ['https://elegantbaby.com']
+
 
 
 

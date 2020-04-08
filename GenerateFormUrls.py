@@ -145,7 +145,6 @@ if __name__ == '__main__':
     # link = 'https://www.frigidaire.com'
     # link = 'https://www.swarovski.com'
     # link = 'https://www.oscardo.com'
-    # link = 'https://elegantbaby.com'
     # link = 'https://www.graphics3inc.com/'
     # link = 'https://www.bdiusa.com'
     # link = 'https://www.frigidaire.com'
