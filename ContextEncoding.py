@@ -22,7 +22,7 @@ class context_encoding:
 
         # for context in contexts:
         self.presence = True
-        context = str(context)
+        context = str(context)  # &#x27; for " ..??
         if( context.__contains__('&quot;') or context.__contains__('%22') or context.__contains__('\\'+'"') or
             context.__contains__('&#34;') or context.__contains__("\\" + "u0022") ):
             self.double_quotes = True 

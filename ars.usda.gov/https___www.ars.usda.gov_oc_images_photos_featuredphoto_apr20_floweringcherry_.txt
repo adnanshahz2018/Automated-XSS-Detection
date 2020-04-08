@@ -1,0 +1,102 @@
+https://www.ars.usda.gov/oc/images/photos/featuredphoto/apr20/floweringcherry/
+
+GET Params:[2]
+['query', 'affiliate']
+_______________________________________________________________________________________________________
+https://search.usa.gov/search?sort=rel&query=(uvw"xyz'yxz</zxy&affiliate=agriculturalresearchservicears
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" name="query" id="query" value="(uvw&quot;xyz&#39;yxz" class="form-control typeahead-enabled" spellcheck="false" />
+<div data-a='agriculturalresearchservicears' data-l='en' data-q='(uvw&quot;xyz&#39;yxz' data-t='1586323987' data-v='web' id='search'>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&quot;xyz&#39;yxz - Agricultural Research Service (ARS) Search Results</title>
+<div class='content-block-item'>
+Sorry, no results found for &#39;(uvw&quot;xyz&#39;yxz&#39;. Try entering fewer or broader query terms.
+</div>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [6]
+<a href="/search/docs?affiliate=agriculturalresearchservicears&amp;dc=1218&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/docs?affiliate=agriculturalresearchservicears&amp;dc=932&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/docs?affiliate=agriculturalresearchservicears&amp;dc=1219&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/docs?affiliate=agriculturalresearchservicears&amp;dc=1218&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/docs?affiliate=agriculturalresearchservicears&amp;dc=932&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/docs?affiliate=agriculturalresearchservicears&amp;dc=1219&amp;query=%28uvw%22xyz%27yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	False	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	False	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://search.usa.gov/search?sort=rel&query=&affiliate=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

@@ -134,14 +134,12 @@ if __name__ == '__main__':
     # link = 'https://www.lowes.com/'
     # link = 'https://www.husqvarna.com/'
     # link = 'http://www.beistle.com'
-    # link = 'https://www.geappliances.com/'
     # link = 'https://www.nobleworkscards.com'
     # link = 'https://alicescottage.com'
 
 #   ---------------------------- Successfully Done -------------------------------- 
 
     # link = 'https://www.discountpartysupplies.com/'
-    # link = 'https://www.asapawards.com/'
     # link = 'https://www.earthsunmoon.com/'
     # link = 'https://www.ethanallen.com/'
     # link = 'https://www.frigidaire.com'
@@ -160,7 +158,6 @@ if __name__ == '__main__':
     # link = 'https://www.harryanddavid.com/'           # Done well 
     # link = 'https://www.nearlynatural.com/'           # Done well
     # # link = 'https://www.cat.com/en_US'              # Done well
-    # link = 'https://www.deere.com/en/'                # Done well
     link = 'https://leica-geosystems.com/'            # No <form with method='get'
     # link = 'https://www.burpee.com/'                    # Done Well
     # link = 'https://www.equinenow.com/'                 # Failure: action="#"

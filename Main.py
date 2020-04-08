@@ -47,6 +47,7 @@ class main_class:
         links = []
         soup = BeautifulSoup(self.source,features="lxml")
         tags = soup.find_all('a', href=True)
+        tags = tags + soup.find_all('link', href=True)
         for tag in tags:    
             if self.valid_link(tag['href'],links):    links.append(tag['href'])
         # print(links)
@@ -124,20 +125,17 @@ if __name__ == "__main__":
     # links += ['https://www.moma.org/']      # 376 Unique Links in this website with 2 level bfs...  
     # links += ['https://www.britannica.com/explore/yearinreview/']
     # links += ['https://www.roomandboard.com/']    # Check for the problem: where you find the get parama: 'query' but further the *Requests Fails*
-    # links += ['https://www.harryanddavid.com/']
     # links += ['https://www.1000bulbs.com/']
     # links += ['https://www.africanews.com/']
-    # links += ['https://www.ars.usda.gov/']      #200
     # links += ['https://www.iita.org/']
     # links += ['https://www.agricultureinformation.com/forums/']
-    # links += ['https://www.acehardware.com'] # NOt GET URLs has 1 Get form 
-    links += ['https://www.vanhalenstore.com/']
-    # links += ['http://www.lllreptile.com/']
+    # links += ['https://www.acehardware.com'] #  Has 1 Get form but No GET Params are present  
     # links += ['http://drudgereportarchives.com/']
     # links += ['https://ifu-institut.at/']
     # links += ['https://www.sweetwater.com/']
     # links += ['https://www.drdelphinium.com/']
     # links += ['https://www.harbourbayflorist.com/']
+    # links += ['https://www.deere.com/en/']                # Done well 
     # links += ['https://www.nearlynatural.com']
 
     # links += ['https://www.cat.com/en_US'] #DOne stored
@@ -146,6 +144,7 @@ if __name__ == "__main__":
     # links += ['https://www.burpee.com/']      # Done stored
     # links += ['https://www.bangalla.com/'] # done stored
     # links += ['https://www.zentechnologies.com/']     # done stored
+    # links += ['https://www.vanhalenstore.com/']   #Done Well Stored
     # links += ['https://madeinoregon.com/']        # Done Well 
     # links += ['https://www.gsmarena.com/']            # Done well// has only 2-3 pages while finding links through 'href'
     # links += ['https://www.theverge.com/']            # This site Can't be reached
@@ -155,7 +154,18 @@ if __name__ == "__main__":
     # links += ['https://www.abcstores.com/']             #Done Well stored
     # links += ['https://www.rods.com/']                      # Done well stored
     # links += ['https://www.tenthousandvillages.com/']       # Access denied
-    # links += ['https://www.ruralking.com/']               # Done well 
+    # links += ['https://www.ruralking.com/']               # Done well stored
+    # links += ['https://www.ars.usda.gov/']      #Done well stored
+    # links += ['https://www.harryanddavid.com/'] # Done Nothing in it
+    # links += ['https://www.asapawards.com/']    # Nothing Found
+    # links += ['http://www.lllreptile.com/']  #Done well & Stored
+    # links += ['https://www.geappliances.com/'] # No Forms
+    # links += ['https://www.wayfair.com']    # DONE WELL & STORED
+
+    links += ['https://www.lowes.com/']
+    # links += ['https://www.husqvarna.com/']   #Nothing found
+    # links += ['http://www.beistle.com']   #nothing found
+    # links += ['https://www.nobleworkscards.com']  #nothing found
 
 
 
@@ -191,7 +201,7 @@ if __name__ == "__main__":
     for link in new_links: print(link)
 
     """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
-    # Analyzer.collect_data(new_links)
+    Analyzer.collect_data(new_links)
     
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 
