@@ -30,5 +30,10 @@ ISSUE NO. 2:
 3. if we first close the </title> TAG , then it is XSSed
 4. payload </title><img src=x onerror="alert(1)"> is SUCCESSFUL
 
+ISSUE NO. 3:
+1. Attack Methodology for URL: Does it need Encoding Analysis..?
+
+
+
 """
 
