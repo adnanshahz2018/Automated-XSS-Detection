@@ -131,7 +131,7 @@ if __name__ == "__main__":
     # links += ['https://www.iita.org/']
     # links += ['https://www.agricultureinformation.com/forums/']
     # links += ['https://www.acehardware.com'] # NOt GET URLs has 1 Get form 
-    # links += ['https://www.vanhalenstore.com/']
+    links += ['https://www.vanhalenstore.com/']
     # links += ['http://www.lllreptile.com/']
     # links += ['http://drudgereportarchives.com/']
     # links += ['https://ifu-institut.at/']
@@ -147,14 +147,14 @@ if __name__ == "__main__":
     # links += ['https://www.bangalla.com/'] # done stored
     # links += ['https://www.zentechnologies.com/']     # done stored
     # links += ['https://madeinoregon.com/']        # Done Well 
-    # links += ['https://www.gsmarena.com/']            # Done well// Request Failure
-    # links += ['https://www.theverge.com/']            # Done well // Request Failue
+    # links += ['https://www.gsmarena.com/']            # Done well// has only 2-3 pages while finding links through 'href'
+    # links += ['https://www.theverge.com/']            # This site Can't be reached
     # links += ['https://www.crazycrow.com/site/']       #Done Well stored
     # links += ['https://www.keh.com/']     #done stored
     # links += ['https://www.ces.ncsu.edu/'] # Done  stored
     # links += ['https://www.abcstores.com/']             #Done Well stored
-    links += ['https://www.rods.com/']                      # Done well stored
-    # links += ['https://www.tenthousandvillages.com/']       # Done well
+    # links += ['https://www.rods.com/']                      # Done well stored
+    # links += ['https://www.tenthousandvillages.com/']       # Access denied
     # links += ['https://www.ruralking.com/']               # Done well 
 
 
