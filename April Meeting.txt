@@ -1,0 +1,57 @@
+//  Muhammad Adnan Shah
+
+--------------------------------------------------------------
+	 Improvements Onwards From Our Last Discussion
+--------------------------------------------------------------
+
+1. Filtering Analysis: Checking if the special characters are filtered or NOT
+2. Payload Updated: (uvw"xyz'yxz</zxy
+3. Checking Encoding, Filtering, AttackMethodology and selection of Payloads for "Each Value of Every Context"
+	For example: 
+	a. All values of HTML context have the Encodings 
+	b. but ONE of them is not filtering or encoding the special chars
+
+
+-----------------------------------
+	Achievements/ Comparison
+-----------------------------------
+
+1. Manually Compared and Verified Data of 20 Websites:
+	a. Text File data is on GitHub: https://github.com/adnanshahz2018/My_Project
+	b. Excel File: is also on GitHub: 'Comparison.xlsx'
+2. Includes a long list of data: 
+	a. Context data, Context Count, encodings
+ 	b. GET params, Get Form URLs, Attacks, Success, Detection
+
+--------------------------------
+	Problems
+--------------------------------
+
+ISSUE NO. 1:
+1. https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
+2. URL Context: Encoding is present and also absent for different attributes of the TAG 
+  For Example:
+  <a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">
+
+3. Now, I think I have to break the tags in parts, in order to check this.
+4. In my opinion, We shall give priority to the Non-Encoded and Non-Filtered attribute of the TAG.
+
+
+ISSUE NO. 2:
+1. https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
+2. payload <img src=x onerror="alert(1)"> dones not work, it is inside the <title> tag.
+3. However, if we first close the </title> TAG , then it is XSSed
+	Suggested payload </title><img src=x onerror="alert(1)"> is SUCCESSFUL
+
+4. So, what about this, it has XSS but NOT that straight-forward,  
+
+
+ISSUE NO. 3:
+1. Attack Methodology for URL: Does it need Encoding Analysis..?
+2. I'm using the payloads from Your Paper, Specifically the Payloads you've written in "JS-fiddle" .
+	a. <a href="ja&#9;vasc&#10;ript&#58;alert&#40;1&#41;">click</a>
+	b. <a href="ja&#x00009;vasc&#x0000A;ript&#x0003A;alert&#x00028;1&#x00029;">click</a>
+=> with little improvements: { click = click_XSS = XYZ_XSS }
+
+
+.....
