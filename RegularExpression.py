@@ -17,7 +17,7 @@ class regular_expression:
         self.payload = payload 
 
     def unify_values(self,values):
-        new_value = list()
+        new_value = []
         for value in values:
             if value not in new_value: new_value.append(value)
         return new_value
@@ -36,7 +36,7 @@ class regular_expression:
     def RegExpScript(self):
         pattern = re.compile(r'<script[\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][\*|$@_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/?>')
         pattern1 = re.compile(r'<script[@\*!~|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\*!|@$_,}+*"~*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*>&*;*\-*%*\d*]*[xX][yY][zZ][@!\\$_#*"~*}\[\]+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*\<?[@!\\$_#*"*}\[\]~+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*<\/script>')
-        values = pattern.findall(self.pagesource) +  pattern1.findall(self.pagesource) +  self.soup.find_all('script', text=re.compile('xyz'))
+        values = pattern.findall(self.pagesource) +  pattern1.findall(self.pagesource) #+  self.soup.find_all('script', text=re.compile('xyz'))
         
         return self.unify_values(values)
 
@@ -102,16 +102,13 @@ class regular_expression:
         value = value + p7.findall(self.pagesource) + p9.findall(self.pagesource) + p10.findall(self.pagesource) + p11.findall(self.pagesource) + p12.findall(self.pagesource) + p13.findall(self.pagesource) 
         return value
 
-
     def cotext_attack(self, Context):
         if Context == 'ATTR'    : return self.RegExpSameAttribute()
         if Context == 'HTML'    : return self.RegExpSameHtml()
         if Context == 'SCRIPT'  : return self.RegExpSameScript()
         if Context == 'URL'     : return self.RegExpSameURI()
 
-
 # Looking for the Appearance of the payload in response against a post form submission.
-
     def RegExp_postforms(self):
         value = list()
         attr = re.compile(r'.*[xX][yY][zZ].*')

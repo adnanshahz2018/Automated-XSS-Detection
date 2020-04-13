@@ -1,0 +1,220 @@
+https://www.harbourbayflorist.com/birthday/cat1000017
+
+GET Params:[9]
+['_dyncharset', '_dynSessConf', '_D:optinEmailAddress', '/atg/userprofiling/ProfileFormHandler.createSuccessURL', '_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL', 'errorurl', '_D:errorurl', '_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference', '_DARGS']
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=(uvw"xyz'yxz</zxy&_dynSessConf=-4195557390047277132&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=(uvw"xyz'yxz</zxy&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=-4195557390047277132&_D:optinEmailAddress=(uvw"xyz'yxz</zxy&/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=-4195557390047277132&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=(uvw"xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [4]
+<form name="searchForm" action="/browse;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD" id="searchForm" onsubmit="return validateSearchForm(this);" class="m-navbar-search-form">
+<form method="POST" autocomplete="off" name="logInForm" action="/account/info.jsp;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm" id="logInForm">
+<form method="post" name="subscriptionPreferencesForm" action="/account/externalUserSubscriptions.jsp;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD?_DARGS=/account/externalUserSubscriptions.jsp%3Bjsessionid%3DSWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId.subscriptionPreferencesForm" id="subscriptionPreferencesForm" class="m-account-form">
+<form method="GET" autocomplete="off" name="loginfileFormSubscription" action="/account/externalUserSubscriptions.jsp;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD" id="loginfileFormSubscription" class="m-footer-email">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [5]
+<a id="cartTrigger" href="/cart;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD">
+<form name="searchForm" action="/browse;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD" id="searchForm" onsubmit="return validateSearchForm(this);" class="m-navbar-search-form">
+<form method="POST" autocomplete="off" name="logInForm" action="/account/info.jsp;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD?_DARGS=/WEB-INF/fragments/common/header.jsp.logInForm" id="logInForm">
+<form method="post" name="subscriptionPreferencesForm" action="/account/externalUserSubscriptions.jsp;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD?_DARGS=/account/externalUserSubscriptions.jsp%3Bjsessionid%3DSWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId.subscriptionPreferencesForm" id="subscriptionPreferencesForm" class="m-account-form">
+<form method="GET" autocomplete="off" name="loginfileFormSubscription" action="/account/externalUserSubscriptions.jsp;jsessionid=oEP-EBHn7XyZv6MwN-Ojs4WsTIf1B_6PlcNRL3DD" id="loginfileFormSubscription" class="m-footer-email">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=-4195557390047277132&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL=(uvw"xyz'yxz</zxy&errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=-4195557390047277132&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=(uvw"xyz'yxz</zxy&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=-4195557390047277132&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl=(uvw"xyz'yxz</zxy&_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=-4195557390047277132&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference=(uvw"xyz'yxz</zxy&_DARGS=/WEB-INF/fragments/common/efloristFooterCommon.jspf.loginfileFormSubscription
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.harbourbayflorist.com/account/externalUserSubscriptions.jsp;jsessionid=SWhA9V_g6RdYR_KGDEe7RCAh5RtzCh1MlZsN_IId?_dyncharset=UTF-8&_dynSessConf=-4195557390047277132&_D:optinEmailAddress= &/atg/userprofiling/ProfileFormHandler.createSuccessURL=/account/externalUserSubscriptions.jsp&_D:/atg/userprofiling/ProfileFormHandler.createSuccessURL= &errorurl=/account/externalUserSubscriptions.jsp&_D:errorurl= &_D:/atg/userprofiling/ProfileFormHandler.logEmailPreference= &_DARGS=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

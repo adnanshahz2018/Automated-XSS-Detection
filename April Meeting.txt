@@ -18,9 +18,9 @@
 
 1. Manually Compared and Verified Data of 20 Websites:
 	a. Text File data is on GitHub: https://github.com/adnanshahz2018/My_Project
-	b. Excel File: is also on GitHub: 'Comparison.xlsx'
+	b. Excel File data is also on GitHub: 'Comparison.xlsx'
 2. Includes a long list of data: 
-	a. Context data, Context Count, encodings
+	a. Context data, Context Count, Encodings
  	b. GET params, Get Form URLs, Attacks, Success, Detection
 
 --------------------------------

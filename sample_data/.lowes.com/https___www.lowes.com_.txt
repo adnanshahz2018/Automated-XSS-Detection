@@ -1,0 +1,123 @@
+https://www.lowes.com/
+
+GET Params:[1]
+['searchTerm']
+_______________________________________________________________________________________________________
+https://www.lowes.com/search?searchTerm=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>(uvw&quot;xyz&#x27;yxz /zxy at Lowes.com: Search Results</title>
+<span itemprop="name" class="strong art-plp-txtCurrentPageBreadcrumb">&#x27;(uvw&#x27;xyz&#x27;yxz /zxy&#x27;</span>
+<span class="js-search-term">(uvw&quot;xyz&#x27;yxz /zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [5]
+<script type="text/javascript">
+        var Lowes = Lowes || {};
+        Lowes.ProductList = Lowes.ProductList || {};
+        Lowes.ProductList.pagePath = '/search?searchTerm=%28uvw%22xyz%27yxz%3C/zxy';
+        </script>
+<script type="text/javascript">window.digitalData = window.digitalData || {};
+        window.digitalData.profile = window.digitalData.profile || {};
+        window.digitalData.page = window.digitalData.page || {};
+        window.digitalData.page = {"pageName":"search-results","pageType":"search-results","siteId":"desktop","siteSection":"home","siteSectionTwo":"search","siteSectionThree":"uvwxyzyxz_zxy"};
+        window.digitalData.products = [];
+        // Data Layer setup
+        window.dataLayer = window.dataLayer || {};
+        window.dataLayer.page = window.dataLayer.page || {};
+        window.dataLayer.page = {"pageInfo":{"pageName":"search-results","siteID":"desktop"},"category":{"pageType":"search-results","siteSections":["home","search","uvwxyzyxz_zxy"]}};
+        window.dataLayer.page.pageInfo.destinationURL = window.location.href;
+        window.dataLayer.page.pageInfo.referrerURL = document.referrer;
+        // param for DTM to identify the AB test
+        window.dataLayer.page.pageInfo.abtesting = ["ABT-1229-A"];
+        window.dataLayer.page.category.platform = 1;
+        window.dataLayer.products = [];</script>
+<script type="text/javascript">var Lowes = Lowes || {};
+    Lowes.ProductList = Lowes.ProductList || {};
+    Lowes.ProductList.productPath = '/search/products?searchTerm=%28uvw%22xyz%27yxz /zxy';
+    Lowes.ProductList.viewSize = 'large';
+    Lowes.ProductList.maxResults = 36;
+    Lowes.ProductList.currentPage = 1;
+    Lowes.ProductList.isSearch = true;
+    Lowes.ProductList.showCatCount = 5;
+    Lowes.ProductList.showHiddenCatCount = 10;
+    Lowes.ProductList.toolTipSeconds = 7;
+    Lowes.ProductList.actualDisplayvalue = 6;
+    Lowes.ProductList.disabledLockLeftPanel = false;
+    Lowes.ProductList.availabilityFilterOff = false;
+    Lowes.ProductList.disabledPills = false;
+    Lowes.ProductList.clearPills = false;
+    Lowes.ProductList.disabledCompareDesignV2 = false;</script>
+<script>mboxDefine('noresults-module1', 'noresults-module1');
+        mboxUpdate('noresults-module1', 'profile.search_term=uvwxyzyxz_zxy');</script>
+<script>mboxDefine('noresults-module2', 'noresults-module2');
+        mboxUpdate('noresults-module2', 'profile.search_term=uvwxyzyxz_zxy');</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<meta name="description" content="Shop (uvw&quot;xyz&#x27;yxz /zxy at Lowe's. Find a variety of quality home improvement products at Lowes.com or at your local Lowe's store.">
+<meta property="og:title" content="(uvw&quot;xyz&#x27;yxz /zxy at Lowes.com: Search Results"/>
+<meta property="og:description" content="Shop (uvw&quot;xyz&#x27;yxz /zxy at Lowe's. Find a variety of quality home improvement products at Lowes.com or at your local Lowe's store."/>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

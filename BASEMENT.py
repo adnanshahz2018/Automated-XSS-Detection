@@ -8,12 +8,14 @@
 3. Payload = (uvw"xyz'yxz</zxy. DONE
 4. Check encdoing separarately for each value of a context.     DONE
     Issue: one value has encoding and others may not have..!!
+5. Base Url for all websites. Resolved THE ISSUE of ifu-institut.at and drudgereportarchives.com
 
 
 ==>>    UPDATES REQUIRED 
 
-1. Base Url for all websites. Resolve issues like ifu-institut.at and drudgereportarchives.com
-2. Try the Vertical format of the EXCEL FILE 
+1. How to Create a Folder through program
+2. Try the Vertical format of the EXCEL FILE.
+
 
 ==>>    FINDINGS:
 

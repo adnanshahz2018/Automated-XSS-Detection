@@ -11,13 +11,19 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
+    folder = 'New_Data'
+    dirName = ''
     base = ''
     links = [] 
     website = []
     source = None
 
     def __init__(self,url):
-        self.base = self.find_base_url(url)
+        self.base = self.folder + '/' + self.find_base_url(url)
+        self.create_directory(self.folder)
+        self.dirName = self.folder + '/' + self.dirName
+        self.create_directory( self.dirName )
+
 
 #   Do we still need this function ... let's check it later and then replace it or delete it.
     def start(self,url):
@@ -63,16 +69,26 @@ class main_class:
         else:   return False
     
     def find_base_url(self,link):
-        exp = re.compile(r'(?!\w)\.?[\.\w]+')
-        # print(link)
-        part = exp.findall(link)
-        # print(part)
-        base = part[0]
-        print('\nBase Url = [', base , ']')
-        return base
-        # return 'madeinoregon.com'
+        link = link.replace('http://www','')
+        link = link.replace('https://www','')
+        link = link.replace('http://','')
+        link = link.replace('https://','')
 
+        if link.__contains__('/'): 
+            parts = link.split('/')
+            link = parts[0]
+        
+        print('\nBase Url = [', link, ']')
+        self.dirName =  link
+        return link
     
+    def create_directory(self, directory):
+        # Create target Directory if it does not Exist
+        if not os.path.exists(directory):
+            os.mkdir(directory)
+            print("Directory " , directory ,  " Created ")
+        else:    
+            print("Directory " , directory ,  " already exists")
 
     def bfs_crawling(self,index, web_links):
         count = index
@@ -81,7 +97,6 @@ class main_class:
         for i in range(index, len(web_links) ):
             count+=1
             self.url = web_links[i]
-            print(' LINK  [' , count ,']  =>  ' ,self.url)
 
             self.web = web_request(self.url,'GET')
             self.base = self.find_base_url(self.url)
@@ -116,16 +131,38 @@ class main_class:
     # Excel.write_contexts(attrs, htmls, scripts, urls, same_attrs , same_htmls, same_scripts, same_urls)
 
 
+def main_operation(links):
+
+    M = main_class(links[0])
+    base = M.dirName
+    index = 0 
+    for bfs in range(3):
+        index, links = M.bfs_crawling(index,links)
+        if (index > 21): break      
+
+    # print('Index = ', index)
+    new_links = []
+    if len(links) > 19 :    
+        for i in range(20): new_links.append(links[i]) 
+    else:   
+        new_links = links
+
+    for link in new_links: print(link)
+
+    """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
+
+    Analyzer = analyze_attack(base)
+    Analyzer.collect_data(new_links)
+
+
 if __name__ == "__main__":
     print('\n=> This Automated Tool assists in finding XSS Vulnerablilities.\n=> It assumes that there is a potential XSS Present in the Website\n')
 
-    Analyzer = analyze_attack()
     links = []
 # -----------------------  Links for Testing -------------------------------
     # links += ['https://www.moma.org/']      # 376 Unique Links in this website with 2 level bfs...  
-    # links += ['https://www.britannica.com/explore/yearinreview/']
+    links += ['https://www.britannica.com/explore/yearinreview/']
     # links += ['https://www.roomandboard.com/']    # Check for the problem: where you find the get parama: 'query' but further the *Requests Fails*
-    # links += ['https://www.1000bulbs.com/']
     # links += ['https://www.africanews.com/']
     # links += ['https://www.iita.org/']
     # links += ['https://www.agricultureinformation.com/forums/']
@@ -135,9 +172,10 @@ if __name__ == "__main__":
     # links += ['https://www.sweetwater.com/']
     # links += ['https://www.drdelphinium.com/']
     # links += ['https://www.harbourbayflorist.com/']
-    # links += ['https://www.deere.com/en/']                # Done well 
     # links += ['https://www.nearlynatural.com']
 
+    # links += ['https://www.deere.com/en/']   # Done well and stored
+    # links += ['https://www.1000bulbs.com/'] #Done & stored
     # links += ['https://www.cat.com/en_US'] #DOne stored
     # links += ['https://www.kirklands.com/']   # Done  stored
     # links += ['https://www.discountpartysupplies.com/'] # Done stored 
@@ -166,7 +204,7 @@ if __name__ == "__main__":
     # links += ['https://www.husqvarna.com/']   #Nothing found
     # links += ['http://www.beistle.com']   #nothing found
     # links += ['https://www.nobleworkscards.com']  #nothing found
-    links += ['https://elegantbaby.com']
+    # links += ['https://elegantbaby.com']
 
 
 
@@ -183,27 +221,15 @@ if __name__ == "__main__":
     # links += ['']
     # links += ['']
 
+    count = 0
+    for link in links: 
+        count+=1
+        one_link = []
+        one_link.append(link)
+        print(' LINK  [' , count ,'/', len(links), ']  =>  ' ,link)
+        main_operation(one_link)
 
 
-    M = main_class(links[0])
-
-    # Collecting all the links of a web page (these are the references of webpages)
-    index = 0 
-    for bfs in range(3):
-        index, links = M.bfs_crawling(index,links)
-        if (index > 21): break      
-
-    # print('Index = ', index)
-    new_links = []
-    if len(links) > 19 :
-        for i in range(20): new_links.append(links[i]) 
-    else:
-        new_links = links
-    # print(len(new_links), '\n')
-    for link in new_links: print(link)
-
-    """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
-    Analyzer.collect_data(new_links)
     
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 

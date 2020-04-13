@@ -10,6 +10,10 @@ from AttackMethodology import attack_methodology
 class analyze_attack:
     payload = '(uvw"' + "xyz'yxz</zxy"
     Text = None     # write_text_file() Object
+    base = ''
+
+    def __init__(self,base):
+        self.base = base
 
     def get_source(self,url):
         Web = web_request(url,'GET')
@@ -48,7 +52,7 @@ class analyze_attack:
         count = 0
 
         # Text File Containing GET Form Response.
-        self.Text = write_text_file(link, self.payload)
+        self.Text = write_text_file(self.base,link, self.payload)
         self.Text.write_directly( '\nGET Params:[' + str(len(self.get_params)) + ']\n' + str( self.get_params )  + '\n')
         # print( 'Unique GET URLs [', len(unique_get_urls) , ']\n', unique_get_urls ,'\n' )
 

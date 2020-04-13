@@ -1,0 +1,4 @@
+https://media.sweetwater.com/fonts/aspira/aspiraxnar_heavy/AspiraXNar-Heavy.woff2
+
+GET Params:[0]
+[]

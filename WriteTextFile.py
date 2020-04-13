@@ -5,12 +5,19 @@ import os
 
 class write_text_file:
     url = ''
-    folder = 'SingleWebsite_Data/'
-    # folder = 'sample_data/crazycrow/'
+    # folder = 'SingleWebsite_Data/'
+
+    # folder = 'sample_data/a1/'
+    # folder = 'sample_data/a2/'
+
+    folder = 'a1/'
+    # folder = 'a2/'
+
     filename = ''
     payload = ''
 
-    def __init__(self,url,payload):
+    def __init__(self,base,url,payload):
+        self.folder = base + '/'
         self.url = url
         # self.folder = self.core_url(url) + '/'
         self.payload = payload
