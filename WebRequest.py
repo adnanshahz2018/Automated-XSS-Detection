@@ -43,7 +43,7 @@ class web_request:
         # print('urllib => \n' , self.url)
         try:
             req  = urllib.request.Request(self.url)
-            resp = urllib.request.urlopen(req, timeout=10)
+            resp = urllib.request.urlopen(req, timeout=4)
             pagesource = resp.read().decode(encoding='utf-8', errors='strict') 
             # print(pagesource)
             return pagesource
