@@ -68,12 +68,17 @@ class generate_form_urls_with_payloads:
         formdata = {}
         
         for field in fields:
-            if(field.get('type') == 'hidden' or field.get('type') == 'text' or field.get('type') == 'Text' or 
-            field.get('type') == 'TEXT' or field.get('type') == 'search' or field.get('type') == 'Search' or 
-            field.get('type') == 'SEARCH' ):    
+            # if(field.get('type') == 'hidden' or field.get('type') == 'text' or field.get('type') == 'Text' or 
+            # field.get('type') == 'TEXT' or field.get('type') == 'search' or field.get('type') == 'Search' or 
+            # field.get('type') == 'SEARCH' ):    
+            if ( field.get('type') != 'checkbox' and field.get('type') != 'submit' and field.get('type') != 'color'
+                and field.get('type') != 'button' and field.get('type') != 'reset' and field.get('type') != 'date'
+                and field.get('type') != 'file' and field.get('type') != 'datetime-local' 
+                and field.get('type') != 'number'):
                 self.get_params.append(field.get('name'))
                 formdata[field.get('name')] = field.get('value')
         
+        # print('formdata = ' , fields)
         if not form.get('action'): return False, ['No FormAction']
         # print('form-action: ' , form.get('action'))
         url = self.make_link(form.get('action'))
@@ -92,7 +97,6 @@ class generate_form_urls_with_payloads:
 
     def merge(self, action, formdata):
         data = '?'
-        # print(formdata)
         if action.__contains__('?'):    data = '&'
         for f in formdata:
             # print('Generate form urls: fdata = ', formdata[f])
@@ -153,16 +157,15 @@ if __name__ == '__main__':
     # link = 'https://www.britannica.com/search?query='
     # link = 'https://www.ediblearrangements.com/fruit-arrangements?SearchText="xyz%27yxz&lt;/zxy'
     # link = 'https://huel.com/pages/search-results?q=%22xyz'
-    link = 'https://www.britannica.com/'                #Done Well
     # link = 'https://www.harryanddavid.com/'           # Done well 
     # link = 'https://www.nearlynatural.com/'           # Done well
     # # link = 'https://www.cat.com/en_US'              # Done well
-    link = 'https://leica-geosystems.com/'            # No <form with method='get'
+    # link = 'https://leica-geosystems.com/'            # No <form with method='get'
     # link = 'https://www.burpee.com/'                    # Done Well
     # link = 'https://www.equinenow.com/'                 # Failure: action="#"
     # link = 'https://everythingaustralian.com.au/'       # Done well
     # link = 'https://africaimports.com/'                 # Done well
-    link = 'https://www.serrv.org/'                     # No <form with method='get'
+    # link = 'https://www.serrv.org/'                     # No <form with method='get'
     # link = 'https://www.shamansmarket.com/'                 # No <form with method='get'
     # link = 'https://www.scotweb.co.uk/'                 # No <form with method='get'
     # link = 'https://www.countrystorecatalog.com/'       # No <form with method='get', 228 hidden inputs in post form. Failed to detect form in source 
@@ -212,11 +215,13 @@ if __name__ == '__main__':
     # link = ''
 
     print('\n------------------------STARTED---------------------\n')
+    link = 'https://www.britannica.com/'                #Done Well
 
     # -------------------------Creating the Object-------------------------------
     G = generate_form_urls_with_payloads()
-    G.start_search(link)
-    
+    a , b = G.start_search(link)
+    print(a)
+    print(b)
 
 """ 
 ------------------------------ Any Ideas or Algorithm, Post'em Here -----------
