@@ -1,0 +1,64 @@
+https://www.lampsplus.com/ideas-and-advice/
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://www.lampsplus.com/ideas-and-advice/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" name="s" id="s" placeholder="Search..." value="(uvw&quot;xyz&#039;yxz&lt;/zxy">
+<button type="submit"  value="(uvw&quot;xyz&#039;yxz&lt;/zxy" class="button-search side-f" aria-label="Search">
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Ideas &amp; Advice | Lamps Plus</title>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="alternate" type="application/rss+xml" title="Ideas &amp; Advice | Lamps Plus &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://www.lampsplus.com/ideas-and-advice/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Ideas &amp; Advice | Lamps Plus" />
+<meta property="og:url" content="https://www.lampsplus.com/ideas-and-advice/search/(uvwxyz&#039;yxz/zxy/" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Ideas &amp; Advice | Lamps Plus" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

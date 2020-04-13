@@ -1,0 +1,64 @@
+https://www.projectmagenta.com/login
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://www.projectmagenta.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" class="et-search-field" placeholder="Search &hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" title="Search for:" />
+<input type="text" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" size="15" id="s" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Project Magenta</title>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="alternate" type="application/rss+xml" title="Project Magenta &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://www.projectmagenta.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Project Magenta" />
+<meta property="og:url" content="https://www.projectmagenta.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Project Magenta" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

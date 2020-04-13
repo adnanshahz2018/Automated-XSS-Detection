@@ -1,0 +1,4 @@
+https://www.projectmagenta.com/xmlrpc.php
+
+GET Params:[0]
+[]

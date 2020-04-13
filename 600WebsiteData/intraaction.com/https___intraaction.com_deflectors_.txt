@@ -1,0 +1,40 @@
+https://intraaction.com/deflectors/
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://intraaction.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="search" class="et-search-field" placeholder="Search &hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" title="Search for:" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>Search results for &quot;(uvw&quot;xyz&#039;yxz&lt;/zxy&quot; | Intraaction</title>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<link rel="alternate" type="application/rss+xml" title="Intraaction &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://intraaction.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

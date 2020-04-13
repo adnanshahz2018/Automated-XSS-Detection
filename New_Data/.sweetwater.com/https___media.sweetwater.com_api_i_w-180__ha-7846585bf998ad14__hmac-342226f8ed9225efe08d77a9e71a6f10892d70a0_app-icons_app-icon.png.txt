@@ -1,4 +1,0 @@
-https://media.sweetwater.com/api/i/w-180__ha-7846585bf998ad14__hmac-342226f8ed9225efe08d77a9e71a6f10892d70a0/app-icons/app-icon.png
-
-GET Params:[0]
-[]

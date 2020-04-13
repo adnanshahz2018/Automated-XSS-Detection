@@ -1,4 +1,0 @@
-https://subscription.britannica.com/subscribe?partnerCode=BP_Features_USD
-
-GET Params:[0]
-[]

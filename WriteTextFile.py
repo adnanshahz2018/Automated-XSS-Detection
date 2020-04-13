@@ -7,12 +7,6 @@ class write_text_file:
     url = ''
     # folder = 'SingleWebsite_Data/'
 
-    # folder = 'sample_data/a1/'
-    # folder = 'sample_data/a2/'
-
-    folder = 'a1/'
-    # folder = 'a2/'
-
     filename = ''
     payload = ''
 
@@ -54,8 +48,14 @@ class write_text_file:
         f = f.replace("|", "_")
         f = f.replace("?", "_")
         f = f.replace("+", "_")
+
+        f = f.replace('\n','')
+        f = f.replace('\r', '')
         
         f = f.rstrip("\n")
+        f = f.rstrip("\r")
+        f = f.rstrip("\r\n")
+
         if len(f) > 150: f = f[:150]
         # print('filename => ', f)
         return f

@@ -1,0 +1,4 @@
+https://www.vallen.de/vallen-smart-line-sensors/
+
+GET Params:[0]
+[]

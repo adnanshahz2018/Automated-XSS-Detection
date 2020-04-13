@@ -1,0 +1,40 @@
+http://apmr.matelys.com/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+http://www.google.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="hidden" name="continue" value="http://www.google.com/search?q=(uvw%22xyz&#39;yxz%3C/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>http://www.google.com/search?q=(uvw%22xyz&#39;yxz%3C/zxy</title>
+<br>URL: http://www.google.com/search?q=(uvw%22xyz&#39;yxz%3C/zxy<br>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]

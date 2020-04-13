@@ -1,0 +1,4 @@
+mailto:?subject=NDT.net%20-%20Largest%20Portal%20of%20 NDT&Body=I%20would%20like%20to%20share%20with%20you%20the%20following%20Website:%0A%0ANDT.net%20-%20Web's%20Largest%20Portal%20of%20Nondestructive%20Testing%20(NDT)%0ALink:%20https://www.ndt.net
+
+GET Params:[0]
+[]

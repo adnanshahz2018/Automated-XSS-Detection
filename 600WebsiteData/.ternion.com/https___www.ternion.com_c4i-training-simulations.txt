@@ -1,0 +1,58 @@
+https://www.ternion.com/c4i-training-simulations
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://www.ternion.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - FLAMES Modeling &amp; Simulation software by Ternion</title>
+<h2 class="search-title">Search Results for "(uvw&quot;xyz&#039;yxz&lt;/zxy"</h2>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.ternion.com/#website","url":"https://www.ternion.com/","name":"FLAMES Modeling &amp; Simulation software by Ternion","description":"Custom Simulations Developed to Your Specifications","potentialAction":{"@type":"SearchAction","target":"https://www.ternion.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"SearchResultsPage","@id":"https://www.ternion.com/search/%28uvw%22xyz%27yxz%3C/zxy/#webpage","url":"https://www.ternion.com/search/%28uvw%22xyz%27yxz%3C/zxy/","inLanguage":"en-US","name":"You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - FLAMES Modeling &amp; Simulation software by Ternion","isPartOf":{"@id":"https://www.ternion.com/#website"}}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<link rel="alternate" type="application/rss+xml" title="FLAMES Modeling &amp; Simulation software by Ternion &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://www.ternion.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - FLAMES Modeling &amp; Simulation software by Ternion" />
+<meta property="og:url" content="https://www.ternion.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

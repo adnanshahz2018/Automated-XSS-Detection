@@ -17,6 +17,13 @@
 2. Try the Vertical format of the EXCEL FILE.
 
 
+==>>    Program Glitches
+1. https://www.piceramic.com
+2. OSError: [Errno 22] Invalid argument: "600WebsiteData/.ndt.net/\r\nhttps___www.linkedin.com_shareArticle_mini=true_
+url=https_3A__www.ndt.net_title=NDT.net_summary=NDT.net_-_Web's_Largest_Portal_of_Nondestructive_Tes.txt"
+
+
+
 ==>>    FINDINGS:
 
 ISSUE NO. 1:

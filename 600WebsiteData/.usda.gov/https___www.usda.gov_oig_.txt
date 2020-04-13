@@ -1,0 +1,162 @@
+https://www.usda.gov/oig/
+
+GET Params:[4]
+['utf8', 'affiliate', 'query', None]
+_______________________________________________________________________________________________________
+https://usdasearch.usda.gov/search?utf8=(uvw"xyz'yxz</zxy&affiliate=usda&query=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://usdasearch.usda.gov/search?utf8=?&affiliate=(uvw"xyz'yxz</zxy&query=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://usdasearch.usda.gov/search?utf8=?&affiliate=usda&query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" name="query" id="query" value="(uvw&quot;xyz&#39;yxz" class="form-control typeahead-enabled" spellcheck="false" />
+<div data-a='usda' data-l='en' data-q='(uvw&quot;xyz&#39;yxz' data-t='1586767027' data-v='web' id='search'>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&quot;xyz&#39;yxz - United States Department of Agriculture Search Results</title>
+<div class='content-block-item'>
+Sorry, no results found for &#39;(uvw&quot;xyz&#39;yxz&#39;. Try entering fewer or broader query terms.
+</div>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [10]
+<a href="/search/docs?affiliate=usda&amp;dc=166&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/news?affiliate=usda&amp;channel=762&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/news?affiliate=usda&amp;channel=7977&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/images?affiliate=usda&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/news?affiliate=usda&amp;channel=699&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/docs?affiliate=usda&amp;dc=166&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/news?affiliate=usda&amp;channel=762&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/news?affiliate=usda&amp;channel=7977&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/images?affiliate=usda&amp;query=%28uvw%22xyz%27yxz">
+<a href="/search/news?affiliate=usda&amp;channel=699&amp;query=%28uvw%22xyz%27yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://usdasearch.usda.gov/search?utf8=?&affiliate=usda&query=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

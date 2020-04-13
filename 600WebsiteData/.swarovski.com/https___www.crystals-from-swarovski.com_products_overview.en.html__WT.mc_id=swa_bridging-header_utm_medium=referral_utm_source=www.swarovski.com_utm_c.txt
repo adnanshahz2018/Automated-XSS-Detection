@@ -1,0 +1,184 @@
+https://www.crystals-from-swarovski.com/products/overview.en.html/?WT.mc_id=swa_bridging-header&utm_medium=referral&utm_source=www.swarovski.com&utm_campaign=bridging-header
+
+GET Params:[3]
+['', 'mail', 's']
+_______________________________________________________________________________________________________
+https://www.crystals-from-swarovski.com/newsletter/?mail=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.crystals-from-swarovski.com/newsletter/?mail=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.crystals-from-swarovski.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="search" id="search-form-5e941d203a628" class="search-field" placeholder="" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" />
+<input type="search" id="search-form-5e941d203cbfc" class="search-field" placeholder="" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" />
+<input type="text" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" id="s" placeholder="Search" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>(uvw&quot;xyz&#039;yxz&lt;/zxy | Crystals from Swarovski</title>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="application/ld+json" class="aioseop-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.crystals-from-swarovski.com/#organization","url":"https://www.crystals-from-swarovski.com/","name":"Crystals from Swarovski","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.crystals-from-swarovski.com/#logo","url":"https://www.crystals-from-swarovski.com/wp-content/uploads/2018/01/logo-1.svg","caption":""},"image":{"@id":"https://www.crystals-from-swarovski.com/#logo"}},{"@type":"WebSite","@id":"https://www.crystals-from-swarovski.com/#website","url":"https://www.crystals-from-swarovski.com/","name":"Crystals from Swarovski","publisher":{"@id":"https://www.crystals-from-swarovski.com/#organization"}},{"@type":"SearchResultsPage","@id":"https://www.crystals-from-swarovski.com/search/%28uvw%22xyz%27yxz%3C/zxy/#searchresultspage","url":"https://www.crystals-from-swarovski.com/search/%28uvw%22xyz%27yxz%3C/zxy/","inLanguage":"en-US","name":"Search results for \"(uvw&quot;xyz&#039;yxz&lt;/zxy\"","isPartOf":{"@id":"https://www.crystals-from-swarovski.com/#website"}}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [16]
+<a href="https://www.crystals-from-swarovski.com/zh-hans/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" class="wpml-ls-link">
+<a href="https://www.crystals-from-swarovski.com/fr/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" class="wpml-ls-link">
+<a href="https://www.crystals-from-swarovski.com/it/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" class="wpml-ls-link">
+<a href="https://www.crystals-from-swarovski.com/pt-br/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" class="wpml-ls-link">
+<a href="https://www.crystals-from-swarovski.com/es/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" class="wpml-ls-link">
+<a href="https://www.crystals-from-swarovski.com/ja/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" class="wpml-ls-link">
+<a href="https://www.crystals-from-swarovski.com/ko/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" class="wpml-ls-link">
+<a title="English" href="https://www.crystals-from-swarovski.com/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a title="简体中文" href="https://www.crystals-from-swarovski.com/zh-hans/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a title="Français" href="https://www.crystals-from-swarovski.com/fr/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a title="Italiano" href="https://www.crystals-from-swarovski.com/it/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a title="Português" href="https://www.crystals-from-swarovski.com/pt-br/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a title="Español" href="https://www.crystals-from-swarovski.com/es/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a title="日本語" href="https://www.crystals-from-swarovski.com/ja/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a title="한국어" href="https://www.crystals-from-swarovski.com/ko/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<link rel="alternate" type="application/rss+xml" title="Crystals from Swarovski &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://www.crystals-from-swarovski.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

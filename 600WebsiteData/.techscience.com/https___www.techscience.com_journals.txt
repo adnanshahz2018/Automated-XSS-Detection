@@ -1,0 +1,4 @@
+https://www.techscience.com/journals
+
+GET Params:[0]
+[]

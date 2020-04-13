@@ -1,4 +1,0 @@
-https://my.cat.com?catLocale=en
-
-GET Params:[0]
-[]

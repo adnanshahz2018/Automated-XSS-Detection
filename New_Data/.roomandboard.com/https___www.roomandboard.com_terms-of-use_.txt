@@ -1,4 +1,0 @@
-https://www.roomandboard.com/terms-of-use/
-
-GET Params:[1]
-['query']
