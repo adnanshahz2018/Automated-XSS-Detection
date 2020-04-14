@@ -16,6 +16,7 @@ ________________________________________________________________________________
 
 1. How to Create a Folder through program
 2. Try the Vertical format of the EXCEL FILE.
+3. we can at least store the SUCCESSFUL ATTACKS URL and Detection in the EXCEL FIle.. 
 
 _____________________________________________________________________________________________________________________
 
