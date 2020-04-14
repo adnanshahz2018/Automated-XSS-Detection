@@ -1,0 +1,84 @@
+https://www.dwr.com
+
+GET Params:[2]
+['q', 'lang']
+_______________________________________________________________________________________________________
+https://www.dwr.com/search?lang=en_US&q=(uvw"xyz'yxz</zxy&lang=en_US
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<span class="no-hits-search-term">
+&#40;uvw&quot;xyz&#39;yxz&lt;/zxy
+</span>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [6]
+<a href="https://www.dwr.com/search?lang=en_US&amp;q=%28uvw%22xyz%27yxz%3C%2Fzxy" data-currency="USD" data-locale="en_US" class="locale selected">
+<a href="https://www.dwr.com/search?lang=en_CA&amp;q=%28uvw%22xyz%27yxz%3C%2Fzxy" data-currency="CAD" data-locale="en_CA" class="locale">
+<a href="/search?lang=en_US&amp;q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">
+<link rel="alternate" hreflang="en-US" href="https://www.dwr.com/search?lang=en_US&amp;q=%28uvw%22xyz%27yxz%3C%2Fzxy" />
+<link rel="alternate" hreflang="en-CA" href="https://www.dwr.com/search?lang=en_CA&amp;q=%28uvw%22xyz%27yxz%3C%2Fzxy" />
+<link rel="alternate" hreflang="x-default" href="https://www.dwr.com/search?lang=en_US&amp;q=%28uvw%22xyz%27yxz%3C%2Fzxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.dwr.com/search?lang=en_US&q=&lang=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

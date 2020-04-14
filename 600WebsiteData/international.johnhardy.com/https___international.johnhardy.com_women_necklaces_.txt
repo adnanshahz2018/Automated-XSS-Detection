@@ -1,0 +1,45 @@
+https://international.johnhardy.com/women/necklaces/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://international.johnhardy.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<span class="no-hits-search-term">(uvw&quot;xyz&apos;yxz&lt;/zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+					dataLayer.push({
+					'event': 'search',
+					'search_phrase': '(uvw&quot;xyz'yxz&lt;/zxy'
+				  });
+			</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<link rel="canonical" href="http://www.johnhardy.com/search?q=(uvw&quot;xyz&apos;yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

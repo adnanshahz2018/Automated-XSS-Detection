@@ -1,0 +1,64 @@
+https://www.signaturehardware.com/bathroom.html
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.signaturehardware.com/search/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" class="awesomplete" placeholder="Search" type="text" name="q" value="uvw xyz yxz  zxy" autocomplete="off" class="input-text" maxlength=""/>
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: 'uvw xyz yxz  zxy'</title>
+<strong>Search results for: 'uvw xyz yxz  zxy'</strong>
+<h1>Search results for 'uvw xyz yxz  zxy'</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [3]
+<script type="text/javascript">if(!AFFIRM_AFFIRM.promos.getIsInitialized()){AFFIRM_AFFIRM.promos.initialize("2I5SY1XRNCZU2TZG","https://cdn1.affirm.com/js/v2/affirm.js","");}if(!AFFIRM_AFFIRM.promos.getIsScriptLoaded()){AFFIRM_AFFIRM.promos.loadScript();}affirm.ui.ready(function(){affirm.analytics.trackProductsSearched("%28uvw%22xyz%27yxz%3C%2Fzxy");});</script>
+<script>var bloomReachOptions={"filteredAttributes":{"color":"Color","design":"Design","faucet_centers":"Faucet Centers","features":"Features","finish":"Finish","handle_type":"Handle Type","installation_type":"Installation Type","kitchen_faucet_holes":"Kitchen Faucet Holes","material":"Material","mirror_height":"Mirror Height","mirror_shape":"Mirror Shape","mirror_width":"Mirror Width","number_of_basins":"Number of Basins","rough_in":"Rough In","sale":"sale","shape":"shape","sink_installation":"Sink Installation","sink_length":"Sink Length","tub_height_multi":"Tub Height","tub_length_multi":"Tub Length","tub_material":"Material","tub_overflow":"Overflow Hole","tub_style":"Tub Style","tub_width_multi":"Tube Width","vanity_depth":"Vanity Depth","vanity_height":"Vanity Height","vanity_width":"Vanity Width"},"limit":[{"value":"16","label":"16"},{"value":"32","label":"32"},{"value":"64","label":"64"},{"label":"Under $100","min":"0","max":"99.99","selected":false},{"label":"$100 to $250","min":"100","max":"250","selected":false},{"label":"$250 to $500","min":"250","max":"500","selected":false},{"label":"$500 to $1000","min":"500","max":"1000","selected":false},{"label":"$1000 & Above","min":"1000","max":"100000","selected":false}],"defaultLimit":"64","filterMinPrice":"0","filterMaxPrice":"10000","isSlider":false,"baseSearchUrl":"https:\/\/www.signaturehardware.com\/search\/result\/?q=uvw xyz yxz  zxy","maxCategoriesCount":"7","bloomreachServiceUrl":"https:\/\/core.dxpapi.com\/api\/v1\/core\/?account_id=5205&domain_key=signaturehardware&request_type=search&search_type=keyword&facet.range=price&url=https:\/\/www.signaturehardware.com\/search\/result\/?q=(uvw&quot;xyz'yxz&lt;\/zxy&q=uvw%20xyz%20yxz%20%20zxy&fl=pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,starting_at_flag","bloomreachServiceSecureUrl":"https:\/\/core.dxpapi.com\/api\/v1\/core\/?account_id=5205&domain_key=signaturehardware&request_type=search&search_type=keyword&facet.range=price&url=https:\/\/www.signaturehardware.com\/search\/result\/?q=(uvw&quot;xyz'yxz&lt;\/zxy&q=uvw%20xyz%20yxz%20%20zxy&fl=pid,title,brand,price,sale_price,promotions,thumb_image,sku_thumb_images,sku_swatch_images,sku_color_group,url,price_range,sale_price_range,description,is_live,starting_at_flag","bloomreachServiceSearchUrl":"https:\/\/suggest.dxpapi.com\/api\/v1\/suggest\/","bloomreachServiceCoreUrl":"https:\/\/core.dxpapi.com\/api\/v1\/core\/","bloomreachServiceStagingSearchUrl":"https:\/\/suggest.dxpapi.com\/api\/v1\/suggest\/","bloomreachServiceStagingCoreUrl":"https:\/\/core.dxpapi.com\/api\/v1\/core\/","ranges":[],"currency":"$"};</script>
+<script type="text/javascript">var br_data={};br_data.acct_id="5205";br_data.ptype="other";br_data.cat_id="";br_data.cat="";br_data.prod_id="";br_data.prod_name="";br_data.pstatus="";br_data.sku="";br_data.price="";br_data.search_term="(uvw&quot;xyz'yxz&lt;/zxy";br_data.sale_price="";br_data.is_conversion="0";br_data.basket_value="";br_data.order_id="";(function(){var brtrk=document.createElement('script');brtrk.type='text/javascript';brtrk.async=true;brtrk.src='https://www.signaturehardware.com/skin/frontend/enterprise/signature/js/guidance/bloomreach/br-trk-5205.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(brtrk,s);})();</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]

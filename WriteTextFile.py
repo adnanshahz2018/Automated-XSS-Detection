@@ -51,7 +51,9 @@ class write_text_file:
 
         f = f.replace('\n','')
         f = f.replace('\r', '')
+        f = f.replace('\t', '')
         
+        f = f.rstrip("\t")
         f = f.rstrip("\n")
         f = f.rstrip("\r")
         f = f.rstrip("\r\n")
@@ -134,7 +136,10 @@ class write_text_file:
         filename = self.get_filename()
         path = self.folder + filename + '.txt'
         textfile = open(path, "a")
-        textfile.write(data)
+        try:
+            textfile.write( data )
+        except:
+            textfile.write( str(data.encode(encoding='UTF-8',errors='strict')) )
         textfile.close()
         
     def write_encoding(self, Context, presence, double_quotes, single_quotes, lessthan_sign, forward_slash):

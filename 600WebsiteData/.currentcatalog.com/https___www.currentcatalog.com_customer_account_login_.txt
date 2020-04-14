@@ -1,0 +1,87 @@
+https://www.currentcatalog.com/customer/account/login/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.currentcatalog.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search"
+                        data-mage-init='{"quickSearch":{
+                            "formSelector":"#search_mini_form",
+                            "url":"https://www.currentcatalog.com/search/ajax/suggest/",                            "minSearchLength": 100,                            "destinationSelector":"#search_autocomplete"}
+                        }'
+                        type="text"
+                        name="q"
+                        value="(uvw&quot;xyz&#039;yxz&lt;/zxy"
+                        placeholder="ENTER KEYWORDS"
+                        class="input-text"
+                        maxlength="128"
+                        aria-haspopup="false"
+                        aria-autocomplete="both"
+                        aria-label="search"
+                        autocomplete="off"
+                    />
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039; | Current Catalog</title>
+<span class="base" data-ui-id="page-title-wrapper" >Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+<div>Your search for '(uvw&quot;xyz&#039;yxz&lt;/zxy' returned no results</div>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script>
+    var foomanGaBaseUrl = '/catalogsearch/result';
+    var foomanGaQuery = 'q=(uvw%22xyz\&#039;yxz%3C/zxy';
+</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.currentcatalog.com\/page_cache\/block\/render\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_result_index","catalogsearch_result_index_noresults","conversionpro_catalogsearch_result_index","conversionpro_catalog_category_view_hide_content"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta name="title" content="Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039; | Current Catalog"/>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

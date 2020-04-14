@@ -1,0 +1,88 @@
+https://www.jamesavery.com/categories/mothers-day-jewelry-gifts
+
+GET Params:[2]
+['utf8', 'q']
+_______________________________________________________________________________________________________
+https://www.jamesavery.com/search?utf8=(uvw"xyz'yxz</zxy&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.jamesavery.com/search?utf8=✓&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" name="q" id="store_front_search" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" class="search__input" title="Search" placeholder="Search" tabindex="1" required="required" data-search-field="" data-focus-element="" />
+<div class='search-no-results view' data-analytics='{&quot;event&quot;:&quot;searchResultsView&quot;,&quot;payload&quot;:{&quot;terms&quot;:&quot;(uvw\&quot;xyz&#39;yxz\u003c/zxy&quot;,&quot;sort&quot;:&quot;relevance&quot;,&quot;page&quot;:1,&quot;filters&quot;:{},&quot;totalResults&quot;:0}}'>
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<h1 class='page-title__heading'>Sorry, no results for &quot;(uvw&quot;xyz&#39;yxz&lt;/zxy&quot;</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+_______________________________________________________________________________________________________
+https://www.jamesavery.com/categories/mothers-day-jewelry-gifts?utf8=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<div class='pagination-results pagination-results--categories' data-analytics='{&quot;event&quot;:&quot;productList&quot;,&quot;name&quot;:&quot;Gift Ideas for Mother&#39;s Day&quot;,&quot;page&quot;:1,&quot;per_page&quot;:18}' data-pagination='{&quot;currentPage&quot;:1,&quot;lastPage&quot;:false,&quot;nextPageUrl&quot;:&quot;/categories/mothers-day-jewelry-gifts?page=2\u0026utf8=%28uvw%22xyz%27yxz%3C%2Fzxy&quot;}'>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a class="button" data-pagination-button="" href="/categories/mothers-day-jewelry-gifts?page=2&amp;utf8=%28uvw%22xyz%27yxz%3C%2Fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

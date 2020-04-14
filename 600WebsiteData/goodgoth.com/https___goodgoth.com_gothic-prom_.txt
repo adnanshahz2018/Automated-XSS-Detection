@@ -1,0 +1,4 @@
+https://goodgoth.com/gothic-prom/
+
+GET Params:[1]
+['mode']

@@ -1,0 +1,372 @@
+https://temptu.com/catalogsearch/advanced/
+
+GET Params:[9]
+['q', 'name', 'sku', 'description', 'short_description', 'price[from]', 'price[to]', 'makeup_title', 'makeup_short_descriptions']
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search"
+							   data-mage-init='{"quickSearch":{
+									"formSelector":"#search_mini_form",
+									"url":"https://temptu.com/search/ajax/suggest/",
+									"destinationSelector":"#search_autocomplete"}
+							   }'
+							   type="text"
+							   name="q"
+							   value="(uvw&quot;xyz&#039;yxz&lt;/zxy"
+							   placeholder="Search..."
+							   class="input-text"
+							   maxlength="128"
+							   role="combobox"
+							   aria-haspopup="false"
+							   aria-autocomplete="both"
+							   autocomplete="off"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</title>
+<strong>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</strong>
+<span class="base" data-ui-id="page-title-wrapper" >Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_result_index","catalogsearch_result_index_noresults","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta name="title" content="Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;"/>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=(uvw"xyz'yxz</zxy&sku=&description=&short_description=&price[from]=&price[to]=&makeup_title=&makeup_short_descriptions=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=&makeup_short_descriptions=&makeup_title=&name=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=(uvw%22xyz'yxz%3C\/zxy&sku=&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D=&makeup_title=&makeup_short_descriptions="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://temptu.com/catalogsearch/advanced/?description=&amp;makeup_short_descriptions=&amp;makeup_title=&amp;name=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=&sku=(uvw"xyz'yxz</zxy&description=&short_description=&price[from]=&price[to]=&makeup_title=&makeup_short_descriptions=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=&makeup_short_descriptions=&makeup_title=&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=(uvw%22xyz'yxz%3C\/zxy&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D=&makeup_title=&makeup_short_descriptions="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://temptu.com/catalogsearch/advanced/?description=&amp;makeup_short_descriptions=&amp;makeup_title=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=%28uvw%22xyz%27yxz%3C%2Fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=&sku=&description=(uvw"xyz'yxz</zxy&short_description=&price[from]=&price[to]=&makeup_title=&makeup_short_descriptions=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=%28uvw%22xyz%27yxz%3C%2Fzxy&makeup_short_descriptions=&makeup_title=&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&description=(uvw%22xyz'yxz%3C\/zxy&short_description=&price%5Bfrom%5D=&price%5Bto%5D=&makeup_title=&makeup_short_descriptions="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://temptu.com/catalogsearch/advanced/?description=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;makeup_short_descriptions=&amp;makeup_title=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=(uvw"xyz'yxz</zxy&price[from]=&price[to]=&makeup_title=&makeup_short_descriptions=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=&makeup_short_descriptions=&makeup_title=&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=%28uvw%22xyz%27yxz%3C%2Fzxy&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&description=&short_description=(uvw%22xyz'yxz%3C\/zxy&price%5Bfrom%5D=&price%5Bto%5D=&makeup_title=&makeup_short_descriptions="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://temptu.com/catalogsearch/advanced/?description=&amp;makeup_short_descriptions=&amp;makeup_title=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=&price[from]=(uvw"xyz'yxz</zxy&price[to]=&makeup_title=&makeup_short_descriptions=
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="price[from]"
+                                   value="&#x28;uvw&quot;xyz&#x27;yxz&lt;&#x2F;zxy"
+                                   id="price"
+                                   title="Price"
+                                   class="input-text"
+                                   type="text"
+                                   maxlength="128"
+                                   data-validate="{number:true, 'less-than-equals-to':'#price_to'}" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=&makeup_short_descriptions=&makeup_title=&name=&price%5Bfrom%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_index","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"index","uri":"\/catalogsearch\/advanced\/?description=&makeup_short_descriptions=&makeup_title=&name=&price%5Bfrom%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bto%5D=&short_description=&sku="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=&price[from]=&price[to]=(uvw"xyz'yxz</zxy&makeup_title=&makeup_short_descriptions=
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="price[to]"
+                                       value="&#x28;uvw&quot;xyz&#x27;yxz&lt;&#x2F;zxy"
+                                       id="price_to"
+                                       title="Price"
+                                       class="input-text"
+                                       type="text"
+                                       maxlength="128"
+                                       data-validate="{number:true, 'greater-than-equals-to':'#price'}" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=&makeup_short_descriptions=&makeup_title=&name=&price%5Bfrom%5D=&price%5Bto%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&short_description=&sku=","handles":["default","catalogsearch_advanced_index","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"index","uri":"\/catalogsearch\/advanced\/?description=&makeup_short_descriptions=&makeup_title=&name=&price%5Bfrom%5D=&price%5Bto%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&short_description=&sku="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=&price[from]=&price[to]=&makeup_title=(uvw"xyz'yxz</zxy&makeup_short_descriptions=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=&makeup_short_descriptions=&makeup_title=%28uvw%22xyz%27yxz%3C%2Fzxy&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D=&makeup_title=(uvw%22xyz'yxz%3C\/zxy&makeup_short_descriptions="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://temptu.com/catalogsearch/advanced/?description=&amp;makeup_short_descriptions=&amp;makeup_title=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://temptu.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=&price[from]=&price[to]=&makeup_title=&makeup_short_descriptions=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/temptu.com\/page_cache\/block\/render\/?description=&makeup_short_descriptions=%28uvw%22xyz%27yxz%3C%2Fzxy&makeup_title=&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D=&makeup_title=&makeup_short_descriptions=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://temptu.com/catalogsearch/advanced/?description=&amp;makeup_short_descriptions=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;makeup_title=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

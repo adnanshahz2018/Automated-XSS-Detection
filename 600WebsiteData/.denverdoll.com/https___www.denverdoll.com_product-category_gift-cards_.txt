@@ -1,0 +1,94 @@
+https://www.denverdoll.com/product-category/gift-cards/
+
+GET Params:[3]
+['s', 'post_type', 'paged']
+_______________________________________________________________________________________________________
+https://www.denverdoll.com/?s=(uvw"xyz'yxz</zxy&post_type=product
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Search products&hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" />
+<input type="search" id="woocommerce-product-search-field-1" class="search-field" placeholder="Search products&hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" />
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; &#8211; Denver Doll Emporium</title>
+<h1 class="woocommerce-products-header__title page-title">Search results: &ldquo;(uvw&quot;xyz&#039;yxz&lt;/zxy&rdquo;</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/www.denverdoll.com"}},{"@type":"ListItem","position":2,"item":{"name":"Shop Denver Doll","@id":"https:\/\/www.denverdoll.com\/shop\/"}},{"@type":"ListItem","position":3,"item":{"name":"Search results for &amp;ldquo;(uvw&amp;quot;xyz&amp;#039;yxz&amp;lt;\/zxy&amp;rdquo;","@id":"\/?s=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy&amp;post_type=product"}}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.denverdoll.com/?s=&post_type=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/www.denverdoll.com"}},{"@type":"ListItem","position":2,"item":{"name":"Search results for &amp;ldquo;&amp;rdquo;","@id":"\/?s&amp;post_type=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy"}}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<a class="page-numbers" href="https://www.denverdoll.com/page/2/?s&#038;post_type=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a class="page-numbers" href="https://www.denverdoll.com/page/341/?s&#038;post_type=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+<a class="next page-numbers" href="https://www.denverdoll.com/page/2/?s&#038;post_type=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

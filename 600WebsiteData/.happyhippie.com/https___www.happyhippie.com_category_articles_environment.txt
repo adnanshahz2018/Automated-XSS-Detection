@@ -1,0 +1,84 @@
+https://www.happyhippie.com/category/articles/environment
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://www.happyhippie.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="field form-control" id="s" name="s" type="text"
+			placeholder="Search &hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy">
+<input class="field form-control" id="s" name="s" type="text"
+			placeholder="Search &hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - HappyHippie: Eco-friendly Directory, Organic Products, Going Green, Hippie Clothing, Hemp Clothing,</title>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.happyhippie.com/#website","url":"https://www.happyhippie.com/","name":"HappyHippie: Eco-friendly Directory, Organic Products, Going Green, Hippie Clothing, Hemp Clothing,","inLanguage":"en-US","description":"HappyHippie: Eco-friendly Directory, Organic Products, Going Green, Hippie Clothing, Hemp Clothing,","potentialAction":{"@type":"SearchAction","target":"https://www.happyhippie.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"SearchResultsPage","@id":"https://www.happyhippie.com/search/%28uvw%22xyz%27yxz%3C/zxy#webpage","url":"https://www.happyhippie.com/search/%28uvw%22xyz%27yxz%3C/zxy","name":"You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - HappyHippie: Eco-friendly Directory, Organic Products, Going Green, Hippie Clothing, Hemp Clothing,","isPartOf":{"@id":"https://www.happyhippie.com/#website"},"inLanguage":"en-US"}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [6]
+<a href="javascript:" onclick="javascript:window.open('//www.facebook.com/sharer/sharer.php?u=https://www.happyhippie.com/?s=(uvw\&quot;xyz\&#039;yxz&lt;/zxy', '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" title="Share On Facebook" >
+<a href="javascript:" onclick="window.open('//twitter.com/share?url=https://www.happyhippie.com/?s=(uvw\&quot;xyz\&#039;yxz&lt;/zxy&text=You%20searched%20for%20%28uvw%26quot%3Bxyzyxz%26lt%3B%2Fzxy%20-%20HappyHippie%3A%20Eco-friendly%20Directory%2C%20Organic%20Products%2C%20Going%20Green%2C%20Hippie%20Clothing%2C%20Hemp%20Clothing%2C','_blank','width=800,height=300')" title="Share On Twitter" >
+<link rel="alternate" type="application/rss+xml" title="HappyHippie: Eco-friendly Directory, Organic Products, Going Green, Hippie Clothing, Hemp Clothing, &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://www.happyhippie.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - HappyHippie: Eco-friendly Directory, Organic Products, Going Green, Hippie Clothing, Hemp Clothing," />
+<meta property="og:url" content="https://www.happyhippie.com/search/%28uvw%22xyz%27yxz%3C/zxy" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - HappyHippie: Eco-friendly Directory, Organic Products, Going Green, Hippie Clothing, Hemp Clothing," />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

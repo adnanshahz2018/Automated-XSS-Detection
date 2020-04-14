@@ -1,0 +1,86 @@
+https://www.watches.com/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.watches.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search our store" class="site-header__search-input" aria-label="Search our store">
+<input type="search" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search our store" class="input-group-field" aria-label="Search our store">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>(uvw&quot;xyz&#39;yxz
+&ndash; Watches.com
+</title>
+<span>(uvw&quot;xyz&#39;yxz</span>
+<p>
+                Your search for "(uvw&quot;xyz&#39;yxz&lt;/zxy" did not yield any results.
+              </p>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":7454326835,"offset":-25200,"reqid":"93b9bbb0-3fe1-4cc6-b184-b9f13c9b43fd","pageurl":"www.watches.com\/search?q=(uvw%22xyz'yxz%3C\/zxy","u":"43eb6fab0f4b","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="canonical" href="https://www.watches.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:url" content="https://www.watches.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta name="twitter:title" content="(uvw&quot;xyz&#39;yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

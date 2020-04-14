@@ -1,0 +1,4 @@
+https://www.fast
+
+GET Params:[0]
+[]

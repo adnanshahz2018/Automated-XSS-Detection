@@ -1,0 +1,4 @@
+https://goodgoth.com/apparel/shop-by-theme/witchy-fashion/
+
+GET Params:[1]
+['mode']

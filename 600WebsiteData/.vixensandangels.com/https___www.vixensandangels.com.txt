@@ -1,0 +1,106 @@
+https://www.vixensandangels.com
+
+GET Params:[2]
+['type', 'q']
+_______________________________________________________________________________________________________
+https://www.vixensandangels.com/search?type=(uvw"xyz'yxz</zxy&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":14623850,"offset":-21600,"reqid":"09a291a1-20df-4837-b30d-e8454e054942","pageurl":"www.vixensandangels.com\/search?type=(uvw%22xyz'yxz%3C\/zxy\u0026q=","u":"3fce9ad901a9","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link rel="canonical" href="https://www.vixensandangels.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy" />
+<meta property="og:url" content="https://www.vixensandangels.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.vixensandangels.com/search?type=product&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="q" class="search_box" placeholder="" value="(uvw&quot;xyz&#39;yxz&lt;/zxy"  />
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>(uvw&quot;xyz&#39;yxz | Vixens and Angels</title>
+<li class="active activeoverride">(uvw&quot;xyz&#39;yxz</li>
+<h4 class="title">Your search for &quot;(uvw&quot;xyz&#39;yxz&lt;/zxy&quot; did not yield any results.</h4>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":14623850,"offset":-21600,"reqid":"b10df37d-2dc8-4c7c-8f3f-b7806f0ab425","pageurl":"www.vixensandangels.com\/search?type=product\u0026q=(uvw%22xyz'yxz%3C\/zxy","u":"58959a5a74b6","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<link rel="canonical" href="https://www.vixensandangels.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product" />
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz" />
+<meta property="og:url" content="https://www.vixensandangels.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

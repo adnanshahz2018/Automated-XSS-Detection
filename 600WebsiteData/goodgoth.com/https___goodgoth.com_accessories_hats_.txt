@@ -1,0 +1,4 @@
+https://goodgoth.com/accessories/hats/
+
+GET Params:[1]
+['mode']

@@ -1,0 +1,58 @@
+https://www.wayfair.com/furniture/sb0/accent-chairs-c416225.html
+
+GET Params:[2]
+['keyword', 'class_id']
+_______________________________________________________________________________________________________
+https://www.wayfair.com/keyword.php?keyword=(uvw"xyz'yxz</zxy&class_id=
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="hidden" name="goto" value="https://www.wayfair.com/keyword.php?keyword=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;class_id="/>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.wayfair.com/keyword.php?keyword=&class_id=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<img src=\"https:\/\/www.facebook.com\/tr?id=1807687872781824&ev=PageView&dl=wayfair.com%2Fkeyword.php%3Fkeyword%3D%26class_id%3D%28uvw%2522xyz%27yxz%253C%2Fzxy&noscript=1\" width=\"1\" height=\"1\" \/>
+<img src=\"https:\/\/pt.ispot.tv\/v2\/TC-3200-1.gif?cid=23e17d3a-5e94-aa34-b4c1-0c19f863bb02&type=visit&url=wayfair.com%2Fkeyword.php%3Fkeyword%3D%26class_id%3D%28uvw%2522xyz%27yxz%253C%2Fzxy\" width=\"1\" height=\"1\" \/>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]

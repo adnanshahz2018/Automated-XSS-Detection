@@ -1,0 +1,46 @@
+http://blog.musicroom.com
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+http://blog.musicroom.com/http://blog.musicroom.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [4]
+<input itemprop="query-input" type="search" name="s" value="(uvw&quot;xyzyxz&lt;/zxy" />
+<input itemprop="query-input" type="search" name="s" value="(uvw&quot;xyzyxz&lt;/zxy" />
+<input itemprop="query-input" type="search" name="s" value="(uvw&quot;xyzyxz&lt;/zxy" />
+<input itemprop="query-input" type="search" name="s" value="(uvw&quot;xyzyxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]

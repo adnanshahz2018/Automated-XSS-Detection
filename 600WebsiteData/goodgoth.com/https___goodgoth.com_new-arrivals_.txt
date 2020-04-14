@@ -1,0 +1,4 @@
+https://goodgoth.com/new-arrivals/
+
+GET Params:[1]
+['mode']

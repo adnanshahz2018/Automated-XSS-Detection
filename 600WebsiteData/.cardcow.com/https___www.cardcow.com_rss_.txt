@@ -1,0 +1,4 @@
+https://www.cardcow.com/rss/
+
+GET Params:[0]
+[]

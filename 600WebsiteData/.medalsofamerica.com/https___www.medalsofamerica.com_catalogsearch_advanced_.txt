@@ -1,0 +1,336 @@
+https://www.medalsofamerica.com/catalogsearch/advanced/
+
+GET Params:[7]
+['q', 'name', 'sku', 'price[from]', 'price[to]', 'search_term', 'manufacturer_part_number']
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" type="text" name="q" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="Search entire store here..." class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/page_id\/139\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","cms_page_view","cms_page_view_id_search","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_cms_page_view","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/search?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/page_id\/139\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy"} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=(uvw"xyz'yxz</zxy&sku=&price[from]=&price[to]=&search_term=&manufacturer_part_number=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/?manufacturer_part_number=&name=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=(uvw%22xyz'yxz%3C\/zxy&sku=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&manufacturer_part_number="},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/?manufacturer_part_number=&name=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&sku="} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="https://www.medalsofamerica.com/catalogsearch/advanced/?manufacturer_part_number=&amp;name=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=&amp;sku=">
+<link rel="next" href="https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=(uvw%22xyz&amp;apos;yxz%3C/zxy&amp;sku=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=&amp;manufacturer_part_number=&amp;p=2" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&sku=(uvw"xyz'yxz</zxy&price[from]=&price[to]=&search_term=&manufacturer_part_number=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&sku=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=(uvw%22xyz'yxz%3C\/zxy&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&manufacturer_part_number="},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&sku=%28uvw%22xyz%27yxz%3C%2Fzxy"} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="https://www.medalsofamerica.com/catalogsearch/advanced/?manufacturer_part_number=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=&amp;sku=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<link rel="next" href="https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&amp;sku=(uvw%22xyz&amp;apos;yxz%3C/zxy&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=&amp;manufacturer_part_number=&amp;p=2" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&sku=&price[from]=(uvw"xyz'yxz</zxy&price[to]=&search_term=&manufacturer_part_number=
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="price[from]" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" id="price" title="Price" class="input-text" type="text" maxlength="128" data-validate="{number:true, 'less-than-equals-to':'#price_to'}" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bto%5D=&search_term=&sku=","handles":["default","catalogsearch_advanced_index","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"index","uri":"\/catalogsearch\/advanced\/?manufacturer_part_number=&name=&price%5Bfrom%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bto%5D=&search_term=&sku="},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bto%5D=&search_term=&sku="} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&sku=&price[from]=&price[to]=(uvw"xyz'yxz</zxy&search_term=&manufacturer_part_number=
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="price[to]" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" id="price_to" title="Price" class="input-text" type="text" maxlength="128" data-validate="{number:true, 'greater-than-equals-to':'#price'}" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=&price%5Bto%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&search_term=&sku=","handles":["default","catalogsearch_advanced_index","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"index","uri":"\/catalogsearch\/advanced\/?manufacturer_part_number=&name=&price%5Bfrom%5D=&price%5Bto%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&search_term=&sku="},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=&price%5Bto%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&search_term=&sku="} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&sku=&price[from]=&price[to]=&search_term=(uvw"xyz'yxz</zxy&manufacturer_part_number=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=%28uvw%22xyz%27yxz%3C%2Fzxy&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=(uvw%22xyz'yxz%3C\/zxy&manufacturer_part_number="},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/?manufacturer_part_number=&name=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=%28uvw%22xyz%27yxz%3C%2Fzxy&sku="} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="https://www.medalsofamerica.com/catalogsearch/advanced/?manufacturer_part_number=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;sku=">
+<link rel="next" href="https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&amp;sku=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=(uvw%22xyz&amp;apos;yxz%3C/zxy&amp;manufacturer_part_number=&amp;p=2" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&sku=&price[from]=&price[to]=&search_term=&manufacturer_part_number=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/?manufacturer_part_number=%28uvw%22xyz%27yxz%3C%2Fzxy&name=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&sku=","handles":["default","catalogsearch_advanced_result","catalogsearch_advanced_result_noresults","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&manufacturer_part_number=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/?manufacturer_part_number=%28uvw%22xyz%27yxz%3C%2Fzxy&name=&price%5Bfrom%5D=&price%5Bto%5D=&search_term=&sku="} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="https://www.medalsofamerica.com/catalogsearch/advanced/?manufacturer_part_number=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=&amp;sku=">
+<link rel="next" href="https://www.medalsofamerica.com/catalogsearch/advanced/result/?name=&amp;sku=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;search_term=&amp;manufacturer_part_number=(uvw%22xyz&amp;apos;yxz%3C/zxy&amp;p=2" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

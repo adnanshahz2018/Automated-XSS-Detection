@@ -1,0 +1,246 @@
+https://www.virtualsheetmusic.com/
+
+GET Params:[3]
+['keyword', 'k', 'searchbutton']
+_______________________________________________________________________________________________________
+https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [10]
+<META name="description" content="(uvw'xyz'yxz/zxy search results page: sheet music, audio files, etc.">
+<INPUT name="k" type=Hidden value="uvwxyz'yxz zxy" maxlength="100">
+<A href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<A href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<A href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<A href="mailto:?subject=Search for (uvw"xyz'yxz/zxy - Virtual Sheet Music&body=This is a reminder about the page below:%0A%0Ahttps://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy%0A%0A" target="_blank" rel="noopener">
+<A href="/scripts/linktopage.php?url=/cgi-bin/search/search2.php---keyword@@@uvwxyz'yxz zxy___spchkextra@@@1___zorigkey@@@uvw___quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<INPUT name="k" type="text" id="search" value="uvw&quot;xyz'yxz/zxy" onclick="document.getElementById('Search2H2').style.display = 'none';" maxlength="100">
+<input id="toptitlesmshk" name="k" type="search" class="newcatnrsfldNC" size="20" maxlength="100" style="width:66%" value="uvwxyz'yxz zxy">
+<A HREF="/scripts/linktopage.php?fancycall=1&url=/cgi-bin/search/search2.php---keyword@@@uvwxyz%27yxz+zxy___spchkextra@@@1___zorigkey@@@%28uvw%22xyz%27yxz%2Fzxy" class="linktopage genericfancyiframeauto" title="Click to get a link to this page" rel="nofollow">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<TITLE>Search for (uvw"xyz'yxz/zxy - Virtual Sheet Music</TITLE>
+<H1 class="FFgreyheader">Search for (uvw"xyz'yxz/zxy</H1>
+<SPAN class="grey bold">0 items found for &#34;(uvw"xyz'yxz/zxy&#34; in the entire catalog</SPAN>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta property="og:title" content="Search for (uvw'xyz'yxz/zxy - Virtual Sheet Music">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?k=(uvw"xyz'yxz</zxy&searchbutton=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [10]
+<META name="description" content="(uvw'xyz'yxz/zxy search results page: sheet music, audio files, etc.">
+<INPUT name="k" type=Hidden value="uvwxyz'yxz zxy" maxlength="100">
+<A href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<A href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<A href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<A href="mailto:?subject=Search for (uvw"xyz'yxz/zxy - Virtual Sheet Music&body=This is a reminder about the page below:%0A%0Ahttps://www.virtualsheetmusic.com/cgi-bin/search/search2.php?keyword=uvwxyz'yxz zxy&spchkextra=1&zorigkey=uvw&quot;xyz'yxz/zxy%0A%0A" target="_blank" rel="noopener">
+<A href="/scripts/linktopage.php?url=/cgi-bin/search/search2.php---keyword@@@uvwxyz'yxz zxy___spchkextra@@@1___zorigkey@@@uvw___quot;xyz'yxz/zxy" target="_blank" rel="noopener nofollow">
+<INPUT name="k" type="text" id="search" value="uvw&quot;xyz'yxz/zxy" onclick="document.getElementById('Search2H2').style.display = 'none';" maxlength="100">
+<input id="toptitlesmshk" name="k" type="search" class="newcatnrsfldNC" size="20" maxlength="100" style="width:66%" value="uvwxyz'yxz zxy">
+<A HREF="/scripts/linktopage.php?fancycall=1&url=/cgi-bin/search/search2.php---keyword@@@uvwxyz%27yxz+zxy___spchkextra@@@1___zorigkey@@@%28uvw%22xyz%27yxz%2Fzxy" class="linktopage genericfancyiframeauto" title="Click to get a link to this page" rel="nofollow">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<TITLE>Search for (uvw"xyz'yxz/zxy - Virtual Sheet Music</TITLE>
+<H1 class="FFgreyheader">Search for (uvw"xyz'yxz/zxy</H1>
+<SPAN class="grey bold">0 items found for &#34;(uvw"xyz'yxz/zxy&#34; in the entire catalog</SPAN>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta property="og:title" content="Search for (uvw'xyz'yxz/zxy - Virtual Sheet Music">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?k=' onmouseover='alert(1)&searchbutton=1
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?k=' onmouseover='alert(1)&searchbutton=1
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.virtualsheetmusic.com/cgi-bin/search/search2.php?k=&searchbutton=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

@@ -1,0 +1,75 @@
+https://www.truevalue.com/shop/sale/patio-outdoor-sale
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.truevalue.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search"
+                                   aria-label="Search"
+                                   data-mage-init='{"quickSearch":{
+                                    "formSelector":"#search_mini_form",
+                                    "url":"https://www.truevalue.com/search/ajax/suggest/",
+                                    "destinationSelector":"#search_autocomplete",
+                                    "templates": {"term":{"title":"Search terms","template":"Smile_ElasticsuiteCore\/autocomplete\/term"},"product":{"title":"Products","template":"Smile_ElasticsuiteCatalog\/autocomplete\/product"},"category":{"title":"Categories","template":"Smile_ElasticsuiteCatalog\/autocomplete\/category"},"product_attribute":{"title":"Attributes","template":"Smile_ElasticsuiteCore\/autocomplete\/term","titleRenderer":"Smile_ElasticsuiteCatalog\/js\/autocomplete\/product-attribute"}},
+                                    "priceFormat" : {"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false}}
+                                }'
+                                   type="text"
+                                   name="q"
+                                   value="(uvw&quot;xyz&#039;yxz&lt;/zxy"
+                                   class="input-text"
+                                   maxlength="128"
+                                   role="textbox"
+                                   aria-haspopup="false"
+                                   aria-autocomplete="both"
+                                   autocomplete="off"
+                                   data-block="autocomplete-form"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039; | True Value</title>
+<strong>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</strong>
+<span class="base" data-ui-id="page-title-wrapper" >Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.truevalue.com\/page_cache\/block\/render\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_result_index"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]

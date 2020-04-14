@@ -1,0 +1,4 @@
+https://www.popularpatch.com/air-force-patches/a-10-patches
+
+GET Params:[2]
+['mode', 'search_query']

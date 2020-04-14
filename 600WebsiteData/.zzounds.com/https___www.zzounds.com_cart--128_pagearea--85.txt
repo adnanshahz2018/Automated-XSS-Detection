@@ -1,0 +1,136 @@
+https://www.zzounds.com/cart--128/pagearea--85
+
+GET Params:[3]
+['q', 'key', 'form']
+_______________________________________________________________________________________________________
+https://www.zzounds.com/prodsearch?form=search&q=(uvw"xyz'yxz</zxy&key=q&form=search
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" id="q" name="q" size="18" value="(uvw&quot;xyz&#039;yxz" />
+<form name="changeuserlocation" method="post" action="https://www.zzounds.com/prodsearch?form=search&amp;q=(uvw%22xyz&#039;yxz%3C/zxy&amp;key=q&amp;form=search" id="header-change-zip-form" novalidate="novalidate">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>&quot;uvw xyz yxz&quot; Search |  zZounds</title>
+<strong>uvw xyz yxz</strong>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<a href="https://www.zzounds.com/prodsearch?q=%28uvw%22xyz%27yxz&pa=35&form=search" rel="nofollow">
+<link href="https://www.zzounds.com/prodsearch?q=%28uvw%22xyz%27yxz%3C%2Fzxy&form=search&key=q" rel="canonical" />
+<form name="changeuserlocation" method="post" action="https://www.zzounds.com/prodsearch?form=search&amp;q=(uvw%22xyz&#039;yxz%3C/zxy&amp;key=q&amp;form=search" id="header-change-zip-form" novalidate="novalidate">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.zzounds.com/prodsearch?form=search&q=&key=(uvw"xyz'yxz</zxy&form=search
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<form name="changeuserlocation" method="post" action="https://www.zzounds.com/prodsearch?form=search&amp;q=&amp;key=(uvw%22xyz&#039;yxz%3C/zxy&amp;form=search" id="header-change-zip-form" novalidate="novalidate">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link href="https://www.zzounds.com/prodsearch?form=search&key=%28uvw%22xyz%27yxz%3C%2Fzxy" rel="canonical" />
+<form name="changeuserlocation" method="post" action="https://www.zzounds.com/prodsearch?form=search&amp;q=&amp;key=(uvw%22xyz&#039;yxz%3C/zxy&amp;form=search" id="header-change-zip-form" novalidate="novalidate">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.zzounds.com/prodsearch?form=search&q=&key=q&form=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<form name="changeuserlocation" method="post" action="https://www.zzounds.com/prodsearch?form=search&amp;q=&amp;key=q&amp;form=(uvw%22xyz&#039;yxz%3C/zxy" id="header-change-zip-form" novalidate="novalidate">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link href="https://www.zzounds.com/prodsearch?form=%28uvw%22xyz%27yxz%3C%2Fzxy&key=q" rel="canonical" />
+<form name="changeuserlocation" method="post" action="https://www.zzounds.com/prodsearch?form=search&amp;q=&amp;key=q&amp;form=(uvw%22xyz&#039;yxz%3C/zxy" id="header-change-zip-form" novalidate="novalidate">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

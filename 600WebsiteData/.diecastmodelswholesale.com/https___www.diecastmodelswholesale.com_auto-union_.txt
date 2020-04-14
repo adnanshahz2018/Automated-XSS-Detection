@@ -1,0 +1,78 @@
+https://www.diecastmodelswholesale.com/auto-union/
+
+GET Params:[1]
+['search_query']
+_______________________________________________________________________________________________________
+https://www.diecastmodelswholesale.com/search.php?search_query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" class="Field250" name="search_query_adv" id="search_query_adv" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>www.diecastmodelswholesale.com - Search Results for "(uvw&quot;xyz&#039;yxz&lt;/zxy"</title>
+<p class="txt24">Search Results for "(uvw&quot;xyz&#039;yxz&lt;/zxy"</p>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+(function () {
+    var xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', '/events/trigger-visit-event');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"initiator":{"id":"","session_id":"a33101172450098889b7b2bbf4b8bdf60fd8fa3c","type":"ANONYMOUS","visit_id":"1048e22f-4b96-4230-92a8-e1a401363d72","visitor_id":"5407399c-9384-413c-9257-f6f356b85c25"},"referer":{"url":""},"request":{"url":"https:\/\/www.diecastmodelswholesale.com\/search.php?search_query=(uvw&quot;xyz&#039;yxz&lt;\/zxy"}}');
+})();
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=product#results" onclick="showSearchTabs('product'); return false;">
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=content#results" onclick="showSearchTabs('content'); return false;">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

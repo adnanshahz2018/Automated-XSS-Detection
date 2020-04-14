@@ -1,0 +1,118 @@
+https://rockabilia.com/apps/sitemap
+
+GET Params:[2]
+['type', 'q']
+_______________________________________________________________________________________________________
+https://rockabilia.com/search?type=(uvw"xyz'yxz</zxy&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":9024471140,"offset":-18000,"reqid":"638667b2-9df1-4539-8da3-0ad4c8c3f8a1","pageurl":"rockabilia.com\/search?type=(uvw%22xyz'yxz%3C\/zxy\u0026q=","u":"e0774eca76b1","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link rel="canonical" href="https://rockabilia.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:url" content="https://rockabilia.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://rockabilia.com/search?type=product&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input class="form-control" type="search" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search here" autocomplete="off" />
+<input class="form-control" type="search" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search here" autocomplete="off" />
+<input type="search" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search here" class="bingoSearch form-control" />
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&quot;xyz&#39;yxz</title>
+<span itemprop="name">(uvw&quot;xyz&#39;yxz</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":9024471140,"offset":-18000,"reqid":"0ed74de3-2a44-445b-b9dd-6e083a7c261b","pageurl":"rockabilia.com\/search?type=product\u0026q=(uvw%22xyz'yxz%3C\/zxy","u":"f4ca063109b2","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="canonical" href="https://rockabilia.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product">
+<meta property="og:url" content="https://rockabilia.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product">
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta name="twitter:title" content="(uvw&quot;xyz&#39;yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

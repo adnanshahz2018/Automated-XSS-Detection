@@ -1,0 +1,66 @@
+https://totallybamboo.com/collections/tools-utensils
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://totallybamboo.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>
+    (uvw&quot;xyz&#39;yxz &ndash; Totally Bamboo
+  </title>
+<span class="page-title">(uvw&quot;xyz&#39;yxz</span>
+<p>Your search for "(uvw&quot;xyz&#39;yxz&lt;/zxy" revealed the following:</p>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":22984179,"offset":-25200,"reqid":"752a2844-61b3-46a5-b63b-627020088890","pageurl":"totallybamboo.com\/search?q=(uvw%22xyz'yxz%3C\/zxy","u":"67c13fe415b8","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<link rel="canonical" href="https://totallybamboo.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy" />
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta property="og:url" content="https://totallybamboo.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

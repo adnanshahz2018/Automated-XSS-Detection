@@ -1,0 +1,327 @@
+https://www.armynavysales.com/catalogsearch/advanced/
+
+GET Params:[7]
+['q', 'name', 'sku', 'description', 'short_description', 'price[from]', 'price[to]']
+_______________________________________________________________________________________________________
+https://www.armynavysales.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form","minSearchLength": 10000,
+                                "url":"https://www.armynavysales.com/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="q"
+                           value="(uvw&quot;xyz&#039;yxz&lt;/zxy"
+                           placeholder="I&rsquo;m looking for..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039; Army Navy Sales</title>
+<strong>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</strong>
+<span class="base" data-ui-id="page-title-wrapper" >Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [3]
+<script>
+        require([
+                'jquery',
+                'Mirasvit_SearchAutocomplete/js/autocomplete',
+                'Mirasvit_SearchAutocomplete/js/typeahead'
+            ], function ($, autocomplete, typeahead) {
+                var selector = 'input#search, input#mobile_search, .minisearch input[type="text"]';
+
+                $(document).ready(function () {
+                    var $input = $(selector);
+
+                    $input.each(function (index, searchInput) {
+                        
+                        new autocomplete($(searchInput)).init({"query":"(uvw&quot;xyz&#039;yxz&lt;\/zxy","priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"minSearchLength":3,"url":"https:\/\/www.armynavysales.com\/searchautocomplete\/ajax\/suggest\/","storeId":"1","delay":300,"layout":"1column","popularTitle":"Hot Searches","popularSearches":[],"isTypeaheadEnabled":"0","typeaheadUrl":"https:\/\/www.armynavysales.com\/searchautocomplete\/ajax\/typeahead\/","minSuggestLength":2});
+                    });
+                });
+            }
+        );
+    </script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.armynavysales.com\/page_cache\/block\/render\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_result_index"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+<script type="text/x-magento-init">
+{"*":{"Amasty_PromoBanners\/js\/loader":{"dataUrl":"https:\/\/www.armynavysales.com\/amasty_banners\/banner\/ajax\/","context":{"searchQuery":"(uvw\"xyz'yxz<\/zxy"},"injectorSectionId":14}}}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.armynavysales.com/catalogsearch/advanced/result/?name=(uvw"xyz'yxz</zxy&sku=&description=&short_description=&price[from]=&price[to]=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.armynavysales.com\/page_cache\/block\/render\/?description=&name=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_result"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=(uvw%22xyz'yxz%3C\/zxy&sku=&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://www.armynavysales.com/catalogsearch/advanced/?description=&amp;name=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.armynavysales.com/catalogsearch/advanced/result/?name=&sku=(uvw"xyz'yxz</zxy&description=&short_description=&price[from]=&price[to]=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.armynavysales.com\/page_cache\/block\/render\/?description=&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_advanced_result"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=(uvw%22xyz'yxz%3C\/zxy&description=&short_description=&price%5Bfrom%5D=&price%5Bto%5D="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://www.armynavysales.com/catalogsearch/advanced/?description=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=%28uvw%22xyz%27yxz%3C%2Fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.armynavysales.com/catalogsearch/advanced/result/?name=&sku=&description=(uvw"xyz'yxz</zxy&short_description=&price[from]=&price[to]=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.armynavysales.com\/page_cache\/block\/render\/?description=%28uvw%22xyz%27yxz%3C%2Fzxy&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_result"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&description=(uvw%22xyz'yxz%3C\/zxy&short_description=&price%5Bfrom%5D=&price%5Bto%5D="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://www.armynavysales.com/catalogsearch/advanced/?description=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.armynavysales.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=(uvw"xyz'yxz</zxy&price[from]=&price[to]=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.armynavysales.com\/page_cache\/block\/render\/?description=&name=&price%5Bfrom%5D=&price%5Bto%5D=&short_description=%28uvw%22xyz%27yxz%3C%2Fzxy&sku=","handles":["default","catalogsearch_advanced_result"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"result","uri":"\/catalogsearch\/advanced\/result\/?name=&sku=&description=&short_description=(uvw%22xyz'yxz%3C\/zxy&price%5Bfrom%5D=&price%5Bto%5D="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="https://www.armynavysales.com/catalogsearch/advanced/?description=&amp;name=&amp;price%5Bfrom%5D=&amp;price%5Bto%5D=&amp;short_description=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;sku=">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.armynavysales.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=&price[from]=(uvw"xyz'yxz</zxy&price[to]=
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="price[from]"
+                                   value="(uvw&quot;xyz&#039;yxz&lt;/zxy"
+                                   id="price"
+                                   title="Price"
+                                   class="input-text"
+                                   type="text"
+                                   maxlength="128"
+                                   data-validate="{number:true, 'less-than-equals-to':'#price_to'}" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.armynavysales.com\/page_cache\/block\/render\/?description=&name=&price%5Bfrom%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bto%5D=&short_description=&sku=","handles":["default","catalogsearch_advanced_index"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"index","uri":"\/catalogsearch\/advanced\/?description=&name=&price%5Bfrom%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&price%5Bto%5D=&short_description=&sku="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.armynavysales.com/catalogsearch/advanced/result/?name=&sku=&description=&short_description=&price[from]=&price[to]=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="price[to]"
+                                       value="(uvw&quot;xyz&#039;yxz&lt;/zxy"
+                                       id="price_to"
+                                       title="Price"
+                                       class="input-text"
+                                       type="text"
+                                       maxlength="128"
+                                       data-validate="{number:true, 'greater-than-equals-to':'#price'}" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.armynavysales.com\/page_cache\/block\/render\/?description=&name=&price%5Bfrom%5D=&price%5Bto%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&short_description=&sku=","handles":["default","catalogsearch_advanced_index"],"originalRequest":{"route":"catalogsearch","controller":"advanced","action":"index","uri":"\/catalogsearch\/advanced\/?description=&name=&price%5Bfrom%5D=&price%5Bto%5D=%28uvw%22xyz%27yxz%3C%2Fzxy&short_description=&sku="},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]

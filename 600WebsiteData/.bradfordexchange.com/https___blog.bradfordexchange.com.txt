@@ -1,0 +1,58 @@
+https://blog.bradfordexchange.com
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://blog.bradfordexchange.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy -</title>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [5]
+<link rel="canonical" href="https://blog.bradfordexchange.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://blog.bradfordexchange.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy -" />
+<meta property="og:url" content="https://blog.bradfordexchange.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy -" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

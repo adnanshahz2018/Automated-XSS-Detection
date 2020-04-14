@@ -1,0 +1,61 @@
+https://www.johnnyseeds.com/featured/bred-by-johnnys/?vegmmlst
+
+GET Params:[2]
+['q', 'lang']
+_______________________________________________________________________________________________________
+https://www.johnnyseeds.com/search/?q=(uvw"xyz'yxz</zxy&lang=en_US
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<span class="no-hits-search-term">
+&#40;uvw&quot;xyz&#39;yxz&lt;/zxy
+</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+pageContext = {"title":"Product Search Results No Hits","type":"search","ns":"search"};
+
+if (window.sessionStorage) {
+var __backLink = {"name":"Search Results","url":"https://www.johnnyseeds.com/content-search/?q=%28uvw%22xyz%27yxz%3C%2Fzxy"};
+sessionStorage.setItem('_jss_back_link', JSON.stringify(__backLink));
+}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.johnnyseeds.com/search/?q=&lang=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

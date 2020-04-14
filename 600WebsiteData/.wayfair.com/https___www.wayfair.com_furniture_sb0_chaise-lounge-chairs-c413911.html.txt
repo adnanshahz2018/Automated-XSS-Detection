@@ -1,0 +1,148 @@
+https://www.wayfair.com/furniture/sb0/chaise-lounge-chairs-c413911.html
+
+GET Params:[2]
+['keyword', 'class_id']
+_______________________________________________________________________________________________________
+https://www.wayfair.com/keyword.php?keyword=(uvw"xyz'yxz</zxy&class_id=
+
+----------------------------------------------------------------------------------
+Attribute Context: [6]
+<img src=\"https:\/\/www.facebook.com\/tr?id=1807687872781824&ev=PageView&dl=wayfair.com%2Fkeyword.php%3Fkeyword%3D%28uvw%2522xyz%27yxz%253C%2Fzxy%26class_id%3D&noscript=1\" width=\"1\" height=\"1\" \/>
+<img src=\"https:\/\/pt.ispot.tv\/v2\/TC-3200-1.gif?cid=23e17d3a-5e94-a987-c1fa-0c11b369e002&type=visit&url=wayfair.com%2Fkeyword.php%3Fkeyword%3D%28uvw%2522xyz%27yxz%253C%2Fzxy%26class_id%3D\" width=\"1\" height=\"1\" \/>
+<img src=\"https:\/\/rp.liadm.com\/p?aid=a-00jd&duid=23e17d3a-5e94-a987-c1fa-0c11b369e002&li_t=viewSearchResult&li_st=%28uvw%22xyz%27yxz%2Fzxy\" width=\"1\" height=\"1\" \/>
+<img src=\"https:\/\/www.facebook.com\/tr?id=1425809677719680&ev=Search&cd%5Bsearch_string%5D=%28uvw%22xyz%27yxz%2Fzxy&cd%5Bcontent_type%5D=product&ud%5Bexternal_id%5D=23e17d3a-5e94-a987-c1fa-0c11b369e002\" width=\"1\" height=\"1\" \/>
+<img src=\"https:\/\/www.facebook.com\/tr?id=455343041257636&ev=Search&cd%5Bsearch_string%5D=%28uvw%22xyz%27yxz%2Fzxy&cd%5Bcontent_type%5D=product&noscript=1\" width=\"1\" height=\"1\" \/>
+<img src=\"https:\/\/www.facebook.com\/tr?id=759995527352688&ev=Search&cd%5Bsearch_string%5D=%28uvw%22xyz%27yxz%2Fzxy&cd%5Bcontent_type%5D=product&noscript=1&libra_value=lane13\" width=\"1\" height=\"1\" \/>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&quot;xyz&#039;yxz/zxy | Wayfair</title>
+<p class="NoResults-subtitle">We can&#x27;t seem to find any products that match your search for (uvw&quot;xyz&#x27;yxz/zxy</p>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [8]
+<link rel="canonical" href="https://www.wayfair.com/keyword.php?keyword=%28uvw%22xyz%27yxz%2Fzxy"/>
+<link rel="alternate" href="https://www.wayfair.com/keyword.php?keyword=%28uvw%22xyz%27yxz%2Fzxy" hreflang="en" />
+<link rel="alternate" href="https://www.wayfair.ca/keyword.php?keyword=%28uvw%22xyz%27yxz%2Fzxy" hreflang="en-ca" />
+<meta name="description" content="Shop Wayfair for the best (uvw&amp;quot;xyz&#039;yxz/zxy. Enjoy Free Shipping on most stuff, even big stuff." />
+<meta xmlns:og="http://opengraphprotocol.org/schema/" property="og:title" content="(uvw&quot;xyz&#039;yxz/zxy | Wayfair" />
+<meta xmlns:og="http://opengraphprotocol.org/schema/" property="og:description" content="Shop Wayfair for the best (uvw&amp;quot;xyz&#039;yxz/zxy. Enjoy Free Shipping on most stuff, even big stuff." />
+<meta name="twitter:title" content="(uvw&quot;xyz&#039;yxz/zxy | Wayfair" />
+<meta name="twitter:description" content="Shop Wayfair for the best (uvw&amp;quot;xyz&#039;yxz/zxy. Enjoy Free Shipping on most stuff, even big stuff." />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.wayfair.com/keyword.php?keyword=&class_id=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<img src=\"https:\/\/www.facebook.com\/tr?id=1807687872781824&ev=PageView&dl=wayfair.com%2Fkeyword.php%3Fkeyword%3D%26class_id%3D%28uvw%2522xyz%27yxz%253C%2Fzxy&noscript=1\" width=\"1\" height=\"1\" \/>
+<img src=\"https:\/\/pt.ispot.tv\/v2\/TC-3200-1.gif?cid=23e17d3a-5e94-a991-c1fa-0c11b376ba02&type=visit&url=wayfair.com%2Fkeyword.php%3Fkeyword%3D%26class_id%3D%28uvw%2522xyz%27yxz%253C%2Fzxy\" width=\"1\" height=\"1\" \/>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]

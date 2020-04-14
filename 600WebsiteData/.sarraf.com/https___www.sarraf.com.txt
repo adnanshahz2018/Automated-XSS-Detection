@@ -1,0 +1,118 @@
+https://www.sarraf.com
+
+GET Params:[2]
+['search_query', None]
+_______________________________________________________________________________________________________
+https://www.sarraf.com/search.php?search_query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="text" name="search_query" id="search_query" class="Textbox shoptivate" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" />
+<input type="text" name="search_query" id="search_query" class="Textbox shoptivate" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="SEARCH" />
+<input type="text" class="Field250" name="search_query_adv" id="search_query_adv" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>Sarraf.com - Search Results for &quot;(uvw&quot;xyz&#039;yxz&lt;/zxy&quot;</title>
+<h2>Search Results for &quot;(uvw&quot;xyz&#039;yxz&lt;/zxy&quot;</h2>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [6]
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=product#results" onclick="showSearchTabs('product'); return false;">
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=content#results" onclick="showSearchTabs('content'); return false;">
+<a href="https://www.sarraf.com/rss.php?action=searchproducts&amp;type=rss&search_query=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<a href="https://www.sarraf.com/rss.php?action=searchproducts&amp;type=rss&search_query=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<link rel="alternate" type="application/rss+xml" title="Product Search (RSS 2.0)" href="https://www.sarraf.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;type=rss" />
+<link rel="alternate" type="application/atom+xml" title="Product Search (Atom 0.3)" href="https://www.sarraf.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;type=atom" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.sarraf.com/search.php?search_query=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

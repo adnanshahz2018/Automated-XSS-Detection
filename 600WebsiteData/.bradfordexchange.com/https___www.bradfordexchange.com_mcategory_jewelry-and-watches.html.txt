@@ -1,0 +1,446 @@
+https://www.bradfordexchange.com/mcategory/jewelry-and-watches.html
+
+GET Params:[5]
+['mainSearch-searchText', 'vid', None, 'email', 'smBoxEmail']
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/search.html?mainSearch-searchText=(uvw"xyz'yxz</zxy&vid=20091217001
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>uvw xyzyxz  zxy</title>
+<h1> uvw xyz'yxz  zxy</h1>
+<div class="heading1">
+                                    Please Try Again. We couldn't find " uvw xyzyxz  zxy"
+                                </div>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+    var coremetricsFunctions = {};
+    coremetricsFunctions.writeCmTag_pageView = function (pageId, category, searchTerm, searchResults, externalSearch){
+        
+        if (searchTerm && externalSearch == "N") {
+            // Search page page view
+            cmCreatePageviewTag(pageId, category, searchTerm, searchResults, coremetricsHelper.getAttributes_pageView());
+          }
+          else {
+            cmCreatePageviewTag(pageId,category, null, null, coremetricsHelper.getAttributes_pageView());
+          }
+                        /* impression coremetric tag for search and category page */
+              coremetricsFunctions.writeCmTag_categorySearch(pageId, category);
+                  
+    };
+    coremetricsFunctions.writeCmTag_categorySearch = function (pageId, category) {
+        
+                var obj = coremetricsFunctions.getAdditionCatalogData( "https://www.bradfordexchange.com/search/+uvw+xyz yxz++zxy.html;jsessionid=668429A5027C150EF8E6B0E2692FD450" );
+        
+        /* e_a1 */
+        var strA1 = obj.param1;
+        /* e_a2 */
+        var strA2 = obj.param2;
+        /* e_a3 */
+        var strA3 = "";
+        /* e_a4 */
+        var strA4 = "";
+        /* e_a5 */
+        var strA5 = "";
+        /* e_a6 */
+        var strA6 = coremetricsHelper.customerId;
+        var strA7 = "";
+        
+                
+                
+        strA3 = strA3.replace(new RegExp("^-", "g"),"");
+        strA4 = strA4.replace(new RegExp("^-", "g"),"");
+        strA5 = strA5.replace(new RegExp("^-", "g"),"");
+        
+        if( strA3.length > 0 ) strA3="-"+strA3+"-";
+        if( strA4.length > 0 ) strA4="-"+strA4+"-";
+        if( strA5.length > 0 ) strA5="-"+strA5+"-";
+        
+        cmCreateElementTag(obj.mode, "Impression", ""
+                +strA1+"-_-"
+                +strA2+"-_-"
+                +strA3+"-_-"
+                +strA4+"-_-"
+                +strA5+"-_-"
+                +strA6+"-_-"
+                +strA7+"-_-");
+        
+    }
+    
+    coremetricsFunctions.getAdditionCatalogData = function (refererUrlStr) {
+        /**/
+
+        var SEARCH_PATTERN = "^(?:[\\w\\/\\:\\.\\-]+)/search/([\\w\\+\\-_%]+)(?:(?:\\/)([\\d\\+]+)(?:_[\\w\\+\\-_%]+))*(?:\\.html.*)";
+        var MCATEGORY_PATTERN = "^(?:[\\w\\/\\:\\.\\-]+)/mcategory/(?:([\\w\\+\\-%]+?)(?:_([\\d\\+]+))*)(?:(?:\\/[\\w\\+\\-_%]+))*(?:\\.html.*)";
+        var CATEGORY_PATTERN = "^(?:[\\w\\/\\:\\.\\-]+)/category/(?:(\\d+)(?:\\+([\\d\\+]+))*(?:_[\\w\\+\\-_%]+))(?:\\.html.*)";
+
+        var obj = {};
+        obj.mode = "";
+        obj.param1 = "";
+        obj.param2 = "";
+
+        if (refererUrlStr.length > 0) {
+            var arrMatch = null;
+            if (refererUrlStr.match(SEARCH_PATTERN)) {
+                arrMatch = refererUrlStr.match(SEARCH_PATTERN);
+                obj.mode = "search";
+            }
+            if (refererUrlStr.match(MCATEGORY_PATTERN)) {
+                arrMatch = refererUrlStr.match(MCATEGORY_PATTERN);
+                obj.mode = "mcategory";
+            }
+            if (refererUrlStr.match(CATEGORY_PATTERN)) {
+                arrMatch = refererUrlStr.match(CATEGORY_PATTERN);
+                obj.mode = "category";
+            }
+            if (obj.mode.length > 0 && arrMatch) {
+                if (arrMatch.length > 1 && typeof (arrMatch[1]) != "undefined") {
+                    obj.param1 = arrMatch[1];
+                }
+                if (arrMatch.length > 2 && typeof (arrMatch[2]) != "undefined") {
+                    obj.param2 = arrMatch[2];
+                }
+            }
+        }
+        return obj;
+    }
+
+    coremetricsFunctions.writeCmTag_quickinfo = function (category, prdid,
+            shortName, subplanFlag, personalizedFlag) {
+        
+        jQuery(document).ready(function($){
+            
+            if( typeof(deffFunctionCall) == "function" ){
+            deffFunctionCall(1, 10, function(t){
+                if( allowLog && "console" in window ){
+                    console.info('deffCall_cmCreateProductviewTag, t='+t+', s7thumboverlay length '+jQuery(".s7thumboverlay").length);
+                }
+                return jQuery(".s7thumboverlay").length > 0;
+            }, function(){
+                var obj = coremetricsHelper.products[prdid];
+                if( typeof(obj) == "undefined" ){
+                    obj = {};
+                    obj.code = prdid;
+                    obj.shortdesc = shortName;
+                    obj.textSubplan = subplanFlag;
+                    obj.textPersonalized = personalizedFlag;
+                    obj.videoContains = "does not contain video";
+                }
+                obj.videoContains = "does not contain video";
+                if( jQuery(".s7thumboverlay").filter("[type='video']").length > 0 ){
+                    obj.videoContains = "contains video";
+                }
+                cmCreateProductviewTag(
+                    obj.code, 
+                    obj.shortdesc, 
+                    category, 
+                    category
+                    + "-_-" + "-_-" + obj.textOption + "-_-" + obj.division + "-_-"
+                    + obj.videoContains + "-_-" + obj.textInstock + "-_-" + "-_-"+obj.textSubplan
+                    + "-_-" + obj.searchData.mode + "-_-"
+                    + obj.searchData.param1 + "-_-" + obj.searchData.param2
+                    + "-_-" + coremetricsHelper.customerId
+                );
+            });
+            }/*eof if( typeof(deffFunctionCall) == "function" ){*/
+            if( typeof(deffFunctionCall) != "function" ){
+                var obj = coremetricsHelper.products[prdid];
+                if (typeof (obj) == "undefined") {
+                    obj = {};
+                    obj.code = prdid;
+                    obj.shortdesc = shortName;
+                    obj.textSubplan = subplanFlag;
+                    obj.textPersonalized = personalizedFlag;
+                }
+                cmCreateProductviewTag(
+                        obj.code, 
+                        obj.shortdesc, 
+                        category, 
+                        category
+                        + "-_-" + "-_-" + obj.textOption + "-_-" + obj.division + "-_-"
+                        + obj.videoContains + "-_-" + obj.textInstock + "-_-" + "-_-"+obj.textSubplan
+                        + "-_-" + obj.searchData.mode + "-_-"
+                        + obj.searchData.param1 + "-_-" + obj.searchData.param2
+                        + "-_-" + coremetricsHelper.customerId
+                    );
+            }
+    
+        });/*eof ready*/
+        
+    }
+
+    coremetricsFunctions.writeCmTag_product = function (category) {
+        jQuery(document).ready(function($){
+            if( typeof(deffFunctionCall) == "function" ){
+            deffFunctionCall(1, 10, function(t){
+                if( allowLog && "console" in window ){
+                    console.info('deffCall_cmCreateProductviewTag, t='+t+', s7thumboverlay length '+jQuery(".s7thumboverlay").length);
+                }
+                return jQuery(".s7thumboverlay").length > 0;
+            }, function(){
+                var obj = coremetricsHelper.product;
+                obj.videoContains = "does not contain video";
+                if( jQuery(".s7thumboverlay").filter("[type='video']").length > 0 ){
+                    obj.videoContains = "contains video";
+                }
+                cmCreateProductviewTag(
+                  obj.code, 
+                  obj.title, 
+                  category, 
+                  category + "-_-" + obj.textPersonalized + "-_-" + obj.textOption + "-_-"
+                  + obj.division + "-_-" + obj.videoContains + "-_-" + obj.textInstock + "-_-"
+                  + "-_-" + obj.textSubplan + "-_-" + obj.splittest_personalUX
+                  + "-_-" + obj.searchData.mode + "-_-"
+                  + obj.searchData.param1 + "-_-" + obj.searchData.param2
+                  + "-_-" + coremetricsHelper.customerId
+                );
+            });
+            }/*eof if( typeof(deffFunctionCall) == "function" ){*/
+            if( typeof(deffFunctionCall) != "function" ){
+                var obj = coremetricsHelper.product;
+                cmCreateProductviewTag(
+                  obj.code, 
+                  obj.title, 
+                  category, 
+                  category + "-_-" + obj.textPersonalized + "-_-" + obj.textOption + "-_-"
+                  + obj.division + "-_-" + obj.videoContains + "-_-" + obj.textInstock + "-_-"
+                  + "-_-" + obj.textSubplan + "-_-" + obj.splittest_personalUX
+                  + "-_-" + obj.searchData.mode + "-_-"
+                  + obj.searchData.param1 + "-_-" + obj.searchData.param2
+                  + "-_-" + coremetricsHelper.customerId
+                );
+            }
+        });
+        
+    }
+
+    coremetricsFunctions.writeCmTag_thankyou = function (category) {
+        jQuery.each(coremetricsHelper.products, function (index, obj) {
+            cmCreateShopAction9Tag(obj.code, obj.title, obj.qty, obj.price,
+                    customerId, obj.orderId, obj.totalPrice, category, "-_-"
+                            + obj.textPersonalized + "-_-" + obj.textOption
+                            + "-_-" + obj.division + "-_-" + "-_-"
+                            + obj.textInstock + "-_-" + "-_-" + obj.textSubplan
+                            + "-_-" + obj.searchData.mode + "-_-"
+                            + obj.searchData.param1 + "-_-"
+                            + obj.searchData.param2 + "-_-"
+                            + coremetricsHelper.customerId);
+            cmDisplayShop9s();
+        });
+    }
+    coremetricsFunctions.writeCmTag_shoppingcart = function (category) {
+        jQuery.each(coremetricsHelper.products, function (index, obj) {
+            cmCreateShopAction5Tag(obj.code, obj.title, obj.qty, obj.price,
+                    category, "-_-" + obj.textPersonalized + "-_-"
+                            + obj.textOption + "-_-" + obj.division + "-_-"
+                            + "-_-" + obj.textInstock + "-_-" + "-_-"
+                            + obj.textSubplan + "-_-" + obj.searchData.mode
+                            + "-_-" + obj.searchData.param1 + "-_-"
+                            + obj.searchData.param2 + "-_-"
+                            + coremetricsHelper.customerId);
+        });
+        cmDisplayShop5s();
+    }
+
+    function createOnePageOrderCartTag(type) {
+        var obj = coremetricsHelper.product;
+        obj.qty = document.forms[0].elements["qty"].value;
+        var category = "";
+        if (type == "promo") {
+            category = "PROMOTIONAL ONE PAGE - PRODUCT DETAIL BUY";
+        } else if (type = "std") {
+            category = "STANDARD ONE PAGE - PRODUCT DETAIL BUY";
+        }
+        cmCreateShopAction5Tag(obj.code, obj.title, obj.qty, obj.price,
+                category, "-_-" + obj.textPersonalized + "-_-" + obj.textOption
+                        + "-_-" + obj.division + "-_-" + "-_-"
+                        + obj.textInstock + "-_-" + "-_-" + obj.textSubplan
+                        + "-_-" + obj.searchData.mode + "-_-"
+                        + obj.searchData.param1 + "-_-"
+                        + obj.searchData.param2 + "-_-"
+                        + coremetricsHelper.customerId);
+        cmDisplayShop5s();
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta name="description" content="Shop The Bradford Exchange for  uvw xyz'yxz  zxy. Shop securely online with an unconditional guarantee." lang="en-US" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/search.html?mainSearch-searchText=&vid=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/search.html?mainSearch-searchText=&vid=20091217001
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/inquiry.html?vid=(uvw"xyz'yxz</zxy&email=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/inquiry.html?vid=20091217001&email=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/inquiry.html?vid=20091217001&email=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/inquiry.html?vid=(uvw"xyz'yxz</zxy&smBoxEmail=&email=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/inquiry.html?vid=20091217001&smBoxEmail=(uvw"xyz'yxz</zxy&email=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.bradfordexchange.com/inquiry.html?vid=20091217001&smBoxEmail=&email=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

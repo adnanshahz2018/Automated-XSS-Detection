@@ -1,0 +1,118 @@
+https://www.kirklands.com/category/Art-Wall-Decor/All-Wall-Decor/pc/2283/3116.uts?i=1&q=*&q1=Art+%26+Wall+Decor&q2=Coastal&store=1&type=nav&x1=primary-cat-name1&x2=subject-name&icid=mcwdsubjectbeach
+
+GET Params:[3]
+['form_state', 'q', 'defaultSearchKey']
+_______________________________________________________________________________________________________
+https://www.kirklands.com/catalog/search_sp.cmd?form_state=(uvw"xyz'yxz</zxy&q=*&defaultSearchKey=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=(uvw"xyz'yxz</zxy&defaultSearchKey=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Search Results on 'uvw"xyz'yxz/zxy' | Kirklands</title>
+<p class="mb-5">Sorry, there are no products that match your search for "(uvwxyzyxz/zxy".</p>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+digitalData = {
+    "pageInstanceID": "search-production",
+    "page": {
+        "pageInfo": {
+            "pageID": "search",
+            "pageName": "Search Results",
+            "destinationURL": window.location.href,
+            "referringURL": document.referrer,
+            "variant": "0",
+            "breadCrumbs":["Home","Search"],
+            "language": "en-US",
+            
+            
+            "onsiteSearchTerm": "uvw"xyz'yxz/zxy",
+            
+            "sortBy": "default",
+            
+            "onsiteSearchResults": 0,
+            
+            "pageType": "Search"
+        },
+        "category": {
+            "primaryCategory": "Search",
+			 "subCategory1": ""
+			 
+        }
+    },
+	
+	
+    "user": [{"profile":[{"address":{"postalCode":"","stateProvince":"","line1":"","country":"","city":"","line2":""},"profileInfo":{"profileID":"","email":"","loggedIn":false},"shippingAddress":[]}]}],
+  
+	
+    "version": "1.0"
+}
+
+try {
+    digitalData.page.pageInfo.referringDomain = new URL(document.referrer).hostname ;
+}
+catch(err) {
+    digitalData.page.pageInfo.referringDomain = "";
+}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	False	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.kirklands.com/catalog/search_sp.cmd?form_state=searchForm&q=*&defaultSearchKey=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

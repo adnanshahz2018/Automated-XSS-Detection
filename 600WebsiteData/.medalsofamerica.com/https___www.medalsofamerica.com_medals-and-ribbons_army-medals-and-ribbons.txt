@@ -1,0 +1,48 @@
+https://www.medalsofamerica.com/medals-and-ribbons/army-medals-and-ribbons
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.medalsofamerica.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" type="text" name="q" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="Search entire store here..." class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.medalsofamerica.com\/page_cache\/block\/render\/page_id\/139\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","cms_page_view","cms_page_view_id_search","weltpixel_quickcart_sidebar","weltpixel_custom_header_v1","weltpixel_design_elements_bootstrap_grid","weltpixel_design_elements_fonts","weltpixel_design_elements_bootstrap_tables","weltpixel_design_elements_toggles_accordions_tabs","weltpixel_design_elements_pricing_boxes","weltpixel_design_elements_headings_blockquotes","weltpixel_design_elements_dividers","weltpixel_design_elements_brand_lists","weltpixel_design_elements_responsive_helpers","weltpixel_design_elements_smooth_scrolling","weltpixel_design_elements_icon_boxes","weltpixel_design_elements_alert_boxes","weltpixel_design_elements_testimonials","weltpixel_design_elements_flexslider","weltpixel_design_elements_buttons","weltpixel_design_elements_sections","weltpixel_design_elements_animations","weltpixel_design_elements_aos_animation","weltpixel_design_elements_btt_button","weltpixel_cms_page_view","weltpixel_googlecards_remove_schema","weltpixel_multistore"],"originalRequest":{"route":"cms","controller":"page","action":"view","uri":"\/search?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "awBlogAjax": {"url":"https:\/\/www.medalsofamerica.com\/aw_blog\/block\/render\/page_id\/139\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy"} }
+    }</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]

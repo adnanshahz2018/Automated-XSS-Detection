@@ -1,0 +1,88 @@
+https://www.gardeners.com/grants-and-giving
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.gardeners.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<span class="no-hits-search-term"> &#40;uvw&quot;xyz&#39;yxz&lt;/zxy </span>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/javascript">
+		monetateData.setPageType = "search";
+
+		monetateData.trackPLPPage = function() {
+			window.monetateQ.push(["setPageType", monetateData.setPageType]);
+
+			if(monetateData.addCartRows) window.monetateQ.push(["addCartRows", monetateData.addCartRows]);
+			if(monetateData.addProducts) window.monetateQ.push(["addProducts", monetateData.addProducts]);
+            
+			window.monetateQ.push(["addBreadcrumbs", ["Home","&#40;uvw&quot;xyz&#39;yxz&lt;/zxy"]]);
+
+			
+
+			window.monetateQ.push(["trackData"]);
+		};
+
+		monetateData.trackPLPPage();
+	</script>
+<script type="text/javascript">
+var br_data = {};
+
+/* --- Begin parameters section: fill in below --- */
+br_data.acct_id = "5383";
+br_data.ptype = "search";
+br_data.cat_id = "";
+br_data.cat = "";
+br_data.prod_id = "";
+br_data.prod_name = "";
+br_data.sku = "";
+br_data.search_term = "&#40;uvw&quot;xyz&#39;yxz&lt;/zxy";
+br_data.is_conversion = "0";
+br_data.basket_value = "";
+br_data.order_id ="";
+br_data.basket = {};
+/* --- End parameter section --- */
+(function() {
+var brtrk = document.createElement('script');
+brtrk.type = 'text/javascript';
+brtrk.async = true;
+brtrk.src = 'https:' == document.location.protocol ? "https://cdns.brsrvr.com/v1/br-trk-5383.js" : "http://cdn.brcdn.com/v1/br-trk-5383.js";
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(brtrk, s);
+})();
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="&#40;uvw&quot;xyz&#39;yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

@@ -1,0 +1,242 @@
+https://www.cooksongold.com/currency.jsp?cur=PLN
+
+GET Params:[3]
+['channel', 'querym', 'query']
+_______________________________________________________________________________________________________
+https://www.cooksongold.com/category_select.jsp?channel=(uvw"xyz'yxz</zxy&querym=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.cooksongold.com/category_select.jsp?channel=uk&querym=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="query" id="query" maxlength="50" value="uvwxyz'yxzzxy" type="text" autocomplete="off" placeholder="Search product name, code or brand ..." />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/javascript">
+		var PeeriusCallbacks = {
+			track:{
+
+			type: "searchresults",
+
+			lang: "en-GB",
+
+			searchResults: {
+			  term: "uvwxyz'yxzzxy",
+
+			  results: [
+			  ]
+
+			}
+
+	,
+			smartRecs: {
+
+                showAttributes: ["restricted"]
+
+            }		
+		
+		}
+
+	}
+</script>
+<script>
+var mystr = "The first item is charged at xyz."
+		+ ""
+		+ ""
+		+ "";
+
+function openPopup2(me){
+	$("#" + me ).css("display","block");
+	$("#" + me + "_content" ).html(mystr);
+	
+	return false;
+}	
+function closePopups2(me){
+	$("#" + me ).css("display","none");
+	$("#" + me + "_content" ).html("");
+}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<meta name="description" content="uvwxyz'yxzzxy, cookson gold" />
+<meta name="keywords" content="cookson gold, uvwxyz'yxzzxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.cooksongold.com/category_select.jsp?channel=(uvw"xyz'yxz</zxy&query=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+var mystr = "The first item is charged at xyz."
+		+ ""
+		+ ""
+		+ "";
+
+function openPopup2(me){
+	$("#" + me ).css("display","block");
+	$("#" + me + "_content" ).html(mystr);
+	
+	return false;
+}	
+function closePopups2(me){
+	$("#" + me ).css("display","none");
+	$("#" + me + "_content" ).html("");
+}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.cooksongold.com/category_select.jsp?channel=uk&query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="query" id="query" maxlength="50" value="uvwxyz'yxzzxy" type="text" autocomplete="off" placeholder="Search product name, code or brand ..." />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/javascript">
+		var PeeriusCallbacks = {
+			track:{
+
+			type: "searchresults",
+
+			lang: "en-GB",
+
+			searchResults: {
+			  term: "uvwxyz'yxzzxy",
+
+			  results: [
+			  ]
+
+			}
+
+	,
+			smartRecs: {
+
+                showAttributes: ["restricted"]
+
+            }		
+		
+		}
+
+	}
+</script>
+<script>
+var mystr = "The first item is charged at xyz."
+		+ ""
+		+ ""
+		+ "";
+
+function openPopup2(me){
+	$("#" + me ).css("display","block");
+	$("#" + me + "_content" ).html(mystr);
+	
+	return false;
+}	
+function closePopups2(me){
+	$("#" + me ).css("display","none");
+	$("#" + me + "_content" ).html("");
+}
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<meta name="description" content="uvwxyz'yxzzxy, cookson gold" />
+<meta name="keywords" content="cookson gold, uvwxyz'yxzzxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

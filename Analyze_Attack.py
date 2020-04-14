@@ -36,7 +36,7 @@ class analyze_attack:
         # we have 2 links
         for link in links:  #links contains all the references/links
             links_count += 1
-            print( '\n[', links_count , '/',  len(links), '] => ', link, end="")
+            print( '\nWebpage [', links_count , '/',  len(links), '] => ', link, end="")
             if not link == [] and link.__contains__('http'):   
                 # generates links/urls from every <form ... method="get">. 
                 # We receive a list of links/urls. 

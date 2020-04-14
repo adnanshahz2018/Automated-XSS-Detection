@@ -91,8 +91,7 @@ class main_class:
         if not os.path.exists(directory):
             os.mkdir(directory)
             print("Directory " , directory ,  " Created ")
-        else:    
-            print("Directory " , directory ,  " already exists")
+        # else:    print("Directory " , directory ,  " already exists")
 
     def bfs_crawling(self,index, web_links):
         count = index
@@ -236,7 +235,7 @@ if __name__ == "__main__":
         count+=1
         one_link = []
         one_link.append(link)
-        print(' LINK  [' , count ,'/', len(links), ']  =>  ' ,link)
+        print(' WEBSITE  [' , count ,'/', len(links), ']  =>  ' ,link)
         main_operation(one_link)
 
 

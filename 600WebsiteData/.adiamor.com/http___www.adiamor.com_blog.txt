@@ -1,0 +1,82 @@
+http://www.adiamor.com/blog
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+http://www.adiamor.com/blog/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="search" class="search-field" placeholder="Search..." value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" title="Search for:"/>
+<input type="search" class="search-field" placeholder="Search..." value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" title="Search for:"/>
+<input type="search" class="search-field" placeholder="Search..." value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" title="Search for:"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Adiamor Blog</title>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [6]
+<a href="http://www.adiamor.com/blog/?s=(uvw%22xyz&#39;yxz%3C/zxy&amp;ModPagespeed=noscript">
+<link rel="alternate" type="application/rss+xml" title="Adiamor Blog &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="http://www.adiamor.com/blog/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/"/>
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Adiamor Blog"/>
+<meta property="og:url" content="http://www.adiamor.com/blog/search/%28uvw%22xyz%27yxz%3C/zxy/"/>
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - Adiamor Blog"/>
+<meta HTTP-EQUIV="refresh" content="0;url='http://www.adiamor.com/blog/?s=(uvw%22xyz&#39;yxz%3C/zxy&amp;ModPagespeed=noscript'" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

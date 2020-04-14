@@ -1,0 +1,4 @@
+https://www.rigeshop.com/language/set/de
+
+GET Params:[0]
+[]

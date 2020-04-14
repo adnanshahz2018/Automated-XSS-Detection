@@ -1,0 +1,88 @@
+https://www.rauantiques.com/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.rauantiques.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<body id="uvw-quot-xyz-39-yxz" class="template-search"  data-customerid="" data-shopID="">
+<input type="search" name="q" id="Search" aria-label="search" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search" class="form-control bg-transparent border-bottom-dark border-top-0 border-right-0 border-left-0 d-none d-xl-block">
+<input type="search" name="q" id="blogSearch" aria-label="search" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search" class="form-control">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&quot;xyz&#39;yxz | M.S. Rau Antiques</title>
+<h3>
+          
+            
+              Your search for "(uvw&quot;xyz&#39;yxz&lt;/zxy" did not yield any results.
+            
+          
+        </h3>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":8324710466,"offset":-18000,"reqid":"f309f7ba-e94b-47fd-875f-fb563e246466","pageurl":"rauantiques.com\/search?q=(uvw%22xyz'yxz%3C\/zxy","u":"37331726417f","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="canonical" href="https://rauantiques.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:url" content="https://rauantiques.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta name="twitter:title" content="(uvw&quot;xyz&#39;yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

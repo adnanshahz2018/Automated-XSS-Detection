@@ -1,0 +1,90 @@
+https://www.helzberg.com/jewelry-financing-and-payments/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.helzberg.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input id="search" data-mage-init='{"quickSearch":{ "formSelector":"#search_mini_form", "url":"https://www.helzberg.com/search/ajax/suggest/", "destinationSelector":"#search_autocomplete"} }' type="text" name="q" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" data-rfkid="rfkid_6" placeholder="Search&#x20;entire&#x20;store&#x20;here..." class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" aria-expanded="false"/>
+<div data-rfkid="rfkid_7" data-keyphrase="(uvw&quot;xyz&#039;yxz&lt;/zxy" data-rfkid="rfkid_6">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [4]
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "magepalGtmDatalayer": {
+                "isCookieRestrictionModeEnabled": 0,
+                "currentWebsite": 1,
+                "cookieName": "user_allowed_save_cookie",
+                "dataLayer": "dataLayer",
+                "accountId": "GTM-P4N4GSJ",
+                "data": [{"ecommerce":{"currencyCode":"USD"},"pageType":"catalogsearch_result_index","list":"other"},{"event":"searchPage","search_term":"(uvw\"xyz'yxz<\/zxy"},{"event":"allPage"}],
+                "isGdprEnabled": 0,
+                "gdprOption": 0,
+                "addJsInHeader": 0            }
+        }
+    }</script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.helzberg.com\/page_cache\/block\/render\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_result_index","catalogsearch_result_index_noresults","rfk_tag_search_view"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}        }
+    }</script>
+<script type="text/x-magento-init">
+{
+    "body.page-with-filter, body.catalogsearch-result-index": {
+        "amShopbyAjax": {
+                "submitByClick": 0,
+                "scrollUp": 1,
+                "clearUrl": "https://www.helzberg.com/catalogsearch/result/index/?q=%28uvw%22xyz%27yxz%3C%2Fzxy",
+                "currentCategoryId": "2",
+                "isCategorySingleSelect": "1"
+            }
+        }
+}</script>
+<script type="text/x-magento-init">
+{"*": {
+        "affirmPixel": {"method":"trackProductsSearched","parameter":["(uvw\"xyz'yxz<\/zxy",[]],"pixelConfig":{"script":"https:\/\/cdn1.affirm.com\/js\/v2\/affirm.js","public_api_key":"RX7M3KMDM9CX0AE3"}}    }
+}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]

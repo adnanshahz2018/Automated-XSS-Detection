@@ -1,0 +1,4 @@
+https://goodgoth.com/gothic-wedding/
+
+GET Params:[1]
+['mode']

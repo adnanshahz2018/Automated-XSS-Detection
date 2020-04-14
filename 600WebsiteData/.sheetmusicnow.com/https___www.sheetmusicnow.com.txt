@@ -1,0 +1,70 @@
+https://www.sheetmusicnow.com
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.sheetmusicnow.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input class="input-text" type="text" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" placeholder="Search..." />
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&amp;quot;xyz&amp;#39;yxz</title>
+<p>Sorry, we didn't find anything for "(uvw&quot;xyz&#39;yxz&lt;/zxy".</p>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":1767604339,"offset":-25200,"reqid":"d3759402-42dd-48b9-acd3-7f201ff93805","pageurl":"www.sheetmusicnow.com\/search?q=(uvw%22xyz'yxz%3C\/zxy","u":"11d34121e368","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="canonical" href="https://www.sheetmusicnow.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy" />
+<meta property="og:url" content="https://www.sheetmusicnow.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta name="twitter:title" content="(uvw&quot;xyz&#39;yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

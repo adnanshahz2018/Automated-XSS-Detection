@@ -1,0 +1,34 @@
+https://www.westmusic.com
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.westmusic.com/search-results?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="/profile/login?returnurl=https%3a%2f%2fwww.westmusic.com%2fsearch-results%3fq%3d(uvw%2522xyz%27yxz%253c%2fzxy" class="top-hyp font-smaller">
+<a href="/profile/login?returnurl=https%3a%2f%2fwww.westmusic.com%2fsearch-results%3fq%3d(uvw%2522xyz%27yxz%253c%2fzxy" class="hyp">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

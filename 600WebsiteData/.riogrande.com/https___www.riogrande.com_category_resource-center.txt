@@ -1,0 +1,64 @@
+https://www.riogrande.com/category/resource-center
+
+GET Params:[2]
+['__RequestVerificationToken', 'QueryTerm']
+_______________________________________________________________________________________________________
+https://www.riogrande.com/category/resource-center/search-results?__RequestVerificationToken=(uvw"xyz'yxz</zxy&QueryTerm=
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="hidden" name="redirectUrl" value="https://www.riogrande.com/category/resource-center/search-results?__RequestVerificationToken=(uvw%22xyz&#39;yxz%3C/zxy&amp;QueryTerm=" />
+<input type="hidden" name="redirectUrl" value="https://www.riogrande.com/category/resource-center/search-results?__RequestVerificationToken=(uvw%22xyz&#39;yxz%3C/zxy&amp;QueryTerm=" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+_______________________________________________________________________________________________________
+https://www.riogrande.com/category/resource-center/search-results?__RequestVerificationToken=KiONNRN-9crYrB92VHlzv0PE86PQ2uXSJyjWxlHKXx26MyCUHonrLlK2paGQSMXUGCA38VCJ-UrIVG_vqrQQUd2iuTE1&QueryTerm=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="hidden" name="redirectUrl" value="https://www.riogrande.com/category/resource-center/search-results?__RequestVerificationToken=KiONNRN-9crYrB92VHlzv0PE86PQ2uXSJyjWxlHKXx26MyCUHonrLlK2paGQSMXUGCA38VCJ-UrIVG_vqrQQUd2iuTE1&amp;QueryTerm=(uvw%22xyz&#39;yxz%3C/zxy" />
+<input type="hidden" name="redirectUrl" value="https://www.riogrande.com/category/resource-center/search-results?__RequestVerificationToken=KiONNRN-9crYrB92VHlzv0PE86PQ2uXSJyjWxlHKXx26MyCUHonrLlK2paGQSMXUGCA38VCJ-UrIVG_vqrQQUd2iuTE1&amp;QueryTerm=(uvw%22xyz&#39;yxz%3C/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]

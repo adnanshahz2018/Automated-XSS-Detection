@@ -1,0 +1,85 @@
+https://blackphoenixalchemylab.com/frequently-asked-questions/
+
+GET Params:[2]
+['s', 'post_type']
+_______________________________________________________________________________________________________
+https://blackphoenixalchemylab.com/?s=(uvw"xyz'yxz</zxy&post_type=product
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input
+type=search class=search-field placeholder=Search&hellip; title="Press Enter to submit your search" value=(uvw&quot;xyz&#039;yxz&lt;/zxy autocomplete=off onblur="if (this.value == '') {this.value = '(uvw&quot;xyz&#039;yxz&lt;/zxy';}" onfocus="if (this.value == '(uvw&quot;xyz&#039;yxz&lt;/zxy') {this.value = '';}" name=s data-swplive=true data-swpengine=default data-swpconfig=default>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; &#8211; Black Phoenix Alchemy Lab</title>
+<h1 class="woocommerce-products-header__title page-title">Search results: &ldquo;(uvw&quot;xyz&#039;yxz&lt;/zxy&rdquo;</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script>var icegram_pre_data = {"ajax_url":"https:\/\/blackphoenixalchemylab.com\/wp-admin\/admin-ajax.php","post_obj":{"s":"(uvw\\\"xyz\\'yxz<\/zxy","post_type":"product","is_home":false,"page_id":0,"action":"display_messages","shortcodes":[],"cache_compatibility":"no","device":"laptop"}};</script>
+<script>jQuery(function($) { 
+/* WooCommerce Facebook Integration Event Tracking */
+fbq('track', 'Search', {
+    "source": "woocommerce",
+    "version": "3.9.2",
+    "pluginVersion": "1.10.2",
+    "search_string": "(uvw\\&quot;xyz\\'yxz&lt;\/zxy"
+});
+ });</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://blackphoenixalchemylab.com/?s=Search…&post_type=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>var icegram_pre_data = {"ajax_url":"https:\/\/blackphoenixalchemylab.com\/wp-admin\/admin-ajax.php","post_obj":{"s":"Search\u2026","post_type":"(uvw\\\"xyz\\'yxz<\/zxy","is_home":false,"page_id":0,"action":"display_messages","shortcodes":[],"cache_compatibility":"no","device":"laptop"}};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]

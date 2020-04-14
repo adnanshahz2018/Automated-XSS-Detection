@@ -1,0 +1,40 @@
+https://www.cultpens.com/news/q/date/2020/03/23/coronavirus
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.cultpens.com/s?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Results for (uvw&amp;#34;xyz&amp;#39;yxz&amp;#60;/zxy From | Cult Pens</title>
+<strong>(uvw&amp;#34;xyz&amp;#39;yxz&amp;#60;/zxy</strong>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta name="Description" content="Results for (uvw&amp;amp;#34;xyz&amp;amp;#39;yxz&amp;amp;#60;/zxy In stock now for fast UK and worldwide shipping."/>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

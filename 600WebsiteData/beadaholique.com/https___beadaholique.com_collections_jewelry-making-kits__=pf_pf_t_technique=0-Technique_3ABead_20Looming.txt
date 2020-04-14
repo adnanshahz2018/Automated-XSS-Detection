@@ -1,0 +1,221 @@
+https://beadaholique.com/collections/jewelry-making-kits?_=pf&pf_t_technique=0-Technique%3ABead%20Looming
+
+GET Params:[2]
+['type', 'q']
+_______________________________________________________________________________________________________
+https://beadaholique.com/search?type=(uvw"xyz'yxz</zxy&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":15392768100,"offset":-25200,"reqid":"ac0dc539-41f0-4377-90d8-7395fa2a321a","pageurl":"beadaholique.com\/search?type=(uvw%22xyz'yxz%3C\/zxy\u0026q=","u":"772789d7c50e","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link rel="canonical" href="https://beadaholique.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy" />
+<meta property="og:url" content="https://beadaholique.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://beadaholique.com/search?type=product&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input
+        class="form-field-input live-search-form-field"
+        type="text"
+        name="q"
+        aria-label="Search"
+        placeholder="Search for products, videos, projects, techniques and guides..."
+        
+          
+
+
+
+
+
+
+
+
+          value="(uvw&quot;xyz&#39;yxz&lt;/zxy"
+        
+        autocomplete="off"
+        data-live-search-input>
+<input
+        class="form-field-input productgrid--search-form-field"
+        type="text"
+        name="q"
+        aria-label="Search"
+        placeholder="Search for products, videos, projects, techniques and guides..."
+        
+          
+
+
+
+
+
+
+
+
+          value="(uvw&quot;xyz&#39;yxz&lt;/zxy"
+        
+        data-live-search-input>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [3]
+<script id="__st">var __st={"a":15392768100,"offset":-25200,"reqid":"5d65b7c1-1daf-4152-9331-e6a0f076da73","pageurl":"beadaholique.com\/search?type=product\u0026q=(uvw%22xyz'yxz%3C\/zxy","u":"06f10d4de4d2","p":"searchresults"};</script>
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://beadaholique.com/search",
+            "name": "Search"
+          }
+        }
+        
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "https://beadaholique.com/search?q=(uvw&quot;xyz&#39;yxz&lt;/zxy",
+              "name": "(uvw\u0026quot;xyz\u0026#39;yxz\u0026lt;\/zxy"
+            }
+          }
+          
+        
+      
+    ]
+  }
+</script>
+<script>
+  // Declare bcSfFilterConfig variable
+  var bcSfFilterMainConfig = {
+    api: {
+      filterUrl: 'https://services.mybcapps.com/bc-sf-filter/filter',
+      searchUrl: 'https://services.mybcapps.com/bc-sf-filter/search',
+      suggestionUrl: 'https://services.mybcapps.com/bc-sf-filter/search/suggest',
+    },
+    shop: {
+      name: 'Beadaholique',
+      url: 'https://beadaholique.com',
+      domain: 'beadaholique.myshopify.com',
+      currency: 'USD',
+      money_format: '&#36;{{amount}}'
+    },
+    general: {
+      file_url: "//cdn.shopify.com/s/files/1/0153/9276/8100/files/?13790",
+      asset_url: "//cdn.shopify.com/s/files/1/0153/9276/8100/t/53/assets/bc-sf-filter.js?v=1384888019274799520",
+      collection_id: 0,
+      collection_handle: "",
+      
+      collection_tags: null,
+      current_tags: null,
+      default_sort_by: "",
+      swatch_extension: "png",
+      no_image_url: "//cdn.shopify.com/s/files/1/0153/9276/8100/t/53/assets/bc-sf-filter-no-image.gif?v=4551082043989976841",
+      search_term: "(uvw&quot;xyz&#39;yxz&lt;/zxy",
+      template: "search"
+    },
+    
+    settings: {"general":{"productAndVariantAvailable":false,"availableAfterFiltering":false,"activeFilterScrollbar":true,"showFilterOptionCount":true,"showSingleOption":true,"showOutOfStockOption":false,"keepToggleState":true,"showRefineBy":true,"changeMobileButtonLabel":false,"capitalizeFilterOptionValues":true,"swatchImageVersion":111112,"paginationType":"default","customSortingList":"relevance|best-selling|manual|price-ascending|price-descending|title-ascending|title-descending|created-descending|created-ascending","sortingAvailableFirst":false,"showLoading":false,"activeScrollToTop":false},"search":{"enableSuggestion":true,"productAvailable":false,"showSuggestionProductVendor":true,"showSuggestionProductPrice":false,"showSuggestionProductSalePrice":false,"showSuggestionProductSku":true,"showSuggestionProductImage":true,"suggestionBlocks":[{"type":"suggestions","label":"Suggestions","status":"active","number":3},{"type":"collections","label":"Collections","status":"disabled","number":2},{"type":"products","label":"Products","status":"active","number":3},{"type":"pages","label":"Pages","status":"active","number":3}]},"label":{"action_list":{},"recentlyViewed":{},"mostPopular":{}},"style":{"filterTitleTextColor":"","filterTitleFontSize":"","filterTitleFontWeight":"","filterTitleFontTransform":"","filterTitleFontFamily":"","filterOptionTextColor":"","filterOptionFontSize":"","filterOptionFontFamily":"","filterMobileButtonTextColor":"","filterMobileButtonFontSize":"","filterMobileButtonFontWeight":"","filterMobileButtonFontTransform":"","filterMobileButtonFontFamily":"","filterMobileButtonBackgroundColor":""},"actionlist":{"qvBtnBackgroundColor":"rgba(255||255||255||1)","qvBtnTextColor":"rgba(61||66||70||1)","qvBtnBorderColor":"rgba(255||255||255||1)","qvBtnHoverBackgroundColor":"rgba(61||66||70||1)","qvBtnHoverTextColor":"rgba(255||255||255||1)","qvBtnHoverBorderColor":"rgba(61||66||70||1)","atcBtnBackgroundColor":"rgba(0||0||0||1)","atcBtnTextColor":"rgba(255||255||255||1)","atcBtnBorderColor":"rgba(0||0||0||1)","atcBtnHoverBackgroundColor":"rgba(61||66||70||1)","atcBtnHoverTextColor":"rgba(255||255||255||1)","atcBtnHoverBorderColor":"rgba(61||66||70||1)","qvAtcMessage":"","alStyle":"bc-al-style4","qvTitle":"","qvEnable":true,"actTitle":"","atcEnable":true},"recentlyViewed":{"recentlyViewedTitle":"","recentlyViewedEnable":false,"recentProductSliderRange":5,"limit":8},"mostPopular":{"mostPopularTitle":"","mostPopularEnable":true,"popularProductSliderRange":5,"limit":8},"labelTranslations":{}},
+    
+  };
+  function mergeObject(obj1, obj2){
+    var obj3 = {};
+    for (var attr in obj1) { obj3[attr] = obj1[attr]; }
+    for (var attr in obj2) { obj3[attr] = obj2[attr]; }
+    return obj3;
+  }
+  if (typeof bcSfFilterConfig !== 'undefined') {
+    var bcSfFilterConfig = mergeObject(bcSfFilterConfig, bcSfFilterMainConfig); 
+  } else {
+    var bcSfFilterConfig = mergeObject({}, bcSfFilterMainConfig); 
+  }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="canonical" href="https://beadaholique.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product" />
+<meta property="og:url" content="https://beadaholique.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product">
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta name="twitter:title" content="(uvw&quot;xyz&#39;yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

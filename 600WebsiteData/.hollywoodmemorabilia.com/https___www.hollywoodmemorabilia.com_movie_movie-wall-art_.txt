@@ -1,0 +1,34 @@
+https://www.hollywoodmemorabilia.com/movie/movie-wall-art/
+
+GET Params:[4]
+['Ntt', 'performicsid', 'c', 'sanscookie']
+_______________________________________________________________________________________________________
+https://www.hollywoodmemorabilia.com/search2.php?Ntt=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<INPUT type="text" id="search" name="Ntt" size="30" style="width: 300px; border: 1px solid gray;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<span class="copy18d">&nbsp;(uvw&quot;xyz&#039;yxz&lt;/zxy&nbsp;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]

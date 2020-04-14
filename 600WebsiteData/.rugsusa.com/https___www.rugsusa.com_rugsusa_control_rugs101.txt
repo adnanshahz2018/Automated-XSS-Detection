@@ -1,0 +1,48 @@
+https://www.rugsusa.com/rugsusa/control/rugs101
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.rugsusa.com/rugsusa/control/search-keywords?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<span id="current_crumb">uvwxyzyxz&#x2f;zxy</span>
+<h1 id="search_page_title">
+"UVWXYZYXZ&#X2F;ZXY"
+</h1>
+<h3>Your search for uvwxyzyxz&#x2f;zxy did not return any results.</h3>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<link rel="canonical" href="https://www.rugsusa.com/rugsusa/control/search-keywords?q=%28uvw%22xyz%27yxz%3C%2Fzxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	True
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

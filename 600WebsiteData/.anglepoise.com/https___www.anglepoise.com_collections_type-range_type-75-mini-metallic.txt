@@ -1,0 +1,110 @@
+https://www.anglepoise.com/collections/type-range/type-75-mini-metallic
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.anglepoise.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [7]
+<option value="https://www.anglepoise.eu/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=eu_en&___from_store=international_en">
+<option value="https://www.anglepoise.com/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=international_en&___from_store=international_en">
+<option value="https://us.anglepoise.com/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=usa_en&___from_store=international_en">
+<input id="search" data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://www.anglepoise.com/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }' type="text" name="q" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="Enter keyword(s)..." class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off" />
+<option value="https://www.anglepoise.eu/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=eu_en&___from_store=international_en">
+<option value="https://www.anglepoise.com/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=international_en&___from_store=international_en" selected>
+<option value="https://us.anglepoise.com/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=usa_en&___from_store=international_en">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</title>
+<strong>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</strong>
+<span class="base" data-ui-id="page-title-wrapper">Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<a href="https://www.anglepoise.com/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=international_en&___from_store=international_en" class="button primary" data-website="uk" aria-hidden="true">
+<a href="https://us.anglepoise.com/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=usa_en&___from_store=international_en" class="button primary" data-website="usa" aria-hidden="true">
+<a href="https://www.anglepoise.eu/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&___store=eu_en&___from_store=international_en" class="button primary" data-website="eu" aria-hidden="true">
+<meta name="title" content="Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
