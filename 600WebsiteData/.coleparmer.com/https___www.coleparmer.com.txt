@@ -1,0 +1,64 @@
+https://www.coleparmer.com
+
+GET Params:[1]
+['searchterm']
+_______________________________________________________________________________________________________
+https://www.coleparmer.com/search?searchterm=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>Search - (uvw&quot;xyz&#39;yxz&lt;/zxy from Cole-Parmer</title>
+<span itemprop='item' itemprop='name'>Search Results for (uvw&quot;xyz&#39;yxz&lt;/zxy</span>
+<h1>We&#39;re sorry, we found 0 matches for "(uvw&quot;xyz&#39;yxz&lt;/zxy"</h1>
+<label>http://endeca.coleparmer.com/cp_assembler/CPInternational/browse?Ns=P_ItemPrioritySort|1&amp;keyword=(uvw%22xyz%27yxz%3c%2fzxy&amp;Ntt=(uvw%22xyz%27yxz%3c%2fzxy&amp;Nty=1&amp;rlg=en-US&amp;searchterm=(uvw%22xyz%27yxz%3c%2fzxy&amp;uty=dflt&amp;rgn=P_ISUAA&amp;format=json</label>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>    dataLayer.push({           'event': 'GTM Event',            'eventCategory':'Search With No Results',            'eventAction':'No Results',           'eventLabel':'(uvw%22xyz%27yxz%3c%2fzxy'     });</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="/account/signin?returnUrl=%2Fsearch%3Fsearchterm%3D(uvw%2522xyz&#39;yxz%253C%2Fzxy" class="btn sign-in" title="Sign In">
+<a href="/account/signin?returnUrl=%2Fsearch%3Fsearchterm%3D(uvw%2522xyz&#39;yxz%253C%2Fzxy" class="btn primary btn-sign-in" title="Sign In">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

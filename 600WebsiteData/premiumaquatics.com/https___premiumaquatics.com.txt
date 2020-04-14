@@ -1,0 +1,88 @@
+https://premiumaquatics.com
+
+GET Params:[1]
+['search']
+_______________________________________________________________________________________________________
+https://premiumaquatics.com/search?search=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="searchbox" type="text" size="30" class="grey" name="search" onfocus="if ( this.value == 'Enter Keyword(s)...' ) this.value='';" value="(uvw&quot;xyz&#039;yxz&lt;/zxy"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+addLoadEvent(function() { 
+    // setup ul.tabs to work as tabs for each div directly under div.panes
+    $("ul.tabs").tabs("div.panes > div");
+
+		    $("#articlecount").load('/search_articles/%28uvw%22xyz%27yxz%3C/count',function (response) {
+      if ( response == 'Articles (0)' ) {
+         $('#articletab').hide();
+      } else {
+         $('#articletab').show();
+         $("#articles").load('/search_articles/%28uvw%22xyz%27yxz%3C');
+      }
+   });
+
+    $("#faqcount").load('/search_faq/%28uvw%22xyz%27yxz%3C/count',function (response) {
+      if ( response == 'FAQ (0)' ) {
+         $('#faqtab').hide();
+      } else {
+         $('#faqtab').show();
+         $("#faq").load('/search_faq/%28uvw%22xyz%27yxz%3C');
+      }
+   });
+
+    $("#tipscount").load('/search_tips/%28uvw%22xyz%27yxz%3C/count',function (response) {
+      if ( response == 'Tips (0)' ) {
+         $('#tiptab').hide();
+      } else {
+         $('#tiptab').show();
+         $("#tips").load('/search_tips/%28uvw%22xyz%27yxz%3C');
+      }
+   });
+
+    $("#videoscount").load('/search_videos/%28uvw%22xyz%27yxz%3C/count',function (response) {
+      if ( response == 'Videos (0)' ) {
+         $('#videotab').hide();
+      } else {
+         $('#videotab').show();
+         $("#videos").load('/search_videos/%28uvw%22xyz%27yxz%3C');
+      }
+   });
+
+		});
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a style="font-size: 10px;" href="/search/zxy/%28uvw%22xyz%27yxz%3C/all">
+<a style="font-size: 10px;" href="/search/zxy/%28uvw%22xyz%27yxz%3C/all">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

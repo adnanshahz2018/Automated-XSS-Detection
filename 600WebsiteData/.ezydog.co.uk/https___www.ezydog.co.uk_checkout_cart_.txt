@@ -1,0 +1,193 @@
+https://www.ezydog.co.uk/checkout/cart/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.ezydog.co.uk/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input
+id="search" type="text" autocomplete="off"  name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" class="search-bar-input UI-SEARCH UI-NAV-INPUT" maxlength="128" />
+<input
+class="search-bar-input" id="search1" type="text" name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" maxlength="128" />
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'  - EzyDog.co.uk</title>
+<strong>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'</strong>
+<h1>Search results for '(uvw&quot;xyz'yxz&lt;/zxy'</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">/**/
+        AjaxPro.observe('init', function() {
+            AjaxPro.toolbar
+            .setPage(1)
+            .setLimit(12)
+            .setTotal(0)
+            .setUrl('https://www.ezydog.co.uk/catalogsearch/result/index/?p=.page.&q=%28uvw%22xyz%27yxz%3C%2Fzxy')
+        ;
+        });
+    /**/</script>
+
+----------------------------------------------------------------------------------
+URI Context: [16]
+<a
+href="https://www.ezydog.co.uk/catalogsearch/result/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;___store=uk_uk">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-leads?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="LEADS">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-harnesses?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="HARNESSES">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-collars?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="COLLARS">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-life-jackets?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="LIFEJACKETS">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-backpacks?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="BACKPACKS">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-accessories?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="ACCESSORIES">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-training?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="TRAINING">
+<a
+href="https://www.ezydog.co.uk/search/category/dog-travel?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="TRAVEL">
+<a
+href="https://www.ezydog.co.uk/search/category/shop?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="SHOP ALL PRODUCTS">
+<a
+href="https://www.ezydog.co.uk/search/category/denim?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="DENIM">
+<a
+href="https://www.ezydog.co.uk/search/category/pink?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="PINK">
+<a
+href="https://www.ezydog.co.uk/search/category/leather?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="LEATHER">
+<a
+href="https://www.ezydog.co.uk/search/category/sale?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="SALE">
+<a
+class="m-checkbox-unchecked"
+onclick="this.className='m-checkbox-checked'"
+href="https://www.ezydog.co.uk/search/size/xs---xsmall?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="XS - XSmall">
+<link
+rel="canonical" href="https://www.ezydog.co.uk/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.ezydog.co.uk/catalogsearch/result/?q=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.ezydog.co.uk/catalogsearch/result/?q=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

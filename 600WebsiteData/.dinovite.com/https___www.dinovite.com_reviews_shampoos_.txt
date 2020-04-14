@@ -1,0 +1,102 @@
+https://www.dinovite.com/reviews/shampoos/
+
+GET Params:[1]
+['search_query']
+_______________________________________________________________________________________________________
+https://www.dinovite.com/search.php?search_query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" class="Field250" name="search_query_adv" id="search_query_adv" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [4]
+<title>Dinovite, Inc. - Search Results for "(uvw&quot;xyz&#039;yxz&lt;/zxy"</title>
+<p class="txt24">Search Results for "(uvw&quot;xyz&#039;yxz&lt;/zxy"</p>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+<strong>"(uvw&quot;xyz&#039;yxz&lt;/zxy"</strong>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+(function () {
+    var xmlHttp = new XMLHttpRequest();
+
+    xmlHttp.open('POST', '/events/trigger-visit-event');
+    xmlHttp.setRequestHeader('Content-Type', 'application/json');
+    xmlHttp.send('{"initiator":{"id":"","session_id":"04b449386881e81c8236277286fb241339f0ceb5","type":"ANONYMOUS","visit_id":"7247a92f-b2f0-414f-890d-29627336cf55","visitor_id":"15135426-e9ac-4792-bd76-6ca67f207a59"},"referer":{"url":""},"request":{"url":"https:\/\/www.dinovite.com\/search.php?search_query=(uvw&quot;xyz&#039;yxz&lt;\/zxy"}}');
+})();
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [6]
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=product#results" onclick="showSearchTabs('product'); return false;">
+<a href="search.php?search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;section=content#results" onclick="showSearchTabs('content'); return false;">
+<a href="https://www.dinovite.com/rss.php?action=searchproducts&amp;type=rss&search_query=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<a href="https://www.dinovite.com/rss.php?action=searchproducts&amp;type=rss&search_query=%28uvw%22xyz%27yxz%3C%2Fzxy">
+<link rel="alternate" type="application/rss+xml" title="Product Search (RSS 2.0)" href="https://www.dinovite.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;type=rss" />
+<link rel="alternate" type="application/atom+xml" title="Product Search (Atom 0.3)" href="https://www.dinovite.com/rss.php?action=searchproducts&amp;type=rss&amp;search_query=%28uvw%22xyz%27yxz%3C%2Fzxy&amp;type=atom" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
