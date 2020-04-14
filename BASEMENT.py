@@ -47,6 +47,17 @@ ISSUE NO. 3:
 1. Attack Methodology for URL: Does it need Encoding Analysis..?
 
 
+ISSUE NO. 4:
+1. On https://www.crane.com
+i.  <a href="/stationery/featured-products">Featured Products</a> 
+ii. <a href="/stationery/best-sellers">Best Sellers</a>
+
+2. The href value is merged with base Url to produce a complete link. 
+ https://www.crane.com + href
+ 
+3. So what's the update, are we goin to do the same..
+ 
+
 
 """
 
