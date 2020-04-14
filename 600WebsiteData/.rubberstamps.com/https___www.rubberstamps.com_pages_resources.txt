@@ -1,0 +1,76 @@
+https://www.rubberstamps.com/pages/resources
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.rubberstamps.com/search?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<body id="uvw-quot-xyz-39-yxz" class=" template-search" >
+<input type="text" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy"  placeholder="search" class="input-group-field" aria-label="Search Site" autocomplete="off">
+<input type="text" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy"  placeholder="search" class="input-group-field" aria-label="Search Site" autocomplete="off">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&quot;xyz&#39;yxz | RubberStamps.com</title>
+<h2>Your search for "(uvw&quot;xyz&#39;yxz&lt;/zxy" did not yield any results.</h2>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":28300642,"offset":-18000,"reqid":"2736d718-cb92-4307-9d95-bc079850b404","pageurl":"www.rubberstamps.com\/search?q=(uvw%22xyz'yxz%3C\/zxy","u":"d54cbe6d3aa8","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<link rel="canonical" href="https://www.rubberstamps.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta property="og:url" content="https://www.rubberstamps.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]

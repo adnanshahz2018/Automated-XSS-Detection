@@ -74,7 +74,7 @@ class generate_form_urls_with_payloads:
             if ( field.get('type') != 'checkbox' and field.get('type') != 'submit' and field.get('type') != 'color'
                 and field.get('type') != 'button' and field.get('type') != 'reset' and field.get('type') != 'date'
                 and field.get('type') != 'file' and field.get('type') != 'datetime-local' and field.get('type') != 'tel' 
-                and field.get('type') != 'number' and field.get('type') != 'time'):
+                and field.get('type') != 'number' and field.get('type') != 'time' and field.get('type') != 'image'):
                 self.get_params.append(field.get('name'))
                 formdata[field.get('name')] = field.get('value')
         

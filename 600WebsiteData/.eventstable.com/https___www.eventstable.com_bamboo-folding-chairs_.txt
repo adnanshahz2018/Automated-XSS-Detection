@@ -1,0 +1,64 @@
+https://www.eventstable.com/bamboo-folding-chairs/
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.eventstable.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input id="search" data-mage-init='{"quickSearch":{ "formSelector":"#search_mini_form", "url":"https://www.eventstable.com/search/ajax/suggest/", "destinationSelector":"#search_autocomplete"} }' type="text" name="q" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="Keyword or Item #" class="input-text" maxlength="128" role="combobox" aria-haspopup="false" aria-autocomplete="both" autocomplete="off"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039; | EventStable.com</title>
+<strong>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</strong>
+<span class="base" data-ui-id="page-title-wrapper" >Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/x-magento-init">{"body":{"pageCache":{"url":"https:\/\/www.eventstable.com\/page_cache\/block\/render\/","handles":["default","catalogsearch_result_index","catalogsearch_result_index_noresults"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw%22xyz'yxz%3C\/zxy"},"versionCookieName":"private_content_version"}}}</script>
+<script type="text/x-magento-init">{"body.page-with-filter, body.catalogsearch-result-index":{"amShopbyAjax":{"submitByClick":0,"scrollUp":1,"clearUrl":"https://www.eventstable.com/catalogsearch/result/index/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","currentCategoryId":"2","isCategorySingleSelect":"1"}}}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta name="title" content="Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039; | EventStable.com"/>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

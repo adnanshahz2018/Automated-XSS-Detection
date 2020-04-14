@@ -1,0 +1,170 @@
+https://www.successories.com/unique-corporate-gifts/1
+
+GET Params:[4]
+['successoriesproducts', 'search', None, 'swagpromoproducts']
+_______________________________________________________________________________________________________
+https://www.successories.com/searchresults.html?successoriesproducts=(uvw"xyz'yxz</zxy&search=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.successories.com/searchresults.html?successoriesproducts=Y&search=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="yo/sequence/event/afterloaded *static\.criteo\.net" data-yo-how="eval">
+	window.criteo_q = window.criteo_q || [];
+	window.criteo_q.push(
+		{ event: "setAccount", account: 12988},
+		{ event: "setCustomerId", id: 0},
+		{ event: "setSiteType", type: /iPad/.test(navigator.userAgent)?"t":/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent)?"m":"d"},
+		{ event: "viewList", 
+			product: [  ],
+			keywords: ""
+		}
+	);
+	
+	fbq('track', 'Search', {
+  		search_string: "(uvw\"xyz'yxz<\/zxy"	});
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.successories.com/searchresults.html?successoriesproducts=Y&search=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.successories.com/searchresults.html?swagpromoproducts=(uvw"xyz'yxz</zxy&successoriesproducts=Y&search=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.successories.com/searchresults.html?swagpromoproducts=N&successoriesproducts=(uvw"xyz'yxz</zxy&search=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.successories.com/searchresults.html?swagpromoproducts=N&successoriesproducts=Y&search=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="yo/sequence/event/afterloaded *static\.criteo\.net" data-yo-how="eval">
+	window.criteo_q = window.criteo_q || [];
+	window.criteo_q.push(
+		{ event: "setAccount", account: 12988},
+		{ event: "setCustomerId", id: 0},
+		{ event: "setSiteType", type: /iPad/.test(navigator.userAgent)?"t":/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent)?"m":"d"},
+		{ event: "viewList", 
+			product: [  ],
+			keywords: ""
+		}
+	);
+	
+	fbq('track', 'Search', {
+  		search_string: "(uvw\"xyz'yxz<\/zxy"	});
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+_______________________________________________________________________________________________________
+https://www.successories.com/searchresults.html?swagpromoproducts=N&successoriesproducts=Y&search=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

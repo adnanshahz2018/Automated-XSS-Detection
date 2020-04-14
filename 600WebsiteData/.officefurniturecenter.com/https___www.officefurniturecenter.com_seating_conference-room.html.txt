@@ -1,0 +1,145 @@
+https://www.officefurniturecenter.com/seating/conference-room.html
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.officefurniturecenter.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://www.officefurniturecenter.com/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="q"
+                           value="&#x28;uvw&amp;quot&#x3B;xyz&amp;&#x23;039&#x3B;yxz&amp;lt&#x3B;&#x2F;zxy"
+                           placeholder="Search&#x20;entire&#x20;store&#x20;here..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"
+			   aria-expanded="false"
+			   style="background:#fff;color:#333333" />
+<input id="search"
+                           data-mage-init='{"quickSearch":{
+                                "formSelector":"#search_mini_form",
+                                "url":"https://www.officefurniturecenter.com/search/ajax/suggest/",
+                                "destinationSelector":"#search_autocomplete"}
+                           }'
+                           type="text"
+                           name="q"
+                           value="&#x28;uvw&amp;quot&#x3B;xyz&amp;&#x23;039&#x3B;yxz&amp;lt&#x3B;&#x2F;zxy"
+                           placeholder="Search&#x20;entire&#x20;store&#x20;here..."
+                           class="input-text"
+                           maxlength="128"
+                           role="combobox"
+                           aria-haspopup="false"
+                           aria-autocomplete="both"
+                           autocomplete="off"
+			   aria-expanded="false"
+			   style="background:#fff;color:#333333" />
+<input type="hidden" id="filter-url" value="https://www.officefurniturecenter.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</title>
+<strong>Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</strong>
+<span class="base" data-ui-id="page-title-wrapper" >Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;</span>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script>
+        require([
+                'jquery',
+                'Mirasvit_SearchAutocomplete/js/autocomplete',
+                'Mirasvit_SearchAutocomplete/js/typeahead'
+            ], function ($, autocomplete, typeahead) {
+                var selector = 'input#search, input#mobile_search, .minisearch input[type="text"]';
+
+                $(document).ready(function () {
+                    $('#search_mini_form').prop("minSearchLength", 10000);
+
+                    var $input = $(selector);
+
+                    $input.each(function (index, searchInput) {
+                        
+                        new autocomplete($(searchInput)).init({"query":"(uvw&quot;xyz&#039;yxz&lt;\/zxy","priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"minSearchLength":3,"url":"https:\/\/www.officefurniturecenter.com\/searchautocomplete\/ajax\/suggest\/","storeId":"13","delay":300,"layout":"1column","popularTitle":"Hot Searches","popularSearches":[],"isTypeaheadEnabled":"0","typeaheadUrl":"https:\/\/www.officefurniturecenter.com\/searchautocomplete\/ajax\/typeahead\/","minSuggestLength":2});
+                    });
+                });
+            }
+        );
+    </script>
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.officefurniturecenter.com\/page_cache\/block\/render\/?q=%28uvw%22xyz%27yxz%3C%2Fzxy","handles":["default","catalogsearch_result_index","catalogsearch_result_index_noresults"],"originalRequest":{"route":"catalogsearch","controller":"result","action":"index","uri":"\/catalogsearch\/result\/?q=(uvw\"xyz'yxz<\/zxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<meta name="title" content="Search results for: &#039;(uvw&quot;xyz&#039;yxz&lt;/zxy&#039;"/>
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	False	False	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)', "' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.officefurniturecenter.com/catalogsearch/result/?q=" onmouseover="alert(1)
+
+ ______ UnSuccessful with payload: " onmouseover="alert(1)
+
+
+ATTR Attack Url: https://www.officefurniturecenter.com/catalogsearch/result/?q=' onmouseover='alert(1)
+
+ ______ UnSuccessful with payload: ' onmouseover='alert(1)
+
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

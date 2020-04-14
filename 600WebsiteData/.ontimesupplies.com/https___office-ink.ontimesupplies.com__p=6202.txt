@@ -1,0 +1,197 @@
+https://office-ink.ontimesupplies.com/?p=6202
+
+GET Params:[2]
+['query', 's']
+_______________________________________________________________________________________________________
+https://www.ontimesupplies.com/search?query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="query" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" maxlength="60" class="form-control" placeholder="Search for..." id="m2-search-query">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>(uvw&quot;xyz&#039;yxz&lt;/zxy | OnTimeSupplies.com</title>
+<span class="text-info">(uvw&quot;xyz&#039;yxz&lt;/zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@id": "https://www.ontimesupplies.com/",
+                            "name": "Home"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@id": "https://www.ontimesupplies.com/search",
+                            "name": "Search"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@id": "https://www.ontimesupplies.com/search?query=%28uvw%22xyz%27yxz%3C%2Fzxy",
+                            "name": "(uvw&quot;xyz&#039;yxz&lt;/zxy"
+                        }
+                    }                ]
+            }
+        </script>
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['setCustomVariable', 1, 'Admin User', 'No', 'visit']);
+
+    _paq.push(['setCustomVariable', 1, 'Page Type', 'M2 Site Search', 'page']);
+    _paq.push(['setCustomVariable', 2, 'Custom Content', 'No', 'page']);
+    _paq.push(['setCustomVariable', 3, 'Category', 'Undefined', 'page']);
+    _paq.push(['setCustomVariable', 4, 'Brand', 'Undefined', 'page']);
+
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.www.ontimesupplies.com"]);
+    _paq.push(["setDomains", ["*.www.ontimesupplies.com"]]);
+
+    _paq.push(['trackSiteSearch', '(uvw\"xyz\'yxz<\/zxy', '', 0]);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="https://www.m2software.net/piwik/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<a href="/search?query=%28uvw%22xyz%27yxz%3C%2Fzxy" class="text-dark">
+<meta property="og:title" content="(uvw&quot;xyz&#039;yxz&lt;/zxy">
+<meta property="og:url" content="https://www.ontimesupplies.com/search?query=(uvw%22xyz'yxz%3C/zxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://office-ink.ontimesupplies.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="form-control" type="search" name="s" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="Search &hellip;" title="Search &hellip;">
+<input class="form-control" type="search" name="s" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" placeholder="Search &hellip;" title="Search &hellip;">
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>(uvw&quot;xyz&#039;yxz&lt;/zxy | Office Ink Blog</title>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="application/ld+json" class="aioseop-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://office-ink.ontimesupplies.com/#organization","url":"https://office-ink.ontimesupplies.com/","name":"Office Ink Blog","sameAs":[]},{"@type":"WebSite","@id":"https://office-ink.ontimesupplies.com/#website","url":"https://office-ink.ontimesupplies.com/","name":"Office Ink Blog","publisher":{"@id":"https://office-ink.ontimesupplies.com/#organization"}},{"@type":"SearchResultsPage","@id":"https://office-ink.ontimesupplies.com/search/%28uvw%22xyz%27yxz%3C/zxy/#searchresultspage","url":"https://office-ink.ontimesupplies.com/search/%28uvw%22xyz%27yxz%3C/zxy/","inLanguage":"en-US","name":"Search results for \"(uvw&quot;xyz&#039;yxz&lt;/zxy\"","isPartOf":{"@id":"https://office-ink.ontimesupplies.com/#website"}}]}</script>
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://office-ink.ontimesupplies.com",
+                "name": "Home"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://office-ink.ontimesupplies.com/search/%28uvw%22xyz%27yxz%3C/zxy/",
+                "name": "Search results for (uvw&quot;xyz&#039;yxz&lt;/zxy"
+            }
+        }
+    ]
+}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<link rel="alternate" type="application/rss+xml" title="Office Ink Blog &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://office-ink.ontimesupplies.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
