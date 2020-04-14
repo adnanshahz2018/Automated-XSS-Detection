@@ -1,0 +1,58 @@
+https://blog.worthingtondirect.com/
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://blog.worthingtondirect.com/?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" class="search-field" placeholder="Search &hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" />
+<input type="search" class="search-field" placeholder="Search &hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>Search for &quot;(uvw&quot;xyz&#039;yxz&lt;/zxy&quot; &mdash; School Furniture Blog</title>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<link rel="alternate" type="application/rss+xml" title="School Furniture Blog &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://blog.worthingtondirect.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="Search for &quot;(uvw&quot;xyz&#039;yxz&lt;/zxy&quot; &mdash; School Furniture Blog" />
+<meta property="og:url" content="https://blog.worthingtondirect.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
