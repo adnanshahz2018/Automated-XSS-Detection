@@ -36,7 +36,7 @@ class analyze_attack:
         # we have 2 links
         for link in links:  #links contains all the references/links
             links_count += 1
-            print( '\nWebpage [', links_count , '/',  len(links), '] => ', link, end="")
+            print( '\n Webpage [', links_count , '/',  len(links), '] => ', link, end="")
             if not link == [] and link.__contains__('http'):   
                 # generates links/urls from every <form ... method="get">. 
                 # We receive a list of links/urls. 
@@ -62,7 +62,7 @@ class analyze_attack:
             if u: url = u   # if url is not Empty then Attach the Payload
             else: continue
             if url.__contains__('http'):    # Checking for a Valid Url
-                print('[', count , '/', len(unique_get_urls), ']', 'Checking Encoding =>',  url )
+                print('[', count , '/', len(unique_get_urls), ']', 'Analysing GET URL =>',  url )
                 source = self.get_source(url) # Retrieving source code of the webpage
                 # Fucntion Call
                 self.record_data(url,source)
@@ -118,6 +118,7 @@ class analyze_attack:
                     RegExp = regular_expression(data)
                     RegExp.set_payload(attack)
                     value = RegExp.cotext_attack(Context)
+
                     print('Detection of Payload:\n', value  , '\n\n')
                     self.Text.write_directly('\nDetection of Payload: ' + '\n')
                     for v in value:

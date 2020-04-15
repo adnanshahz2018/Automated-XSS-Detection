@@ -12,7 +12,9 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    folder = '600WebsiteData'
+    # folder = 'drive/My Drive/600WebsiteData'
+    # folder = '600WebsiteData'
+    folder = 'NewData'
     dirName = ''
     base = ''
     links = [] 
@@ -20,10 +22,12 @@ class main_class:
     source = None
 
     def __init__(self,url):
-        self.base = self.folder + '/' + self.find_base_url(url)
+        base_url = self.find_base_url(url)
+        print(' BASE URL [', base_url, ']\n')
+        self.base = self.folder + '/' + base_url
         self.create_directory(self.folder)
         self.dirName = self.folder + '/' + self.dirName
-        self.create_directory( self.dirName )
+        self.create_directory( self.base )
 
 
 #   Do we still need this function ... let's check it later and then replace it or delete it.
@@ -82,7 +86,6 @@ class main_class:
             parts = link.split('/')
             link = parts[0]
         
-        print('\nBase Url = [', link, ']')
         self.dirName =  link
         return link
     
@@ -96,7 +99,7 @@ class main_class:
     def bfs_crawling(self,index, web_links):
         count = index
         self.links = web_links.copy()
-        print('\n\t\t WE ARE FETCHING LINKS \n\n')
+        # print('\n\t\t WE ARE FETCHING LINKS \n\n')
         for i in range(index, len(web_links) ):
             count+=1
             self.url = web_links[i]
@@ -137,10 +140,12 @@ class main_class:
 
 def main_operation(links):
 
+    bfs_levels = 0
+
     M = main_class(links[0])
     base = M.dirName
     index = 0 
-    for bfs in range(3):
+    for bfs in range(bfs_levels):
         index, links = M.bfs_crawling(index,links)
         if (index > 21): break      
 
@@ -188,7 +193,6 @@ if __name__ == "__main__":
     # links += ['https://www.discountpartysupplies.com/'] # Done stored 
     # links += ['https://www.burpee.com/']      # Done stored
     # links += ['https://www.bangalla.com/'] # done stored
-    # links += ['https://www.zentechnologies.com/']     # done stored
     # links += ['https://www.vanhalenstore.com/']   #Done Well Stored
     # links += ['https://madeinoregon.com/']        # Done Well 
     # links += ['https://www.gsmarena.com/']            # Done well// has only 2-3 pages while finding links through 'href'
@@ -213,15 +217,10 @@ if __name__ == "__main__":
     # links += ['https://www.nobleworkscards.com']  #nothing found
     # links += ['https://elegantbaby.com']
     # links += ['http://cigi.sourceforge.net/']
+   
+    links += ['https://www.zentechnologies.com/']     # done stored
 
-
-
-
-    # links += ['']
-    # links += ['']
-    # links += ['']
-    # links += ['']
-    # links += ['']
+# New Links
 
     # links += ['']
     # links += ['']
@@ -229,7 +228,16 @@ if __name__ == "__main__":
     # links += ['']
     # links += ['']
 
-    links = read_excel('sample_data/data.xlsx')
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['']
+    # links += ['https://www.faz.net/aktuell/']
+
+    # READING LINKS FROM EXCEL FILE
+    # links = read_excel('sample_data/data.xlsx')
+
+
     count = 0
     for link in links: 
         count+=1
@@ -238,7 +246,5 @@ if __name__ == "__main__":
         print(' WEBSITE  [' , count ,'/', len(links), ']  =>  ' ,link)
         main_operation(one_link)
 
-
-    
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 

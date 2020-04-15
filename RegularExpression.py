@@ -23,13 +23,13 @@ class regular_expression:
         return new_value
 
     def RegExpAttribute(self):
-        pattern = re.compile(r'<(?!a)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{1,10}\s[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*[xX][yY][zZ][@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
+        pattern = re.compile(r'<(?!a)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{1,10}[*\s[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*\s?[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*][xX][yY][zZ][@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
         values = pattern.findall(self.pagesource)
         # print(values)
         return values
 
     def RegExpHtml(self):
-        pattern = re.compile(r'<(?!script)(?!a)\w{1,10}[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*<\/?\w{1,10}?>')
+        pattern = re.compile(r'<(?!script)(?!a)\w{1,10}[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*<\\?(?!z)\w{1,10}\>?')
         values = pattern.findall(self.pagesource)
         return values
 
@@ -63,7 +63,7 @@ class regular_expression:
 # >>>>>>>>>>>>>>>>  Looking for the EXACT and SAME Appearance of the Payload >>>>>>>>>>>>>>>>>>>
 
     def RegExpSameAttribute(self):
-        p = re.compile(r'<(?!a)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{2,10}[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/?>')
+        p = re.compile(r'<(?!a)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{1,10}[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*\s?[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
         return p.findall(self.pagesource) 
 
     def RegExpSameHtml(self):

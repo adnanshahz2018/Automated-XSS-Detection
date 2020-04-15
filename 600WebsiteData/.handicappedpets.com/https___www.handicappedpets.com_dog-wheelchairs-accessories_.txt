@@ -1,0 +1,194 @@
+https://www.handicappedpets.com/dog-wheelchairs-accessories/
+
+GET Params:[2]
+['s', 'post_type']
+_______________________________________________________________________________________________________
+https://www.handicappedpets.com?s=(uvw"xyz'yxz</zxy&post_type=product
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="text" class="form-control search-input" name="s" placeholder="What are you looking for today?" value="(uvw&quot;xyz&#039;yxz&lt;/zxy">
+<input type="text" class="form-control search-input" name="s" placeholder="Search..." value="(uvw\&quot;xyz\&#039;yxz&lt;/zxy">
+<img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=800019323536819&ev=Search&noscript=1&cd[search_string]=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy&cd[content_type]=product&cd[content_ids]=%5B%5D" alt="facebook_pixel">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets</title>
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets</title>
+<h1 class="page-title">
+			Search results: &ldquo;(uvw&quot;xyz&#039;yxz&lt;/zxy&rdquo;						<small>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.handicappedpets.com/#organization","name":"Walkin' Pets by Handicappedpets.com","url":"https://www.handicappedpets.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.handicappedpets.com/#logo","inLanguage":"en-US","url":"https://www.handicappedpets.com/wp-content/uploads/2017/07/walkin-wheels-no-wave.png","width":300,"height":69,"caption":"Walkin' Pets by Handicappedpets.com"},"image":{"@id":"https://www.handicappedpets.com/#logo"}},{"@type":"WebSite","@id":"https://www.handicappedpets.com/#website","url":"https://www.handicappedpets.com/","name":"Handicapped Pets","inLanguage":"en-US","description":"Mobility for Disabled &amp; Paralyzed Dogs with Dog Wheelchairs as seen on Animal Planet. Your custom fit Dog Cart Wheelchair &amp; Products Ships Same Day!","publisher":{"@id":"https://www.handicappedpets.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.handicappedpets.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"SearchResultsPage","@id":"https://www.handicappedpets.com/search/%28uvw%22xyz%27yxz%3C/zxy/#webpage","url":"https://www.handicappedpets.com/search/%28uvw%22xyz%27yxz%3C/zxy/","name":"You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets","isPartOf":{"@id":"https://www.handicappedpets.com/#website"},"inLanguage":"en-US"}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets" />
+<meta property="og:url" content="https://www.handicappedpets.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.handicappedpets.com?s=&post_type=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+_______________________________________________________________________________________________________
+https://www.handicappedpets.com?s=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="text" class="form-control search-input" name="s" placeholder="What are you looking for today?" value="(uvw&quot;xyz&#039;yxz&lt;/zxy">
+<input type="text" class="form-control search-input" name="s" placeholder="Search..." value="(uvw\&quot;xyz\&#039;yxz&lt;/zxy">
+<img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=800019323536819&ev=Search&noscript=1&cd[search_string]=%28uvw%5C%22xyz%5C%27yxz%3C%2Fzxy" alt="facebook_pixel">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets</title>
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets</title>
+<strong>&quot;(uvw&quot;xyz&#039;yxz&lt;/zxy&quot;</strong>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.handicappedpets.com/#organization","name":"Walkin' Pets by Handicappedpets.com","url":"https://www.handicappedpets.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.handicappedpets.com/#logo","inLanguage":"en-US","url":"https://www.handicappedpets.com/wp-content/uploads/2017/07/walkin-wheels-no-wave.png","width":300,"height":69,"caption":"Walkin' Pets by Handicappedpets.com"},"image":{"@id":"https://www.handicappedpets.com/#logo"}},{"@type":"WebSite","@id":"https://www.handicappedpets.com/#website","url":"https://www.handicappedpets.com/","name":"Handicapped Pets","inLanguage":"en-US","description":"Mobility for Disabled &amp; Paralyzed Dogs with Dog Wheelchairs as seen on Animal Planet. Your custom fit Dog Cart Wheelchair &amp; Products Ships Same Day!","publisher":{"@id":"https://www.handicappedpets.com/#organization"},"potentialAction":{"@type":"SearchAction","target":"https://www.handicappedpets.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"SearchResultsPage","@id":"https://www.handicappedpets.com/search/%28uvw%22xyz%27yxz%3C/zxy/#webpage","url":"https://www.handicappedpets.com/search/%28uvw%22xyz%27yxz%3C/zxy/","name":"You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets","isPartOf":{"@id":"https://www.handicappedpets.com/#website"},"inLanguage":"en-US"}]}</script>
+<script type='text/javascript'>
+				window.ccLayer = window.ccLayer || [];
+				ccLayer.push({"ccEvent":"productsSearched","query":"(uvw&quot;xyz&#039;yxz&lt;\/zxy","metaData":{"customer_status":"guest","date":"2020-04-15 15:27:55","currency":"USD","pv":"3.8.1","wv":"5.3.2","pgv":"1.2.2"}});
+			</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="alternate" type="application/rss+xml" title="Handicapped Pets &raquo; Search Results for &#8220;(uvw&quot;xyz&#039;yxz&lt;/zxy&#8221; Feed" href="https://www.handicappedpets.com/search/%28uvw%22xyz%27yxz%3C/zxy/feed/rss2/" />
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets" />
+<meta property="og:url" content="https://www.handicappedpets.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy | Handicapped Pets" />
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]

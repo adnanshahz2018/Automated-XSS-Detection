@@ -1,0 +1,298 @@
+https://www.onlynaturalpet.com/collections/only-natural-pet?filters%5Bcustom_fields.Pet%20Type%5D%5B0%5D=Cats
+
+GET Params:[3]
+['type', 'q', None]
+_______________________________________________________________________________________________________
+https://www.onlynaturalpet.com/search?type=(uvw"xyz'yxz</zxy&q=
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":13551501376,"offset":-21600,"reqid":"b2e06d2b-ba8f-4e97-a88d-3a672f204cc5","pageurl":"www.onlynaturalpet.com\/search?type=(uvw%22xyz'yxz%3C\/zxy\u0026q=","u":"65ede78dfa06","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link rel="canonical" href="https://www.onlynaturalpet.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:url" content="https://www.onlynaturalpet.com/search?q=&type=%28uvw%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.onlynaturalpet.com/search?type=product,article&q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<body id="uvw-quot-xyz-39-yxz" class="template-search     site-fixed-header">
+<input type="text" class="header-nav__search-bar" placeholder="Search Products" name="q" value="(uvw&quot;xyz&#39;yxz&lt;/zxy" data-search-bar-mobile data-findify-search>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>
+    (uvw&quot;xyz&#39;yxz
+    
+    
+    
+      &ndash; Only Natural Pet
+    
+  </title>
+<h1 class="page-header__title">Search results for '(uvw&quot;xyz&#39;yxz&lt;/zxy'</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script id="__st">var __st={"a":13551501376,"offset":-21600,"reqid":"857f6f88-61c4-4efa-b22e-b64089589177","pageurl":"www.onlynaturalpet.com\/search?type=product,article\u0026q=(uvw%22xyz'yxz%3C\/zxy","u":"8833a9149643","p":"searchresults"};</script>
+<script type="text/javascript">
+  window.addEventListener('load', function () {
+
+    function getPageType() {
+      
+      return "Search Results";
+      
+    }
+
+    
+  window.dataLayer.push({
+    visitorType: "Guest"
+  });
+  
+
+  
+  window.dataLayer.push({
+    pageType: "searchresults"
+  });
+  
+
+
+  
+
+  
+
+  
+  var query = "(uvw&quot;xyz&#39;yxz&lt;/zxy";
+
+  window.dataLayer.push({
+    event: "SearchView",
+    SearchTerms: query
+  });
+
+  var collection = [];
+
+  
+
+  if (!collection.length) collection = [];
+
+  var allProducts = collection.map(function (product, index) {
+    return {
+      name: product.title.replace("'", ''),
+      id: product.variants[0].sku,
+      productId: product.variants[0].id,
+      shopifyId: "shopify_US" + "_" + product.id + "_" + product.variants[0].id, price: product.price / 100,
+      brand: product.vendor.replace("'", ''),
+      position: index,
+      list: "Search Results",
+      handle: product.handle
+    };
+  });
+
+  var visibleProducts = [];
+  var productLimit = 36;
+
+  Array.prototype.slice.call(document.querySelectorAll('a[href*="/products/"]')).slice(0, productLimit).forEach(function (item) {
+    var arr = item.href.split('/products/');
+    var handle = arr[arr.length - 1];
+
+    if (!allProducts.length) return;
+
+    var matchingProduct = allProducts.filter(function (product) {
+      return product.handle === handle;
+    });
+
+    if (!matchingProduct.length) return;
+
+    if (visibleProducts.indexOf(matchingProduct[0]) == -1) {
+      visibleProducts.push(matchingProduct[0]);
+    }
+  })
+
+  window.dataLayer.push({
+    event: 'searchResults',
+    ecommerce: {
+      currencyCode: "USD",
+      actionField: { list: "Search Results" },
+      impressions: visibleProducts,
+    }
+  });
+  
+
+  
+
+  Array.prototype.slice.call(document.querySelectorAll('a[href*="/products/"]'))
+    .forEach(function (select) {
+      select.addEventListener('click', handleProductClick);
+    });
+
+  function getClickedProductHandle(element) {
+    var arr = element.href.split('/products/');
+    return arr[arr.length - 1];
+  }
+
+  function handleProductClick(event) {
+    if (typeof allProducts == "undefined") return;
+    var target = event.target.matches('a[href*="/products/"]')
+      ? event.target
+      : event.target.closest('a[href*="/products/"]');
+    var handle = getClickedProductHandle(target);
+    var clickedProduct = allProducts.filter(function (product) {
+      return product.handle === handle;
+    });
+    if (clickedProduct[0]) delete clickedProduct[0].list;
+    if (clickedProduct[0]) delete clickedProduct[0].handle;
+    window.dataLayer.push({
+      'event': 'productClick',
+      'ecommerce': {
+        currencyCode: "USD",
+        'click': {
+          'actionField': { 'list': getPageType() },
+          'products': clickedProduct
+
+        }
+      },
+    });
+  }
+}, false);
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<link rel="canonical" href="https://www.onlynaturalpet.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product%2carticle">
+<meta property="og:url" content="https://www.onlynaturalpet.com/search?q=%28uvw%22xyz%27yxz%3c%2fzxy&type=product%2carticle">
+<meta property="og:title" content="(uvw&quot;xyz&#39;yxz">
+<meta name="twitter:title" content="(uvw&quot;xyz&#39;yxz">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	True
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+ATTR:		True	True	True	True	False
+
+Attack Payloads for ATTR
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+HTML:		True	True	True	True	False
+
+Attack Payloads for HTML
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.onlynaturalpet.com/search?type=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script id="__st">var __st={"a":13551501376,"offset":-21600,"reqid":"3f8a342e-6dcb-412c-b745-2619df22f148","pageurl":"www.onlynaturalpet.com\/search?type=(uvw%22xyz'yxz%3C\/zxy","u":"4c6d8dd1ab1f","p":"searchresults"};</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<link rel="canonical" href="https://www.onlynaturalpet.com/search?type=%28uvw%22xyz%27yxz%3c%2fzxy">
+<meta property="og:url" content="https://www.onlynaturalpet.com/search?type=%28uvw%22xyz%27yxz%3c%2fzxy">
+
+----------------------------------------------------------------------------------
+
+
+ENCODING     Presence	"	'	<	( 
+SCRIPT:		True	True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+ENCODING     Presence	"	'	<	( 
+URL:		True	True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.onlynaturalpet.com/search?type=article
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
