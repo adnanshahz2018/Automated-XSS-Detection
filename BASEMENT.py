@@ -28,6 +28,11 @@ url=https_3A__www.ndt.net_title=NDT.net_summary=NDT.net_-_Web's_Largest_Portal_o
 
 
 _____________________________________________________________________________________________________________________
+==>> RESOLVED ISSUES:
+1. data-digital-data has been detected..
+2. HTML missing due to Nested <span Tag inside a <span Tag:  SUCCESSFULLY Detected. 
+
+_____________________________________________________________________________________________________________________
 
 ==>>    FINDINGS:
 
