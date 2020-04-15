@@ -212,6 +212,22 @@ class context_encoding:
         
         return True     # Filtering is PRESENT
 
+    def single_quotes_outside(self,context):
+        pattern = re.compile(r'[=:]\s?\'[@\*!~|$_,}+*\\#*{*\s^*?\[\]*(*)*\/*.*\w*=:*&*;*\-*%*\d*]*xyz')
+        value = pattern.findall(context)
+        if value:    
+            print("Encapsulated With Single Quotes: Can't Break the Context")
+            return True
+        return False
+
+    def double_quotes_outsid(self,context):
+        pattern = re.compile(r'[=:]\s?\"[@\*!~|$_,}+*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*=*:&*;*\-*%*\d*]*yxz')
+        value = pattern.findall(context)
+        if value:    
+            print("Encapsulated With Double Quotes: Can't Break the Context")
+            return True
+        return False
+
 
 if __name__ == "__main__":
     CE = context_encoding()
