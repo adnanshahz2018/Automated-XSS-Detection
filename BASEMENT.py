@@ -33,6 +33,10 @@ ________________________________________________________________________________
 2. HTML missing due to Nested <span Tag inside a <span Tag:  SUCCESSFULLY Detected. 
 
 _____________________________________________________________________________________________________________________
+^^^ Remaining Issue:
+1. Attack Payload Detection:
+2. Return Only the Value where XSS is present or there is a Bypass. 
+_____________________________________________________________________________________________________________________
 
 ==>>    FINDINGS:
 
