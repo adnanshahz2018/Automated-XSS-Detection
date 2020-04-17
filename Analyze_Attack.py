@@ -26,6 +26,18 @@ class analyze_attack:
         source = Web.get_source()
         return source
 
+    def write_excel_attack_description(self, attack_url, context, detection):
+        wb = op.load_workbook('sample_data/file.xlsx')
+        ws = wb.get_sheet_by_name('Sheet1')
+
+        new_detection = []
+        for data in detection: 
+            new_detection.append(str(data))
+
+        for data in detection: ws.append([str(attack_url), context, str(data)])
+        wb.save('sample_data/file.xlsx')
+        wb.close()
+
     def remove_duplicate_get_urls(self,get_urls):
         unique_get_urls = [] 
         # print('Removing Duplicates...')
@@ -73,7 +85,7 @@ class analyze_attack:
                 # Fucntion Call
                 self.record_data(url,source)
 
-    # ----- Finding Contexts, selecting attack-Methodology and attack-payloads
+    # Finding Contexts, selecting attack-Methodology and attack-payloads
     def record_data(self,url,source):
         Find = find_contexts()
         # Finding All Contexts
@@ -140,14 +152,4 @@ class analyze_attack:
                     print('\n\n ______ UnSuccessful with payload: ', attack, '\n\n')
                     self.Text.write_directly('\n\n ______ UnSuccessful with payload: ' + str(attack) + '\n\n')
         
-    def write_excel_attack_description(self, attack_url, context, detection):
-        wb = op.load_workbook('sample_data/file.xlsx')
-        ws = wb.get_sheet_by_name('Sheet1')
-
-        new_detection = []
-        for data in detection: 
-            new_detection.append(str(data))
-
-        for data in detection: ws.append([str(attack_url), context, str(data)])
-        wb.save('sample_data/file.xlsx')
-        wb.close()
+  
