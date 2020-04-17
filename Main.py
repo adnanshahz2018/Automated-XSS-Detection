@@ -12,9 +12,9 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    # folder = 'drive/My Drive/600WebsiteData'
+    folder = 'drive/My Drive/600WebsiteData'
     # folder = '600WebsiteData'
-    folder = 'NewData'
+    # folder = 'UpdatedData'
     dirName = ''
     base = ''
     links = [] 
@@ -27,6 +27,7 @@ class main_class:
         self.base = self.folder + '/' + base_url
         self.create_directory(self.folder)
         self.dirName = self.folder + '/' + self.dirName
+
         self.create_directory( self.base )
 
 
@@ -139,9 +140,7 @@ class main_class:
 
 
 def main_operation(links):
-
-    bfs_levels = 0
-
+    bfs_levels = 2
     M = main_class(links[0])
     base = M.dirName
     index = 0 
@@ -173,7 +172,7 @@ if __name__ == "__main__":
     links = []
 # -----------------------  Links for Testing -------------------------------
     # links += ['https://www.moma.org/']      # 376 Unique Links in this website with 2 level bfs...  
-    # links += ['https://www.britannica.com/explore/yearinreview/']
+    links += ['https://www.britannica.com/']
     # links += ['https://www.roomandboard.com/']    # Check for the problem: where you find the get parama: 'query' but further the *Requests Fails*
     # links += ['https://www.africanews.com/']
     # links += ['https://www.iita.org/']
@@ -218,24 +217,18 @@ if __name__ == "__main__":
     # links += ['https://elegantbaby.com']
     # links += ['http://cigi.sourceforge.net/']
    
-    links += ['https://www.zentechnologies.com/']     # done stored
+    # links += ['https://www.zentechnologies.com/']     # done stored
 
-# New Links
-
-    # links += ['']
-    # links += ['']
-    # links += ['']
-    # links += ['']
-    # links += ['']
+# New Links <==>
 
     # links += ['']
     # links += ['']
-    # links += ['']
-    # links += ['']
+    # links += ['https://www.aquacave.com/']
+    # links += ['https://www.armysurplusworld.com']
     # links += ['https://www.faz.net/aktuell/']
 
     # READING LINKS FROM EXCEL FILE
-    # links = read_excel('sample_data/data.xlsx')
+    links =  read_excel('sample_data/data.xlsx')
 
 
     count = 0
