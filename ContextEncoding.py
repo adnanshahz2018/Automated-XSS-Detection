@@ -7,7 +7,6 @@ import re
 class context_encoding:
     double_quotes = single_quotes = lessthan_sign = parantheses = presence = False
 
-
     def display(self,context):
         for value in context:   print(value)
     
@@ -27,14 +26,14 @@ class context_encoding:
             context.__contains__('&#34;') or context.__contains__("\\" + "u0022") ):
             self.double_quotes = True 
         else: 
-            print('check filter Double quotes')
+            # print('check filter Double quotes')
             self.double_quotes = self.filtering_analyzer('double',name,context) 
 
         if( context.__contains__('%27') or context.__contains__('&#39;') or context.__contains__('&#039;') or
             context.__contains__("\\" + "'") or context.__contains__("\\" + "u0027") ):
             self.single_quotes = True  
         else: 
-            print('check filter Single quotes')
+            # print('check filter Single quotes')
             self.single_quotes = self.filtering_analyzer('single',name,context)
 
         if( context.__contains__('&lt;') or context.__contains__('%3C') or 
@@ -49,15 +48,14 @@ class context_encoding:
         else:
             self.parantheses = self.filtering_analyzer('parantheses', name, context)
         
-
         return self.presence, self.double_quotes, self.single_quotes, self.lessthan_sign, self.parantheses
 
 
     def filtering_analyzer(self,special_char, name, context):
         if name == 'ATTR' and special_char == 'double' : 
-            return self.attr_double(context)
+            return self.attr_double(context) or self.attr_single_quotes_outside(context,'xyz')
         if name == 'ATTR' and special_char == 'single' : 
-            return self.attr_single(context)
+            return self.attr_single(context) or self.attr_double_quotes_outside(context,'yxz')
         if name == 'ATTR' and special_char == 'less_than' : 
             return self.attr_less_than(context)
         
@@ -70,9 +68,9 @@ class context_encoding:
         
 
         if name == 'SCRIPT' and special_char == 'double' : 
-            return self.script_double(context)
+            return self.script_double(context) or self.script_single_quotes_outside(context,'xyz') 
         if name == 'SCRIPT' and special_char == 'single' : 
-            return self.script_single(context)
+            return self.script_single(context) or self.script_double_quotes_outside(context,'yxz')
         if name == 'SCRIPT' and special_char == 'less_than': 
             return self.script_less_than(context)
         
@@ -90,13 +88,11 @@ class context_encoding:
     
     def attr_double(self,context): 
         pattern1 = re.compile(r'\"[\s]*xyz')
-        # soup = ('<input id="search" type="search" name="q" value="u"xyz' + "'" + 'yxz</zxy" class="input-text required-entry" maxlength="128" placeholder="Search" />')
         value = pattern1.findall(context)
         if value:        
             # print('\nFiltering Value = ',value)
             return False    # No Filtering 
 
-        # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g: 'special_url' : ' u\"xyz'yxz
         return True     # Filtering is PRESENT
 
     def attr_single(self, context):
@@ -106,7 +102,6 @@ class context_encoding:
             # print('\nFiltering Value = ',value)
             return False    # No Filtering 
 
-        # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g: 'special_url' : ' u\"xyz'yxz
         return True     # Filtering is PRESENT
     
     def attr_less_than(self, context): 
@@ -212,19 +207,35 @@ class context_encoding:
         
         return True     # Filtering is PRESENT
 
-    def single_quotes_outside(self,context):
-        pattern = re.compile(r'[=:]\s?\'[@\*!~|$_,}+*\\#*{*\s^*?\[\]*(*)*\/*.*\w*=:*&*;*\-*%*\d*]*xyz')
-        value = pattern.findall(context)
+    def attr_single_quotes_outside(self,context,attack):
+        pattern = re.compile(r'[=]\s?\'[@\*!~|$_,}+*\\#*{*\s^*\'?\[\]*(*)*\/*.*\w*=:*&*;*\-*%*\d*]*'+ re.escape(attack))
+        value = pattern.findall(str(context))
         if value:    
-            print("Encapsulated With Single Quotes: Can't Break the Context")
+            # print("\n\n\t\tEncapsulated With Single Quotes: Can't Break the Context")
             return True
         return False
 
-    def double_quotes_outsid(self,context):
-        pattern = re.compile(r'[=:]\s?\"[@\*!~|$_,}+*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*=*:&*;*\-*%*\d*]*yxz')
-        value = pattern.findall(context)
+    def attr_double_quotes_outside(self,context,attack):
+        pattern = re.compile(r'[=]\s?\"[@\*!~|$_,}+\"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*=*:&*;*\-*%*\d*]*'+ re.escape(attack))
+        value = pattern.findall(str(context))
         if value:    
-            print("Encapsulated With Double Quotes: Can't Break the Context")
+            # print("\n\n\t\tEncapsulated With Double Quotes: Can't Break the Context")
+            return True
+        return False
+
+    def script_single_quotes_outside(self,context,attack):
+        pattern = re.compile(r'[=:]\s?\'[@\*!~|$_,}+*\\#\'*{*\s^*?\[\]*(*)*\/*.*\w*=:*&*;*\-*%*\d*]*'+ re.escape(attack))
+        value = pattern.findall(str(context))
+        if value:    
+            # print("\n\n\t\tEncapsulated With Single Quotes: Can't Break the Context")
+            return True
+        return False
+
+    def script_double_quotes_outside(self,context,attack):
+        pattern = re.compile(r'[=:]\s?\"[@\*!~|$_,}+*\\#*\"{*\s^*?\[\]\'*(*)*\/*.*\w*=*:&*;*\-*%*\d*]*'+ re.escape(attack))
+        value = pattern.findall(str(context))
+        if value:    
+            # print("\n\n\t\tEncapsulated With Double Quotes: Can't Break the Context")
             return True
         return False
 

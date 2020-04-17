@@ -1,4 +1,10 @@
 
+import os
+import xlwt
+import openpyxl as op
+from xlwt import Workbook
+
+
 from WebRequest import web_request
 from WriteTextFile import write_text_file
 from RegularExpression import regular_expression
@@ -74,7 +80,6 @@ class analyze_attack:
         attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls = Find.find_context(url, self.payload, str(source) )
         # Writing Contexts to Text File
         self.Text.write_contexts(url, attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)
-        # self.Text.write_encoding( None, '','','','','')
         # Cotext Encoding and Attack Methodology for each Context
         for attr in attrs       :   self.check_encoding_and_attack( url, 'ATTR', attr)
         for html in htmls       :   self.check_encoding_and_attack( url, 'HTML', html)
@@ -90,42 +95,59 @@ class analyze_attack:
         else:   
             print_presence = str(presence)
         
-        print('Special Chars = Context Presence   \"\t \'\t<\t(')
-        print(context_name,'Encoding=\t', print_presence, '\t   ', double_quotes, single_quotes, lessthan_sign, parantheses )
+        # print('Special Chars =   \t\"\t \'\t<\t(')
+        # print(context_name,'Mititgation\t', double_quotes, single_quotes, lessthan_sign, parantheses )
         
         self.Text.write_encoding(context_name, presence, double_quotes, single_quotes, lessthan_sign, parantheses)
         self.try_attacks(url, context_name, presence, double_quotes, single_quotes, lessthan_sign, parantheses)
 
-    def try_attacks(self, url, Context, presence, double_quotes, single_quotes, lessthan_sign, parantheses ):
+    def try_attacks(self, url, context_name, presence, double_quotes, single_quotes, lessthan_sign, parantheses ):
         AM = attack_methodology()
         pay = self.payload
         attack_payloads = []
-        tag, attack_payloads = AM.get_attack_payload(Context, presence, double_quotes, single_quotes, lessthan_sign, parantheses )
-        print('Attack Payloads: ', attack_payloads)
+        tag, attack_payloads = AM.get_attack_payload(context_name, presence, double_quotes, single_quotes, lessthan_sign, parantheses )
+        # print('Attack Payloads: ', attack_payloads)
         
         if tag:
-            self.Text.write_directly('\nAttack Payloads for ' + str(Context) + '\n' + str(attack_payloads) + '\n')
+            self.Text.write_directly('\nAttack Payloads for ' + str(context_name) + '\n' + str(attack_payloads) + '\n')
             for attack in attack_payloads:
                 url = url.replace(pay, attack)
                 pay = attack
-                print('\n', Context, 'Attack Url: ', url)
-                self.Text.write_directly('\n'+ Context + ' Attack Url: ' + url)
+                print('\n', context_name, 'Attack Url: ', url)
+                self.Text.write_directly('\n'+ context_name + ' Attack Url: ' + url)
                 data = self.get_source(url)
                 if( str(data).__contains__(attack)):
-                    print('\n\n=> ATTACK SUCCESSFUL with Payload: ', str(attack))
-                    self.Text.write_directly('\n\n=> ATTACK SUCCESSFUL with Payload: ' + str(attack))
+                    print('\n\n=> Successful with Payload: ', str(attack))
+                    self.Text.write_directly('\n\n=> Successful with Payload: ' + str(attack))
                     # print('=>The Automated Tool Assumes that there is a potential XSS Present in the Website\n')
                     RegExp = regular_expression(data)
                     RegExp.set_payload(attack)
-                    value = RegExp.cotext_attack(Context)
+                    value = RegExp.cotext_attack(context_name)
 
-                    print('Detection of Payload:\n', value  , '\n\n')
-                    self.Text.write_directly('\nDetection of Payload: ' + '\n')
-                    for v in value:
-                        self.Text.write_directly(str(v) + "\n")
-                    # self.Text.write_directly('\n')
-                    # input('Press Enter To Proceed.. ')
+                    CE = context_encoding()
+                    detection = []
+                    print('FINAL OUTPUT:\n')
+                    for val in value:
+                        if  context_name == 'ATTR':
+                            if not single_quotes and not CE.attr_double_quotes_outside(val, attack): detection.append(str(val))
+                            if not double_quotes and not CE.attr_single_quotes_outside(val, attack): detection.append(str(val))
+                    
+                    self.write_excel_attack_description(url,context_name,detection)
+                    self.Text.write_directly('\nFINAL OUTPUT: ' + '\n')
+                    print( detection  , '\n\n')
+                    for d in detection: self.Text.write_directly(str(d) + "\n")
                 else:
                     print('\n\n ______ UnSuccessful with payload: ', attack, '\n\n')
                     self.Text.write_directly('\n\n ______ UnSuccessful with payload: ' + str(attack) + '\n\n')
         
+    def write_excel_attack_description(self, attack_url, context, detection):
+        wb = op.load_workbook('sample_data/file.xlsx')
+        ws = wb.get_sheet_by_name('Sheet1')
+
+        new_detection = []
+        for data in detection: 
+            new_detection.append(str(data))
+
+        for data in detection: ws.append([str(attack_url), context, str(data)])
+        wb.save('sample_data/file.xlsx')
+        wb.close()
