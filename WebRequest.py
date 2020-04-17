@@ -27,8 +27,7 @@ class web_request:
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36  (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
         'Content-Type': 'text/html',}
         try:
-            if self.form_method == 'post': resp = requests.post(self.url)
-            else:   resp = requests.get(self.url, headers=headers)
+            resp = requests.get(self.url, headers=headers, timeout=4)
             pagesource = resp.text
             # print('{WebRequest} =>  \n', pagesource)
             # self.write_response_textfile(str(pagesource))
