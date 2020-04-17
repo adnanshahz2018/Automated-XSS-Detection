@@ -1,0 +1,47 @@
+https://www.petdoors.com
+
+GET Params:[1]
+['q']
+_______________________________________________________________________________________________________
+https://www.petdoors.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input
+id="search" onfocus="this.value == 'Search - Type what you are looking for here' ? this.value = '' : ''" onblur="this.value == '' ? this.value = 'Search - Type what you are looking for here' : ''" type="text" name="q" value="(uvw%22xyz'yxz%3C/zxy" class="input-text input_xlarge" />
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search results for: '(uvw%22xyz'yxz%3C/zxy'</title>
+<span>Search results for: '(uvw%22xyz'yxz%3C/zxy'</span>
+<h1>Search results for '(uvw%22xyz'yxz%3C/zxy'</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+Mitigation        "	'	<	( 
+ATTR:		True	True	True	False
+
+Attack Payloads for ATTR
+[]
+Mitigation        "	'	<	( 
+HTML:		True	False	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+HTML:		True	False	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+HTML:		True	False	True	False
+
+Attack Payloads for HTML
+[]

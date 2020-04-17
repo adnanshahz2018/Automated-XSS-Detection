@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 class regular_expression:
     pagesource = ''
-    payload = 'u"' + "xyz('yxz</zxy"
+    payload = '(uvw"' + "xyz('yxz</zxy"
     soup = None
 
     def __init__(self,data):
@@ -29,7 +29,7 @@ class regular_expression:
         return values
 
     def RegExpHtml(self):
-        pattern = re.compile(r'<(?!script)(?!a)\w{1,10}[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*<\\?(?!z)\w{1,10}\>?')
+        pattern = re.compile(r'<(?!script)(?!a)\w{1,10}[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*<\/?(?!z)\w{1,10}\>?')
         values = pattern.findall(self.pagesource)
         return values
 
@@ -117,7 +117,6 @@ class regular_expression:
         return value
 
 if __name__ == "__main__":
-    
     
     data = '<script type="text/javascript">UnbxdAnalyticsConf = window.UnbxdAnalyticsConf || {};UnbxdAnalyticsConf["query"] = "</script><script>alert(1)</script>";</script>'
     RegExp = regular_expression(data)

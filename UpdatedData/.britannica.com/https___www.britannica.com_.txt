@@ -1,0 +1,102 @@
+https://www.britannica.com/
+
+GET Params:[1]
+['query']
+_______________________________________________________________________________________________________
+https://www.britannica.com/search?query=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input name="query" id="search-page-search-query" placeholder="Search Britannica..." class="form-control form-control-lg search-query pr-50 shadow-sm" value="(uvw"xyz'yxz" maxlength="200" autocomplete="off"  aria-label="Search Britannica" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script type="text/javascript" data-type="Init Mendel">
+
+    window.$UI = {};
+
+    window.Constants = {"LICENSE_URL": "/bps/license","DEFAULT_TEST_VERSION": "A","AJAX_PREFIX_URL": "/ajax","TOPIC_BROWSE_URL": "/topic-browse","MARKETING_CONTENT": "/marketing-content","DEFAULT_STATE": "XX","QUIZ_URL": "/quiz","FAILED_LOGIN_URL": "/failedlogin","ENV_RUNTIME": "runtime","SPOTLIGHT_BROWSE_URL": "/stories/spotlight","USER_PROFILE_PARTNER_LOGO_URL": "/image/profile-partner","GALLERY_URL": "/gallery","CONTENT_TYPE_TEXT": "text/plain;charset=UTF-8","CONTENT_TYPE_HTML": "text/html;charset=UTF-8","ENV_LOCAL": "override","MEDIA_OVERLAY_URL": "/media-overlay","ENV_DEV": "development","RECTANGLE_THUMBNAIL_DIMENSION": "225,120","MEDIA_URL": "/media","TOPIC_MEDIA_PATH": "/images-videos","SIGNUPBOX_URL": "/auth/signup","STAND_ALONE_VIDEO_URL": "/video","DEBUG_URL": "/debug","MORE_ON_THIS_DAY_URL": "/more-on-this-day","ERROR_404_URL": "/error404","SEARCH_PAGE_URL": "/search","TOPIC_CONTENT_AJAX_URL": "/topic-content/topic","ERROR_URL": "/error","LOGIN_PAGE_URL": "/login","INSTANT_ARTICLES_URL": "/instant-articles","TOPIC_PAGE_CONTENT_AJAX_URL": "/topic-content/page","LOGINBOX_URL": "/auth/loginbox","DEFAULT_SOCIAL_PROFILE_PICTURE_URL": "/resources/images/social/default-member-210x210.jpg","INFINITE_SCROLL_PREFIX_URL": "/scroll","QUIZ_BROWSE_URL": "/quiz/browse","CC_USD": "USD","BIO_BROWSE_URL": "/biographies","SURVEY_URL": "/survey","SIGNUP_CREATE_ACCOUNT_URL": "/auth/signup/new-account","CATEGORY_BROWSE_URL": "/browse","LIST_URL": "/list","STORY_BROWSE_URL": "/stories","COUNTRY_US": "US","ALPHA_BROWSE_URL": "/sitemap","SOCIAL_LOGIN_SUCCESS_URL": "/auth/social-login","CONTENT_TYPE_JSON": "application/json","OPEN_MEDIA_OVERLAY_PARAMETER": "/media","COBRAND_IMAGE_URL": "/image/cobrand","SQUARE_THUMBNAIL_DIMENSION": "150,150","SUBMISSION_URL": "/submission","EB_LOG_OUT": "/auth2/logout","ENV_PRODUCTION": "production","FACTS_URL": "/facts","EB_DOMAIN": "britannica.com","NEWSLETTER_SUBSCRIPTION_URL": "/newsletter-subscription","INSIGHTS_LANDING_PAGE_URL_2": "/factsmatter","EB_PROTOCOL": "https://","INSIGHTS_LANDING_PAGE_URL_1": "/insights","RESOURCES_URL": "/resources","CONTENTFUL_ADMIN_PREFIX_URL": "/contentful-admin","TOPIC_AJAX_URL": "/ajax/topic","PROFILE_EB_EDITOR_URL": "/editor","WTFACT_BROWSE_URL": "/stories/wtfact","AMP_URL": "/amp","EB_LOGIN_OK": "/auth/eb-login/ok","SOCIAL_LOGIN_NEEDS_EMAIL_URL": "/auth/social-login-email","VIDEO_CHANNEL_URL": "/videos","GALLERY_BROWSE_URL": "/gallery/browse","SOCIAL_LOGIN_NEEDS_PASSWORD_URL": "/auth/social-login-password","CACHE_URL": "/cache","CC_INR": "INR","ARTICLE_PRINT_URL": "/print/article","FIRST_EDITION_URL": "/subscriber/firstedition","WW1_PORTAL_URL": "/discover/World-War-I","PROFILE_USER_URL": "/user","SOCIAL_LOGIN_SUCCESS_REDIRECT_URL": "/auth/social-login-redirect","MENDEL_COOKIE": "__mendel","DEMYSTIFIED_BROWSE_URL": "/stories/demystified","COMPANION_BROWSE_URL": "/stories/companion","MEDIA_FOLDER": "/eb-media","LIST_BROWSE_URL": "/list/browse","PROFILE_EXPERT_URL": "/contributor","USER_PROFILE_PICTURE_URL": "/image/profile","ASSEMBLY_IMAGE_URL": "/image/assembly","BRITANNICA_EDITORS_ID": "4419","EXPLORE_BROWSE": "/explore","DAY_IN_HISTORY_URL": "/on-this-day","DEFAULT_CURRENCY": "USD","SUBSCRIPTION_MICROSITE": "/subscriptions","CONTENT_TYPE_XML": "text/xml;charset=UTF-8","STORY_URL": "/story","DEFAULT_COUNTRY": "US","FEATURE_RENDITION_DIMENSION": "900,675","NAVBAR_URL": "/ajax/navbar","EB_LOGIN_URL": "/auth/eb-login","NEW_ARTICLES_URL": "/new-articles",};
+
+    window.Mendel = {
+     	"config" : {
+			"page": "Search",
+			"videoPlayerId": "RVHVXRYp",
+			"currentUrl": "https://www.britannica.com/search?query=(uvw"xyz'yxz</zxy",
+			"sharedUrl": "https://www.britannica.com/search",
+			"userInfo": { "type": "ANONYMOUS"
+			           ,"userId": ""
+			           ,"currency": "USD"
+			           ,"country": "PK"
+					   ,"state": "PB"
+			           ,"bcomId": "-2469473445164944174"
+				       ,"hasAds": true
+					   ,"testVersion": "C"
+				       ,"mvst": {"PHONE_GISTED_LEG":"FALSE"}
+			},
+			"isLoggedInAsUser": false,
+			"analytics": {  "gaId": "UA-6636134-11" },
+			"isMobile": false,
+			"isTablet": false,
+			"isPhone": false,
+			"logoutUrl": "/auth2/logout",
+			"selfServiceUrl": "https://myaccount.britannica.com",
+
+			
+			"mendelCookieName": "__mendel",
+			"mendelCookie": {"pagesViewed":1,"surveyShown":false},
+			
+
+			"autocompleteToSearchPage": false,"query": "(uvw\"xyz\'yxz"
+        ,"searchPageNumber": 1
+		}
+    };
+
+	</script>
+<script type="text/javascript" data-type="init opengraph">
+	Mendel.openGraph = {"type":"WEBSITE","title":"Search","imageUrl":"https://cdn.britannica.com/mendel/resources/eb-thistle-social-image.jpg","imageType":"image/jpeg","pageUrl":"https://www.britannica.com/search?query=(uvw\"xyz'yxz</zxy"}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a href="/search?query=%28uvw%22xyz%27yxz&page=2" class="controls next middle-xs font-18 text-uppercase py-5">
+
+----------------------------------------------------------------------------------
+
+
+Mitigation        "	'	<	( 
+ATTR:		False	True	True	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert(1)']
+
+ATTR Attack Url: https://www.britannica.com/search?query=" onmouseover="alert(1)
+
+ ______ UnSuccessful with payload: " onmouseover="alert(1)
+
+Mitigation        "	'	<	( 
+SCRIPT:		True	True	False	False
+
+Attack Payloads for SCRIPT
+['</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.britannica.com/search?query=</script><script>alert(1)</script>
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+Mitigation        "	'	<	( 
+SCRIPT:		True	True	False	False
+
+Attack Payloads for SCRIPT
+['</script><script>alert(1)</script>']
+
+SCRIPT Attack Url: https://www.britannica.com/search?query=</script><script>alert(1)</script>
+
+ ______ UnSuccessful with payload: </script><script>alert(1)</script>
+
+Mitigation        "	'	<	( 
+URL:		True	True	True	True
+
+Attack Payloads for URL
+[]
