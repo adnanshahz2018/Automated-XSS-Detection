@@ -17,6 +17,8 @@ ________________________________________________________________________________
 
 1. How to Create a Folder through program
 2. Try the Vertical format of the EXCEL FILE.
+2. If 2 forms have same 2 GET Params, then 4 GET URLs will be generated: DONE: later unique GET URLS are extracted
+3. What if they have DIFFERENT FORM ACTIONS, then there should be 4 GET URLS.
 
 _____________________________________________________________________________________________________________________
 ==>> RESOLVED ISSUES:
@@ -54,8 +56,13 @@ Confirmed by Ashar as "Edge Cases" for title , span and style Tags
 4. payload </title><img src=x onerror="alert(1)"> is SUCCESSFUL
 ------------------------------------------------------------------------------------------
 
-ISSUE NO. 3:
-1. Attack Methodology for URL: Does it need Encoding Analysis..?
+ISSUE NO. 3: Attack Mehtodology for URL CONTEXT 
+
+1. Does it need any kind of Encoding Analysis..?
+2. Or for every webpage we try all of the attacks form Your Chart
+3. I'm Not very good with URL-Obfuscation, So, for now I have your payloads from js-fiddle
+    a. http://jsfiddle.net/Qv6F4/1/
+    b. http://jsfiddle.net/Qv6F4/
 
 ISSUE NO. 4:
 1. On https://www.crane.com
@@ -65,19 +72,46 @@ ii. <a href="/stationery/best-sellers">Best Sellers</a>
  https://www.crane.com + href
 3. So what's the update, are we going to do the same..
         YEAH I THINK WE SHOULD.. ====>> CommoN SensE :)
- 
-ISSUE NO. 5:
+
+
+ISSUE NO. 5:    [Will Update it in the NEXT Versions]
 1. https://www.moosejaw.com/content/ann-arbor-shop
 2. could not detect all the get params, though webpage has One GET Form with 14 get params..!!
+3. Couldn't Collect COMPLETE SOURCE with TOOL 
+4. The Request was blocked, redirected to this url.
+    https://www.moosejaw.com/block.html?url=L2NvbnRlbnQvYW5uLWFyYm9yLXNob3A/&uuid=e19e1fc0-8173-11ea-9ed7-bd65ae1f2e66&vid=
+5. Block ID: e19e1fc0-8173-11ea-9ed7-bd65ae1f2e66
 
-ISSUE 6:
-https://www.rei.com/
-GET Input NOT captured . 
-has one get param 'q'
 
-ISSUE 7:
-Check https://www.stevespanglerscience.com
- Look for 2 or more script contexts... with updated RegExp
+ISSUE 6:    [Will Update it in the NEXT Versions]
+1. https://www.rei.com/
+2. GET Input NOT captured  
+3. has one get param 'q'
+
+ISSUE NO. 7:    [FIXED and Captured the Values]
+https://atasteofkentucky.com/kentucky-derby-2020/
+1. </span> Search results for &ldquo;(uvw&quot;xyz&#039;yxz&lt;/zxy&rdquo;</nav>
+2. https://atasteofkentucky.com/?s=(uvw%22xyz%27yxz%3C/zxy&post_type=product
+HTML NOT detected.. bcoz at both ends it has a closing tag.. Let's fix this.
+
+ISSUE 8 : [FIXED and captured 2 script contexts, Manually verified]
+1. https://celticbydesign.com/search?q=(uvw%22xyz%27yxz%3C/zxy
+2. script tag missing . Recapture it with the updated RegExp for script
+
+
+ISSUE 9: [FIXED and Captured 3 script contexts]
+1. Check https://www.stevespanglerscience.com
+2. https://www.stevespanglerscience.com/?s=(uvw"xyz'yxz</zxy&post_type=
+3. Look for 2 or more script contexts... with updated RegExp
+
+Issue 10: [I just wanted to Make sure that for every GET Param [name,value] pairs have correct value]  
+1. Manual  => https://www.timberland.co.uk/shop/SearchDisplay?sType=SimpleSearch&catalogId=11159&searchSource=Q&beginIndex=0&storeId=7105&langId=-11&searchTerm=(uvw"xyz'yxz</zxy
+2. Tool    => https://www.timberland.co.uk/shop/SearchDisplay?sType=SimpleSearch&catalogId=11159&searchSource=Q&beginIndex=0&storeId=7105&langId=-11&searchTerm=(uvw"xyz'yxz</zxy
+[ So Tool-Created URL was SAME as Manual Finding fo the URL]
+
+ISSUE 11:
+1. If 2 forms have same 2 GET Params, then unique GET URLS are extracted and GET URLs are formed. [2 unique urls in this case]
+2.      What if FORMS have differect FORM-ACTIONS, then there should be 4 GET URLS.
 
 """
 
