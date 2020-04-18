@@ -68,9 +68,6 @@ class generate_form_urls_with_payloads:
         formdata = {}
         
         for field in fields:
-            # if(field.get('type') == 'hidden' or field.get('type') == 'text' or field.get('type') == 'Text' or 
-            # field.get('type') == 'TEXT' or field.get('type') == 'search' or field.get('type') == 'Search' or 
-            # field.get('type') == 'SEARCH' ):    
             if ( field.get('type') != 'checkbox' and field.get('type') != 'submit' and field.get('type') != 'color'
                 and field.get('type') != 'button' and field.get('type') != 'reset' and field.get('type') != 'date'
                 and field.get('type') != 'file' and field.get('type') != 'datetime-local' and field.get('type') != 'tel' 
@@ -78,7 +75,7 @@ class generate_form_urls_with_payloads:
                 self.get_params.append(field.get('name'))
                 formdata[field.get('name')] = field.get('value')
         
-        # print('formdata = ' , fields)
+        # print('\nformdata = ' , formdata)
         if not form.get('action'): return False, ['No FormAction']
         # print('form-action: ' , form.get('action'))
         url = self.make_link(form.get('action'))

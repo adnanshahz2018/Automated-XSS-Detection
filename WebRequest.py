@@ -38,7 +38,10 @@ class web_request:
 
     def openurl(self):  
         headers = {}
-        headers['User-Agent'] = "Mozilla/5.0 (X11; Linux i686)"
+        # headers['User-Agent'] = "Mozilla/5.0 (X11; Linux i686)"
+        headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36  (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
+        'Content-Type': 'text/html',}
         # print('urllib => \n' , self.url)
         try:
             req  = urllib.request.Request(self.url)

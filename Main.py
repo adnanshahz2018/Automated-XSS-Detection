@@ -12,9 +12,9 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    folder = 'drive/My Drive/Analyze_50_Websites'
+    # folder = 'drive/My Drive/Analyze_50_Websites'
     # folder = '600WebsiteData'
-    # folder = 'UpdatedData'
+    folder = 'UpdatedData'
     dirName = ''
     base = ''
     links = [] 
@@ -140,7 +140,7 @@ class main_class:
 
 
 def main_operation(links):
-    bfs_levels = 2
+    bfs_levels = 0
     M = main_class(links[0])
     base = M.dirName
     index = 0 
@@ -172,7 +172,7 @@ if __name__ == "__main__":
     links = []
 # -----------------------  Links for Testing -------------------------------
     # links += ['https://www.moma.org/']      # 376 Unique Links in this website with 2 level bfs...  
-    links += ['https://www.britannica.com/']
+    # links += ['https://www.britannica.com/']
     # links += ['https://www.roomandboard.com/']    # Check for the problem: where you find the get parama: 'query' but further the *Requests Fails*
     # links += ['https://www.africanews.com/']
     # links += ['https://www.iita.org/']
@@ -221,14 +221,17 @@ if __name__ == "__main__":
 
 # New Links <==>
 
-    # links += ['']
-    # links += ['']
-    links += ['https://www.aquacave.com/']
-    links += ['https://www.armysurplusworld.com']
-    links += ['https://www.faz.net/aktuell/']
+    # links += ['https://atasteofkentucky.com/kentucky-derby-2020']
+    # links += ['https://www.timberland.co.uk/homepage.html']
+    # links += ['https://www.aquacave.com/']
+    # links += ['https://www.armysurplusworld.com']
+    # links += ['https://www.faz.net/aktuell/']
+    # links += ['https://www.stevespanglerscience.com']
+    # links += ['https://celticbydesign.com']
+    links += ['https://www.rei.com/']
 
     # READING LINKS FROM EXCEL FILE
-    links =  read_excel('sample_data/data.xlsx')
+    # links =  read_excel('sample_data/data.xlsx')
 
 
     count = 0
