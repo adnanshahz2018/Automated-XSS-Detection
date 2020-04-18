@@ -100,6 +100,7 @@ class analyze_attack:
 
     def check_encoding_and_attack(self, url, context_name, context_data):
         CE = context_encoding()
+        CE.set_write_text_object(self.Text)
         # For each Context { encoding_analyzer() } returns True for encoding or escaping of special chars and False otherwise.
         presence, double_quotes, single_quotes, lessthan_sign, parantheses = CE.encoding_analyzer(context_name, context_data)
         if context_name == 'URL' or context_name == 'HTML' or context_name == 'ATTR':

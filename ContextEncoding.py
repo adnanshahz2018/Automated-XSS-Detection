@@ -3,14 +3,19 @@
 # Addition of unicode inline javascript encoding...e.g: \u0022. " DONE 
 
 import re
+from WriteTextFile import write_text_file
 
 class context_encoding:
     double_quotes = single_quotes = lessthan_sign = parantheses = presence = False
+    Text = None
 
     def display(self,context):
         for value in context:   print(value)
     
 # Function / Class Name can also be "Check_Mitigation()" 
+
+    def set_write_text_object(self, Text):
+        self.Text = Text
 
     def initialzie_context_encoding_variables(self):
         self.double_quotes = self.single_quotes = self.lessthan_sign = self.parantheses = self.presence = False
@@ -211,7 +216,7 @@ class context_encoding:
         pattern = re.compile(r'[=]\s?\'[@\*!~|$_,}+*\\#*{*\s^*\'?\[\]*(*)*\/*.*\w*=:*&*;*\-*%*\d*]*'+ re.escape(attack))
         value = pattern.findall(str(context))
         if value:    
-            # print("\n\n\t\tEncapsulated With Single Quotes: Can't Break the Context")
+            self.Text.write_directly("\tAttr-Double\tEncapsulated With Single Quotes: Can't Break the Context\n")
             return True
         return False
 
@@ -219,7 +224,7 @@ class context_encoding:
         pattern = re.compile(r'[=]\s?\"[@\*!~|$_,}+\"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*=*:&*;*\-*%*\d*]*'+ re.escape(attack))
         value = pattern.findall(str(context))
         if value:    
-            # print("\n\n\t\tEncapsulated With Double Quotes: Can't Break the Context")
+            self.Text.write_directly("\tAttr-Single\tEncapsulated With Double Quotes: Can't Break the Context\n")
             return True
         return False
 
@@ -227,7 +232,7 @@ class context_encoding:
         pattern = re.compile(r'[=:]\s?\'[@\*!~|$_,}+*\\#\'*{*\s^*?\[\]*(*)*\/*.*\w*=:*&*;*\-*%*\d*]*'+ re.escape(attack))
         value = pattern.findall(str(context))
         if value:    
-            # print("\n\n\t\tEncapsulated With Single Quotes: Can't Break the Context")
+            self.Text.write_directly("\tScript-Double\tEncapsulated With Single Quotes: Can't Break the Context\n")
             return True
         return False
 
@@ -235,7 +240,7 @@ class context_encoding:
         pattern = re.compile(r'[=:]\s?\"[@\*!~|$_,}+*\\#*\"{*\s^*?\[\]\'*(*)*\/*.*\w*=*:&*;*\-*%*\d*]*'+ re.escape(attack))
         value = pattern.findall(str(context))
         if value:    
-            # print("\n\n\t\tEncapsulated With Double Quotes: Can't Break the Context")
+            self.Text.write_directly("\tScript-Single\tEncapsulated With Double Quotes: Can't Break the Context\n")
             return True
         return False
 

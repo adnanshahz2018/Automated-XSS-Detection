@@ -12,7 +12,7 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    folder = 'drive/My Drive/600WebsiteData'
+    folder = 'drive/My Drive/Analyze_50_Websites'
     # folder = '600WebsiteData'
     # folder = 'UpdatedData'
     dirName = ''
@@ -223,9 +223,9 @@ if __name__ == "__main__":
 
     # links += ['']
     # links += ['']
-    # links += ['https://www.aquacave.com/']
-    # links += ['https://www.armysurplusworld.com']
-    # links += ['https://www.faz.net/aktuell/']
+    links += ['https://www.aquacave.com/']
+    links += ['https://www.armysurplusworld.com']
+    links += ['https://www.faz.net/aktuell/']
 
     # READING LINKS FROM EXCEL FILE
     links =  read_excel('sample_data/data.xlsx')

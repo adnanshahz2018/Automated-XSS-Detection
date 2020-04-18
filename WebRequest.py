@@ -27,7 +27,7 @@ class web_request:
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36  (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36',
         'Content-Type': 'text/html',}
         try:
-            resp = requests.get(self.url, headers=headers, timeout=4)
+            resp = requests.get(self.url, headers=headers, timeout=10)
             pagesource = resp.text
             # print('{WebRequest} =>  \n', pagesource)
             # self.write_response_textfile(str(pagesource))
@@ -42,7 +42,7 @@ class web_request:
         # print('urllib => \n' , self.url)
         try:
             req  = urllib.request.Request(self.url)
-            resp = urllib.request.urlopen(req, timeout=4)
+            resp = urllib.request.urlopen(req, timeout=10)
             pagesource = resp.read().decode(encoding='utf-8', errors='strict') 
             # print(pagesource)
             return pagesource
