@@ -1,4 +1,0 @@
-https://bccamera.com
-
-GET Params:[0]
-[]

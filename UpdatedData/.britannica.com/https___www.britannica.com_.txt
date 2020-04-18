@@ -24,16 +24,16 @@ Script Context: [2]
      	"config" : {
 			"page": "Search",
 			"videoPlayerId": "RVHVXRYp",
-			"currentUrl": "https://www.britannica.com/search?query=(uvw"xyz'yxz</zxy",
+			"currentUrl": "https://www.britannica.com/search?query=(uvw%22xyz'yxz%3C/zxy",
 			"sharedUrl": "https://www.britannica.com/search",
 			"userInfo": { "type": "ANONYMOUS"
 			           ,"userId": ""
 			           ,"currency": "USD"
 			           ,"country": "PK"
 					   ,"state": "PB"
-			           ,"bcomId": "-2469473445164944174"
+			           ,"bcomId": "5071255336430029877"
 				       ,"hasAds": true
-					   ,"testVersion": "C"
+					   ,"testVersion": "D"
 				       ,"mvst": {"PHONE_GISTED_LEG":"FALSE"}
 			},
 			"isLoggedInAsUser": false,
@@ -56,15 +56,17 @@ Script Context: [2]
 
 	</script>
 <script type="text/javascript" data-type="init opengraph">
-	Mendel.openGraph = {"type":"WEBSITE","title":"Search","imageUrl":"https://cdn.britannica.com/mendel/resources/eb-thistle-social-image.jpg","imageType":"image/jpeg","pageUrl":"https://www.britannica.com/search?query=(uvw\"xyz'yxz</zxy"}</script>
+	Mendel.openGraph = {"type":"WEBSITE","title":"Search","imageUrl":"https://cdn.britannica.com/mendel/resources/eb-thistle-social-image.jpg","imageType":"image/jpeg","pageUrl":"https://www.britannica.com/search?query=(uvw%22xyz'yxz%3C/zxy"}</script>
 
 ----------------------------------------------------------------------------------
-URI Context: [1]
+URI Context: [2]
 <a href="/search?query=%28uvw%22xyz%27yxz&page=2" class="controls next middle-xs font-18 text-uppercase py-5">
+<meta property="og:url" content="https://www.britannica.com/search?query=(uvw%22xyz'yxz%3C/zxy"/>
 
 ----------------------------------------------------------------------------------
 
 
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
 Mitigation        "	'	<	( 
 ATTR:		False	True	True	False
 
@@ -76,27 +78,22 @@ ATTR Attack Url: https://www.britannica.com/search?query=" onmouseover="alert(1)
  ______ UnSuccessful with payload: " onmouseover="alert(1)
 
 Mitigation        "	'	<	( 
-SCRIPT:		True	True	False	False
+SCRIPT:		True	True	True	False
 
 Attack Payloads for SCRIPT
-['</script><script>alert(1)</script>']
-
-SCRIPT Attack Url: https://www.britannica.com/search?query=</script><script>alert(1)</script>
-
- ______ UnSuccessful with payload: </script><script>alert(1)</script>
-
+[]
 Mitigation        "	'	<	( 
-SCRIPT:		True	True	False	False
+SCRIPT:		True	True	True	False
 
 Attack Payloads for SCRIPT
-['</script><script>alert(1)</script>']
-
-SCRIPT Attack Url: https://www.britannica.com/search?query=</script><script>alert(1)</script>
-
- ______ UnSuccessful with payload: </script><script>alert(1)</script>
-
+[]
 Mitigation        "	'	<	( 
 URL:		True	True	True	True
+
+Attack Payloads for URL
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	True	False
 
 Attack Payloads for URL
 []

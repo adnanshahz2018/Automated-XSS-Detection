@@ -1,30 +1,32 @@
-https://www.petdoors.com
+https://www.armysurplusworld.com
 
 GET Params:[1]
 ['q']
 _______________________________________________________________________________________________________
-https://www.petdoors.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
+https://www.armysurplusworld.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy
 
 ----------------------------------------------------------------------------------
 Attribute Context: [1]
-<input
-id="search" onfocus="this.value == 'Search - Type what you are looking for here' ? this.value = '' : ''" onblur="this.value == '' ? this.value = 'Search - Type what you are looking for here' : ''" type="text" name="q" value="(uvw%22xyz'yxz%3C/zxy" class="input-text input_xlarge" />
+<input id="search" type="search" name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" class="input-text required-entry" maxlength="128" placeholder="What can we help you find today?" />
 
 ----------------------------------------------------------------------------------
 HTML Context: [3]
-<title>Search results for: '(uvw%22xyz'yxz%3C/zxy'</title>
-<span>Search results for: '(uvw%22xyz'yxz%3C/zxy'</span>
-<h1>Search results for '(uvw%22xyz'yxz%3C/zxy'</h1>
+<title>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy' | Army Surplus World</title>
+<strong>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'</strong>
+<h1>Search results for '(uvw&quot;xyz'yxz&lt;/zxy'</h1>
 
 ----------------------------------------------------------------------------------
 Script Context: [0]
 
 ----------------------------------------------------------------------------------
-URI Context: [0]
+URI Context: [2]
+<a href="https://www.armysurplusworld.com/catalogsearch/result/?q=(uvw"xyz'yxz</zxy"  class="contentSelect"  >
+<a href="https://www.armysurplusworld.com/content/search/?q=(uvw"xyz'yxz</zxy" >
 
 ----------------------------------------------------------------------------------
 
 
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
 Mitigation        "	'	<	( 
 ATTR:		True	True	True	False
 
@@ -44,4 +46,14 @@ Mitigation        "	'	<	(
 HTML:		True	False	True	False
 
 Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	False	False
+
+Attack Payloads for URL
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	False	False
+
+Attack Payloads for URL
 []

@@ -88,6 +88,7 @@ class write_text_file:
         for u in urls:
             textfile.write(str(u) + "\n")
 
+    # NOT WRITING SAME CONTEXT DATA
         # textfile.write(breakline + 'Same Attr : [' + str( len(same_attrs) ) + ']\n')
         # for s in same_attrs:
         #     textfile.write(str(s) + "\n")
@@ -103,10 +104,10 @@ class write_text_file:
         # textfile.write(breakline + 'Same URI : [' + str( len(same_urls) ) + ']\n')
         # for s in same_urls:
         #     textfile.write(str(s) + "\n")
-        
-        textfile.write(breakline + '\n\n')
+    #
+        textfile.write(breakline + '\n')
         textfile.close()
-    
+#    
     def write_response(self, filename, data):
         path = '' +  filename + '.txt'
         textfile = open(path, "w+")
