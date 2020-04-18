@@ -36,8 +36,8 @@ class regular_expression:
     def RegExpScript(self):
         pattern = re.compile(r'<script[\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][\*|$@_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/?>')
         pattern1 = re.compile(r'<script[@\*!~|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\*!|@$_,}+*"~*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*>&*;*\-*%*\d*]*[xX][yY][zZ][@!\\$_#*"~*}\[\]+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*\<?[@!\\$_#*"*}\[\]~+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*<\/script>')
-        values = pattern.findall(self.pagesource) +  pattern1.findall(self.pagesource) #+  self.soup.find_all('script', text=re.compile('xyz'))
-        
+        values = pattern.findall(self.pagesource)  +  self.soup.find_all('script', text=re.compile(r'[xX][yY][zZ]'))
+        # +  pattern1.findall(self.pagesource)
         return self.unify_values(values)
 
     def RegExpURI(self):
@@ -119,9 +119,11 @@ class regular_expression:
 if __name__ == "__main__":
     
     data = '<script type="text/javascript">UnbxdAnalyticsConf = window.UnbxdAnalyticsConf || {};UnbxdAnalyticsConf["query"] = "</script><script>alert(1)</script>";</script>'
+    
+    data = '<script type="text/javascript">/* <![CDATA[ */var wishlist_params = {"root_url":"https:\/\/www.stevespanglerscience.com","current_url":"\/?s=%28uw%22%xz27xyz%3C%2Fzxy&post_type","are_you_sure":"Are you sure?","quantity_prompt":"How Many Would You Like to Add?"};/* ]]> */</script>'
     RegExp = regular_expression(data)
     RegExp.set_payload('</script><script>alert(1)</script>')
     
-    value = RegExp.RegExpSameScript()
+    value = RegExp.RegExpScript()
     print(value)
     print('{RegularExpression}')
