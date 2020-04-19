@@ -99,8 +99,7 @@ class analyze_attack:
         for my_url in urls      :   self.check_encoding_and_attack( url, 'URL', my_url)
 
     def check_encoding_and_attack(self, url, context_name, context_data):
-        CE = context_encoding()
-        CE.set_write_text_object(self.Text)
+        CE = context_encoding(self.Text)
         # For each Context { encoding_analyzer() } returns True for encoding or escaping of special chars and False otherwise.
         presence, double_quotes, single_quotes, lessthan_sign, parantheses = CE.encoding_analyzer(context_name, context_data)
         if context_name == 'URL' or context_name == 'HTML' or context_name == 'ATTR':
@@ -137,7 +136,7 @@ class analyze_attack:
                     RegExp.set_payload(attack)
                     value = RegExp.cotext_attack(context_name)
 
-                    CE = context_encoding()
+                    CE = context_encoding(self.Text)
                     detection = []
                     print('FINAL OUTPUT:\n')
                     for val in value:
