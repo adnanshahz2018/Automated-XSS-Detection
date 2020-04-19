@@ -1,0 +1,110 @@
+https://wanderingbull.com/
+
+GET Params:[2]
+['s', 'post_type']
+_______________________________________________________________________________________________________
+https://wanderingbull.com/?s=(uvw"xyz'yxz</zxy&post_type=product
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input type="search" id="woocommerce-product-search-field" class="search-field" placeholder="Search Products&hellip;" value="(uvw&quot;xyz&#039;yxz&lt;/zxy" name="s" title="Search for:" />
+<form method='post' enctype='multipart/form-data'  id='gform_1'  action='/?s=%28uvw%22xyz%5C%27yxz%3C%2Fzxy&#038;post_type=product'>
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - The Wandering Bull, LLC</title>
+</a>&nbsp;&#47;&nbsp;Search results for &ldquo;(uvw&quot;xyz&#039;yxz&lt;/zxy&rdquo;</nav>
+<h1 class="woocommerce-products-header__title page-title">Search results: &ldquo;(uvw&quot;xyz&#039;yxz&lt;/zxy&rdquo;</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script class="yoast-schema-graph yoast-schema-graph--main" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://wanderingbull.com/#website","url":"https://wanderingbull.com/","name":"The Wandering Bull, LLC","potentialAction":{"@type":"SearchAction","target":"https://wanderingbull.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"SearchResultsPage","@id":"https://wanderingbull.com/search/%28uvw%22xyz%27yxz%3C/zxy/#webpage","url":"https://wanderingbull.com/search/%28uvw%22xyz%27yxz%3C/zxy/","inLanguage":"en-US","name":"You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - The Wandering Bull, LLC","isPartOf":{"@id":"https://wanderingbull.com/#website"}}]}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/wanderingbull.com"}},{"@type":"ListItem","position":2,"item":{"name":"Shop","@id":"https:\/\/wanderingbull.com\/shop\/"}},{"@type":"ListItem","position":3,"item":{"name":"Search results for &amp;ldquo;(uvw&amp;quot;xyz&amp;#039;yxz&amp;lt;\/zxy&amp;rdquo;","@id":"\/?s=%28uvw%22xyz%5C%27yxz%3C%2Fzxy&amp;post_type=product"}}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<meta property="og:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - The Wandering Bull, LLC" />
+<meta property="og:url" content="https://wanderingbull.com/search/%28uvw%22xyz%27yxz%3C/zxy/" />
+<meta name="twitter:title" content="You searched for (uvw&quot;xyz&#039;yxz&lt;/zxy - The Wandering Bull, LLC" />
+
+----------------------------------------------------------------------------------
+
+Mitigation        "	'	<	( 
+ATTR:		True	True	True	False
+
+Attack Payloads for ATTR
+[]
+Mitigation        "	'	<	( 
+ATTR:		True	True	True	True
+
+Attack Payloads for ATTR
+[]
+Mitigation        "	'	<	( 
+HTML:		True	True	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+HTML:		True	True	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+HTML:		True	True	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+SCRIPT:		True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+Mitigation        "	'	<	( 
+SCRIPT:		True	True	True	True
+
+Attack Payloads for SCRIPT
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	True	False
+
+Attack Payloads for URL
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	True	True
+
+Attack Payloads for URL
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	True	False
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://wanderingbull.com/?s=&post_type=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<form method='post' enctype='multipart/form-data'  id='gform_1'  action='/?s&#038;post_type=%28uvw%22xyz%5C%27yxz%3C%2Fzxy'>
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"Home","@id":"https:\/\/wanderingbull.com"}},{"@type":"ListItem","position":2,"item":{"name":"Search results for &amp;ldquo;&amp;rdquo;","@id":"\/?s&amp;post_type=%28uvw%22xyz%5C%27yxz%3C%2Fzxy"}}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+Mitigation        "	'	<	( 
+ATTR:		True	True	True	True
+
+Attack Payloads for ATTR
+[]
+Mitigation        "	'	<	( 
+SCRIPT:		True	True	True	True
+
+Attack Payloads for SCRIPT
+[]

@@ -29,7 +29,7 @@ class regular_expression:
         return values
 
     def RegExpHtml(self):
-        pattern = re.compile(r'<\/?(?!script)(?!a)\w{1,10}[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*<\/?(?!z)\w{1,10}\>?')
+        pattern = re.compile(r'<\/?(?!script)\w{1,10}[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\*\|\_\<\!"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*<\/?(?!z)\w{1,10}\>?')
         values = pattern.findall(self.pagesource)
         return values
 
@@ -45,7 +45,7 @@ class regular_expression:
         p  =  re.compile(r'<img[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
         p1 =  re.compile(r'<a[\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*href=[\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>') 
         p2 =  re.compile(r'<link[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*href=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
-        p3 =  re.compile(r'<form[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*action=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        # p3 =  re.compile(r'<form[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*action=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
         p4 =  re.compile(r'<source[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
         p5 =  re.compile(r'<input[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
         p6 =  re.compile(r'<frame[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
@@ -56,8 +56,9 @@ class regular_expression:
         p11 = re.compile(r'<meta[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*http-equiv=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
         p12 =  re.compile(r'<input[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*formaction=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
 
-        value = value + p.findall(self.pagesource) + p1.findall(self.pagesource) + p2.findall(self.pagesource) + p3.findall(self.pagesource) + p4.findall(self.pagesource)  + p5.findall(self.pagesource) + p6.findall(self.pagesource) 
+        value = value + p.findall(self.pagesource) + p1.findall(self.pagesource) + p2.findall(self.pagesource) + p4.findall(self.pagesource)  + p5.findall(self.pagesource) + p6.findall(self.pagesource) 
         value = value + p7.findall(self.pagesource) + p9.findall(self.pagesource) + p10.findall(self.pagesource) + p11.findall(self.pagesource) + p12.findall(self.pagesource) 
+        # + p3.findall(self.pagesource) + p8.findall(self.pagesource) 
         return value 
 
 # >>>>>>>>>>>>>>>>  Looking for the EXACT and SAME Appearance of the Payload >>>>>>>>>>>>>>>>>>>

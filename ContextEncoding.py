@@ -9,6 +9,8 @@ class context_encoding:
     double_quotes = single_quotes = lessthan_sign = parantheses = presence = False
     Text = None
 
+    def __init__(self, Text):
+        self.Text = Text
     def display(self,context):
         for value in context:   print(value)
     
