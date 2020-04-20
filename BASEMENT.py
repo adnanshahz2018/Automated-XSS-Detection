@@ -19,7 +19,11 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________
 ==>>    UPDATES REQUIRED 
 
-2. Try the Vertical format of the EXCEL FILE.
+1. Try the Vertical format of the EXCEL FILE.
+2. During Optimization, check the ConextEncoding Class: It has some repetitive functions e.g:
+    a. attr_less_than == html_less_than
+    b. attr_single == html_double 
+    etc...
 
 _____________________________________________________________________________________________________________________
 ==>> RESOLVED ISSUES:
@@ -113,6 +117,12 @@ ISSUE 11:   [ Resolved ]
 Unique GET URLs:
     a. If [2] forms have same [2] GET Params, then [4] GET URLs will be generated and then [2] unique GET URLS are extracted
     b. BUT if they have DIFFERENT FORM ACTIONS, then there will be 4 UNIQUE GET URLS.
+
+ISSUE 12:
+1. https://www.stevespanglerscience.com
+2. var woof_current_values = '{"s":"(uvw\\&quot;xyz\\&#039;yxz&lt;\/zxy","post_type":"","woof_text":"(uvw\\&quot;xyz\\&#039;yxz&lt;\/zxy"}';
+3. let's say we have ' unescaped, then my RegExp stops at __"s":"__  i.e. r'[=:]\s?\"'
+4. so how am I going to evaluate that..?? hmmm...!!
 
 
 Special Case 1:
