@@ -230,7 +230,10 @@ if __name__ == "__main__":
     # links += ['https://celticbydesign.com']
     # links += ['https://www.rei.com/']
     # links += ['https://wanderingbull.com/']
-    links += ['https://www.borsheims.com/']
+    # links += ['https://www.borsheims.com/']
+    links += ['']
+    links += ['']
+    links += ['']
 
     # READING LINKS FROM EXCEL FILE
     # links =  read_excel('sample_data/data.xlsx')
