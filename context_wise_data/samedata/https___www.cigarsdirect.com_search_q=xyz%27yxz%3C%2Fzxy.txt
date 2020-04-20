@@ -1,0 +1,31 @@
+Website URI:  https___www.cigarsdirect.com_search_q=xyz%27yxz%3C%2Fzxy.txt
+
+Payload: 
+"xyz'yxz</zxy
+
+ATTRIBUTE Context: [2]
+<input class="search__input search-bar__input ui-autocomplete-input bc-sf-search-box" type="search" name="q" value="xyz'yxz</zxy" placeholder="Search" aria-label="Search" id="bc-sf-search-box-0" autocomplete="off" data-search-box="#bc-sf-search-box-0"> 
+<input type="search" class="input-group__field search__input ui-autocomplete-input bc-sf-search-box" name="q" value="xyz'yxz</zxy" placeholder="Search" aria-label="Search" autofocus="" id="bc-sf-search-box-2" autocomplete="off" data-search-box="#bc-sf-search-box-2"> 
+
+HTML Context: [1]
+<span>xyz'yxz</span> 
+
+SCRIPT Context: [1]
+<script id="__st">var __st={"a":7500005473,"offset":-18000,"reqid":"cb039816-cd21-4af8-8e69-68b9651e1b65","pageurl":"www.cigarsdirect.com\/search?q=xyz%27yxz%3C%2Fzxy","u":"d31585f0a0f2","p":"searchresults"};</script> 
+
+URI Context: [5]
+<script type="text/javascript" src="https://services.mybcapps.com/bc-sf-filter/search?t=1574257423910&amp;q=xyz'yxz%3C%2Fzxy&amp;shop=cigars-direct.myshopify.com&amp;page=1&amp;limit=24&amp;sort=relevance&amp;display=list&amp;collection_scope=0&amp;product_available=false&amp;variant_available=false&amp;zero_options=true&amp;build_filter_tree=true&amp;check_cache=false&amp;sort_first=available&amp;callback=BCSfFilterCallback&amp;event_type=init" id="bc-sf-filter-script" async=""> 
+<link rel="canonical" href="https://www.cigarsdirect.com/search?q=xyz%27yxz%3c%2fzxy"> 
+<meta property="og:url" content="https://www.cigarsdirect.com/search?q=xyz%27yxz%3c%2fzxy"> 
+<meta property="og:title" content="xyz'yxz"> 
+<meta name="twitter:title" content="xyz'yxz"> 
+
+SAME_ATTRIBUTE: [0]
+
+SAME_HTML: [0]
+
+SAME_SCRIPT: [0]
+
+SAME_URI: [0]
+ 
+---------------------------------------%%%%%%-----------------------------------------------

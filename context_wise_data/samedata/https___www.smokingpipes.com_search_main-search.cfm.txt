@@ -1,0 +1,78 @@
+Website URI:  https___www.smokingpipes.com_search_main-search.cfm.txt
+
+Payload: 
+"xyz'xyz</xyz
+
+ATTRIBUTE Context: [0]
+
+HTML Context: [2]
+<span style="color:#c30000;font-weight:bold">""xyz'xyz&lt;/xyz"</span> 
+<span style="color:#c30000;font-weight:bold">""xyz'xyz&lt;/xyz"</span> 
+
+SCRIPT Context: [0]
+
+URI Context: [0]
+
+SAME_ATTRIBUTE: [0]
+
+SAME_HTML: [0]
+
+SAME_SCRIPT: [2]
+<script type="text/javascript">
+
+var url ="/search/main-search.cfm?";
+var urlThings ={};
+urlThings["STRING"]= ""xyz'xyz</xyz"; urlThings["displayNum"]= "48"; urlThings["page"]= "1"; urlThings["sortOpt"]= "default"; 
+
+</script> 
+<script type="text/javascript">
+
+
+
+
+$(".mob-filters").click(function(){
+    if($(".mob-sub-links").css("display") == "block"){
+        $("#mob-showFilters").text("Refine +");
+        $(".mob-sub-links").css("display","none");
+    } else {
+        $("#mob-showFilters").text("Refine -");
+        $(".mob-sub-links").css("display","block");
+    }
+})
+
+window.onresize = function(){
+    var screen_width = window.innerWidth || document.body.clientWidth;
+    if (screen_width > 940){ 
+        $(".mob-sub-links").css("display","none");
+    }
+}
+
+$(".perpage button,.sortpage button").hide();
+
+
+$("#sortOpt,#displayNum").change(function(){
+    $(this).context.form.submit();
+});
+
+
+
+    
+    $.post( 
+        "/cfc/analytics.cfc",
+        {
+            method: "capture_keyword",
+            keyword: ""xyz'xyz</xyz",
+            result_total: 0,
+            result_products: ""
+        }
+    ).done(function(res){
+       return false;
+    })
+    
+
+
+</script> 
+
+SAME_URI: [0]
+ 
+---------------------------------------%%%%%%-----------------------------------------------

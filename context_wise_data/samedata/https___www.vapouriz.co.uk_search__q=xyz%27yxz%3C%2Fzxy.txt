@@ -1,0 +1,32 @@
+Website URI:  https___www.vapouriz.co.uk_search__q=xyz%27yxz%3C%2Fzxy.txt
+
+Payload: 
+"xyz'yxz</zxy
+
+ATTRIBUTE Context: [2]
+<meta name="title" content="Search results for: 'xyz'yxz</zxy'"> 
+<input type="hidden" name="searchedKeyword" id="searchedKeyword" value="xyz'yxz</zxy"> 
+
+HTML Context: [2]
+<title>Search results for: 'xyz'yxz&lt;/zxy'</title> 
+<span class="base" data-ui-id="page-title-wrapper">Search results for: 'xyz'yxz&lt;/zxy'</span> 
+
+SCRIPT Context: [1]
+<script type="text/x-magento-init">
+    {
+        "body": {
+            "pageCache": {"url":"https:\/\/www.vapouriz.co.uk\/page_cache\/block\/render\/?q=xyz%27yxz%3C%2Fzxy","handles":["default","search_index_index","nwdthemes_revslider_default","weltpixel_googlecards_remove_schema"],"originalRequest":{"route":"search","controller":"index","action":"index","uri":"\/search\/?q=xyz%27yxz%3C%2Fzxy"},"versionCookieName":"private_content_version"}        }
+    }
+</script> 
+
+URI Context: [0]
+
+SAME_ATTRIBUTE: [0]
+
+SAME_HTML: [0]
+
+SAME_SCRIPT: [0]
+
+SAME_URI: [0]
+ 
+---------------------------------------%%%%%%-----------------------------------------------

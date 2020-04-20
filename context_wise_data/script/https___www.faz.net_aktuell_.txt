@@ -1,0 +1,101 @@
+https://www.faz.net/aktuell/
+
+GET Params:[2]
+['query', 'resultsPerPage']
+_______________________________________________________________________________________________________
+https://www.faz.net/suche/?query=(uvw"xyz'yxz</zxy&resultsPerPage=20
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<div class="js-adobe-digital-data is-Invisible" data-digital-data='{"site":{"digitalAsset":"faz.net"},"internalSearch":{"term":"(uvw\"xyz'yxz</zxy","numberOfResults":0},"page":{"name":"2.2064","ressort":"Suche","type":"suche","title":"Suche","seoTitle":"Suche und Suchergebnisse - FAZ"}}'>
+<input type="text" class="SearchText Text" id="query" name="query" value="(uvw&quot;xyz'yxz&lt;/zxy"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<span class="Trefferzahl">0 Treffer zu &quot;(uvw&quot;xyz'yxz&lt;/zxy&quot; <span
+<span class="Trefferzahl">0 Treffer zu &quot;(uvw&quot;xyz'yxz&lt;/zxy&quot; <span
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+	var adsc_ressort = 'Aktuell';
+	var adsc_rubrik = '';
+	var adsc_layout = 'suchergebnis';
+	var adsc_is_podcast =  false ;
+	var adsc_paywall =  false ;
+        		var adsc_billboard = false;
+        	var adsc_keyword = '';
+	var adsc_search = '(uvw&quot;xyz\'yxz';
+	var adsc_sb = '100';
+	var adsc_mr = '100';
+	var adsc_sk = '100';
+	var adsc_contentwidth = 1060;
+    var adsc_sticky = true;
+	var adsc_hide_plista = !true;
+
+    </script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="http://fazarchiv.faz.net/?q=%28uvw%22xyz%27yxz%3C%2Fzxy&dosearch=new" title="Suche im F.A.Z.-Archiv fortsetzen">
+<a href="/aktuell/finanzen/wertpapiersuche?query=%28uvw%22xyz%27yxz%3C%2Fzxy&dosearch=new" onclick="executeWertpapierSuche(); return false;"
+                   title="Kurse und Wertpapiere finden">
+
+----------------------------------------------------------------------------------
+
+
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	( 
+ATTR:		True	True	False	False
+
+Attack Payloads for ATTR
+[]
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	( 
+ATTR:		True	True	True	False
+
+Attack Payloads for ATTR
+[]
+Mitigation        "	'	<	( 
+HTML:		True	False	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+HTML:		True	False	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	( 
+SCRIPT:		True	True	True	False
+
+Attack Payloads for SCRIPT
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	True	True
+
+Attack Payloads for URL
+[]
+Mitigation        "	'	<	( 
+URL:		True	True	True	True
+
+Attack Payloads for URL
+[]
+_______________________________________________________________________________________________________
+https://www.faz.net/suche/?query=&resultsPerPage=(uvw"xyz'yxz</zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+

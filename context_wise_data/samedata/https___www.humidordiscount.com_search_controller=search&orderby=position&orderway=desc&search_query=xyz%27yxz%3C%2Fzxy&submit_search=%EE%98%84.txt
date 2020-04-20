@@ -1,0 +1,30 @@
+Website URI:  https___www.humidordiscount.com_search_controller=search&orderby=position&orderway=desc&search_query=xyz%27yxz%3C%2Fzxy&submit_search=%EE%98%84.txt
+
+Payload: 
+"xyz'yxz</zxy
+
+ATTRIBUTE Context: [2]
+<input type="text" id="search_query_top" aria-label="Search" name="search_query" value="xyz'yxz</zxy" onfocus="if(this.value=='Search favorite product...')this.value='';" autocomplete="off" class="ac_input"> 
+<input type="text" id="search_query_bottom" name="search_query" aria-label="Search" value="xyz'yxz</zxy" onfocus="if(this.value=='Search favorite product...')this.value='';"> 
+
+HTML Context: [1]
+<p class="warning">
+No results found for your search&nbsp;"xyz'yxz&lt;/zxy"
+</p> 
+
+SCRIPT Context: [0]
+
+URI Context: [3]
+<script type="text/javascript" async="" src="https://www.humidordiscount.com/livehelperchat-master/lhc_web/index.php/eng/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(hide_offline)/true/(top)/350/(units)/pixels/(leaveamessage)/true/(department)/2?r=%2F%2Fwww.humidordiscount.com%2F&amp;l=%2F%2Fwww.humidordiscount.com%2Fsearch%3Fcontroller%3Dsearch%26orderby%3Dposition%26orderway%3Ddesc%26search_query%3Dxyz%2527yxz%253C%252Fzxy%26submit_search%3D%25EE%2598%2584"> 
+<a href="https://www.humidordiscount.com/search?controller=search&amp;orderby=position&amp;orderway=desc&amp;search_query=xyz%27yxz%3C%2Fzxy&amp;submit_search=%EE%98%84&amp;PageSpeed=noscript"> 
+<meta HTTP-EQUIV="refresh" content="0;url='https://www.humidordiscount.com/search?controller=search&amp;orderby=position&amp;orderway=desc&amp;search_query=xyz%27yxz%3C%2Fzxy&amp;submit_search=%EE%98%84&amp;PageSpeed=noscript'" /> 
+
+SAME_ATTRIBUTE: [0]
+
+SAME_HTML: [0]
+
+SAME_SCRIPT: [0]
+
+SAME_URI: [0]
+ 
+---------------------------------------%%%%%%-----------------------------------------------

@@ -1,0 +1,29 @@
+Website URI:  https___www.cigars.com.au__post_type=product&s=xyz%27yxz%3C%2Fzxy&submit=Go.txt
+
+Payload: 
+"xyz'yxz</zxy
+
+ATTRIBUTE Context: [3]
+<meta property="og:title" content="You searched for xyz'yxz</zxy"> 
+<meta name="twitter:title" content="You searched for xyz'yxz</zxy"> 
+<input type=hidden name=_wp_http_referer value="/?post_type=product&amp;s=xyz%27yxz%3C%2Fzxy&amp;submit=Go" /> 
+
+HTML Context: [1]
+<title>You searched for xyz'yxz&lt;/zxy</title> 
+
+SCRIPT Context: [1]
+<script>var age_gate_params = {"ajaxurl":"https:\/\/www.cigars.com.au\/wp-json\/age-gate\/v1\/","settings":{"age":18,"type":"all","bypass":false,"restrict":false,"title":false,"current_title":"You searched for xyz&#039;yxz&lt;\/zxy","screen":"shop","ignore_logged":1,"rechallenge":0,"has_filter":false,"viewport":"1","anon":0,"transition":"fade"},"misc":{"i":"","t":"shop","qs":0},"errors":{"invalid":"Your input was invalid","failed":"You are not old enough to view this content","generic":"An error occurred, please try again","cookies":"Your browser does not support cookies, you may experience problems entering this site"}};</script> 
+
+URI Context: [2]
+<link rel="alternate" hreflang="en-UA" href="https://www.cigars.com.au/?post_type=product&amp;s=xyz%27yxz%3C%2Fzxy&amp;submit=Go"> 
+<meta property="og:url" content="https://www.cigars.com.au/search/xyz%27yxz%3C/zxy"> 
+
+SAME_ATTRIBUTE: [0]
+
+SAME_HTML: [0]
+
+SAME_SCRIPT: [0]
+
+SAME_URI: [0]
+ 
+---------------------------------------%%%%%%-----------------------------------------------
