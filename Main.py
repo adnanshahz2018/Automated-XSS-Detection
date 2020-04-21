@@ -12,9 +12,9 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    # folder = 'drive/My Drive/650HomePages'
+    folder = 'drive/My Drive/500Websites'
     # folder = '600WebsiteData'
-    folder = 'TuningData'
+    # folder = 'TuningData'
     dirName = ''
     base = ''
     links = [] 
@@ -28,7 +28,7 @@ class main_class:
         self.create_directory(self.folder)
         self.dirName = self.folder + '/' + self.dirName
 
-        self.create_directory( self.base )
+        # self.create_directory( self.base )
 
 
 #   Do we still need this function ... let's check it later and then replace it or delete it.
@@ -236,7 +236,7 @@ if __name__ == "__main__":
     links += ['']
 
     # READING LINKS FROM EXCEL FILE
-    # links =  read_excel('sample_data/data.xlsx')
+    links =  read_excel('sample_data/data.xlsx')
 
 
     count = 0
