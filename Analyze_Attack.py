@@ -26,15 +26,16 @@ class analyze_attack:
         source = Web.get_source()
         return source
 
-    def write_excel_attack_description(self, attack_url, context, detection):
+    def write_excel_attack_description(self, attack_url, context, status, detection):
         wb = op.load_workbook('sample_data/file.xlsx')
-        ws = wb.get_sheet_by_name('Sheet1')
+        ws = wb['Sheet1']
 
-        new_detection = []
-        for data in detection: 
-            new_detection.append(str(data))
-
-        for data in detection: ws.append([str(attack_url), context, str(data)])
+        if not detection == 'None':
+            for data in detection: 
+                ws.append([str(attack_url), context, status, str(data)])
+        else:
+            ws.append([str(attack_url), context, status, str(detection)])
+        
         wb.save('sample_data/file.xlsx')
         wb.close()
 
@@ -144,12 +145,13 @@ class analyze_attack:
                             if not single_quotes and not CE.attr_double_quotes_outside(val, attack): detection.append(str(val))
                             if not double_quotes and not CE.attr_single_quotes_outside(val, attack): detection.append(str(val))
                     
-                    self.write_excel_attack_description(url,context_name,detection)
+                    self.write_excel_attack_description(url, context_name, 'TRUE', detection)
                     self.Text.write_directly('\nFINAL OUTPUT: ' + '\n')
                     print( detection  , '\n\n')
                     for d in detection: self.Text.write_directly(str(d) + "\n")
                 else:
                     print('\n\n ______ UnSuccessful with payload: ', attack, '\n\n')
+                    self.write_excel_attack_description(url, context_name, 'FALSE', 'None')
                     self.Text.write_directly('\n\n ______ UnSuccessful with payload: ' + str(attack) + '\n\n')
         
   
