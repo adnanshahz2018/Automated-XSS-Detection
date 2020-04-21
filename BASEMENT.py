@@ -171,6 +171,10 @@ ISSUE 13:
 5. https://www.scientificamerican.com/search/?q=</script><script>alert(1)</script>
 6. "title":"\"\"xyz'<\""},
 
+ISSUE 14:
+1. https://spo.1sept.ru/spoarchive.php
+2. check for GET URLs. Has one GET FORM and 2 hidden inputs
+
 Special Case 1:
 1. https://www.borsheims.com/
 2. Payload: 
