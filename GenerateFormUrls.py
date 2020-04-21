@@ -39,6 +39,7 @@ class generate_form_urls_with_payloads:
         exp = re.compile('https?:\/\/[\w]+?\.?\-?[\w]+\.[\.\w]+')
         core = exp.findall(link)
         # print('Core Url ', core)
+        if not core: return ''
         self.complete_link = core[0]
         self.original_url = core[0]
         return core
