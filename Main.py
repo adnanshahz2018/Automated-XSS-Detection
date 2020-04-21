@@ -12,7 +12,7 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    folder = 'drive/My Drive/500Websites'
+    folder = 'drive/My Drive/SQL_Vulnerable'
     # folder = '600WebsiteData'
     # folder = 'TuningData'
     dirName = ''

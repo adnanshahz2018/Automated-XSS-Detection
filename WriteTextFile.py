@@ -5,7 +5,7 @@ import os
 
 class write_text_file:
     url = ''
-    folder = 'drive/My Drive/500Websites/'
+    folder = 'drive/My Drive/SQL_Vulnerable/'
     # folder = 'TuningData/'
     filename = ''
     payload = ''
