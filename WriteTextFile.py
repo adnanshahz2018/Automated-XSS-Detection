@@ -5,13 +5,13 @@ import os
 
 class write_text_file:
     url = ''
-    folder = 'drive/My Drive/SQL_Vulnerable/'
+    # folder = 'drive/My Drive/SQL_Vulnerable/'
     # folder = 'TuningData/'
     filename = ''
     payload = ''
 
     def __init__(self,base,url,payload):
-        # self.folder = base + '/'
+        self.folder = base + '/'
         self.url = url
         # self.folder = self.core_url(url) + '/'
         self.payload = payload

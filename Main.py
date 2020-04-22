@@ -12,9 +12,9 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    folder = 'drive/My Drive/SQL_Vulnerable'
+    # folder = 'drive/My Drive/SQL_Vulnerable'
     # folder = '600WebsiteData'
-    # folder = 'TuningData'
+    folder = 'TuningData'
     dirName = ''
     base = ''
     links = [] 
@@ -28,7 +28,7 @@ class main_class:
         self.create_directory(self.folder)
         self.dirName = self.folder + '/' + self.dirName
 
-        # self.create_directory( self.base )
+        self.create_directory( self.base )
 
 
 #   Do we still need this function ... let's check it later and then replace it or delete it.
@@ -148,7 +148,7 @@ def main_operation(links):
         index, links = M.bfs_crawling(index,links)
         if (index > 21): break      
 
-    # print('Index = ', index)
+    print('Index = ', index)
     new_links = []
     if len(links) > 19 :    
         for i in range(20): new_links.append(links[i]) 
@@ -159,6 +159,9 @@ def main_operation(links):
     """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
     Analyzer = analyze_attack(base)
     Analyzer.collect_data(new_links)
+
+    
+
 
 # The website links are stored in Excel file and we read the file to get the links 
 def read_excel(excel_filename):
@@ -231,12 +234,15 @@ if __name__ == "__main__":
     # links += ['https://www.rei.com/']
     # links += ['https://wanderingbull.com/']
     # links += ['https://www.borsheims.com/']
-    links += ['']
-    links += ['']
-    links += ['']
+    
+    # links += ['https://www.stevespanglerscience.com']
+    # links += ['https://www.scientificamerican.com/']
+    # links += ['https://takeoverflow.com/']
+    # links += ['https://www.redrivercatalog.com/']
+    links += ['https://www.petdoors.com/']
 
     # READING LINKS FROM EXCEL FILE
-    links =  read_excel('sample_data/data.xlsx')
+    # links =  read_excel('sample_data/data.xlsx')
 
 
     count = 0
