@@ -188,7 +188,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
     def url_double(self, context):
-        pattern1 = re.compile(r'\"[\s]*\/?zxy')
+        pattern1 = re.compile(r'\"[\s]*\/?xyz')
         value = pattern1.findall(context)
         if value:        
             # print('\nFiltering Value = ',value)
@@ -197,7 +197,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
     def url_single(self, context):
-        pattern1 = re.compile(r'\'[\s]*\/?zxy')
+        pattern1 = re.compile(r'\'[\s]*\/?yxz')
         value = pattern1.findall(context)
         if value:        
             # print('\nFiltering Value = ',value)
@@ -231,7 +231,7 @@ class context_encoding:
         return False
 
     def script_single_quotes_outside(self,context,attack):
-        pattern = re.compile(r'[=:]\s?\'[@\*!~|$_,}+*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
+        pattern = re.compile(r'[=:]\s?\'[@\*!~|$_,}+:*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
         value = pattern.findall(str(context))
         if value:    
             self.Text.write_directly("\tScript-Double\tEncapsulated With Single Quotes: Can't Break the Context\n")
