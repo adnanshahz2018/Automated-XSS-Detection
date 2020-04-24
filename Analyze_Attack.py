@@ -130,8 +130,8 @@ class analyze_attack:
                 self.Text.write_directly('\n'+ context_name + ' Attack Url: ' + url)
                 data = self.get_source(url)
                 if( str(data).__contains__(attack)):
-                    print('\n\n=> Successful with Payload: ', str(attack))
-                    self.Text.write_directly('\n\n=> Successful with Payload: ' + str(attack))
+                    print('\n\n=>Detection  Successful with Payload: ', str(attack))
+                    self.Text.write_directly('\n\n=>Detection  Successful with Payload: ' + str(attack))
                     # print('=>The Automated Tool Assumes that there is a potential XSS Present in the Website\n')
                     RegExp = regular_expression(data)
                     RegExp.set_payload(attack)
@@ -150,8 +150,8 @@ class analyze_attack:
                     print( detection  , '\n\n')
                     for d in detection: self.Text.write_directly(str(d) + "\n")
                 else:
-                    print('\n\n ______ UnSuccessful with payload: ', attack, '\n\n')
+                    print('\n\n ______Detection  UnSuccessful with payload: ', attack, '\n\n')
                     self.write_excel_attack_description(url, context_name, 'FALSE', 'None')
-                    self.Text.write_directly('\n\n ______ UnSuccessful with payload: ' + str(attack) + '\n\n')
+                    self.Text.write_directly('\n\n ______Detection  UnSuccessful with payload: ' + str(attack) + '\n\n')
         
   
