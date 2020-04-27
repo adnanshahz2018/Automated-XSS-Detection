@@ -6,7 +6,7 @@ import re
 from WriteTextFile import write_text_file
 
 class context_encoding:
-    double_quotes = single_quotes = lessthan_sign = parantheses = presence = False
+    double_quotes = single_quotes = lessthan_sign = forwardslash = presence = False
     Text = None
 
     def __init__(self, Text):
@@ -15,13 +15,11 @@ class context_encoding:
         for value in context:   print(value)
     
 # Function / Class Name can also be "Check_Mitigation()" 
-
     def set_write_text_object(self, Text):
         self.Text = Text
 
     def initialzie_context_encoding_variables(self):
-        self.double_quotes = self.single_quotes = self.lessthan_sign = self.parantheses = self.presence = False
-
+        self.double_quotes = self.single_quotes = self.lessthan_sign = self.forwardslash = self.presence = False
 
     def encoding_analyzer(self, name, context):  # You Can ADD another Argument name to Specify the Context Name
         self.initialzie_context_encoding_variables()
@@ -49,51 +47,52 @@ class context_encoding:
         else: 
             self.lessthan_sign = self.filtering_analyzer('less_than',name,context)
         
-        if( context.__contains__('%28') or context.__contains__('&#40') or
-            context.__contains__('&#x28') or context.__contains__("\\" + "u0028") ):
-            self.parantheses = True 
+        if( context.__contains__('%2'+'F') or context.__contains__("\\" + "/") or
+            context.__contains__('&#47;')  ):
+            self.forwardslash = True 
         else:
-            self.parantheses = self.filtering_analyzer('parantheses', name, context)
+            self.forwardslash = self.filtering_analyzer('forwardslash', name, context)
         
-        return self.presence, self.double_quotes, self.single_quotes, self.lessthan_sign, self.parantheses
+        return self.presence, self.double_quotes, self.single_quotes, self.lessthan_sign, self.forwardslash
 
 
     def filtering_analyzer(self,special_char, name, context):
         if name == 'ATTR' and special_char == 'double' : 
-            return self.attr_double(context) or self.attr_single_quotes_outside(context,'xyz')
+            return self.double(context) or self.attr_single_quotes_outside(context,'xyz')
         if name == 'ATTR' and special_char == 'single' : 
-            return self.attr_single(context) or self.attr_double_quotes_outside(context,'yxz')
+            return self.single(context) or self.attr_double_quotes_outside(context,'yxz')
         if name == 'ATTR' and special_char == 'less_than' : 
-            return self.attr_less_than(context)
+            return self.less_than(context)
         
         if name == 'HTML' and special_char == 'double' : 
-            return self.html_double(context)
+            return self.double(context)
         if name == 'HTML' and special_char == 'single' : 
-            return self.html_single(context)
+            return self.single(context)
         if name == 'HTML' and special_char == 'less_than' :
-            return self.html_less_than(context) 
+            return self.less_than(context) 
         
 
         if name == 'SCRIPT' and special_char == 'double' : 
-            return self.script_double(context) or self.script_single_quotes_outside(context,'xyz') 
+            return self.double(context) or self.script_single_quotes_outside(context,'xyz') 
         if name == 'SCRIPT' and special_char == 'single' : 
-            return self.script_single(context) or self.script_double_quotes_outside(context,'yxz')
+            return self.single(context) or self.script_double_quotes_outside(context,'yxz')
         if name == 'SCRIPT' and special_char == 'less_than': 
-            return self.script_less_than(context)
+            return self.less_than(context)
         
         if name == 'URL' and special_char == 'double' : 
-            return self.url_double(context)
+            return self.double(context)
         if name == 'URL' and special_char == 'single' : 
-            return self.url_single(context)
+            return self.single(context)
         if name == 'URL' and special_char == 'less_than' : 
-            return self.url_less_than(context)
+            return self.less_than(context)
         
-        if special_char == 'parantheses' :
-            return self.check_parantheses(context)
+        if special_char == 'forwardslash' :
+            return self.check_forwardslash(context)
         
         return False
-    
-    def attr_double(self,context): 
+   
+
+    def double(self,context): 
         pattern1 = re.compile(r'\"[\s]*xyz')
         value = pattern1.findall(context)
         if value:        
@@ -102,7 +101,7 @@ class context_encoding:
 
         return True     # Filtering is PRESENT
 
-    def attr_single(self, context):
+    def single(self, context):
         pattern1 = re.compile(r"\'[\s]*yxz")
         value = pattern1.findall(context)
         if value:        
@@ -111,108 +110,23 @@ class context_encoding:
 
         return True     # Filtering is PRESENT
     
-    def attr_less_than(self, context): 
-        pattern1 = re.compile(r'\<[\s]*\/?zxy')
+    def less_than(self, context): 
+        pattern1 = re.compile(r'\<[\s]*zxy')
         value = pattern1.findall(context)
         if value:        
             # print('\nhtml Filtering Value = ',value)
             return False    # No Filtering 
         
         return True     # Filtering is PRESENT
-
-    def html_less_than(self, context): 
-        pattern1 = re.compile(r'\<[\s]*\/?zxy')
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nhtml Filtering Value = ',value)
-            return False    # No Filtering 
-        
-        return True     # Filtering is PRESENT
-
-    def html_double(self,context): 
-        pattern1 = re.compile(r'\"[\s]*xyz')
+  
+    def check_forwardslash(self, context):
+        pattern1 = re.compile(r"\/\s*uvw")
         value = pattern1.findall(context)
         if value:        
             # print('\nFiltering Value = ',value)
             return False    # No Filtering 
-
-        # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g: 'special_url' : ' u\"xyz'yxz
         return True     # Filtering is PRESENT
 
-    def html_single(self, context):
-        pattern1 = re.compile(r"\'[\s]*yxz")
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-
-        # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g: 'special_url' : ' u\"xyz'yxz
-        return True     # Filtering is PRESENT
-    
-    def check_parantheses(self, context):
-        pattern1 = re.compile(r"\(\s*uvw")
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-
-        return True     # Filtering is PRESENT
-
-    def script_double(self, context): 
-        pattern1 = re.compile(r'\"[\s]*xyz')
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-
-        # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g:  'special_url' : ' u\"xyz'yxz
-        return True     # Filtering is PRESENT
-
-    def script_single(self, context):
-        pattern1 = re.compile(r'\'[\s]*\/?zxy')
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-        
-        # check for the attribute value starting from " or ' e.g: content=" or script tag value e.g:  'special_url' : ' u\"xyz'yxz
-        return True     # Filtering is PRESENT
-
-    def script_less_than(self, context): 
-        pattern1 = re.compile(r'\<[\s]*\/?zxy')
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-        
-        return True     # Filtering is PRESENT
-
-    def url_double(self, context):
-        pattern1 = re.compile(r'\"[\s]*\/?xyz')
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-        
-        return True     # Filtering is PRESENT
-
-    def url_single(self, context):
-        pattern1 = re.compile(r'\'[\s]*\/?yxz')
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-        
-        return True     # Filtering is PRESENT
-
-    def url_less_than(self, context):
-        pattern1 = re.compile(r'\<[\s]*\/?zxy')
-        value = pattern1.findall(context)
-        if value:        
-            # print('\nFiltering Value = ',value)
-            return False    # No Filtering 
-        
-        return True     # Filtering is PRESENT
 
     def attr_single_quotes_outside(self,context,attack):
         pattern = re.compile(r'[=]\s?\'[@\*!~|$_,}+*\\#*\"{*\s^*\'?\[\]*(*)*\/*.*\w*=:*&*;*\-*%*\d*]*'+ re.escape(attack))
