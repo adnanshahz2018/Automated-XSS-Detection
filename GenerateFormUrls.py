@@ -9,7 +9,7 @@ from FindContexts import find_contexts
 
 
 class generate_form_urls_with_payloads:
-    payload = '(uvw"' + "xyz'yxz</zxy"
+    payload = '/uvw"' + "xyz'yxz<zxy"
     complete_link = original_url = ''
     formvalues = {}
     get_params = []
@@ -111,13 +111,14 @@ class generate_form_urls_with_payloads:
     
     def make_link(self,form_action):
         if not len(form_action) > 0 : return 
+        form_action = form_action.strip()
         self.complete_link = self.original_url 
         if not len(self.complete_link) > 0: return
 
         if      self.if_complete_link(form_action):  self.complete_link = form_action
         elif    self.complete_link[-1] == '/' and form_action[0] == '/': self.complete_link = self.complete_link[:-1] + form_action
-        elif   self.complete_link[-1] != '/' and form_action[0] == '/': self.complete_link = self.complete_link + form_action
-        elif   self.complete_link[-1] != '/' and form_action[0] != '/': self.complete_link = self.complete_link + '/' + form_action
+        elif    self.complete_link[-1] != '/' and form_action[0] == '/': self.complete_link = self.complete_link + form_action
+        elif    self.complete_link[-1] != '/' and form_action[0] != '/': self.complete_link = self.complete_link + '/' + form_action
         else:   self.complete_link = self.complete_link + form_action
         
         if self.complete_link[0] == '/' and self.complete_link[1] == '/': self.complete_link = 'https:' + self.complete_link

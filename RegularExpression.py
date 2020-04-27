@@ -64,16 +64,16 @@ class regular_expression:
 # >>>>>>>>>>>>>>>>  Looking for the EXACT and SAME Appearance of the Payload >>>>>>>>>>>>>>>>>>>
 
     def RegExpSameAttribute(self):
-        p = re.compile(r'<\w{1,10}[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*\s?[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
+        p = re.compile(r'<\w{1,10}[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*\s?[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[`@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
         return p.findall(self.pagesource) 
 
     def RegExpSameHtml(self):
-        p = re.compile(r'<\w{1,10}[_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/\w{1,10}>')
+        p = re.compile(r'<\w{1,10}[`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/\w{1,10}>')
         return p.findall(self.pagesource)
 
     def RegExpSameScript(self):
-        p = re.compile(r'<script[_!\"*#\\*,*\(*\)\s\'*\/*›\.*\w*\+*\?*:*=*&*;*\-*%*\d*]*\w{2,10}\-?\w{2,10}[_!\\*,*#\(*\)›\s\'*\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*"]*' + re.escape(self.payload) +  r'[_›"\(*\)*\s\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*\'*,*!#]*>')
-        p1 = re.compile(r'<script[_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/script>')
+        p = re.compile(r'<script[`_!\"*#\\*,*\(*\)\s\'*\/*›\.*\w*\+*\?*:*=*&*;*\-*%*\d*]*\w{2,10}\-?\w{2,10}[`_!\\*,*#\(*\)›\s\'*\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*"]*' + re.escape(self.payload) +  r'[`_›"\(*\)*\s\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*\'*,*!#]*>')
+        p1 = re.compile(r'<script[`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/script>')
         return p.findall(self.pagesource)  + p1.findall(self.pagesource)
         # + self.soup.find_all( 'script', text=re.escape(self.payload) ) #
 
@@ -85,25 +85,25 @@ class regular_expression:
 
     def RegExpSameURI(self):
         value = list()
-        p =  re.compile(r'<img[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
-        p1 = re.compile(r'<a[\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*href=[\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*' + re.escape(self.payload) +  r'[\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>') 
-        p2 = re.compile(r'<link[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*href=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
-        p3 = re.compile(r'<form[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*action=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
-        p5 = re.compile(r'<input[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
-        p6 = re.compile(r'<frame[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
-        p7 = re.compile(r'<iframe[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
-        # p8 = re.compile(r'<script[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
-        p9 = re.compile(r'<meta[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*content=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
-        p10 = re.compile(r'<svg><image[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*href=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
-        p11 = re.compile(r'<meta[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*http-equiv=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
-        p12 = re.compile(r'<input[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*formaction=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
-        p13 = re.compile(r'<source[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        p =  re.compile(r'<img[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
+        p1 = re.compile(r'<a[`\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*href=[`\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*' + re.escape(self.payload) +  r'[`\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>') 
+        p2 = re.compile(r'<link[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*href=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        p3 = re.compile(r'<form[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*action=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        p5 = re.compile(r'<input[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
+        p6 = re.compile(r'<frame[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
+        p7 = re.compile(r'<iframe[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
+        # p8 = re.compile(r'<script[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
+        p9 = re.compile(r'<meta[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*content=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        p10 = re.compile(r'<svg><image[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*href=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        p11 = re.compile(r'<meta[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*http-equiv=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        p12 = re.compile(r'<input[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*formaction=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
+        p13 = re.compile(r'<source[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*>') 
 
         value = value + p.findall(self.pagesource) + p1.findall(self.pagesource) + p2.findall(self.pagesource) + p3.findall(self.pagesource) + p5.findall(self.pagesource) + p6.findall(self.pagesource) 
         value = value + p7.findall(self.pagesource) + p9.findall(self.pagesource) + p10.findall(self.pagesource) + p11.findall(self.pagesource) + p12.findall(self.pagesource) + p13.findall(self.pagesource) 
         return value
 
-    def cotext_attack(self, Context):
+    def context_attack(self, Context):
         if Context == 'ATTR'    : return self.RegExpSameAttribute()
         if Context == 'HTML'    : return self.RegExpSameHtml()
         if Context == 'SCRIPT'  : return self.RegExpSameScript()
@@ -119,12 +119,9 @@ class regular_expression:
 
 if __name__ == "__main__":
     
-    data = '<script type="text/javascript">UnbxdAnalyticsConf = window.UnbxdAnalyticsConf || {};UnbxdAnalyticsConf["query"] = "</script><script>alert(1)</script>";</script>'
-    
-    data = '<script type="text/javascript">/* <![CDATA[ */var wishlist_params = {"root_url":"https:\/\/www.stevespanglerscience.com","current_url":"\/?s=%28uw%22%xz27xyz%3C%2Fzxy&post_type","are_you_sure":"Are you sure?","quantity_prompt":"How Many Would You Like to Add?"};/* ]]> */</script>'
+    data = "<div class='col-md-12 searchresults'>Displaying results for <span style='color:red;'><q><img src=x onerror='alert`1`'></q></span></div>	"
     RegExp = regular_expression(data)
-    RegExp.set_payload('</script><script>alert(1)</script>')
-    
-    value = RegExp.RegExpScript()
+    RegExp.set_payload("<img src=x onerror='alert`1`'>")
+    value = RegExp.context_attack("HTML")
     print(value)
     print('{RegularExpression}')

@@ -148,7 +148,7 @@ def main_operation(links):
         index, links = M.bfs_crawling(index,links)
         if (index > 21): break      
 
-    print('Index = ', index)
+    # print('Index = ', index)
     new_links = []
     if len(links) > 19 :    
         for i in range(20): new_links.append(links[i]) 
@@ -160,7 +160,6 @@ def main_operation(links):
     Analyzer = analyze_attack(base)
     Analyzer.collect_data(new_links)
 
-    
 
 
 # The website links are stored in Excel file and we read the file to get the links 
@@ -239,7 +238,7 @@ if __name__ == "__main__":
     # links += ['https://www.scientificamerican.com/']
     # links += ['https://takeoverflow.com/']
     # links += ['https://www.redrivercatalog.com/']
-    links += ['https://www.petdoors.com/']
+    links += ['https://www.people.com']
 
     # READING LINKS FROM EXCEL FILE
     # links =  read_excel('sample_data/data.xlsx')

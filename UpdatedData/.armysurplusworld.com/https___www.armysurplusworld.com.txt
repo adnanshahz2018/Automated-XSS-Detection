@@ -10,10 +10,7 @@ Attribute Context: [1]
 <input id="search" type="search" name="q" value="(uvw&quot;xyz'yxz&lt;/zxy" class="input-text required-entry" maxlength="128" placeholder="What can we help you find today?" />
 
 ----------------------------------------------------------------------------------
-HTML Context: [3]
-<title>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy' | Army Surplus World</title>
-<strong>Search results for: '(uvw&quot;xyz'yxz&lt;/zxy'</strong>
-<h1>Search results for '(uvw&quot;xyz'yxz&lt;/zxy'</h1>
+HTML Context: [0]
 
 ----------------------------------------------------------------------------------
 Script Context: [0]
@@ -26,26 +23,10 @@ URI Context: [2]
 ----------------------------------------------------------------------------------
 
 
-	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
 Mitigation        "	'	<	( 
 ATTR:		True	True	True	False
 
 Attack Payloads for ATTR
-[]
-Mitigation        "	'	<	( 
-HTML:		True	False	True	False
-
-Attack Payloads for HTML
-[]
-Mitigation        "	'	<	( 
-HTML:		True	False	True	False
-
-Attack Payloads for HTML
-[]
-Mitigation        "	'	<	( 
-HTML:		True	False	True	False
-
-Attack Payloads for HTML
 []
 Mitigation        "	'	<	( 
 URL:		True	True	False	False

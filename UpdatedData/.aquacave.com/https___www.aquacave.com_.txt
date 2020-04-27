@@ -25,13 +25,11 @@ URI Context: [0]
 ----------------------------------------------------------------------------------
 
 
-	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
 Mitigation        "	'	<	( 
 ATTR:		True	True	True	False
 
 Attack Payloads for ATTR
 []
-	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
 Mitigation        "	'	<	( 
 ATTR:		True	True	True	False
 
