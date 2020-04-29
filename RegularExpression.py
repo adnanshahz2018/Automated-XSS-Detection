@@ -74,7 +74,8 @@ class regular_expression:
     def RegExpSameScript(self):
         p = re.compile(r'<script[`_!\"*#\\*,*\(*\)\s\'*\/*›\.*\w*\+*\?*:*=*&*;*\-*%*\d*]*\w{2,10}\-?\w{2,10}[`_!\\*,*#\(*\)›\s\'*\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*"]*' + re.escape(self.payload) +  r'[`_›"\(*\)*\s\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*\'*,*!#]*>')
         p1 = re.compile(r'<script[`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/script>')
-        return p.findall(self.pagesource)  + p1.findall(self.pagesource)
+        return p.findall(self.pagesource) + self.soup.find_all( 'script', text=re.escape(self.payload) ) 
+        # + p1.findall(self.pagesource)
         # + self.soup.find_all( 'script', text=re.escape(self.payload) ) #
 
     def attack_script(self):

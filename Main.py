@@ -238,7 +238,7 @@ if __name__ == "__main__":
     # links += ['https://www.scientificamerican.com/']
     # links += ['https://takeoverflow.com/']
     # links += ['https://www.redrivercatalog.com/']
-    links += ['https://www.people.com']
+    links += ['https://www.airbnb.com.br']  # 1 match, 1,29,942 steps (~796ms) | regex101.com 
 
     # READING LINKS FROM EXCEL FILE
     # links =  read_excel('sample_data/data.xlsx')

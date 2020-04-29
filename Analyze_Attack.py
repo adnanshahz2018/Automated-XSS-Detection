@@ -140,6 +140,8 @@ class analyze_attack:
                     CE = context_encoding(self.Text)
                     detection = []
                     print('FINAL OUTPUT:\n')
+                    print('\n\t Value ===> \n\t ', value )
+
                     for val in value:
                         if  context_name == 'ATTR':
                             if not single_quotes and not CE.attr_double_quotes_outside(val, attack): detection.append(str(val))
