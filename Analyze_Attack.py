@@ -1,6 +1,7 @@
 
 import os
 import xlwt
+import pandas as pd
 import openpyxl as op
 from xlwt import Workbook
 
@@ -15,28 +16,38 @@ from AttackMethodology import attack_methodology
 
 class analyze_attack:
     payload = '/uvw"' + "xyz'yxz<zxy"
-    Text = None     # write_text_file() Object
-    base = ''
+    Text = None     
+    folder = base = ''
 
-    def __init__(self,base):
+
+    def __init__(self, base, folder):
         self.base = base
+        self.folder = folder
 
     def get_source(self,url):
         Web = web_request(url,'GET')
         source = Web.get_source()
         return source
 
+    def read_excel(self):
+        df = pd.read_excel(self.folder + '/file.xlsx')
+        links = df['Attack URL']
+        return links
+
     def write_excel_attack_description(self, attack_url, context, status, detection):
-        wb = op.load_workbook('sample_data/file.xlsx')
+        wb = op.load_workbook(self.folder + '/file.xlsx')
         ws = wb['Sheet1']
 
         if not detection == 'None':
-            for data in detection: 
-                ws.append([str(attack_url), context, status, str(data)])
+            ws.append([str(attack_url), context, status, ''])
+            for data in detection:
+                new = ws.cell(row=ws.max_row, column=4).value + str(data) + ' , '
+                ws.cell(row=ws.max_row, column=4).value = new
+                pass 
         else:
             ws.append([str(attack_url), context, status, str(detection)])
         
-        wb.save('sample_data/file.xlsx')
+        wb.save(self.folder + '/file.xlsx')
         wb.close()
 
     def remove_duplicate_get_urls(self,get_urls):
@@ -140,8 +151,6 @@ class analyze_attack:
                     CE = context_encoding(self.Text)
                     detection = []
                     print('FINAL OUTPUT:\n')
-                    print('\n\t Value ===> \n\t ', value )
-
                     for val in value:
                         if  context_name == 'ATTR':
                             if not single_quotes and not CE.attr_double_quotes_outside(val, attack): detection.append(str(val))
@@ -149,13 +158,30 @@ class analyze_attack:
                         else:
                             detection.append(str(val))
                     
-                    self.write_excel_attack_description(url, context_name, 'TRUE', detection)
-                    self.Text.write_directly('\nFINAL OUTPUT: ' + '\n')
-                    print( detection  , '\n\n')
-                    for d in detection: self.Text.write_directly(str(d) + "\n")
+                    links = self.read_excel()
+                    write = True
+                    for link in links:
+                        if url == link:
+                            write = False
+                            print('\n\t\t Duplicate = ', url, '\n')
+
+                    if write: 
+                        self.write_excel_attack_description(url, context_name, 'TRUE', detection)
+                        self.Text.write_directly('\nFINAL OUTPUT: ' + '\n')
+                        print( detection  , '\n\n')
+                        for d in detection: 
+                            self.Text.write_directly(str(d) + "\n")
                 else:
-                    print('\n\n ______Detection  UnSuccessful with payload: ', attack, '\n\n')
-                    self.write_excel_attack_description(url, context_name, 'FALSE', 'None')
-                    self.Text.write_directly('\n\n ______Detection  UnSuccessful with payload: ' + str(attack) + '\n\n')
+                    links = self.read_excel()
+                    write = True
+                    for link in links:
+                        if url == link:
+                            write = False
+                            print('\n\t\t Duplicate = ', url, '\n')
+
+                    if write:
+                        print('\n\n ______Detection  UnSuccessful with payload: ', attack, '\n\n')
+                        self.write_excel_attack_description(url, context_name, 'FALSE', 'None')
+                        self.Text.write_directly('\n\n ______Detection  UnSuccessful with payload: ' + str(attack) + '\n\n')
         
   
