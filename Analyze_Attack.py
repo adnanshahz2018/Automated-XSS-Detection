@@ -151,7 +151,7 @@ class analyze_attack:
                 data = self.get_source(url)
                 if( str(data).__contains__(attack)):
                     print('\n\n=>Detection  Successful with Payload: ', str(attack), '\n')
-                    self.Text.write_directly('\n\n=>Detection  Successful with Payload: ' + str(attack), '\n')
+                    self.Text.write_directly('\n\n=>Detection  Successful with Payload: ' + str(attack) + '\n')
                     # print('=>The Automated Tool Assumes that there is a potential XSS Present in the Website\n')
                     RegExp = regular_expression(data)
                     RegExp.set_payload(attack)
