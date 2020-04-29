@@ -67,11 +67,10 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________
 ==>>    UPDATES REQUIRED 
 
-1. Try the Vertical format of the EXCEL FILE.
-2. During Optimization, check the ConextEncoding Class: It has some repetitive functions e.g:
-    a. attr_less_than == html_less_than
-    b. attr_single == html_double 
-    etc...
+1.  script double quotes encapsulation. why it missed.. 
+    a. https://www.airbnb.com.br/s/all?refinement_paths[]=/uvw%22xyz%27yxz%3Czxy&query=
+    b. \"refinementPaths\":[\"/uvw\\\"xyz'yxz\u003czxy\"],
+    c. NOW WHAT ..    
 
 _____________________________________________________________________________________________________________________
 ==>> RESOLVED ISSUES:
@@ -190,6 +189,13 @@ ISSUE 14:  [Will Update it in the NEXT Versions]
 ISSUE 15: [Resolved: Updated regex for the URL Mitigation analysis]
 1. https://www.redrivercatalog.com/search.html?addsearch=(uvw"xyz'yxz</zxy
 2. Missed the URL Context Attack. As the special chars were NOT escaped.  
+
+
+ISSUE Z: [I myself didn't understand the scheme here.. single quotes inside a bracket '[' ..? ]
+1. script double quotes encapsulation. why it missed.. 
+    a. https://www.airbnb.com.br/s/all?refinement_paths[]=/uvw%22xyz%27yxz%3Czxy&query=
+    b. \"refinementPaths\":[\"/uvw\\\"xyz'yxz\u003czxy\"],
+    c. NOW WHAT ..
 
 Special Case 1:
 1. https://www.borsheims.com/
