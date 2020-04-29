@@ -137,12 +137,21 @@ class analyze_attack:
             for attack in attack_payloads:
                 url = url.replace(pay, attack)
                 pay = attack
+
+                links = self.read_excel()
+                leave = False
+                for link in links:
+                    if url == link: leave = True
+                if leave:   
+                    print('\n\t Duplicate = ', url, '\n')
+                    continue
+
                 print('\n', context_name, 'Attack Url: ', url)
                 self.Text.write_directly('\n'+ context_name + ' Attack Url: ' + url)
                 data = self.get_source(url)
                 if( str(data).__contains__(attack)):
-                    print('\n\n=>Detection  Successful with Payload: ', str(attack))
-                    self.Text.write_directly('\n\n=>Detection  Successful with Payload: ' + str(attack))
+                    print('\n\n=>Detection  Successful with Payload: ', str(attack), '\n')
+                    self.Text.write_directly('\n\n=>Detection  Successful with Payload: ' + str(attack), '\n')
                     # print('=>The Automated Tool Assumes that there is a potential XSS Present in the Website\n')
                     RegExp = regular_expression(data)
                     RegExp.set_payload(attack)
@@ -157,31 +166,15 @@ class analyze_attack:
                             if not double_quotes and not CE.attr_single_quotes_outside(val, attack): detection.append(str(val))
                         else:
                             detection.append(str(val))
-                    
-                    links = self.read_excel()
-                    write = True
-                    for link in links:
-                        if url == link:
-                            write = False
-                            print('\n\t\t Duplicate = ', url, '\n')
-
-                    if write: 
-                        self.write_excel_attack_description(url, context_name, 'TRUE', detection)
-                        self.Text.write_directly('\nFINAL OUTPUT: ' + '\n')
-                        print( detection  , '\n\n')
-                        for d in detection: 
-                            self.Text.write_directly(str(d) + "\n")
+                     
+                    self.write_excel_attack_description(url, context_name, 'TRUE', detection)
+                    self.Text.write_directly('\nFINAL OUTPUT: ' + '\n')
+                    print( detection  , '\n\n')
+                    for d in detection: 
+                        self.Text.write_directly(str(d) + "\n")
                 else:
-                    links = self.read_excel()
-                    write = True
-                    for link in links:
-                        if url == link:
-                            write = False
-                            print('\n\t\t Duplicate = ', url, '\n')
-
-                    if write:
-                        print('\n\n ______Detection  UnSuccessful with payload: ', attack, '\n\n')
-                        self.write_excel_attack_description(url, context_name, 'FALSE', 'None')
-                        self.Text.write_directly('\n\n ______Detection  UnSuccessful with payload: ' + str(attack) + '\n\n')
+                    print('\n\n ______Detection  UnSuccessful with payload: ', attack, '\n\n')
+                    self.write_excel_attack_description(url, context_name, 'FALSE', 'None')
+                    self.Text.write_directly('\n\n ______Detection  UnSuccessful with payload: ' + str(attack) + '\n\n')
         
   
