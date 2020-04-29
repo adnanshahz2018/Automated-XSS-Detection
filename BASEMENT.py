@@ -191,11 +191,25 @@ ISSUE 15: [Resolved: Updated regex for the URL Mitigation analysis]
 2. Missed the URL Context Attack. As the special chars were NOT escaped.  
 
 
+---------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+
+ISSUE 16:
+1. ATTR Attack Url: https://www.datasheet4u.com/search.php?sWord=' onmouseover='alert`1`
+2. FINAL OUTPUT: 
+<link rel="canonical" href="/share_search.php?sWord=' onmouseover='alert`1`">
+<input type="text" name="sWord" size="30" value="' onmouseover='alert`1`" style="width:300px;height:45px; border:solid 3px #1887DB; font-size:20">
+3. The <input tag should not be here as ' is encapsulated with "
+
+
 ISSUE Z: [I myself didn't understand the scheme here.. single quotes inside a bracket '[' ..? ]
 1. script double quotes encapsulation. why it missed.. 
     a. https://www.airbnb.com.br/s/all?refinement_paths[]=/uvw%22xyz%27yxz%3Czxy&query=
     b. \"refinementPaths\":[\"/uvw\\\"xyz'yxz\u003czxy\"],
     c. NOW WHAT ..
+
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
 Special Case 1:
 1. https://www.borsheims.com/
