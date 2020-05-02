@@ -201,6 +201,12 @@ ISSUE 16:
 <input type="text" name="sWord" size="30" value="' onmouseover='alert`1`" style="width:300px;height:45px; border:solid 3px #1887DB; font-size:20">
 3. The <input tag should not be here as ' is encapsulated with "
 
+ISSUE 17:
+1. https://www.airbnb.com.br
+2. script context.2 has more than 1 occurence of xyz , where one of them has quotes encapsulations and others don't.
+3. the program returns as mitigation is present in the form of quotes encapsulation. 
+4. however it can be like that, e.g; if one of the appearance in the same script tag doesn't have mitigation..? 
+5. Right..!! Come to think of it. ..!!
 
 ISSUE Z: [I myself didn't understand the scheme here.. single quotes inside a bracket '[' ..? ]
 1. script double quotes encapsulation. why it missed.. 
