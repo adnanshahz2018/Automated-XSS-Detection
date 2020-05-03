@@ -70,7 +70,6 @@ class context_encoding:
             return self.single(context)
         if name == 'HTML' and special_char == 'less_than' :
             return self.less_than(context) 
-        
 
         if name == 'SCRIPT' and special_char == 'double' : 
             return self.double(context) or self.script_single_quotes_outside(context,'xyz') 
