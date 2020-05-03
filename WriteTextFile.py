@@ -148,9 +148,9 @@ class write_text_file:
         path = self.folder + filename + '.txt'
         textfile = open(path, "a")
         if Context is None: 
-            textfile.write('\n\n\t\t \t\tENCODING SUMMARY \n\t   \t  Presence\t\t"' + "\t\t'" + '\t\t<' + "\t\t( \n")
+            textfile.write('\n\n\t\t \t\tENCODING SUMMARY \n\t   \t  Presence\t\t"' + "\t\t'" + '\t\t<' + "\t\t/ \n")
             return
-        textfile.write('Mitigation        "' + "\t'" + '\t<' + "\t( \n")
+        textfile.write('Mitigation        "' + "\t'" + '\t<' + "\t/ \n")
         textfile.write(Context +':\t\t' + str(double_quotes) +'\t')
         textfile.write( str(single_quotes) +'\t'+ str(lessthan_sign) +'\t'+ str(forward_slash) + '\n' )
         textfile.close()
