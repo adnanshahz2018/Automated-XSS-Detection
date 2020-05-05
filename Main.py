@@ -239,7 +239,16 @@ if __name__ == "__main__":
     # links += ['https://takeoverflow.com/']
     # links += ['https://www.redrivercatalog.com/']
     # links += ['https://www.airbnb.com.br']  # 1 match, script, 1,29,942 steps (~796ms) | regex101.com 
-    links += ['https://www.zdf.de/']
+    # links += ['https://www.zdf.de/']
+
+
+    # links += ['https://www.wowhead.com/']
+    # links += ['https://www.nejm.org']
+    # links += ['https://www.mainichi.jp']
+    links += ['https://www.sephora.fr']
+    # links += ['']
+
+
     # READING LINKS FROM EXCEL FILE
     # links =  read_excel('sample_data/data.xlsx')
 

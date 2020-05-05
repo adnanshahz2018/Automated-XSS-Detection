@@ -158,7 +158,7 @@ ISSUE 9: [FIXED and Captured 3 script contexts]
 Issue 10: [I just wanted to Make sure that for every GET Param [name,value] pairs have correct value]  
 1. Manual  => https://www.timberland.co.uk/shop/SearchDisplay?sType=SimpleSearch&catalogId=11159&searchSource=Q&beginIndex=0&storeId=7105&langId=-11&searchTerm=(uvw"xyz'yxz</zxy
 2. Tool    => https://www.timberland.co.uk/shop/SearchDisplay?sType=SimpleSearch&catalogId=11159&searchSource=Q&beginIndex=0&storeId=7105&langId=-11&searchTerm=(uvw"xyz'yxz</zxy
-[ So Tool-Created URL was SAME as Manual Finding fo the URL]
+[ So Tool-Created URL was SAME as Manual Finding of the URL]
 
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
@@ -182,6 +182,7 @@ ISSUE 13: [Resolved: Tool Results are Correct | 2 HTML were present, script atta
 5. https://www.scientificamerican.com/search/?q=</script><script>alert(1)</script>
 6. "title":"\"\"xyz'<\""},
 
+
 ISSUE 14:  [Will Update it in the NEXT Versions]
 1. https://spo.1sept.ru/spoarchive.php
 2. check for GET URLs. Has one GET FORM and 2 hidden inputs
@@ -192,6 +193,7 @@ ISSUE 15: [Resolved: Updated regex for the URL Mitigation analysis]
 
 
 ---------------------------------------------------------------------------------------------------------------------------
+    -------- REMAINING --------
 ----------------------------------------------------------------------------------------------------------------------------
 
 ISSUE 16:
@@ -202,6 +204,26 @@ ISSUE 16:
 3. The <input tag should not be here as ' is encapsulated with "
 
 ISSUE 17:
+1. https://www.wattpad.com/search/?q='; confirm`1`; '&ref=1
+2. <script type="text/javascript">
+        window.prefetched = {"search.stories.results.'; confirm`1`; '.false.false":{"data":{"total":0,"stories":[],"tags":[]}}};
+    </script>
+3. Mitigation is done with double quotes outside.. 
+
+ISSUE 18:
+1. https://www.wowhead.com/search?q='; confirm`1`; '
+2.  <script>
+        WH.Track.nonInteractiveEvent('Search', 'Total Results', "'; confirm`1`; '", 0);
+        WH.Track.nonInteractiveEvent('Search', 'Database Results', "'; confirm`1`; '", 0);
+    </script>
+3. Mitigation is done with double quotes outside.. 
+4. SAME FOR: 
+    a. https://www.nejm.org/search?pageType=search&q='; confirm`1`; '&asug=
+    b. https://www.mainichi.jp/search/?&q=&s='; confirm`1`; '
+    c. https://www.sephora.fr/recherche?q=' onmouseover='alert`1`
+    d. 
+
+ISSUE 19:
 1. https://www.airbnb.com.br
 2. script context.2 has more than 1 occurence of xyz , where one of them has quotes encapsulations and others don't.
 3. the program returns as mitigation is present in the form of quotes encapsulation. 
@@ -213,6 +235,18 @@ ISSUE Z: [I myself didn't understand the scheme here.. single quotes inside a br
     a. https://www.airbnb.com.br/s/all?refinement_paths[]=/uvw%22xyz%27yxz%3Czxy&query=
     b. \"refinementPaths\":[\"/uvw\\\"xyz'yxz\u003czxy\"],
     c. NOW WHAT ..
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+        ----- FUTURE WORK -----
+----------------------------------------------------------------------------------------------------------------------------
+
+Task 1:
+1. https://www.nejm.org/search?pageType=search&q=&asug=/uvw"xyz'yxz<zxy
+2. script tag has 2 occurence of payload, first with url encoding and second with double quote escaping and encapsulation. 
+3. We can Use Regex to split these 2 occurences and analyze them separately.. 
+
 
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------

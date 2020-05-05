@@ -23,7 +23,7 @@ class regular_expression:
         return new_value
 
     def RegExpAttribute(self):
-        pattern = re.compile(r'<(?!a)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{1,10}[*\s[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*\s?[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*][xX][yY][zZ][@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
+        pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!meta)(?!frame)(?!iframe)(?!script)\w{1,10}[…*\s[@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*\s?[…@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*][xX][yY][zZ][…@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
         values = pattern.findall(self.pagesource)
         # print(values)
         return values
