@@ -141,7 +141,8 @@ class analyze_attack:
                 links = self.read_excel()
                 leave = False
                 for link in links:
-                    if url == link: leave = True
+                    # if url == link: leave = True
+                    pass
                 if leave:   
                     print('\n\t Duplicate = ', url, '\n')
                     continue

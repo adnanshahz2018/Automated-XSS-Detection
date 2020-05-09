@@ -68,13 +68,13 @@ class regular_expression:
         return p.findall(self.pagesource) 
 
     def RegExpSameHtml(self):
-        p = re.compile(r'<\w{1,10}[`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/\w{1,10}>')
+        p = re.compile(r'<\/?(?!script)\w{1,10}[`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/\w{1,10}>')
         return p.findall(self.pagesource)
 
     def RegExpSameScript(self):
         p = re.compile(r'<script[`_!\"*#\\*,*\(*\)\s\'*\/*›\.*\w*\+*\?*:*=*&*;*\-*%*\d*]*\w{2,10}\-?\w{2,10}[`_!\\*,*#\(*\)›\s\'*\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*"]*' + re.escape(self.payload) +  r'[`_›"\(*\)*\s\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*\'*,*!#]*>')
         p1 = re.compile(r'<script[`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/script>')
-        return p.findall(self.pagesource) + self.soup.find_all( 'script', text=re.escape(self.payload) ) 
+        return p.findall(self.pagesource) + p1.findall(self.pagesource) + self.soup.find_all( 'script', text=re.escape(self.payload) ) 
         # + p1.findall(self.pagesource)
         # + self.soup.find_all( 'script', text=re.escape(self.payload) ) #
 

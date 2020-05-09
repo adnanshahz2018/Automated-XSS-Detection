@@ -143,15 +143,27 @@ class context_encoding:
             return True
         return False
 
-    def script_single_quotes_outside(self,context,attack):
-        pattern = re.compile(r'[=:]\s?\'[@\*!~|$_,}+:*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
-        value = pattern.findall(str(context))
-        if value:    
-            self.Text.write_directly("\tScript-Double\tEncapsulated With Single Quotes: Can't Break the Context\n")
-            return True
-        return False
+    def script_single_quotes_outside(self,context,attack): #xyz
+        pattern = re.compile(r'[=]\s?\'[@\*!~|$_,}+:\"*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
+        pattern1 = re.compile(r'[,]\s?\'[@\*!~|$_}+:\"*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
+        pattern2 = re.compile(r'[:]\s?\'[@\*!~|$_,}+\"*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
 
-    def script_double_quotes_outside(self,context,attack):
+        value = pattern.findall(str(context))
+
+        if value:    
+            self.Text.write_directly("\tScript-Single\tEncapsulated With Double Quotes: Can't Break the Context\n")
+            return True
+        value = pattern1.findall(str(context))
+        if value:    
+            self.Text.write_directly("\tScript-Single\tEncapsulated With Double Quotes: Can't Break the Context\n")
+            return True
+        value = pattern2.findall(str(context))
+        if value:    
+            self.Text.write_directly("\tScript-Single\tEncapsulated With Double Quotes: Can't Break the Context\n")
+            return True
+
+
+    def script_double_quotes_outside(self,context,attack):  #yxz
         pattern = re.compile(r'[=]\s?\"[@\*!~|$_,}+*\\#*\"{*\s^*?=\[\]\'*(*)*\/*.*\w*&*;*\-*%*\d*]*' + re.escape(attack))
         pattern1 = re.compile(r'[,]\s?\"[@\*!~|$_,}+*\\#*\"{*\s^*?=\[\]\'*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
         pattern2 = re.compile(r'[:]\s?\"[@\*!~|$_,}+*\\#*\"{*\s^*?=\[\]\'*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))

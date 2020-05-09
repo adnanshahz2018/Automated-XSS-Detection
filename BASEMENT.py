@@ -198,7 +198,7 @@ ISSUE 15: [Resolved: Updated regex for the URL Mitigation analysis]
 
 ISSUE 16:
 1. ATTR Attack Url: https://www.datasheet4u.com/search.php?sWord=' onmouseover='alert`1`
-2. FINAL OUTPUT: 
+2. FINAL OUTPUT: [Detection]
 <link rel="canonical" href="/share_search.php?sWord=' onmouseover='alert`1`">
 <input type="text" name="sWord" size="30" value="' onmouseover='alert`1`" style="width:300px;height:45px; border:solid 3px #1887DB; font-size:20">
 3. The <input tag should not be here as ' is encapsulated with "
@@ -267,6 +267,7 @@ Task 1:
 
 
 ----------------------------------------------------------------------------------------------------------------------------
+        -----  ATTACK CASES -----
 ----------------------------------------------------------------------------------------------------------------------------
 
 Case 1:

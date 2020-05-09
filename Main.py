@@ -14,7 +14,7 @@ class main_class:
     web = None
     # folder = 'drive/My Drive/SQL_Vulnerable'
     # folder = '600WebsiteData'
-    folder = '650HomePagesChecked'
+    folder = 'solvingissues'
     dirName = ''
     base = ''
     links = [] 
@@ -246,8 +246,9 @@ if __name__ == "__main__":
     # links += ['https://www.nejm.org']
     # links += ['https://www.mainichi.jp']
     # links += ['https://www.sephora.fr']
-    links += ['http://panteek.com/']
-    # links += ['']
+    # links += ['http://panteek.com/']
+
+    links += ['https://www.datasheet4u.com']
     # links += ['']
     # links += ['']
     # links += ['']
