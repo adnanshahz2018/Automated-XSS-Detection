@@ -1,0 +1,363 @@
+https://www.mainichi.jp
+
+GET Params:[2]
+['q', 's']
+_______________________________________________________________________________________________________
+https://www.mainichi.jp/search/?&q=/uvw"xyz'yxz<zxy&s=date
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" class="form-input" placeholder="キーワード" name="q" value="/uvw&quot;xyz''yxz&lt;zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>/uvw&quot;xyz''yxz&lt;zxyの検索結果 - 毎日新聞</title>
+<em>/uvw&quot;xyz''yxz&lt;zxy</em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+ var cX = cX || {};cX.callQueue = cX.callQueue || [];
+  cX.callQueue.push(['invoke',function(){
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/41213723/PC/article/billboard', [[1, 1], [970, 250]], 'PC-article-billboard').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.defineSlot('/41213723/PC/article/rec1', ['fluid', [300, 250], [300, 600]], 'PC-article-rec1').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.defineSlot('/41213723/PC/article/rec_kijinaka', ['fluid', [300, 250]], 'PC-article-rec_kijinaka').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.defineSlot('/41213723/PC/article/rec2', ['fluid', [300, 250]], 'PC-article-rec2').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.pubads().setTargeting('strnativekey','Z8EiHAe7LMxmvbaSQ22NiLLj');
+    googletag.pubads().setTargeting("url","https://mainichi.jp/search?&q=/uvw%2522xyz'yxz%253Czxy&s=date");
+    googletag.pubads().setTargeting("keywords","");
+    googletag.pubads().setTargeting("genreBig","");
+    googletag.pubads().setTargeting("genreMedium","");
+    googletag.pubads().setTargeting("genreSmall","");
+    googletag.pubads().setTargeting("subjectCode","");
+    googletag.pubads().setTargeting("kanrenMidashi","");
+    googletag.pubads().setTargeting("category","");
+    googletag.pubads().setTargeting("articleType","");
+    googletag.pubads().setTargeting("entitlement","non-login");
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableLazyLoad({fetchMarginPercent: 10, renderMarginPercent: 60, mobileScaling: 2.0});
+    var cookiesArray = document.cookie.split("; ");
+    for(var i=0; i<cookiesArray.length; i++){
+        if(cookiesArray[i].split("=")[0] == "_ga"){
+            var cid = cookiesArray[i].split("=")[1].substr(6);
+            break;
+        }
+    }
+    var ppid = (cid+cid).replace(/(\.||-||_)/g,"").substring(0,149);
+    googletag.pubads().setPublisherProvidedId(ppid);
+    googletag.enableServices();
+  });
+ }]);
+  //Async load of cx.js
+  (function(d,s,e,t){e=d.createElement(s);e.type='text/java'+s;e.async='async';
+  e.src='http'+('https:'===location.protocol?'s://s':'://')+'cdn.cxense.com/cx.js';
+  t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'script');
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [15]
+<a href="https://accounts.mainichi.jp/login?ru=https%3A%2F%2Fmainichi.jp%2Fsearch%3F%26q%3D%2Fuvw%252522xyz%27yxz%25253Czxy%26s%3Ddate" id="login-btn" class="sq-btn sublink">
+<a href="?q=/uvw&quot;xyz''yxz&lt;zxy&p=1">
+<a href="?q=/uvw&quot;xyz''yxz&lt;zxy&p=1&t=photo">
+<a href="?q=/uvw&quot;xyz''yxz&lt;zxy&p=1">
+<a href="?q=/uvw&quot;xyz''yxz&lt;zxy&p=1&s=date">
+<link rel="canonical" href="https://mainichi.jp/search?&q=/uvw%2522xyz'yxz%253Czxy&s=date">
+<meta name="title" content="/uvw&quot;xyz''yxz&lt;zxyの検索結果">
+<meta name="description" content="/uvw&quot;xyz''yxz&lt;zxyの検索結果">
+<meta property="og:title" content="/uvw&quot;xyz''yxz&lt;zxyの検索結果 - 毎日新聞">
+<meta property="og:url" content="https://mainichi.jp/search?&q=/uvw%2522xyz'yxz%253Czxy&s=date">
+<meta property="og:description" content="/uvw&quot;xyz''yxz&lt;zxyの検索結果">
+<meta name="twitter:title" content="/uvw&quot;xyz''yxz&lt;zxyの検索結果">
+<meta name="twitter:description" content="/uvw&quot;xyz''yxz&lt;zxyの検索結果">
+<meta name="twitter:url" content="https://mainichi.jp/search?&q=/uvw%2522xyz'yxz%253Czxy&s=date">
+<meta name="cXenseParse:recs:mai-cbtitle" content="/uvw&quot;xyz''yxz&lt;zxyの検索結果">
+
+----------------------------------------------------------------------------------
+
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		True	True	True	False
+
+Attack Payloads for ATTR
+[]
+Mitigation        "	'	<	/ 
+HTML:		True	False	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	/ 
+HTML:		True	False	True	False
+
+Attack Payloads for HTML
+[]
+Mitigation        "	'	<	/ 
+SCRIPT:		True	False	True	False
+
+Attack Payloads for SCRIPT
+["'; confirm`1`; '"]
+
+SCRIPT Attack Url: https://www.mainichi.jp/search/?&q='; confirm`1`; '&s=date
+
+=>Detection  Successful with Payload: '; confirm`1`; '
+
+FINAL OUTPUT: 
+Mitigation        "	'	<	/ 
+URL:		True	True	True	True
+
+Attack Payloads for URL
+[]
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E&s=date
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+_______________________________________________________________________________________________________
+https://www.mainichi.jp/search/?&q=&s=/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+ var cX = cX || {};cX.callQueue = cX.callQueue || [];
+  cX.callQueue.push(['invoke',function(){
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/41213723/PC/article/billboard', [[1, 1], [970, 250]], 'PC-article-billboard').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.defineSlot('/41213723/PC/article/rec1', ['fluid', [300, 250], [300, 600]], 'PC-article-rec1').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.defineSlot('/41213723/PC/article/rec_kijinaka', ['fluid', [300, 250]], 'PC-article-rec_kijinaka').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.defineSlot('/41213723/PC/article/rec2', ['fluid', [300, 250]], 'PC-article-rec2').addService(
+    googletag.pubads()).setTargeting("CxSegments",cX.getUserSegmentIds({persistedQueryId:'f31589e34340c498c7c5098297d506a55eed6620'}));
+    googletag.pubads().setTargeting('strnativekey','Z8EiHAe7LMxmvbaSQ22NiLLj');
+    googletag.pubads().setTargeting("url","https://mainichi.jp/search?&q=&s=/uvw%2522xyz'yxz%253Czxy");
+    googletag.pubads().setTargeting("keywords","");
+    googletag.pubads().setTargeting("genreBig","");
+    googletag.pubads().setTargeting("genreMedium","");
+    googletag.pubads().setTargeting("genreSmall","");
+    googletag.pubads().setTargeting("subjectCode","");
+    googletag.pubads().setTargeting("kanrenMidashi","");
+    googletag.pubads().setTargeting("category","");
+    googletag.pubads().setTargeting("articleType","");
+    googletag.pubads().setTargeting("entitlement","non-login");
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableLazyLoad({fetchMarginPercent: 10, renderMarginPercent: 60, mobileScaling: 2.0});
+    var cookiesArray = document.cookie.split("; ");
+    for(var i=0; i<cookiesArray.length; i++){
+        if(cookiesArray[i].split("=")[0] == "_ga"){
+            var cid = cookiesArray[i].split("=")[1].substr(6);
+            break;
+        }
+    }
+    var ppid = (cid+cid).replace(/(\.||-||_)/g,"").substring(0,149);
+    googletag.pubads().setPublisherProvidedId(ppid);
+    googletag.enableServices();
+  });
+ }]);
+  //Async load of cx.js
+  (function(d,s,e,t){e=d.createElement(s);e.type='text/java'+s;e.async='async';
+  e.src='http'+('https:'===location.protocol?'s://s':'://')+'cdn.cxense.com/cx.js';
+  t=d.getElementsByTagName(s)[0];t.parentNode.insertBefore(e,t);})(document,'script');
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [4]
+<a href="https://accounts.mainichi.jp/login?ru=https%3A%2F%2Fmainichi.jp%2Fsearch%3F%26q%3D%26s%3D%2Fuvw%252522xyz%27yxz%25253Czxy" id="login-btn" class="sq-btn sublink">
+<link rel="canonical" href="https://mainichi.jp/search?&q=&s=/uvw%2522xyz'yxz%253Czxy">
+<meta property="og:url" content="https://mainichi.jp/search?&q=&s=/uvw%2522xyz'yxz%253Czxy">
+<meta name="twitter:url" content="https://mainichi.jp/search?&q=&s=/uvw%2522xyz'yxz%253Czxy">
+
+----------------------------------------------------------------------------------
+
+Mitigation        "	'	<	/ 
+SCRIPT:		True	False	True	False
+
+Attack Payloads for SCRIPT
+["'; confirm`1`; '"]
+
+SCRIPT Attack Url: https://www.mainichi.jp/search/?&q=&s='; confirm`1`; '
+
+ ______Detection  UnSuccessful with payload: '; confirm`1`; '
+
+Mitigation        "	'	<	/ 
+URL:		True	True	True	True
+
+Attack Payloads for URL
+[]
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=&s=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=&s=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+Mitigation        "	'	<	/ 
+URL:		True	False	True	False
+
+Attack Payloads for URL
+['%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E']
+
+URL Attack Url: https://www.mainichi.jp/search/?&q=&s=%3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+
+ ______Detection  UnSuccessful with payload: %3Ca+href%3D%22jaVaScripT%3AAleRt%281%29%22%3Eclick_XYZ%3C%2Fa%3E
+

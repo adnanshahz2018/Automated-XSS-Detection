@@ -196,21 +196,21 @@ ISSUE 15: [Resolved: Updated regex for the URL Mitigation analysis]
     -------- REMAINING --------
 ----------------------------------------------------------------------------------------------------------------------------
 
-ISSUE 16:
+ISSUE 16:   [Resolved]
 1. ATTR Attack Url: https://www.datasheet4u.com/search.php?sWord=' onmouseover='alert`1`
 2. FINAL OUTPUT: [Detection]
 <link rel="canonical" href="/share_search.php?sWord=' onmouseover='alert`1`">
 <input type="text" name="sWord" size="30" value="' onmouseover='alert`1`" style="width:300px;height:45px; border:solid 3px #1887DB; font-size:20">
 3. The <input tag should not be here as ' is encapsulated with "
 
-ISSUE 17:
+ISSUE 17: [Resolved]
 1. https://www.wattpad.com/search/?q='; confirm`1`; '&ref=1
 2. <script type="text/javascript">
         window.prefetched = {"search.stories.results.'; confirm`1`; '.false.false":{"data":{"total":0,"stories":[],"tags":[]}}};
     </script>
 3. Mitigation is done with double quotes outside.. 
 
-ISSUE 18:
+ISSUE 18: [ADHOC Risk with multiple RegExp]
 1. https://www.wowhead.com/search?q='; confirm`1`; '
 2.  <script>
         WH.Track.nonInteractiveEvent('Search', 'Total Results', "'; confirm`1`; '", 0);
@@ -223,7 +223,7 @@ ISSUE 18:
     c. https://www.sephora.fr/recherche?q=' onmouseover='alert`1`
     d. 
 
-ISSUE 19:
+ISSUE 19: [ Ignored due to ADHOC risk]
 1. https://www.unicef.de/suche?search=%22xyz%27yxz%3C
 2.  <script type="text/javascript">
     $(function() {
@@ -234,7 +234,7 @@ ISSUE 19:
 4. Using multiple regex may become an ADHOC.
 5. 
 
-ISSUE 20:
+ISSUE 20:  [Variety in script tag Expression create an ADHOC risk .. ]
 1. https://www.pullcast.eu/search?product=%22;%20confirm`1`;%20%22
 2. $('.filter-text').removeClass('hidden').text('"; CONFIRM`1`; "').css('text-transform','uppercase');
 3. filter:'."; confirm`1`; "'});
@@ -243,7 +243,7 @@ ISSUE 20:
 
 ISSUE 21:
 1. https://www.airbnb.com.br
-2. script context.2 has more than 1 occurence of xyz , where one of them has quotes encapsulations and others don't.
+2. script context.2 has more than 1 occurence of xyz , where one of them has quotes encapsulations and others doesn't.
 3. the program returns as mitigation is present in the form of quotes encapsulation. 
 4. however it can be like that, e.g; if one of the appearance in the same script tag doesn't have mitigation..? 
 5. Right..!! Come to think of it. ..!!

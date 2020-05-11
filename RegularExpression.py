@@ -77,13 +77,7 @@ class regular_expression:
         return p.findall(self.pagesource) + p1.findall(self.pagesource) + self.soup.find_all( 'script', text=re.escape(self.payload) ) 
         # + p1.findall(self.pagesource)
         # + self.soup.find_all( 'script', text=re.escape(self.payload) ) #
-
-    def attack_script(self):
-        values = list()
-        p = re.compile(r'<script.*' + re.escape(self.payload) +  r'.*<\/script>')
-        values = p.findall(self.pagesource) +  self.soup.find_all( 'script', text=re.escape(self.payload) )  + p1.findall(self.pagesource)
-        return self.unify_values(values)
-
+ 
     def RegExpSameURI(self):
         value = list()
         p =  re.compile(r'<img[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
@@ -109,6 +103,12 @@ class regular_expression:
         if Context == 'HTML'    : return self.RegExpSameHtml()
         if Context == 'SCRIPT'  : return self.RegExpSameScript()
         if Context == 'URL'     : return self.RegExpSameURI()
+    
+    def attack_script(self):
+        values = list()
+        p = re.compile(r'<script.*' + re.escape(self.payload) +  r'.*<\/script>')
+        values = p.findall(self.pagesource) +  self.soup.find_all( 'script', text=re.escape(self.payload) )  + p1.findall(self.pagesource)
+        return self.unify_values(values)
 
 # Looking for the Appearance of the payload in response against a post form submission.
     def RegExp_postforms(self):

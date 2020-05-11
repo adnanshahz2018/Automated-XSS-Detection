@@ -227,7 +227,6 @@ if __name__ == "__main__":
     # links += ['https://www.timberland.co.uk/homepage.html']
     # links += ['https://www.aquacave.com/']
     # links += ['https://www.armysurplusworld.com']
-    # links += ['https://www.faz.net/aktuell/']
     # links += ['https://www.stevespanglerscience.com']
     # links += ['https://celticbydesign.com']
     # links += ['https://www.rei.com/']
@@ -248,13 +247,22 @@ if __name__ == "__main__":
     # links += ['https://www.sephora.fr']
     # links += ['http://panteek.com/']
 
-    links += ['https://www.datasheet4u.com']
-    # links += ['']
-    # links += ['']
-    # links += ['']
+# Resolving Issues
+    # links += ['https://www.faz.net/aktuell/']
+    # links += ['https://www.datasheet4u.com']
+    # links += ['https://www.wattpad.com']
+
+    # links += ['https://www.wowhead.com']
+    # links += ['https://www.nejm.org']
+    # links += ['https://www.mainichi.jp']
+    # links += ['https://www.sephora.fr']
 
 
-    # READING LINKS FROM EXCEL FILE
+# --    
+    links += ['https://www.pullcast.eu']
+
+# --
+    # READING LINKS FROM EXCEL FILE 
     # links =  read_excel('sample_data/data.xlsx')
 
 
