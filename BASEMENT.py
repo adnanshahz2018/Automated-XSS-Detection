@@ -30,10 +30,7 @@ def core_url(data):
         if not core: return ''
         return core
 
-if __name__ == "__main__":
-    # link = 'https://moz.com/top500'
-    # source = get_source(link)
-
+def start():
     files =  open('sample_data/websites.txt', 'r')
     source = files.read()
     links = getlinks_fromfile(source)
@@ -45,6 +42,13 @@ if __name__ == "__main__":
         print(link)
     print('\n\nDONE')
 
+if __name__ == "__main__":
+    # link = 'https://moz.com/top500'
+    # source = get_source(link)
+    print('{BASEMENT}')
+    # start()
+    pass
+    
 
 
 
@@ -75,7 +79,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________
 ==>> RESOLVED ISSUES:
 
-1. data-digital-data has been detected..
+1. data-digital-data has been detected.. [ faz.net] 
 2. HTML missing due to Nested <span Tag inside a <span Tag:  SUCCESSFULLY Detected. 
 3. Attack Payload Detection:
 4. Return Only the Value where XSS is present or there is a Bypass. 
@@ -90,7 +94,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________
 ==>>    FINDINGS:
 
-ISSUE NO. 1: 
+ISSUE NO. 1: [ Haven't split Tag into its attributes ==>>> I think it is very rarely needed and doesn't make much of a difference ]
 1. https://www.burpee.com/search?q=(uvw"xyz'yxz</zxy
 2. URL Context: Encoding is present and also absent for different attributes of the TAG e.g: <a> 
  <a class="b-breadcrumbs-keywords_link" href="/search?q=%28uvw%22xyz%27yxz%3C%2Fzxy" title="(uvw&quot;xyz'yxz&lt;/zxy">
@@ -116,7 +120,7 @@ ISSUE NO. 3: Attack Methodology for URL CONTEXT
     a. http://jsfiddle.net/Qv6F4/1/ : <a href="ja&#9;vasc&#10;ript&#58;alert&#40;1&#41;">click</a>
     b. http://jsfiddle.net/Qv6F4/   : <a href="ja&#x00009;vasc&#x0000A;ript&#x0003A;alert&#x00028;1&#x00029;">click</a>
 
-ISSUE NO. 4:
+ISSUE NO. 4: [ We'll need this One when crawling websites ]
 1. On https://www.crane.com
 i.  <a href="/stationery/featured-products">Featured Products</a> 
 ii. <a href="/stationery/best-sellers">Best Sellers</a>
@@ -126,7 +130,7 @@ ii. <a href="/stationery/best-sellers">Best Sellers</a>
         YEAH I THINK WE SHOULD.. ====>> CommoN SensE :)
 
 
-ISSUE NO. 5:    [Will Update it in the NEXT Versions]
+ISSUE NO. 5:    [Will Update it in the NEXT Versions |  Maybe Header Problems ]
 1. https://www.moosejaw.com/content/ann-arbor-shop
 2. could not detect all the get params, though webpage has One GET Form with 14 get params..!!
 3. Couldn't Collect COMPLETE SOURCE with TOOL 
@@ -196,7 +200,7 @@ ISSUE 15: [Resolved: Updated regex for the URL Mitigation analysis]
     -------- REMAINING --------
 ----------------------------------------------------------------------------------------------------------------------------
 
-ISSUE 16:   [Resolved]
+ISSUE 16:   [Resolved, Now we are not attacking with aatr-single-quotes ]
 1. ATTR Attack Url: https://www.datasheet4u.com/search.php?sWord=' onmouseover='alert`1`
 2. FINAL OUTPUT: [Detection]
 <link rel="canonical" href="/share_search.php?sWord=' onmouseover='alert`1`">
@@ -221,7 +225,7 @@ ISSUE 18: [ADHOC Risk with multiple RegExp]
     a. https://www.nejm.org/search?pageType=search&q='; confirm`1`; '&asug=
     b. https://www.mainichi.jp/search/?&q=&s='; confirm`1`; '
     c. https://www.sephora.fr/recherche?q=' onmouseover='alert`1`
-    d. 
+
 
 ISSUE 19: [ Ignored due to ADHOC risk]
 1. https://www.unicef.de/suche?search=%22xyz%27yxz%3C
@@ -232,9 +236,9 @@ ISSUE 19: [ Ignored due to ADHOC risk]
     </script>
 3. Single Quotes Mitigation Present, But One Regex can't pick it, Shall we use multiple..??
 4. Using multiple regex may become an ADHOC.
-5. 
 
-ISSUE 20:  [Variety in script tag Expression create an ADHOC risk .. ]
+
+ISSUE 20:  [Variety in script tag Expression will create an ADHOC risk .. ]
 1. https://www.pullcast.eu/search?product=%22;%20confirm`1`;%20%22
 2. $('.filter-text').removeClass('hidden').text('"; CONFIRM`1`; "').css('text-transform','uppercase');
 3. filter:'."; confirm`1`; "'});
@@ -254,6 +258,13 @@ ISSUE 22: [I myself didn't understand the scheme here.. single quotes inside a b
     b. \"refinementPaths\":[\"/uvw\\\"xyz'yxz\u003czxy\"],
     c. NOW WHAT ..
 
+Issue 23:
+            SHOULD NOT BE HAPPENING 
+1. https://www.vitabiotics.com/pages/search-results-page?q=%22xyz%27%3C
+2. https://techprincess.it/?s=%22xyz%27%3C
+3. why did program thrown a script single quotes attack 
+4. attr double/single attack     https://jobs.berlin.de/?ke=&ws=%22xyz%27%3C
+5. attr attack      https://www.telemart.ua/search/?search_que=%22xyz%27%3C
 
 
 ----------------------------------------------------------------------------------------------------------------------------

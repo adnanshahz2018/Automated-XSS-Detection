@@ -1,0 +1,28 @@
+https://www.crmbuyer.com/
+
+GET Params:[1]
+['query']
+_______________________________________________________________________________________________________
+https://www.crmbuyer.com/perl/search.pl?query=/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" name="query" size="35" value="/uvw&quot;xyz'yxz&lt;zxy" maxlength="100" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<b>/uvw&quot;xyz'yxz&lt;zxy</b>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		True	True	True	False
+Mitigation        "	'	<	/ 
+HTML:		True	False	True	False

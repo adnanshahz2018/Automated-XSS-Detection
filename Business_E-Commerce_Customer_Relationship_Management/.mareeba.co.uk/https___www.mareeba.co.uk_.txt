@@ -1,0 +1,30 @@
+https://www.mareeba.co.uk/
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://www.mareeba.co.uk/?s=/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="search" class="et-search-field" placeholder="Search &hellip;" value="/uvw&quot;xyz&#039;yxz&lt;zxy" name="s" title="Search for:" />
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>/uvw&quot;xyz&#039;yxz&lt;zxy | Mareeba</title>
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [1]
+<link rel="alternate" type="application/rss+xml" title="Mareeba &raquo; Search Results for &#8220;/uvw&quot;xyz&#039;yxz&lt;zxy&#8221; Feed" href="https://www.mareeba.co.uk/search//uvw%22xyz%27yxz%3Czxy/feed/rss2/" />
+
+----------------------------------------------------------------------------------
+
+Mitigation        "	'	<	/ 
+ATTR:		True	True	True	False
+Mitigation        "	'	<	/ 
+HTML:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False

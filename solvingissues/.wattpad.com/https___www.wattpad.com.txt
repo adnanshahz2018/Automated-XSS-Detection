@@ -43,71 +43,39 @@ URI Context: [5]
 
 Mitigation        "	'	<	/ 
 ATTR:		True	True	True	False
-
-Attack Payloads for ATTR
-[]
 Mitigation        "	'	<	/ 
 ATTR:		True	True	True	False
+Mitigation        "	'	<	/ 
+ATTR:		True	False	True	True
 
 Attack Payloads for ATTR
-[]
-	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+["' onmouseover='alert`1`"]
+
+ATTR Attack Url: https://www.wattpad.com/search/?q=' onmouseover='alert`1`&ref=1
+
+ ______Detection  UnSuccessful with payload: ' onmouseover='alert`1`
+
 Mitigation        "	'	<	/ 
 ATTR:		True	True	True	True
-
-Attack Payloads for ATTR
-[]
 Mitigation        "	'	<	/ 
 ATTR:		True	True	True	True
-
-Attack Payloads for ATTR
-[]
-Mitigation        "	'	<	/ 
-ATTR:		True	True	True	True
-
-Attack Payloads for ATTR
-[]
 Mitigation        "	'	<	/ 
 HTML:		True	True	True	False
-
-Attack Payloads for HTML
-[]
 	Script-Single	Encapsulated With Double Quotes: Can't Break the Context
 Mitigation        "	'	<	/ 
 SCRIPT:		True	True	True	False
-
-Attack Payloads for SCRIPT
-[]
 Mitigation        "	'	<	/ 
 SCRIPT:		True	True	True	True
-
-Attack Payloads for SCRIPT
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	True
-
-Attack Payloads for URL
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	True
-
-Attack Payloads for URL
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	True
-
-Attack Payloads for URL
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	True
-
-Attack Payloads for URL
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	False
-
-Attack Payloads for URL
-[]
 _______________________________________________________________________________________________________
 https://www.wattpad.com/search/?q=&ref=/uvw"xyz'yxz<zxy
 
@@ -141,36 +109,15 @@ URI Context: [4]
 
 Mitigation        "	'	<	/ 
 ATTR:		True	True	True	False
-
-Attack Payloads for ATTR
-[]
 Mitigation        "	'	<	/ 
 ATTR:		True	True	True	True
-
-Attack Payloads for ATTR
-[]
 Mitigation        "	'	<	/ 
 SCRIPT:		True	True	True	True
-
-Attack Payloads for SCRIPT
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	False
-
-Attack Payloads for URL
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	True
-
-Attack Payloads for URL
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	True
-
-Attack Payloads for URL
-[]
 Mitigation        "	'	<	/ 
 URL:		True	True	True	False
-
-Attack Payloads for URL
-[]

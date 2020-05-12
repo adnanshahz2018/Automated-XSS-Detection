@@ -1,0 +1,153 @@
+https://www.sugarcrm.com/
+
+GET Params:[1]
+['s']
+_______________________________________________________________________________________________________
+https://www.sugarcrm.com/?s=/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>You searched for /uvw&quot;xyz&#039;yxz&lt;zxy - SugarCRM</title>
+<h1 class="page-title">Search Results for “/uvw&quot;xyz&#039;yxz&lt;zxy”</h1>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script class="yoast-schema-graph yoast-schema-graph--main" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.sugarcrm.com/#website","url":"https://www.sugarcrm.com/","name":"SugarCRM","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"https://www.sugarcrm.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"SearchResultsPage","@id":"https://www.sugarcrm.com/search//uvw%22xyz%27yxz%3Czxy/#webpage","url":"https://www.sugarcrm.com/search//uvw%22xyz%27yxz%3Czxy/","name":"You searched for /uvw&quot;xyz&#039;yxz&lt;zxy - SugarCRM","isPartOf":{"@id":"https://www.sugarcrm.com/#website"},"inLanguage":"en-US"}]}</script>
+
+----------------------------------------------------------------------------------
+URI Context: [41]
+<a title="English (United States)" rel="alternate" href="https://www.sugarcrm.com/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-US" class="site-id-1 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language mlp-current-language-item dropdown-item" id="menu-item-21328">
+<a title="Español (México)" rel="alternate" href="https://www.sugarcrm.com/mx/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=es-MX" class="site-id-8 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21334">
+<a title="English (Australia)" rel="alternate" href="https://www.sugarcrm.com/au/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-AU" class="site-id-5 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21331">
+<a title="中文 (台湾, 繁体中文)" rel="alternate" href="https://www.sugarcrm.com/tw/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=zh-Hant-TW" class="site-id-9 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21335">
+<a title="日本語 (日本)" rel="alternate" href="https://www.sugarcrm.com/jp/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=ja-JP" class="site-id-11 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21336">
+<a title="English (UK)" rel="alternate" href="https://www.sugarcrm.com/uk/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-GB" class="site-id-4 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21330">
+<a title="Español (España)" rel="alternate" href="https://www.sugarcrm.com/es/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=es-ES" class="site-id-3 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21329">
+<a title="Français (France)" rel="alternate" href="https://www.sugarcrm.com/fr/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=fr-FR" class="site-id-6 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21332">
+<a title="Deutsch (Deutschland)" rel="alternate" href="https://www.sugarcrm.com/de/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=de-DE" class="site-id-7 mlp-language-nav-item menu-item menu-item-type-mlp_language menu-item-object-mlp_language dropdown-item" id="menu-item-21333">
+<a rel="alternate" href="https://www.sugarcrm.com/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-US">
+<a rel="alternate" href="https://www.sugarcrm.com/mx/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=es-MX">
+<a rel="alternate" href="https://www.sugarcrm.com/au/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-AU">
+<a rel="alternate" href="https://www.sugarcrm.com/tw/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=zh-Hant-TW">
+<a rel="alternate" href="https://www.sugarcrm.com/jp/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=ja-JP">
+<a rel="alternate" href="https://www.sugarcrm.com/uk/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-GB">
+<a rel="alternate" href="https://www.sugarcrm.com/es/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=es-ES">
+<a rel="alternate" href="https://www.sugarcrm.com/fr/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=fr-FR">
+<a rel="alternate" href="https://www.sugarcrm.com/de/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=de-DE">
+<a rel="alternate" href="https://www.sugarcrm.com/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-US">
+<a rel="alternate" href="https://www.sugarcrm.com/mx/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=es-MX">
+<a rel="alternate" href="https://www.sugarcrm.com/au/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-AU">
+<a rel="alternate" href="https://www.sugarcrm.com/tw/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=zh-Hant-TW">
+<a rel="alternate" href="https://www.sugarcrm.com/jp/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=ja-JP">
+<a rel="alternate" href="https://www.sugarcrm.com/uk/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=en-GB">
+<a rel="alternate" href="https://www.sugarcrm.com/es/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=es-ES">
+<a rel="alternate" href="https://www.sugarcrm.com/fr/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=fr-FR">
+<a rel="alternate" href="https://www.sugarcrm.com/de/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/?noredirect=de-DE">
+<link rel="alternate" type="application/rss+xml" title="SugarCRM &raquo; Search Results for &#8220;/uvw&quot;xyz&#039;yxz&lt;zxy&#8221; Feed" href="https://www.sugarcrm.com/search//uvw%22xyz%27yxz%3Czxy/feed/rss2/" />
+<link rel="alternate" hreflang="es-ES" href="https://www.sugarcrm.com/es/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="en-GB" href="https://www.sugarcrm.com/uk/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="en-AU" href="https://www.sugarcrm.com/au/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="fr-FR" href="https://www.sugarcrm.com/fr/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="de-DE" href="https://www.sugarcrm.com/de/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="es-MX" href="https://www.sugarcrm.com/mx/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="zh-Hant-TW" href="https://www.sugarcrm.com/tw/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="ja-JP" href="https://www.sugarcrm.com/jp/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" hreflang="en-US" href="https://www.sugarcrm.com/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/">
+<link rel="alternate" href="https://www.sugarcrm.com/search//uvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy/" hreflang="x-default">
+<meta property="og:title" content="You searched for /uvw&quot;xyz&#039;yxz&lt;zxy - SugarCRM" />
+<meta property="og:url" content="https://www.sugarcrm.com/search//uvw%22xyz%27yxz%3Czxy/" />
+<meta name="twitter:title" content="You searched for /uvw&quot;xyz&#039;yxz&lt;zxy - SugarCRM" />
+
+----------------------------------------------------------------------------------
+
+Mitigation        "	'	<	/ 
+HTML:		True	True	True	False
+Mitigation        "	'	<	/ 
+HTML:		True	True	True	False
+Mitigation        "	'	<	/ 
+SCRIPT:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False
+Mitigation        "	'	<	/ 
+URL:		True	True	True	False

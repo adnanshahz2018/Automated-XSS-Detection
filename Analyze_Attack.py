@@ -16,9 +16,8 @@ from AttackMethodology import attack_methodology
 
 class analyze_attack:
     payload = '/uvw"' + "xyz'yxz<zxy"
-    Text = None     
+    Text = None 
     folder = base = ''
-
 
     def __init__(self, base, folder):
         self.base = base
@@ -28,7 +27,7 @@ class analyze_attack:
         Web = web_request(url,'GET')
         source = Web.get_source()
         return source
-
+ 
     def read_excel(self):
         df = pd.read_excel(self.folder + '/file.xlsx')
         links = df['Attack URL']
@@ -133,7 +132,8 @@ class analyze_attack:
         # print('Attack Payloads: ', attack_payloads)
         
         if tag:
-            self.Text.write_directly('\nAttack Payloads for ' + str(context_name) + '\n' + str(attack_payloads) + '\n')
+            if attack_payloads:
+                self.Text.write_directly('\nAttack Payloads for ' + str(context_name) + '\n' + str(attack_payloads) + '\n')
             for attack in attack_payloads:
                 url = url.replace(pay, attack)
                 pay = attack
@@ -165,6 +165,9 @@ class analyze_attack:
                         if  context_name == 'ATTR':
                             if not single_quotes and not CE.attr_double_quotes_outside(val, attack): detection.append(str(val))
                             if not double_quotes and not CE.attr_single_quotes_outside(val, attack): detection.append(str(val))
+                        elif  context_name == 'SCRIPT':
+                            if not single_quotes and not CE.script_double_quotes_outside(val, attack): detection.append(str(val))
+                            if not double_quotes and not CE.script_single_quotes_outside(val, attack): detection.append(str(val))
                         else:
                             detection.append(str(val))
                      
