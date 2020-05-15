@@ -266,7 +266,36 @@ Issue 23:
 4. attr double/single attack     https://jobs.berlin.de/?ke=&ws=%22xyz%27%3C
 5. attr attack      https://www.telemart.ua/search/?search_que=%22xyz%27%3C
 
+Issue 24 :
+1. http://db.etree.org/shnlist.php?artist=&artist_group_key=1&year=/uvw"xyz'yxz<zxy
+2. <a href="/shnlist.php?artist=0&year=/uvw\"xyz\'yxz<zxy">
+3. The double quotes are breaking the Context, despite the backslash {\"}.. 
+    The program treats \" is valid mitigation for the double quotes
+    So, keeping in view this case, I am removing {\"} from URL Context as Mitigation. 
 
+ URL ATTACK Methodology:
+1. What are the payloads for URL context and on what condition Tool should fire the attacks..
+
+THE LANGUAGE ISSUE: [REGEX]
+1. http://tw.gigacircle.com/category.html?group=abc/uvw"xyz'yxz<zxy
+A. Website source code in the Browser: 
+    <meta name="description" content="瀏覽關於/uvw" xyz'yxz<zxy的分類，挑選您最愛看的內容">
+    <meta name="keywords" content="/uvw" xyz'yxz<zxy,分類,類別" />
+ Solution: added japanese & chinese character sequence
+    Captured with additional regex: [\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\uff00-\uffff]
+B. However, the reflections in downloaded source code of website with requests library is:
+    <meta name="description" content="çè¦½éæ¼abc/uvw" xyz'yxz<zxy çåé¡¼æé¸æ¨ææçå§å®¹">
+    <meta name="keywords" content="abc/uvw" xyz'yxz<zxy,åé¡¡¥" />
+ Solution:
+    These characters are different:
+Wikipedia: 
+The letter Å (å in lower case) represents various (although often very similar) sounds in several languages.
+ It is a separate letter in Swedish, Danish, Norwegian, Finnish, North Frisian, Walloon, Chamorro, Lule Sami,
+  Skolt Sami, Southern Sami, and Greenlandic alphabets.     
+Conclusion
+  Still couldn't find any regex or help for these...
+
+  
 ----------------------------------------------------------------------------------------------------------------------------
         ----- FUTURE WORK -----
 ----------------------------------------------------------------------------------------------------------------------------
