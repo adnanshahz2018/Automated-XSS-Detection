@@ -1,0 +1,20 @@
+DirectGetParams/.scientificamerican.com
+
+https://www.scientificamerican.com/search/?q=<img src=x onerror='alert`1`'>
+Context = HTML
+Success = FALSE
+Detection:
+None
+-----------------------------------------------------------------------------------------------------
+https://www.scientificamerican.com/search/?q=<img src=x onerror="alert`1`">
+Context = HTML
+Success = FALSE
+Detection:
+None
+-----------------------------------------------------------------------------------------------------
+https://www.scientificamerican.com/search/?q=</script><script>alert`1`</script>
+Context = SCRIPT
+Success = FALSE
+Detection:
+None
+-----------------------------------------------------------------------------------------------------

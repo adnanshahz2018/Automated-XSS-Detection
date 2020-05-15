@@ -15,13 +15,20 @@ from ContextEncoding import context_encoding
 from AttackMethodology import attack_methodology
 
 class analyze_attack:
-    payload = '/uvw"' + "xyz'yxz<zxy"
+    payload = 'abc/uvw"' + "xyz'yxz<zxy"
     Text = None 
     folder = base = ''
 
     def __init__(self, base, folder):
         self.base = base
         self.folder = folder
+        self.create_text_file()
+
+    def create_text_file(self):
+        path = self.base + '/AaallAttacks' + '.txt'
+        textfile = open(path, "w")
+        textfile.write(str(self.base)+'\n\n')
+        textfile.close()
 
     def get_source(self,url):
         Web = web_request(url,'GET')
@@ -34,6 +41,8 @@ class analyze_attack:
         return links
 
     def write_excel_attack_description(self, attack_url, context, status, detection):
+        self.write_attacks_text_file(attack_url, context, status, detection)
+        return 
         wb = op.load_workbook(self.folder + '/file.xlsx')
         ws = wb['Sheet1']
 
@@ -48,6 +57,18 @@ class analyze_attack:
         
         wb.save(self.folder + '/file.xlsx')
         wb.close()
+    
+    def write_attacks_text_file(self,attack_url, context, Successful, detection):
+        breakline = '\n-----------------------------------------------------------------------------------------------------\n'
+        path = self.base + '/AaallAttacks' + '.txt'
+        textfile = open(path, "a")
+        if not detection == 'None':
+            textfile.write(str(attack_url) + '\nContext = ' + context + '\nSuccess = ' + str(Successful) + '\nDetection:\n')
+            for d in detection: textfile.write(str(d.encode(encoding='UTF-8')) + '\n')
+        else: 
+            textfile.write(str(attack_url) + '\nContext = ' + context + '\nSuccess = ' + str(Successful)  + '\nDetection:\n' + 'None')
+
+        textfile.write(breakline)
 
     def remove_duplicate_get_urls(self,get_urls):
         unique_get_urls = [] 
@@ -134,6 +155,7 @@ class analyze_attack:
         if tag:
             if attack_payloads:
                 self.Text.write_directly('\nAttack Payloads for ' + str(context_name) + '\n' + str(attack_payloads) + '\n')
+                print('\nAttack Paloads for ', context_name, '\n', attack_payloads , '\n')
             for attack in attack_payloads:
                 url = url.replace(pay, attack)
                 pay = attack

