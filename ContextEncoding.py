@@ -21,22 +21,24 @@ class context_encoding:
     def initialzie_context_encoding_variables(self):
         self.double_quotes = self.single_quotes = self.lessthan_sign = self.forwardslash = self.presence = False
 
-    def encoding_analyzer(self, name, context):  # You Can ADD another Argument name to Specify the Context Name
+    def encoding_analyzer(self, name, context):  # name is the Context Name
         self.initialzie_context_encoding_variables()
 
         # for context in contexts:
         self.presence = True
         context = str(context)  # &#x27; for " ..??
-        if( context.__contains__('&quot;') or context.__contains__('%22') or context.__contains__('\\'+'"') or
-            context.__contains__('&#34;') or context.__contains__("\\" + "u0022") or context.__contains__('%2522')):
-            self.double_quotes = True 
+        if( context.__contains__('&quot;') or context.__contains__('%22') or
+            context.__contains__('&#34;') or context.__contains__("\\" + "u0022") or context.__contains__('%2522')
+            or (name != 'URL' and name != 'ATTR' and context.__contains__('\\'+'"')) ):
+                self.double_quotes = True 
         else: 
             # print('check filter Double quotes')
             self.double_quotes = self.filtering_analyzer('double',name,context) 
 
         if( context.__contains__('%27') or context.__contains__('&#39;') or context.__contains__('&#039;') or
-            context.__contains__("\\" + "'") or context.__contains__("\\" + "u0027") or context.__contains__('%2527') ):
-            self.single_quotes = True  
+            context.__contains__("\\" + "u0027") or context.__contains__('%2527') 
+            or (name != 'URL' and name != 'ATTR' and context.__contains__('\\'+"'")) ):
+                self.single_quotes = True  
         else: 
             # print('check filter Single quotes')
             self.single_quotes = self.filtering_analyzer('single',name,context)
@@ -127,7 +129,7 @@ class context_encoding:
         return True     # Filtering is PRESENT
 
 
-    def attr_single_quotes_outside(self,context,attack):
+    def attr_single_quotes_outside(self,context,attack): #xyz
         pattern = re.compile(r'[=]\s?\'[@\*!~|$_,}+*\\#*\"{*\s^*\'?\[\]*(*)*\/*.*\w*:*&*;*\-*%*\d*]*'+ re.escape(attack))
         value = pattern.findall(str(context))
         if value:    
@@ -135,7 +137,7 @@ class context_encoding:
             return True
         return False
 
-    def attr_double_quotes_outside(self,context,attack):
+    def attr_double_quotes_outside(self,context,attack): #yxz
         pattern = re.compile(r'[=]\s?\"[@\*!~|$_,}+\"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:&*;*\-*%*\d*]*'+ re.escape(attack))
         value = pattern.findall(str(context))
         if value:    
@@ -144,26 +146,31 @@ class context_encoding:
         return False
 
     def script_single_quotes_outside(self,context,attack): #xyz
-        pattern = re.compile(r'[=]\s?\'[@\*!~|$_,}+:\"*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
+        pattern = re.compile(r'[=]\s?\'[@\*!~|$_,}+:\"*\\#\'*{*\s^*?\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
         pattern1 = re.compile(r'[,]\s?\'[@\*!~|$_}+:\"*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
         pattern2 = re.compile(r'[:]\s?\'[@\*!~|$_,}+\"*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*'+ re.escape(attack))
-
+        pattern3 = re.compile(r'\w{1,10}[(]\s?\'[@\*!~|$_,}+*\\#\'*{*\s^*?=\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*"\s?' + re.escape(attack))
+        
         value = pattern.findall(str(context))
-
         if value:    
-            self.Text.write_directly("\tScript-Single = \tEncapsulated With Double Quotes: Can't Break the Context\n")
+            self.Text.write_directly("\tScript-Double = \tEncapsulated With Single Quotes: Can't Break the Context\n")
             return True
 
         value = pattern1.findall(str(context))
         if value:    
-            self.Text.write_directly("\tScript-Single , \tEncapsulated With Double Quotes: Can't Break the Context\n")
+            self.Text.write_directly("\tScript-Double , \tEncapsulated With Single Quotes: Can't Break the Context\n")
             return True
 
         value = pattern2.findall(str(context))
         if value:    
-            self.Text.write_directly("\tScript-Single : \tEncapsulated With Double Quotes: Can't Break the Context\n")
+            self.Text.write_directly("\tScript-Double : \tEncapsulated With Single Quotes: Can't Break the Context\n")
             return True
-        
+
+        value = pattern3.findall(str(context))
+        if value:    
+            self.Text.write_directly("\tScript-Double ( \tEncapsulated With Single Quotes: Can't Break the Context\n")
+            return True
+
         return False
 
 
