@@ -36,11 +36,11 @@ class context_encoding:
             self.double_quotes = self.filtering_analyzer('double',name,context) 
 
         if( context.__contains__('%27') or context.__contains__('&#39;') or context.__contains__('&#039;') or
-            context.__contains__("\\" + "u0027") or context.__contains__('%2527') 
+            context.__contains__("\\" + "u0027") or context.__contains__('%2527') or context.__contains__('&apos;')
             or (name != 'URL' and name != 'ATTR' and context.__contains__('\\'+"'")) ):
                 self.single_quotes = True  
         else: 
-            # print('check filter Single quotes')
+            # print('\n\t\tcheck filter Single quotes***********************\n')
             self.single_quotes = self.filtering_analyzer('single',name,context)
 
         if( context.__contains__('&lt;') or context.__contains__('%3C') or 
@@ -94,9 +94,13 @@ class context_encoding:
    
 
     def double(self,context): 
-        pattern1 = re.compile(r'\"[\s]*xyz')
+        pattern1 = re.compile(r'(?!=)(?!:)\s?"[\s]*xyz')
+        falsepositive = re.compile(r'[=:]\s?"\s?xyz')
+
         value = pattern1.findall(context)
-        if value:        
+        impure = falsepositive.findall(context)
+
+        if value and not impure:        
             # print('\nFiltering Value = ',value)
             return False    # No Filtering 
 
@@ -170,12 +174,14 @@ class context_encoding:
         if value:    
             self.Text.write_directly("\tScript-Double ( \tEncapsulated With Single Quotes: Can't Break the Context\n")
             return True
-
+        
+        self.Text.write_directly('\n\n\t There is no mitigation for Double Quotes here \n')
+        self.Text.write_directly(str(context))
         return False
 
 
     def script_double_quotes_outside(self,context,attack):  #yxz
-        pattern = re.compile(r'[=]\s?\{?\"[@\*!~|$_,}+*\\#*\"{*\s^*?\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*\s?\'\s?' + re.escape(attack))
+        pattern = re.compile(r'[=]\s?\{?\"[@\=*!~|$_,}+*\\#*{*\s^*?\[\]*(*)*\/*=.*\w*&*;*\-*%*\d*]*\"?\s?[xX][yY][zZ][@\*!~|$_,}+*\\#*\"{*\s^*?\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*\s?\'?\s?' + re.escape(attack))
         pattern1 = re.compile(r'[,]\s?\"[@\*!~|$_,}+*\\#*\"{*\s^*?\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*\s?\'\s?'+ re.escape(attack))
         pattern2 = re.compile(r'[:]\s?\"[@\*!~|$_,}+*\\#*\"{*\s^*?\[\]*(*)*\/*.*\w*&*;*\-*%*\d*]*\s?\'\s?'+ re.escape(attack))
 
@@ -192,6 +198,8 @@ class context_encoding:
             self.Text.write_directly("\tScript-Single\tEncapsulated With Double Quotes: Can't Break the Context\n")
             return True
 
+        self.Text.write_directly('\n\n\t There is no mitigation for Single Quotes here \n')
+        self.Text.write_directly(str(context))
         return False
 
 

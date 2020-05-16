@@ -42,7 +42,7 @@ class analyze_attack:
 
     def write_excel_attack_description(self, attack_url, context, status, detection):
         self.write_attacks_text_file(attack_url, context, status, detection)
-        return 
+        # return 
         wb = op.load_workbook(self.folder + '/file.xlsx')
         ws = wb['Sheet1']
 

@@ -221,9 +221,15 @@ if __name__ == "__main__":
     # links += ['https://www.bild.de/suche.bild.html?query=XXXXXXXX&type=video&resultsStart=0&resultsPerPage=12&sortBy=date']
     # links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']
     # links += ['http://jnarmer.sdabocconi.it/events/login.php?id=']
-    # links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
+    links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
 
-    links += ['https://list.tmall.com/search_product.htm?q=%22xyz&type=p&spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton']
+    # links += ['https://list.tmall.com/search_product.htm?q=%22xyz&type=p&spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton']
+    # links += ['https://www.sogou.com/tx?hdq=sogou-wsse-3f7bcd0b3ea82268&ie=utf-8&query=newzone']
+    # links += ['https://mp.weixin.qq.com/s?src=3&timestamp=1589628993&ver=1&signature=az-e2gCzl1q7yCzsvOkRCJypGTZhF80phDfqBZCInQAFeqMVc4wQ2VbFLFtZqB6CdjdYa1KF9di5sbWViELTx6fJ4GVWqS45y*gEVRWR7Vu5U2HuxwUvWlX7tnEKr-uEbl0V95FqoV0vruxGirCnKzPgxcxji0xfz49r0fVkKrc=']
+    # links += ['http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=xyz&fenlei=256&rsv_pq=fa06ddd00004840d&rsv_t=fbdd9WNuUOiqIQKKkBcR6lfGDpYV1JPYybSIEeS7Kqh3GNVgXsNzrFRfGtI&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=4&rsv_sug2=0&rsv_btype=i&inputT=535&rsv_sug4=1204']
+    # links += ['']
+
+    # links += ['']
     # links += ['']
     # links += ['']
     # links += ['']
