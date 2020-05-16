@@ -23,7 +23,7 @@ class find_contexts:
         same_urls     = R.RegExpSameURI()
         
         # Display the Context Values on the Console 
-        self.display(attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)
+        # self.display(attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)
 
         # W = write_text_file(url, payload)
         # W.write_contexts(attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)

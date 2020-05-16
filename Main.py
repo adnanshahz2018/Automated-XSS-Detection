@@ -14,7 +14,7 @@ class main_class:
     url = ''
     web = None
 
-    folder = 'Demo'
+    folder = 'ChineseLanguage'
     # folder = 'solvingissues'
     # folder = 'Business_E-Commerce_Customer_Relationship_Management'
 
@@ -221,9 +221,9 @@ if __name__ == "__main__":
     # links += ['https://www.bild.de/suche.bild.html?query=XXXXXXXX&type=video&resultsStart=0&resultsPerPage=12&sortBy=date']
     # links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']
     # links += ['http://jnarmer.sdabocconi.it/events/login.php?id=']
-    links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
+    # links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
 
-    # links += ['']
+    links += ['https://list.tmall.com/search_product.htm?q=%22xyz&type=p&spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton']
     # links += ['']
     # links += ['']
     # links += ['']

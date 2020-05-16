@@ -144,7 +144,7 @@ class write_text_file:
         textfile.close()
         
     def write_encoding(self, Context, presence, double_quotes, single_quotes, lessthan_sign, forward_slash):
-        # return
+        return
         filename = self.get_filename()
         path = self.folder + filename + '.txt'
         textfile = open(path, "a")
