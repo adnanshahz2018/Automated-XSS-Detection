@@ -329,9 +329,42 @@ https://www.petdoors.com/catalogsearch/result?q=%22/%3Exyz%3Cinput%20type=%22sub
 2. filtering alert, confirm, prompt script in upper and lower case mixed.. 
 3. 
 
+
+content='{"keyword":"  '"}><input%20type="submit"%20onmouseover="alert(1)">//  "}'/>
+
+"""
 """
 
+https://list.tmall.com/search_product.htm?q=%22xyz&type=p&spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton
+https://www.sogou.com/tx?hdq=sogou-wsse-3f7bcd0b3ea82268&ie=utf-8&query=newzone
+https://mp.weixin.qq.com/s?src=3&timestamp=1589628993&ver=1&signature=az-e2gCzl1q7yCzsvOkRCJypGTZhF80phDfqBZCInQAFeqMVc4wQ2VbFLFtZqB6CdjdYa1KF9di5sbWViELTx6fJ4GVWqS45y*gEVRWR7Vu5U2HuxwUvWlX7tnEKr-uEbl0V95FqoV0vruxGirCnKzPgxcxji0xfz49r0fVkKrc=
+http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=xyz&fenlei=256&rsv_pq=fa06ddd00004840d&rsv_t=fbdd9WNuUOiqIQKKkBcR6lfGDpYV1JPYybSIEeS7Kqh3GNVgXsNzrFRfGtI&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=4&rsv_sug2=0&rsv_btype=i&inputT=535&rsv_sug4=1204
+https://www.sohu.com/
+https://pages.tmall.com/wow/a/act/tmall/tmc/26646/wupr?spm=a2240.7829288.0.0.44c34fe50dbvxn&pos=1&wh_pid=main-192807&acm=lb-zebra-153802-761482.1003.2.7829925&scm=1003.2.lb-zebra-153802-761482.ITEM_1590379293744_7829925
+https://list.tmall.com/search_product.htm?q=xtz&type=p&vmarket=&spm=a211oj.0.a2227oh.d100&from=..pc_1_searchbutton
+https://so.com/s?q=xtz&src=360portal&_re=0
+https://world.taobao.com/
+https://search.jd.com/Search?keyword=xzt&enc=utf-8&gp=2&wq=xzt&pvid=c774e1cdcd23496e8e185ab578e800c6
+http://www.sina.com.cn/mid/search.shtml?range=all&c=news&q=xzy&from=home&ie=utf-8
+https://www.zhanqi.tv/search?q=x
+https://so.csdn.net/so/search/s.do?q=x&t=&u=
+https://s.weibo.com/weibo/xz?topnav=1&wvr=6&b=1
+http://17ok.com/
+https://search.bilibili.com/all?keyword=new&from_source=nav_search_new
+http://so.jrj.com.cn/cse/search?q=&s=5981575158355482147&nsid=1
+https://www.google.com.hk/webhp?hl=hi&sourceid=cnhp&gws_rd=ssl
+https://www.yy.com/93479716/93479716?tempId=16777299999
+https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1
+https://www.6.cn/search.php?type=use&key=new
+https://zzk.cnblogs.com/s?t=b&w=nerw
+http://www.chinaso.com/search/pagesearch.htm?q=&site=eastday.com&search_scope=insite
+https://so.iqiyi.com/so/q_new?source=input&sr=161302371559
+http://s.rednet.cn/?scope=1&title=0&q=new
+https://www.alibabacloud.com/s?k=new
 
+
+
+"""
 """ Chinese Character (all of them)
 一
 丁

@@ -1,0 +1,144 @@
+https://www.alibabacloud.com/s?k=new
+
+GET Params:[1]
+['k']
+_______________________________________________________________________________________________________
+https://www.alibabacloud.com/s?k=abc/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<meta content="abc/uvw&quot;xyz&#39;yxz&lt;zxy" name="keywords">
+<meta content="Alibaba Cloud's abc/uvw&quot;xyz&#39;yxz&lt;zxy product introductions and solutions help you to solve various problems. Our platform includes knowledge exchange to understand and master cloud principles.  Alibaba Cloud- the World's Leading Cloud Computing Service Platform" name="description">
+<input id="top-search-box" type="text" accesskey="s" autofocus="true" spellcheck="false" role="combobox" value="abc/uvw&quot;xyz&#39;yxz&lt;zxy" x-webkit-speech="" aria-label="Search by keyword" placeholder="Search by keyword" class="search-text">
+
+----------------------------------------------------------------------------------
+HTML Context: [3]
+<title>Search Alibaba Cloud's abc/uvw&quot;xyz&#39;yxz&lt;zxy site content, product introductions, documentation, forum  and other cloud market-related subjects</title>
+</em>&quot;, &quot;xyz&quot parameter. For example, the mode parameter in the e_set(&quot;<em>
+</em>&quot;, &quot;xyz&quot;, mode=&quot;fill&quot;) function is a ...                                            </div>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+
+
+    //给Input添加自己输入提示
+    var hit = 10; // 显示的下拉提示列表的长度，可修改
+   $(function() {
+       window.kloud.cookie();
+        //给其他搜索模块的显示和隐藏
+        var otherBtn = $(".other-search .other-search-btn"),
+                otherList = $(".other-search .other-content-list"),
+                otherIcon=$(".other-search .other-search-btn i"),
+                bListShowing=false;
+
+
+
+        otherBtn.click(function(){
+            if(bListShowing){
+                otherList.animate({
+                    "opacity":0
+                },300,function(){
+                    otherList.slideUp(300);
+                });
+
+            }else{
+                otherList.slideDown(300,function(){
+                    otherList.animate({
+                        "opacity":1
+                    },300);
+                });
+            }
+            otherIcon.toggleClass('icon-down3');
+            otherIcon.toggleClass('icon-up3');
+            bListShowing=!bListShowing;
+        })
+
+        $.get("https://g.alicdn.com/aliyun-international/portalsearch/0.0.4/img/aliyun/market.svg", function(data) {
+            var div = document.createElement("div");
+            div.innerHTML = new XMLSerializer().serializeToString(data.documentElement);
+            document.body.insertBefore(div, document.body.childNodes[0]);
+        });
+        addSuggest("#top-search-box","#top-search-form");
+        addSuggest("#foot-search-box","#foot-search-form");
+        function addSuggest(inputid,formid) {
+            var aInput=$(formid).find("input");
+            setTimeout(function ()  {
+                //伪静态化处理
+                $(formid).submit(function(){
+                    var _this=this;
+                    this.action="/s/"+Base64.encodeURI(aInput.eq(0).val())+"/a";
+                    setTimeout(function (){_this.submit()});
+                    return false;
+                })
+                $(inputid).autocomplete({
+                    delay: 0,
+                    source: function (request, response) {
+                        var reqStr = $.trim($(inputid).val());
+                        if (reqStr.length < 1) {
+                            return;
+                        }
+                        $.ajax({
+                            url: '/s/suggest.json',
+                            xhrFields: {
+                                withCredentials: true
+                            },
+                            dataType: 'json',
+                            data: {                             //定义请求
+                                k: reqStr,
+                                c: 10,
+                            },
+                            success: function (data) {
+                                if (data.data) {
+                                    var arr = [],
+                                            len = data.data.length;
+                                    for (var i = 0; i < len; ++i) {
+                                        if (data.data[i]) {
+                                            arr.push(data.data[i]);
+                                        }
+                                    }
+                                    if (arr.length >= hit) {
+                                        response(arr.slice(0, hit));
+                                    } else {
+                                        response(arr);
+                                    }
+                                }
+                            }
+                        });
+                    },
+                    select: function (e, ui) {
+                        $(inputid).attr("vaule", ui.item.value);
+                        setTimeout(function(){
+                            $(formid).submit();
+                        },0);
+                    }
+                }).bind("input.autocomplete", function () {
+                    // 修复在Firefox中不支持中文的BUG
+                    $(inputid).autocomplete("search", $(inputid).val());
+                });
+
+
+            }, 0);
+        }
+    })
+    var url="/s/YWJjL3V2dyJ4eXoneXh6PHp4eQ/a"
+                            //    });
+    //    });
+
+    var clickUrl="/s/click.json?type=all&k=abc/uvw&quot;xyz&#39;yxz&lt;zxy&timestamp=83743298529744832&page=1"
+
+    $('.search-result .result-item').on('click','h3>a',function(e){
+       var delegateTarget=$(e.delegateTarget);
+       var sid=$('.help-content .result-item').index(delegateTarget)+1,click_id=delegateTarget.attr("data-sid")
+       $.get(clickUrl + "&click_pos=" + sid + "&click_id=" + click_id)
+    })
+
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<meta content="abc/uvw&quot;xyz&#39;yxz&lt;zxy" name="keywords">
+<meta content="Alibaba Cloud's abc/uvw&quot;xyz&#39;yxz&lt;zxy product introductions and solutions help you to solve various problems. Our platform includes knowledge exchange to understand and master cloud principles.  Alibaba Cloud- the World's Leading Cloud Computing Service Platform" name="description">
+
+----------------------------------------------------------------------------------
+

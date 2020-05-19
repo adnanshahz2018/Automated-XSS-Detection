@@ -221,20 +221,44 @@ if __name__ == "__main__":
     # links += ['https://www.bild.de/suche.bild.html?query=XXXXXXXX&type=video&resultsStart=0&resultsPerPage=12&sortBy=date']
     # links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']
     # links += ['http://jnarmer.sdabocconi.it/events/login.php?id=']
-    links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
+    # links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
+
+
+
 
     # links += ['https://list.tmall.com/search_product.htm?q=%22xyz&type=p&spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton']
     # links += ['https://www.sogou.com/tx?hdq=sogou-wsse-3f7bcd0b3ea82268&ie=utf-8&query=newzone']
     # links += ['https://mp.weixin.qq.com/s?src=3&timestamp=1589628993&ver=1&signature=az-e2gCzl1q7yCzsvOkRCJypGTZhF80phDfqBZCInQAFeqMVc4wQ2VbFLFtZqB6CdjdYa1KF9di5sbWViELTx6fJ4GVWqS45y*gEVRWR7Vu5U2HuxwUvWlX7tnEKr-uEbl0V95FqoV0vruxGirCnKzPgxcxji0xfz49r0fVkKrc=']
     # links += ['http://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=xyz&fenlei=256&rsv_pq=fa06ddd00004840d&rsv_t=fbdd9WNuUOiqIQKKkBcR6lfGDpYV1JPYybSIEeS7Kqh3GNVgXsNzrFRfGtI&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=4&rsv_sug2=0&rsv_btype=i&inputT=535&rsv_sug4=1204']
-    # links += ['']
 
-    # links += ['']
-    # links += ['']
-    # links += ['']
-    # links += ['']
-    # links += ['']
-         
+    # links += ['https://www.sohu.com/']
+    # links += ['https://pages.tmall.com/wow/a/act/tmall/tmc/26646/wupr?spm=a2240.7829288.0.0.44c34fe50dbvxn&pos=1&wh_pid=main-192807&acm=lb-zebra-153802-761482.1003.2.7829925&scm=1003.2.lb-zebra-153802-761482.ITEM_1590379293744_7829925']
+    # links += ['https://list.tmall.com/search_product.htm?q=xtz&type=p&vmarket=&spm=a211oj.0.a2227oh.d100&from=..pc_1_searchbutton']
+    # links += ['https://so.com/s?q=xtz&src=360portal&_re=0']
+    # links += ['https://world.taobao.com/']
+
+    # links += ['https://search.jd.com/Search?keyword=xzt&enc=utf-8&gp=2&wq=xzt&pvid=c774e1cdcd23496e8e185ab578e800c6']
+    # links += ['http://www.sina.com.cn/mid/search.shtml?range=all&c=news&q=xzy&from=home&ie=utf-8']
+    # links += ['https://www.zhanqi.tv/search?q=x']
+    # links += ['https://so.csdn.net/so/search/s.do?q=x&t=&u=']
+    # links += ['https://s.weibo.com/weibo/xz?topnav=1&wvr=6&b=1']
+
+    # links += ['http://17ok.com/']
+    # links += ['https://search.bilibili.com/all?keyword=new&from_source=nav_search_new']
+    # links += ['http://so.jrj.com.cn/cse/search?q=&s=5981575158355482147&nsid=1']
+    # links += ['https://www.google.com.hk/webhp?hl=hi&sourceid=cnhp&gws_rd=ssl']
+    # links += ['https://s.1688.com/imall/offer_search.htm?keywords=&n=y&netType=1%2C11&encode=utf-8&spm=a260k.dacugeneral.search.0']
+    # links += ['https://www.yy.com/93479716/93479716?tempId=16777299999xzzxzx']
+
+    # links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
+    # links += ['https://www.6.cn/search.php?type=use&key=new']
+    # links += ['https://zzk.cnblogs.com/s?t=b&w=nerw']
+    # links += ['http://www.chinaso.com/search/pagesearch.htm?q=&site=eastday.com&search_scope=insite']
+    # links += ['https://so.iqiyi.com/so/q_new?source=input&sr=161302371559']
+
+    # links += ['http://s.rednet.cn/?scope=1&title=0&q=new']
+    # links += ['https://www.alibabacloud.com/s?k=new']
+          
     # for link in links:
     #     direct_param.start(link)
 
@@ -255,5 +279,6 @@ if __name__ == "__main__":
 '''       ^^^^^   TASKS REMAINING
 
 1. Revert Payload : uvw"xyz'</zxy
+
 
 '''

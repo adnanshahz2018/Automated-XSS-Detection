@@ -204,6 +204,6 @@ class context_encoding:
 
 
 if __name__ == "__main__":
-    CE = context_encoding()
-    CE.html_less_than('input id="search" type="search" name="q" value="u"xyz< zxy')
+
+    print(3//3)
     print( '{Context_Encoding}')

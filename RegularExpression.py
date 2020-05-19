@@ -23,7 +23,7 @@ class regular_expression:
         return new_value
 
     def RegExpAttribute(self):
-        pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}[…*\s[@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*[xX][yY][zZ][…@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*\/?>')
+        pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}[~…*\s[@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*[xX][yY][zZ][~…@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*\/?>')
         # pattern = re.compile(u'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}[…*\s[@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff]*\s?[…@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff]*[xX][yY][zZ][…@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff^\W\>_]*\/?>', re.UNICODE)
         values = pattern.findall(self.pagesource)
         # print(values)

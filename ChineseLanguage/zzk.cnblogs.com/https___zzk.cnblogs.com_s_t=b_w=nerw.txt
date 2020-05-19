@@ -1,0 +1,76 @@
+https://zzk.cnblogs.com/s?t=b&w=nerw
+
+GET Params:[2]
+['t', 'w']
+_______________________________________________________________________________________________________
+https://zzk.cnblogs.com/s?t=abc/uvw"xyz'yxz<zxy&w=nerw
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>
+        var path = '/s/abc/uvw&quot;xyz&#x27;yxz&lt;zxy?w=';
+    </script>
+
+----------------------------------------------------------------------------------
+URI Context: [13]
+<a class="tab_selected" href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;ViewCount=200">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;ViewCount=500">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;ViewCount=1000">
+<a class="tab_selected" href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;DiggCount=2">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;DiggCount=10">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;DiggCount=100">
+<a class="tab_selected" href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;DateTimeRange=OneWeek">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;DateTimeRange=OneMonth">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;DateTimeRange=ThreeMonth">
+<a href="/s/abc%2Fuvw%22xyz%27yxz%3Czxy?Keywords=nerw&amp;DateTimeRange=OneYear">
+
+----------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+https://zzk.cnblogs.com/s?t=b&w=abc/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [2]
+<input class="input_index" id="w" name="Keywords" type="search" value="abc/uvw&quot;xyz&#x27;yxz&lt;zxy" />
+<input id="Keywords" name="Keywords" type="hidden" value="abc/uvw&quot;xyz&#x27;yxz&lt;zxy" />
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [20]
+<a class="" href="/s/news?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a class="tab_selected " href="/s/blogpost?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a class="" href="/s/question?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a class="" href="/s/kb?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a class="" href="/s/ing?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="/my/s/blogpost?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="//www.google.com/#q=abc/uvw&amp;quot;xyz&amp;#x27;yxz&amp;lt;zxy site:cnblogs.com/" title="Google站内搜索" >
+<a class="tab_selected" href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;ViewCount=200">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;ViewCount=500">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;ViewCount=1000">
+<a class="tab_selected" href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;DiggCount=2">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;DiggCount=10">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;DiggCount=100">
+<a class="tab_selected" href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;DateTimeRange=OneWeek">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;DateTimeRange=OneMonth">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;DateTimeRange=ThreeMonth">
+<a href="/s/b?Keywords=abc%2Fuvw%22xyz%27yxz%3Czxy&amp;DateTimeRange=OneYear">
+
+----------------------------------------------------------------------------------
+

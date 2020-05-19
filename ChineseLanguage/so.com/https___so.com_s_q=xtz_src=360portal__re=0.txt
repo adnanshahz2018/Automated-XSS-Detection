@@ -1,0 +1,120 @@
+https://so.com/s?q=xtz&src=360portal&_re=0
+
+GET Params:[3]
+['q', 'src', '_re']
+_______________________________________________________________________________________________________
+https://so.com/s?q=abc/uvw"xyz'yxz<zxy&src=360portal&_re=0
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="text" id="keyword" name="q" tabindex="1" class="input_key" value="abc/uvw&quot;xyz&#039;yxz&lt;zxy" maxlength="100" autocomplete="off">
+
+----------------------------------------------------------------------------------
+HTML Context: [15]
+<title>abc/uvw&quot;xyz&#039;yxz&lt;zxy_360搜索</title>
+<a href="http://en.so.com/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=corr_english">abc/uvw&quot;xyz'yxz&lt;zxy</a>
+<em>xyz</em>
+<em>xyz</em>
+<em>xyz</em>
+<span class="q">abc/uvw&quot;xyz'yxz&lt;zxy</span>
+<em>XYZ</em>
+<em>XYZ</em>
+<span class="q">abc/uvw&quot;xyz'yxz&lt;zxy</span>
+<em>abc/uvw&quot;xyz'yxz&lt;zxy</em>
+<em>XYZ</em>
+<em>XYZ</em>
+<span class="q">abc/uvw&quot;xyz'yxz&lt;zxy</span>
+</em> song 歌词: ABCDEFG,HIJKLMN,OPQ,RST,UVWXYZ,<em>
+</em>.ABCDEFG,HIJKLMN,OPQ,RST,UVWXYZ,<em>
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>var TIME = {_: +new Date}, eLogAndPv={sendlog:function(){},sendpv:function(){}}, So = {"comm":{"abv":"889-v","oabv":"889:xxx=v","domain":"www.so.com","guid":"5E8D59A6D196B3FE875F049F18D01A7E.1589649271596","md":"","isCtrl":0,"pid":"www","pn":1,"q":"abc\/uvw\"xyz'yxz\u003Czxy","pq":"","src":"360portal","fr":"360portal","t":1589649274798,"ssurl":"https:\/\/p.ssl.so.com\/p\/","ssl":1,"isajax":0,"sid":"eb9620fe7dde7c18eb3f3464950bf4e3","psid":"","iv":0,"lmsid":"","user":{"qid":"","imageId":"","showName":"","src":""},"monitor":{"ls":"","rf":"","version":"2.5.3","cq":"","tg":"right|keyword|1","lm_extend":"","bucketid":"602,0,0,0,536","end":"0","af":0,"ablist":[249],"nlpv":"","isafe":0},"sosug":0,"riskManageList":[""],"llbq":"A5,B5,C5,D5","actags":{"fengkong_level":"1.1_2.1_3.1_4.1","fengkong_type":"1","mod_result_blue":"on"},"suggest_module":{"show":false,"show_input":false,"words":[]}},"web":{"cmswenda":"","cmsbaike":"","savesug":0,"typing":0,"soid":{"sign":3596649706,"ts":1589649274,"rm":0},"mods":[],"bdLinkUrl":"https:\/\/www.so.com\/link?m=a0KS%2F4OX9cf6QyprB%2Bu2WmcITtuywtAkwpXNwSYPPVUC9%2FmnJOAQUl51WtoFVou6EbQ7wL87QSEBCEWRoJOgLxUC221Ypmc4Z9I%2BMcOsTVCGMVSxwaRxqgUA%2B4x1B%2Fm%2FOYSdA9j%2F5Egs7Q9rfjYfdcbtP%2BkSeKNY%2BEnPLgbHYxjP6cknhAaB7UDT5R53190VNh1WL11tbX%2FRdFeX%2F","mediavShow":1},"page":{"reload":[],"unload":[],"timers":[]},"onebox":{},"e":{}};So.comm.enajax=window.history.pushState?true:false;</script>
+
+----------------------------------------------------------------------------------
+URI Context: [40]
+<a id="user-login" href="http://i.360.cn/login?src=pcw_so&destUrl=https%3A%2F%2Fwww.so.com%2Fs%3Fq%3Dabc%2Fuvw%2522xyz%27yxz%253Czxy%26src%3D360portal%26_re%3D0" data-log="login">
+<a id="user-reg" href="http://i.360.cn/reg?src=pcw_so&destUrl=https%3A%2F%2Fwww.so.com%2Fs%3Fq%3Dabc%2Fuvw%2522xyz%27yxz%253Czxy%26src%3D360portal%26_re%3D0" target="_blank" data-log="signIn">
+<a data-home="http://www.so.com/?src=tab_www" data-s="http://www.so.com/s?q=%q%&src=tab_www" data-i="web_page" href="https://www.so.com/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://news.so.com/?src=tab_www" data-s="http://news.so.com/ns?q=%q%&src=tab_www" data-i="news" href="http://news.so.com/ns?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://wenda.so.com/?src=tab_www" data-s="http://wenda.so.com/search/?q=%q%&src=tab_www" data-i="wenda" href="http://wenda.so.com/search/?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://video.360kan.com/?src=tab_www" data-s="http://video.360kan.com/v?q=%q%&src=tab_www" data-i="video" href="https://www.so.com/link?m=a03WB12CJUzptLZ6i7GT06XymULkO3vVUMKDshWnCz0Stqm%2B4sv8yeC7Ao1YEEh59nSwhFuRZhpthiGyZepcZe%2FryhthH3ujiv3HD%2FwEnQ5Naq7iOKN2aLhjYY5wZTq79f5VjEWZFkN4yqDfQhaDogiyjTLZ4wCuq%2FjdQS%2FyycJ6wLzdVh3ra6GmAir%2B%2BeKEXJ1FMBuoJKjAxjKEJ9L41xQ%3D%3D" data-mdurl="http://video.360kan.com/v?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://image.so.com/?src=tab_www" data-s="http://image.so.com/i?q=%q%&src=tab_www" data-i="image" href="http://image.so.com/i?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://ly.so.com/?src=tab_www" data-s="http://ly.so.com/s?q=%q%&src=tab_www" data-i="liangyi" href="http://ly.so.com/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://ditu.so.com/?src=tab_www" data-s="http://ditu.so.com/?k=%q%&src=tab_www" data-i="map" href="http://ditu.so.com/?k=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://baike.so.com/?src=tab_www" data-s="http://baike.so.com/doc/search?word=%q%&src=tab_www" data-i="baike" href="http://baike.so.com/doc/search?word=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://wenku.so.com/?src=tab_www" data-s="http://wenku.so.com/s?q=%q%&src=tab_www" data-i="wenku" href="http://wenku.so.com/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://en.so.com/?src=tab_www" data-s="http://en.so.com/s?q=%q%&src=tab_www" data-i="en" href="http://en.so.com/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://music.so.com/?src=tab_www" data-s="http://s.music.so.com/s?q=%q%&src=tab_www" data-i="music" href="http://s.music.so.com/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://soft.so.com/?src=tab_www" data-s="http://soft.so.com/search?q=%q%&src=tab_www" data-i="soft" href="http://soft.so.com/search?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=tab_www">
+<a data-home="http://fanyi.so.com/?src=tab_www" data-s="http://fanyi.so.com/?src=tab_www#%q%" data-i="fanyi" href="http://fanyi.so.com/?src=tab_www#abc%2Fuvw%22xyz%27yxz%3Czxy">
+<a href="http://en.so.com/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=corr_english">
+<a href="http://c.360webcache.com/c?m=54cb240e6b1cfa4056f03d55c8755171&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=https%3A%2F%2Fwww.douyu.com%2F2257264" target="_blank" class="m">
+<a href="http://c.360webcache.com/c?m=607569438ce33299c213924c59c3bc86&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=https%3A%2F%2Fwenda.so.com%2Fq%2F1462080407729886" target="_blank" class="m">
+<a href="http://wenda.so.com/search/?ie=utf-8&q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=www" target="_blank" data-type="more-answer">
+<a href="http://c.360webcache.com/c?m=370c277f6e2a40f531987b64d1248789&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=https%3A%2F%2Fwenda.so.com%2Fq%2F1451737139726171" target="_blank" class="m">
+<a href="http://wenda.so.com/search/?ie=utf-8&q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=www" target="_blank" data-type="more-answer">
+<a href="http://c.360webcache.com/c?m=422cc26d5b94a5046bb23d715fcc3ed5&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=https%3A%2F%2Fwww.zybang.com%2Fquestion%2F11b7540a65bce44e3f5d9dbeadec9ca4.html" target="_blank" class="m">
+<a href="http://c.360webcache.com/c?m=1c3c5f01fa60ab97c429cc8196602591&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=https%3A%2F%2Fwww.zybang.com%2Fquestion%2Fef93a11b108306d31459159bcca1b1f1.html" target="_blank" class="m">
+<a href="http://c.360webcache.com/c?m=3bb4a5c3db57fc758856c333af6dc7c5&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=http%3A%2F%2Fwww.doc88.com%2Fp-9415112567919.html" target="_blank" class="m">
+<a href="http://c.360webcache.com/c?m=2eac9d1184d8f95816be78f80f915b12&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=https%3A%2F%2F2kmtcentral.com%2F17%2Fdrafts%2F30512949%2Fabcdfeghijklmnopqrstuvwxyz" target="_blank" class="m">
+<a href="https://www.so.com/link?m=aHOU6hLvzQfOGqxU5Hvs7G2Q3tt7XOmFrfNeCMRzuCJBNgZ4LIYmfMsHjhe3xUtlGPmBfJDDsFf4UFeWBOtcD3Ob9m6WqwdQf6Oli4xuCltDuBvxRXfZA1ir9rcTfCp1Rm6Jd5Fi72wN%2F0LLOSN%2FXdbLsE%2B%2BI28lrUCQBSNFY4%2B4TWIq%2BsFF2%2FXI3lavNNbvAdGFO9fkddIs%3D" data-mdurl="https://2kmtcentral.com/17/drafts/30512949/abcdfeghijklmnopqrstuvwxyz" rel="noopener" target="_blank" data-type="img">
+<a href="http://c.360webcache.com/c?m=072a04dec61c6ee6518a8a1025e8473a&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=http%3A%2F%2Fwenda.so.com%2Fq%2F1366340286066880" target="_blank" class="m">
+<a href="http://wenda.so.com/search/?ie=utf-8&q=abc%2Fuvw%22xyz%27yxz%3Czxy&src=www" target="_blank" data-type="more-answer">
+<a href="http://c.360webcache.com/c?m=e86b3be461763c58dc8143b9007fd0de&q=abc%2Fuvw%22xyz%27yxz%3Czxy&u=https%3A%2F%2Fwww.5068.com%2Feg%2Fyw%2F141046.html" target="_blank" class="m">
+<a href="https://e.360.cn/static/new_web/product/?src=so_rightBottom_slogan&kw=abc%2Fuvw%22xyz%27yxz%3Czxy" e_nolog="0" target="_blank" style="font-size:15px">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=2&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=3&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=4&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=5&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=6&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=7&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=8&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=9&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=10&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+<a id="snext" href="/s?q=abc%2Fuvw%22xyz%27yxz%3Czxy&pn=2&psid=eb9620fe7dde7c18eb3f3464950bf4e3&src=srp_paging">
+
+----------------------------------------------------------------------------------
+
+	Script-Single	Encapsulated With Double Quotes: Can't Break the Context
+_______________________________________________________________________________________________________
+https://so.com/s?q=xtz&src=abc/uvw"xyz'yxz<zxy&_re=0
+
+----------------------------------------------------------------------------------
+Attribute Context: [1]
+<input type="hidden" name="fr" value="abc/uvw&amp;quot;xyz&amp;#039;yxz&amp;lt;zxy">
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [1]
+<script>var TIME = {_: +new Date}, eLogAndPv={sendlog:function(){},sendpv:function(){}}, So = {"comm":{"abv":"868-base","oabv":"868:2_news_engine=base","domain":"www.so.com","guid":"926D5218A34D0632D5CF510D54A2C71F.1589649297616","md":"","isCtrl":0,"pid":"www","pn":1,"q":"xtz","pq":"","src":"abc\/uvw\"xyz'yxz\u003Czxy","fr":"abc\/uvw&quot;xyz&#039;yxz&lt;zxy","t":1589649301214,"ssurl":"https:\/\/p.ssl.so.com\/p\/","ssl":1,"isajax":0,"sid":"ea79f783942b54165e1d72d649566043","psid":"","iv":0,"lmsid":"","user":{"qid":"","imageId":"","showName":"","src":""},"monitor":{"ls":"","rf":"","version":"2.5.3","cq":"","tg":"bottom|keyword|4,right|keyword|1","lm_extend":"","bucketid":"708,0,0,0,644","end":"0","af":0,"ablist":[249],"nlpv":"","isafe":0},"sosug":0,"riskManageList":[""],"llbq":"A5,B5,C5,D5","actags":{"fengkong_level":"1.1_2.1_3.1_4.1","fengkong_type":"1","mod_result_blue":"on"},"suggest_module":{"show":false,"show_input":false,"words":[]}},"web":{"cmswenda":"","cmsbaike":"","savesug":1,"typing":0,"soid":{"sign":3596649732,"ts":1589649300,"rm":0},"mods":[],"bdLinkUrl":"https:\/\/www.so.com\/link?m=aLUJFgohATKNn5zPZwqM2srbcCWG9mloqR5%2F296NLexKvfafvwRYmUb5NYCK9RHymjI1qhCV8IQLNhctwk31LKVfYFxMm%2FiiE4R5rA1I3KnbEeAYGhMcYGmCvjjPsStMn28RrGg%3D%3D","mediavShow":1},"page":{"reload":[],"unload":[],"timers":[]},"onebox":{},"e":{}};So.comm.enajax=window.history.pushState?true:false;</script>
+
+----------------------------------------------------------------------------------
+URI Context: [3]
+<a href="/?src=www&fr=abc%2Fuvw%26quot%3Bxyz%26%23039%3Byxz%26lt%3Bzxy" title="到360搜索首页" data-i="home">
+<a id="user-login" href="http://i.360.cn/login?src=pcw_so&destUrl=https%3A%2F%2Fwww.so.com%2Fs%3Fq%3Dxtz%26src%3Dabc%2Fuvw%2522xyz%27yxz%253Czxy%26_re%3D0" data-log="login">
+<a id="user-reg" href="http://i.360.cn/reg?src=pcw_so&destUrl=https%3A%2F%2Fwww.so.com%2Fs%3Fq%3Dxtz%26src%3Dabc%2Fuvw%2522xyz%27yxz%253Czxy%26_re%3D0" target="_blank" data-log="signIn">
+
+----------------------------------------------------------------------------------
+
+_______________________________________________________________________________________________________
+https://so.com/s?q=xtz&src=360portal&_re=abc/uvw"xyz'yxz<zxy
+
+----------------------------------------------------------------------------------
+Attribute Context: [0]
+
+----------------------------------------------------------------------------------
+HTML Context: [0]
+
+----------------------------------------------------------------------------------
+Script Context: [0]
+
+----------------------------------------------------------------------------------
+URI Context: [2]
+<a id="user-login" href="http://i.360.cn/login?src=pcw_so&destUrl=https%3A%2F%2Fwww.so.com%2Fs%3Fq%3Dxtz%26src%3D360portal%26_re%3Dabc%2Fuvw%2522xyz%27yxz%253Czxy" data-log="login">
+<a id="user-reg" href="http://i.360.cn/reg?src=pcw_so&destUrl=https%3A%2F%2Fwww.so.com%2Fs%3Fq%3Dxtz%26src%3D360portal%26_re%3Dabc%2Fuvw%2522xyz%27yxz%253Czxy" target="_blank" data-log="signIn">
+
+----------------------------------------------------------------------------------
+
