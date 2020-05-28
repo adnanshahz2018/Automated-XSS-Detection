@@ -276,7 +276,7 @@ Issue 24 :
  URL ATTACK Methodology:
 1. What are the payloads for URL context and on what condition Tool should fire the attacks..
 
-THE LANGUAGE ISSUE: [REGEX]
+THE LANGUAGE ISSUE: [REGEX] { Detected with addition unicode,  Proof = https://regex101.com/r/ltUdPu/2/ }
 1. http://tw.gigacircle.com/category.html?group=abc/uvw"xyz'yxz<zxy
 A. Website source code in the Browser: 
     <meta name="description" content="瀏覽關於/uvw" xyz'yxz<zxy的分類，挑選您最愛看的內容">
