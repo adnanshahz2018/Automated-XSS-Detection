@@ -47,7 +47,7 @@ class main_class:
             domain = domain[0]
         else:
             domain = url.split(char)[0]
-        print('Domain = ', domain)
+        print(' Domain = ', domain)
         return domain
 
 #   Do we still need this function ... let's check it later and then replace it or delete it.
@@ -219,7 +219,9 @@ if __name__ == "__main__":
 
 
     # links += ['https://www.bild.de/suche.bild.html?query=XXXXXXXX&type=video&resultsStart=0&resultsPerPage=12&sortBy=date']
-    # links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']
+
+    links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']  # The Jibrish Characters 
+
     # links += ['http://jnarmer.sdabocconi.it/events/login.php?id=']
     # links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
 
@@ -248,7 +250,7 @@ if __name__ == "__main__":
     # links += ['http://so.jrj.com.cn/cse/search?q=&s=5981575158355482147&nsid=1']
     # links += ['https://www.google.com.hk/webhp?hl=hi&sourceid=cnhp&gws_rd=ssl']
     # links += ['https://s.1688.com/imall/offer_search.htm?keywords=&n=y&netType=1%2C11&encode=utf-8&spm=a260k.dacugeneral.search.0']
-    # links += ['https://www.yy.com/93479716/93479716?tempId=16777299999xzzxzx']
+    # links += ['https://www.yy.com/93479716/93479716?tempId=16777299999']
 
     # links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
     # links += ['https://www.6.cn/search.php?type=use&key=new']

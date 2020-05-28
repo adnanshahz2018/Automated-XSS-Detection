@@ -65,6 +65,7 @@ if __name__ == "__main__":
     # link = 'https://ifu-institut.at/search?text="><img src=x onerror="alert(1)"&cms_token=30f71d2dffb99d557a11bb04966d80a0'
     link = 'https://www.sweetwater.com/'
     link = 'http://db.etree.org/shnlist.php?artist=&artist_group_key=1&year=/uvw"xyz' + "'yxz<zxy"
+    
     link = 'http://tw.gigacircle.com/category.html?group=abc/uvw"xyz' + "'yxz<zxy"
     Web = web_request(link, 'get')
     # resp = Web.get_source()
