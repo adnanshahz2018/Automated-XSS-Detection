@@ -9,6 +9,13 @@ class regular_expression:
     payload = '(uvw"' + "xyz('yxz</zxy"
     soup = None
 
+    #   Regex for the Detection of All Context reflections 
+    
+    a1 = r'[~…*\s[@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*'
+    h1 = r'[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*'
+    su = r'[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*'
+
+
     def __init__(self,data):
         self.pagesource = data
         self.soup = BeautifulSoup(data,features="lxml")
@@ -23,25 +30,28 @@ class regular_expression:
         return new_value
 
     def RegExpAttribute(self):
-        pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}[~…*\s[@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*[xX][yY][zZ][~…@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*\/?>')
-        # pattern = re.compile(u'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}[…*\s[@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff]*\s?[…@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff]*[xX][yY][zZ][…@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*\u4e00-\u9fff^\W\>_]*\/?>', re.UNICODE)
+        # pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}[~…*\s[@\*!\|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*[xX][yY][zZ][~…@\*!\|$_,}+*\"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*\/?>')
+
+        pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}' + self.a1 + r'[xX][yY][zZ]' + self.a1 + r'\/?>' , re.I | re.S | re.M)
         values = pattern.findall(self.pagesource)
-        # print(values)
         return values
 
     def RegExpHtml(self):
-        pattern = re.compile(r'<\/?(?!script)(?!z)\w{1,10}[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d“”]*<\/?(?!z)\w{1,10}\>?')
+        # pattern = re.compile(r'<\/?(?!script)(?!z)\w{1,10}[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d“”]*<\/?(?!z)\w{1,10}\>?')
+
+        pattern = re.compile(r'<\/?(?!script)(?!z)\w{1,10}' + self.h1 + r'>' + self.h1 + r'[xX][yY][zZ]' + self.h1 + r'<\/?(?!z)\w{1,10}\>?')
         values = pattern.findall(self.pagesource)
         return values
 
     def RegExpScript(self):
-        pattern = re.compile(r'<script[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*|$@_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/?>')
-        pattern1 = re.compile(r'<script[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf@\*!~|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*!|@$_,}+*"~*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*>&*;*\-*%*\d*]*[xX][yY][zZ][\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf@!\\$_#*"~*}\[\]+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*\<?[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf@!\\$_#*"*}\[\]~+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*<\/script>')
+        # pattern = re.compile(r'<script[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*|$@_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/?>')
+        # pattern1 = re.compile(r'<script[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf@\*!~|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*!|@$_,}+*"~*\\#*{*\s^*?\[\]\'*(*)*\/*.*\w*:*=*>&*;*\-*%*\d*]*[xX][yY][zZ][\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf@!\\$_#*"~*}\[\]+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*\<?[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf@!\\$_#*"*}\[\]~+{*\s^*?(*)*\/*\.*\w*:*=*&*;*\-*%*,|*\d*\'\>*]*<\/script>')
+        
+        pattern = re.compile(r'<script' + self.su + r'[xX][yY][zZ]' + self.su + r'\/?>')
         values = pattern.findall(self.pagesource)  +  self.soup.find_all('script', text=re.compile(r'[xX][yY][zZ]'))
-        # +  pattern1.findall(self.pagesource)
         return self.unify_values(values)
 
-    def RegExpURI(self):
+    def RegExpURI_old(self):
         value = list()
         p  =  re.compile(r'<img[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*[xX][yY][zZ][\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
         p1 =  re.compile(r'<a[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*href=[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>') 
@@ -62,24 +72,38 @@ class regular_expression:
         # + p3.findall(self.pagesource) + p8.findall(self.pagesource) 
         return value 
 
+    def RegExpURI(self):
+        value = list()
+        p  = re.compile( r'<img' + self.su + r'src=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p1 = re.compile( r'<img' + self.su + r'href=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p2 =  re.compile(r'<a' + self.su + r'href=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p3 = re.compile( r'<link' + self.su + r'href=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p4 = re.compile( r'<source' + self.su + r'src=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p5 = re.compile( r'<frame' + self.su + r'src=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p6 = re.compile( r'<iframe' + self.su + r'src=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p7 = re.compile( r'<meta' + self.su + r'content=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        p8 = re.compile( r'<meta' + self.su + r'http-equiv=' + self.su + r'[xX][yY][zZ]' + self.su + r'\/*>') 
+        
+        value += p.findall(self.pagesource) + p1.findall(self.pagesource) + p2.findall(self.pagesource) + p3.findall(self.pagesource) + p4.findall(self.pagesource)
+        value += p5.findall(self.pagesource) + p6.findall(self.pagesource) + p7.findall(self.pagesource)+ p8.findall(self.pagesource)
+        return value 
+
 # >>>>>>>>>>>>>>>>  Looking for the EXACT and SAME Appearance of the Payload >>>>>>>>>>>>>>>>>>>
 
     def RegExpSameAttribute(self):
-        p = re.compile(r'<\w{1,10}[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*\s?[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`@\*!|$_,}+*"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*]*\/?>')
+        p = re.compile(r'<\w{1,10}' + self.a1 + r'\s?' + self.a1 + re.escape(self.payload) + self.a1 + r'\/?>')
         return p.findall(self.pagesource) 
 
     def RegExpSameHtml(self):
-        p = re.compile(r'<\/?(?!script)\w{1,10}[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/\w{1,10}>')
+        p = re.compile(r'<\/?(?!script)\w{1,10}' + self.h1 + r'>' + self.h1 + re.escape(self.payload) + self.h1 + r'<\/\w{1,10}>')
         return p.findall(self.pagesource)
 
     def RegExpSameScript(self):
-        p = re.compile(r'<script[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`_!\"*#\\*,*\(*\)\s\'*\/*›\.*\w*\+*\?*:*=*&*;*\-*%*\d*]*\w{2,10}\-?\w{2,10}[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`_!\\*,*#\(*\)›\s\'*\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*"]*' + re.escape(self.payload) +  r'[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`_›"\(*\)*\s\/*\.*\w*\+*\?*:*=*&*;*\-*%*\d*\'*,*!#]*>')
-        p1 = re.compile(r'<script[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`_,*"*#*{*\s*\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*>[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*' + re.escape(self.payload) +  r'[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`!|$_,}+*"*\\#*{*\s^*>?\[\]\'*(*)*\/*.*\w*:*=*&*;*\-*%*\d*]*<\/script>')
+        p = re.compile(r'<script' + self.su + r'\w{2,10}\-?\w{2,10}' + self.su + re.escape(self.payload) + self.su + r'>')
+        p1 = re.compile(r'<script' + self.su + r'>' + self.su + re.escape(self.payload) + self.su + r'<\/script>')
         return p.findall(self.pagesource) + p1.findall(self.pagesource) + self.soup.find_all( 'script', text=re.escape(self.payload) ) 
-        # + p1.findall(self.pagesource)
-        # + self.soup.find_all( 'script', text=re.escape(self.payload) ) #
  
-    def RegExpSameURI(self):
+    def RegExpSameURI_old(self):
         value = list()
         p =  re.compile(r'<img[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*src=[`|_!\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*' + re.escape(self.payload) +  r'[`|$_›"\(\)\s|\/\.\w\+\?:=&;\-*%\d\',!#]*\/*>') 
         p1 = re.compile(r'<a[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*href=[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*' + re.escape(self.payload) +  r'[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf`\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>') 
@@ -98,6 +122,23 @@ class regular_expression:
         value = value + p.findall(self.pagesource) + p1.findall(self.pagesource) + p2.findall(self.pagesource) + p3.findall(self.pagesource) + p5.findall(self.pagesource) + p6.findall(self.pagesource) 
         value = value + p7.findall(self.pagesource) + p9.findall(self.pagesource) + p10.findall(self.pagesource) + p11.findall(self.pagesource) + p12.findall(self.pagesource) + p13.findall(self.pagesource) 
         return value
+
+    def RegExpSameURI(self):
+        value = list()
+        p  = re.compile( r'<img' + self.su + r'src=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p1 = re.compile( r'<img' + self.su + r'href=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p2 =  re.compile(r'<a' + self.su + r'href=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p3 = re.compile( r'<link' + self.su + r'href=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p4 = re.compile( r'<source' + self.su + r'src=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p5 = re.compile( r'<frame' + self.su + r'src=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p6 = re.compile( r'<iframe' + self.su + r'src=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p7 = re.compile( r'<meta' + self.su + r'content=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        p8 = re.compile( r'<meta' + self.su + r'http-equiv=' + self.su + re.escape(self.payload) + self.su + r'\/*>') 
+        
+        value += p.findall(self.pagesource) + p1.findall(self.pagesource) + p2.findall(self.pagesource) + p3.findall(self.pagesource) + p4.findall(self.pagesource)
+        value += p5.findall(self.pagesource) + p6.findall(self.pagesource) + p7.findall(self.pagesource)+ p8.findall(self.pagesource)
+        return value 
+
 
     def context_attack(self, Context):
         if Context == 'ATTR'    : return self.RegExpSameAttribute()
