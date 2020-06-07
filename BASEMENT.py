@@ -305,6 +305,34 @@ Conclusion
 
 * Regex to detect all of the chinese letters:
 1.  https://regex101.com/r/dXsTwN/1
+
+
+ISSUE 25: The Chinese/Japanese Language Detection with Regex
+1. All Chinese and Japanese characters are Detected successfully in the reflections
+ POC:
+    a. https://regex101.com/r/dXsTwN/1
+    b. I'm sending a file as POC.
+
+ISSUE 26: Foreign Language Detection [content="çè¦½éæ¼abc/uvw" xyz'yxz<zxy çåé¡¼æé¸æ¨ææçå§å®¹"]
+
+1. I have found the unicode range for the foreign language 
+    a. Unicode Range: [ \u00a1-\u0104 ]
+    b. Reference: [ https://onlineunicodetools.com/generate-unicode-range ] 
+2. I have tested it online using my regular expression.
+    a. It successfully detects/captures the reflection along with the foriegn characters. 
+    b. Website : [ http://tw.gigacircle.com/category.html?group=abc/uvw%22xyz%27yxz%3Czxy ]
+    c. POC for attr context :  [ https://regex101.com/r/ltUdPu/2/ ] 
+    d. Also detects HTML with html specific regex. 
+
+3.  I have Applied this same regex in the program and it does not detect. The pagesource contains reflections but regex fails to detect 
+
+4. I stored the same source code in a text file, then the regex detected All reflections successfully without missing a single one. 
+
+5. However it's not working on the pagesource collected directly from webpage. There are no Errors, nor any exceptions. 
+    So, it's hard to know where the problem is..
+I'm looking into it. Maybe I'll get some help from the regex flags or encoding type of the source. 
+
+
 ----------------------------------------------------------------------------------------------------------------------------
         ----- FUTURE WORK -----
 ----------------------------------------------------------------------------------------------------------------------------

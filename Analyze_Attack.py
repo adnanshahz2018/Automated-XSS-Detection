@@ -51,7 +51,6 @@ class analyze_attack:
             for data in detection:
                 new = ws.cell(row=ws.max_row, column=4).value + str(data) + ' , '
                 ws.cell(row=ws.max_row, column=4).value = new
-                pass 
         else:
             ws.append([str(attack_url), context, status, str(detection)])
         

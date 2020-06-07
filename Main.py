@@ -220,7 +220,7 @@ if __name__ == "__main__":
 # Demo with Ashar Javed 
     # links += ['https://www.bild.de/suche.bild.html?query=XXXXXXXX&type=video&resultsStart=0&resultsPerPage=12&sortBy=date']
 
-    # links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']  # The Jibrish Characters 
+    links += ['http://tw.gigacircle.com/category.html?group=XXXXXXXX']  # The Jibrish Characters NOT Detected /\/\/\/\//\/\/\
 
     # links += ['http://jnarmer.sdabocconi.it/events/login.php?id=']
     # links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
@@ -252,7 +252,7 @@ if __name__ == "__main__":
     # links += ['https://s.1688.com/imall/offer_search.htm?keywords=&n=y&netType=1%2C11&encode=utf-8&spm=a260k.dacugeneral.search.0']
     # links += ['https://www.yy.com/93479716/93479716?tempId=16777299999']
 
-    links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
+    # links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
     # links += ['https://www.6.cn/search.php?type=use&key=new']
     # links += ['https://zzk.cnblogs.com/s?t=b&w=nerw']
     # links += ['http://www.chinaso.com/search/pagesearch.htm?q=&site=eastday.com&search_scope=insite']
