@@ -10,15 +10,17 @@ class regular_expression:
     soup = None
 
     #   Regex for the Detection of All Context reflections 
-    
-    a1 = r'[~…*\s[@\*!|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*'
-    h1 = r'[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*'
-    su = r'[\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*'
+    a = r'[çè¦½éæ¼çåé¡¼æé¸æ¨ææçå§å®¹~…*\s[@\*!|$_,}+*\"*\\#*{*\s\^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*'
+    h = r'[çè¦½éæ¼çåé¡¼æé¸æ¨ææçå§å®¹\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*'
+    su = r'[çè¦½éæ¼çåé¡¼æé¸æ¨ææçå§å®¹\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*|_!@\"#\\,\(\)\s\'\/›$\.\w\+\?:=&;\-%\d]*'
+    regex = r''
 
 
     def __init__(self,data):
         self.pagesource = data
-        self.soup = BeautifulSoup(data,features="lxml")
+        self.pagesource = re.sub(u"[\u00a1-\u0104]", "", self.pagesource,  flags=re.UNICODE)
+        self.soup = BeautifulSoup(self.pagesource,features="lxml")
+        # print("\n*****************************After Replacing ***************************\n",self.pagesource)
 
     def set_payload(self,payload):
         self.payload = payload 
@@ -32,14 +34,16 @@ class regular_expression:
     def RegExpAttribute(self):
         # pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}[~…*\s[@\*!\|$_,}+*\"*\\#*{*\s^*?\[\]\'\*(*)*\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*[xX][yY][zZ][~…@\*!\|$_,}+*\"*\\#*{*\s^*?\[\]\'*(*)*<\/*.*\w*:*=*&*;*\-*%*\d*\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf]*\/?>')
 
-        pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}' + self.a1 + r'[xX][yY][zZ]' + self.a1 + r'\/?>' , re.I | re.S | re.M)
+        pattern = re.compile(r'<(?!a)(?!z)(?!link)(?!frame)(?!script)\w{1,10}' + self.a + r'[xX][yY][zZ]' + self.a + r'\/?>' , re.I | re.S | re.M)
         values = pattern.findall(self.pagesource)
+        # print("\n*****************************Attribute Context ***************************\n",self.pagesource)
+        # print('values:\n', values)
         return values
 
     def RegExpHtml(self):
         # pattern = re.compile(r'<\/?(?!script)(?!z)\w{1,10}[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*>[\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d]*[xX][yY][zZ][\u00a1-\u0104\u4e00-\u9fff\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\*\|\_\<\!\"\#\\,\(\)\s\'\/\›\$\.\w\+\?\:\=\&\;\-\%\d“”]*<\/?(?!z)\w{1,10}\>?')
 
-        pattern = re.compile(r'<\/?(?!script)(?!z)\w{1,10}' + self.h1 + r'>' + self.h1 + r'[xX][yY][zZ]' + self.h1 + r'<\/?(?!z)\w{1,10}\>?')
+        pattern = re.compile(r'<\/?(?!script)(?!z)\w{1,10}' + self.h + r'>' +  self.h + r'[xX][yY][zZ]' + self.h + r'<\/?(?!z)\w{1,10}\>?')
         values = pattern.findall(self.pagesource)
         return values
 
@@ -88,14 +92,14 @@ class regular_expression:
         value += p5.findall(self.pagesource) + p6.findall(self.pagesource) + p7.findall(self.pagesource)+ p8.findall(self.pagesource)
         return value 
 
-# >>>>>>>>>>>>>>>>  Looking for the EXACT and SAME Appearance of the Payload >>>>>>>>>>>>>>>>>>>
+# >>>>>>>>>>>>>>>>  These functions Find the Exact payload reflection after attacking the websites >>>>>>>>>>>>>>>>>>>
 
     def RegExpSameAttribute(self):
-        p = re.compile(r'<\w{1,10}' + self.a1 + r'\s?' + self.a1 + re.escape(self.payload) + self.a1 + r'\/?>')
+        p = re.compile(r'<\w{1,10}' + self.a + r'\s?' + self.a + re.escape(self.payload) + self.a + r'\/?>')
         return p.findall(self.pagesource) 
 
     def RegExpSameHtml(self):
-        p = re.compile(r'<\/?(?!script)\w{1,10}' + self.h1 + r'>' + self.h1 + re.escape(self.payload) + self.h1 + r'<\/\w{1,10}>')
+        p = re.compile(r'<\/?(?!script)\w{1,10}' + self.h + r'>' + self.h + re.escape(self.payload) + self.h + r'<\/\w{1,10}>')
         return p.findall(self.pagesource)
 
     def RegExpSameScript(self):
