@@ -8,6 +8,7 @@ from xlwt import Workbook
 
 from WebRequest import web_request
 from WriteTextFile import write_text_file
+from WriteExcelFile import write_excel_file 
 from RegularExpression import regular_expression
 from FindContexts import find_contexts
 from GenerateFormUrls import generate_form_urls_with_payloads
@@ -17,12 +18,20 @@ from AttackMethodology import attack_methodology
 class analyze_attack:
     payload = 'abc/uvw"' + "xyz'yxz<zxy"
     Text = None 
+    Excel = None
     folder = base = ''
 
     def __init__(self, base, folder):
         self.base = base
         self.folder = folder
         self.create_text_file()
+        self.create_excel_file()
+
+    def create_excel_file(self):
+        print(self.base)
+        path = self.base + '/Contexts' + '.xlsx'
+        self.Excel = write_excel_file(path, self.payload)
+        
 
     def create_text_file(self):
         path = self.base + '/AaallAttacks' + '.txt'
@@ -123,6 +132,7 @@ class analyze_attack:
         attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls = Find.find_context(url, self.payload, str(source) )
         # Writing Contexts to Text File
         self.Text.write_contexts(url, attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls)
+        self.Excel.write_contexts(url, attrs, htmls, scripts, urls)
         # Cotext Encoding and Attack Methodology for each Context
         for attr in attrs       :   self.check_encoding_and_attack( url, 'ATTR', attr)
         for html in htmls       :   self.check_encoding_and_attack( url, 'HTML', html)
