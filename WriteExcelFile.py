@@ -61,5 +61,5 @@ class write_excel_file:
         wb.save(self.filename)
         wb.close()
 
-
-print('{WriteExcelFile}')
+if __name__ == "__main__":
+	print('{WriteExcelFile}')
