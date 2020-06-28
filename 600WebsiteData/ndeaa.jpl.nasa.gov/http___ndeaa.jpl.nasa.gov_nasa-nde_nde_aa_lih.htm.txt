@@ -1,4 +1,0 @@
-http://ndeaa.jpl.nasa.gov/nasa-nde/nde&aa/lih.htm
-
-GET Params:[0]
-[]

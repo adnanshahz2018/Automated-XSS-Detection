@@ -1,4 +1,0 @@
-https://intranet.apl.washington.edu
-
-GET Params:[0]
-[]

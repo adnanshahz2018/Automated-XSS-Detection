@@ -1,4 +1,0 @@
-http://militarybest.com/info.html
-
-GET Params:[0]
-[]

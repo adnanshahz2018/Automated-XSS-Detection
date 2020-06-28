@@ -1,4 +1,0 @@
-http://www.theacousticmusicco.co.uk/skin/frontend/default/tamco/favicon.ico
-
-GET Params:[0]
-[]

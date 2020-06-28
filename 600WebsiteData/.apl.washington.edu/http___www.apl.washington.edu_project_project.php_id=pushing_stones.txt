@@ -1,4 +1,0 @@
-http://www.apl.washington.edu/project/project.php?id=pushing_stones
-
-GET Params:[0]
-[]

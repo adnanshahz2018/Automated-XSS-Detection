@@ -1,4 +1,0 @@
-http://ultrasonics.org/aws/UIA/pt/sp/newsletters
-
-GET Params:[0]
-[]

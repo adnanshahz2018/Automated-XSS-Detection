@@ -1,4 +1,0 @@
-https://www.suunto.com/sports/News-Articles-container-page/tutorial-tuesday/how-to-use-suunto-3-fitness-adaptive-training-guidance/
-
-GET Params:[0]
-[]

@@ -1,4 +1,0 @@
-https://www.techscience.com/newslist
-
-GET Params:[0]
-[]

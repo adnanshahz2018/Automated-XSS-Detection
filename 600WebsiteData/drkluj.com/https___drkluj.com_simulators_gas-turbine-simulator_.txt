@@ -1,4 +1,0 @@
-https://drkluj.com/simulators/gas-turbine-simulator/
-
-GET Params:[0]
-[]

@@ -1,4 +1,0 @@
-https://www.thehumansolution.com/corner-l-shaped-standing-desk/
-
-GET Params:[1]
-['search_query']

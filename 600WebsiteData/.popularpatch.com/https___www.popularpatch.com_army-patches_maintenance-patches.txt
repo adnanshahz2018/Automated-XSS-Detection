@@ -1,4 +1,0 @@
-https://www.popularpatch.com/army-patches/maintenance-patches
-
-GET Params:[2]
-['mode', 'search_query']

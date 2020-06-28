@@ -1,4 +1,0 @@
-http://myaccount.stringsandbeyond.com/doLogout.php
-
-GET Params:[0]
-[]

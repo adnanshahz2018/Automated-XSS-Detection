@@ -1,4 +1,0 @@
-https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.piceramic.com%2Fen%2F
-
-GET Params:[0]
-[]

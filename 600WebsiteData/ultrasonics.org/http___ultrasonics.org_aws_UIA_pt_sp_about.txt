@@ -1,4 +1,0 @@
-http://ultrasonics.org/aws/UIA/pt/sp/about
-
-GET Params:[0]
-[]

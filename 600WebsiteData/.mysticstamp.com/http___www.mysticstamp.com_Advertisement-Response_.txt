@@ -1,4 +1,0 @@
-http://www.mysticstamp.com/Advertisement-Response/
-
-GET Params:[0]
-[]

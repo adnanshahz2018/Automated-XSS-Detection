@@ -1,4 +1,0 @@
-https://www.url.pitt.edu/tests-and-protocols/carotid-imt/
-
-GET Params:[0]
-[]

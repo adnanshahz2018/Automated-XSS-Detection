@@ -1,4 +1,0 @@
-https://srb.stanford.edu/sites/all/themes/stanford_wilbur/favicon.ico
-
-GET Params:[0]
-[]

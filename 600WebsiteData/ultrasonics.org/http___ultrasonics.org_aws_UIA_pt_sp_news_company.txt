@@ -1,4 +1,0 @@
-http://ultrasonics.org/aws/UIA/pt/sp/news_company
-
-GET Params:[0]
-[]

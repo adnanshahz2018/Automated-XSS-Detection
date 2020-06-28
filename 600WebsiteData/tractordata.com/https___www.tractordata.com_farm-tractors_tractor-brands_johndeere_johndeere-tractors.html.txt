@@ -1,4 +1,0 @@
-https://www.tractordata.com/farm-tractors/tractor-brands/johndeere/johndeere-tractors.html
-
-GET Params:[0]
-[]

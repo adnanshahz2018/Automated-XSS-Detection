@@ -1,4 +1,0 @@
-https://www.eikondevice.com/sites/all/themes/eikon/favicon.ico
-
-GET Params:[0]
-[]

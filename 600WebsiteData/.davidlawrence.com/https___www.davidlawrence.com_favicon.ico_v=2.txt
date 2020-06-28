@@ -1,4 +1,0 @@
-https://www.davidlawrence.com/favicon.ico?v=2
-
-GET Params:[0]
-[]

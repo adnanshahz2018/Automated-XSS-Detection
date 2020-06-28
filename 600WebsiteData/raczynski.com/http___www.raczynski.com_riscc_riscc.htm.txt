@@ -1,4 +1,0 @@
-http://www.raczynski.com/riscc/riscc.htm
-
-GET Params:[0]
-[]

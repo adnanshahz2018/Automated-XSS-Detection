@@ -1,4 +1,0 @@
-https://www.rigeshop.com/clothing/jackets/c12
-
-GET Params:[5]
-['search', 'items', 'order_by', 'price_min', 'price_max']

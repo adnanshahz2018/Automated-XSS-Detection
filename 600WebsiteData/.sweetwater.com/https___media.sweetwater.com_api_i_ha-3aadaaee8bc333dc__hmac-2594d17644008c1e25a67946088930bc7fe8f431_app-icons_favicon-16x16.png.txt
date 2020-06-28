@@ -1,4 +1,0 @@
-https://media.sweetwater.com/api/i/ha-3aadaaee8bc333dc__hmac-2594d17644008c1e25a67946088930bc7fe8f431/app-icons/favicon-16x16.png
-
-GET Params:[0]
-[]

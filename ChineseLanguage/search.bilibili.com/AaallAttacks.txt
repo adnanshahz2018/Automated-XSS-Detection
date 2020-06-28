@@ -1,8 +1,0 @@
-ChineseLanguage/search.bilibili.com
-
-https://search.bilibili.com/all?keyword='; confirm`1`; '&from_source=nav_search_new
-Context = SCRIPT
-Success = FALSE
-Detection:
-None
------------------------------------------------------------------------------------------------------

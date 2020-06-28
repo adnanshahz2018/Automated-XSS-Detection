@@ -1,4 +1,0 @@
-https://sara.com/images/SARA_favicon.jpg
-
-GET Params:[0]
-[]

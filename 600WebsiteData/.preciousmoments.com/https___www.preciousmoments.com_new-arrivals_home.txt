@@ -1,4 +1,0 @@
-https://www.preciousmoments.com/new-arrivals/home
-
-GET Params:[1]
-['search_query']

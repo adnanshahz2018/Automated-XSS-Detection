@@ -1,4 +1,0 @@
-https://accreditation.aium.org/
-
-GET Params:[0]
-[]

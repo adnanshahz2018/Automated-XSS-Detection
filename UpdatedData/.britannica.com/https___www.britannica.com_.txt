@@ -1,4 +1,0 @@
-https://www.britannica.com/
-
-GET Params:[1]
-['query']

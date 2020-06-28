@@ -1,4 +1,0 @@
-http://www.raczynski.com/pcb/gerber.htm
-
-GET Params:[0]
-[]

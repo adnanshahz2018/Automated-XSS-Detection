@@ -1,4 +1,0 @@
-http://ndeaa.jpl.nasa.gov/nasa-nde/nde&aa/stewart.htm
-
-GET Params:[0]
-[]

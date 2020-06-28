@@ -1,4 +1,0 @@
-https://www.preciousmoments.com/decor-more/garden-decor-1
-
-GET Params:[1]
-['search_query']

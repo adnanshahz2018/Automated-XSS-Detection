@@ -1,4 +1,0 @@
-https://www.techscience.com/sv/info/Indexed
-
-GET Params:[0]
-[]

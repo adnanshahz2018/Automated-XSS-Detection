@@ -1,4 +1,0 @@
-http://ultrasonics.org/aws/UIA/pt/sp/events
-
-GET Params:[0]
-[]

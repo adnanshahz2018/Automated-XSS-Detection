@@ -1,4 +1,0 @@
-https://www.ifmpan.poznan.pl/fwp/
-
-GET Params:[0]
-[]

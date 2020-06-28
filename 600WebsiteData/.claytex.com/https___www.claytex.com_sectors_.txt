@@ -1,4 +1,0 @@
-https://www.claytex.com/sectors/
-
-GET Params:[0]
-[]

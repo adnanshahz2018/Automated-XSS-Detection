@@ -1,4 +1,0 @@
-https://www.techscience.com/sv/info/article_charge
-
-GET Params:[0]
-[]

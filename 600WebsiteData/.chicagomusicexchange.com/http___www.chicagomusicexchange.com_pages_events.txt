@@ -1,4 +1,0 @@
-http://www.chicagomusicexchange.com/pages/events
-
-GET Params:[0]
-[]

@@ -1,4 +1,0 @@
-https://www.simplystamps.com/customer/account/logout/
-
-GET Params:[0]
-[]

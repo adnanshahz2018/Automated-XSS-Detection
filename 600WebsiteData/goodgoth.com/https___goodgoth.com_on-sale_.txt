@@ -1,4 +1,0 @@
-https://goodgoth.com/on-sale/
-
-GET Params:[1]
-['mode']

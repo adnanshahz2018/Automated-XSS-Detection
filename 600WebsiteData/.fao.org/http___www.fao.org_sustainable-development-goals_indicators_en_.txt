@@ -1,4 +1,0 @@
-http://www.fao.org/sustainable-development-goals/indicators/en/
-
-GET Params:[0]
-[]

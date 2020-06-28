@@ -1,4 +1,0 @@
-http://www.raczynski.com/pn/qms.htm#download
-
-GET Params:[0]
-[]

@@ -1,4 +1,0 @@
-https://www.preciousmoments.com/decor-more/holiday
-
-GET Params:[1]
-['search_query']

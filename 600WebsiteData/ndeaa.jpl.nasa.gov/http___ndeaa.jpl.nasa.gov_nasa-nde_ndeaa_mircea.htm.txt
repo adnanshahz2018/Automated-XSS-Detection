@@ -1,4 +1,0 @@
-http://ndeaa.jpl.nasa.gov/nasa-nde/ndeaa/mircea.htm
-
-GET Params:[0]
-[]

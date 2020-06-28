@@ -1,4 +1,0 @@
-https://www.tractordata.com/farm-tractors/tractor-brands/ih/ih-tractors.html
-
-GET Params:[0]
-[]

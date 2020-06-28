@@ -1,4 +1,0 @@
-http://www.raczynski.com/resume.doc
-
-GET Params:[0]
-[]

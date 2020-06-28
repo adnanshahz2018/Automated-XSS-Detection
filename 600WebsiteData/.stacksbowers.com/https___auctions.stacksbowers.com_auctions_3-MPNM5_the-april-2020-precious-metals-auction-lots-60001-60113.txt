@@ -1,4 +1,0 @@
-https://auctions.stacksbowers.com/auctions/3-MPNM5/the-april-2020-precious-metals-auction-lots-60001-60113
-
-GET Params:[0]
-[]

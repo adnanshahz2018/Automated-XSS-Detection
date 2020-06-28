@@ -1,4 +1,0 @@
-http://blog.goldsim.com/
-
-GET Params:[0]
-[]

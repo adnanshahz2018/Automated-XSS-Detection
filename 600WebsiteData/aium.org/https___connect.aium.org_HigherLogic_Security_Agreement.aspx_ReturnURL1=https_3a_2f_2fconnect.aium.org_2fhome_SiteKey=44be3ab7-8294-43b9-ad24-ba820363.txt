@@ -1,4 +1,0 @@
-https://connect.aium.org/HigherLogic/Security/Agreement.aspx?ReturnURL1=https%3a%2f%2fconnect.aium.org%2fhome&SiteKey=44be3ab7-8294-43b9-ad24-ba8203630e01&
-
-GET Params:[0]
-[]

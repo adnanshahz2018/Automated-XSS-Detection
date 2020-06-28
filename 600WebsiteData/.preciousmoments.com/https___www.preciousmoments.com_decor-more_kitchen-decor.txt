@@ -1,4 +1,0 @@
-https://www.preciousmoments.com/decor-more/kitchen-decor
-
-GET Params:[1]
-['search_query']

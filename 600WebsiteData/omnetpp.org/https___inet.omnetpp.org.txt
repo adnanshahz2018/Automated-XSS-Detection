@@ -1,4 +1,0 @@
-https://inet.omnetpp.org
-
-GET Params:[0]
-[]

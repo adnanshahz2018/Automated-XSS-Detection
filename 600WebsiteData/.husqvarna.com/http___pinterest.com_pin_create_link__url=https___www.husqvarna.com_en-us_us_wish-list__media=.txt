@@ -1,4 +1,0 @@
-http://pinterest.com/pin/create/link/?url=https://www.husqvarna.com/en-us/us/wish-list/&media=
-
-GET Params:[0]
-[]

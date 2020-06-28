@@ -1,4 +1,0 @@
-https://www.thehumansolution.com/uplift-adjustable-height-standing-desk
-
-GET Params:[1]
-['search_query']
