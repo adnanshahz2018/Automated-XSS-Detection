@@ -13,11 +13,7 @@ from Analyze_Attack import analyze_attack
 class main_class:
     url = ''
     web = None
-
-    folder = 'ChineseLanguage'
-    # folder = 'solvingissues'
-    # folder = 'Business_E-Commerce_Customer_Relationship_Management'
-
+    folder = 'Demo_presentation'     # All files will be stored in this Folder 
     dirName = ''
     base = ''
     domain_url = ''
@@ -202,7 +198,7 @@ def read_excel(excel_filename):
 if __name__ == "__main__":
     print('\n=> This Automated Tool assists in finding XSS Vulnerablilities.\n=> It assumes that there is a potential XSS Present in the Website\n')
 
-    direct_param = direct_get_params()
+    # direct_param = direct_get_params()
 
     links = []
 # -----------------------  Links for Tuning & Testing -------------------------------
@@ -216,7 +212,6 @@ if __name__ == "__main__":
     # links += ['https://www.datasheet4u.com/search.php?sWord=']
     # links += ['https://www.scientificamerican.com/search/?q=']
 
-
 # Demo with Ashar Javed 
     # links += ['https://www.bild.de/suche.bild.html?query=XXXXXXXX&type=video&resultsStart=0&resultsPerPage=12&sortBy=date']
 
@@ -224,9 +219,6 @@ if __name__ == "__main__":
 
     # links += ['http://jnarmer.sdabocconi.it/events/login.php?id=']
     # links += ['http://pinterface.tianjimedia.com/front/wap/searchresult.jsp?keyword=XXXXXXX']
-
-
-
 
     # links += ['https://list.tmall.com/search_product.htm?q=%22xyz&type=p&spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton']
     # links += ['https://www.sogou.com/tx?hdq=sogou-wsse-3f7bcd0b3ea82268&ie=utf-8&query=newzone']
@@ -252,7 +244,7 @@ if __name__ == "__main__":
     # links += ['https://s.1688.com/imall/offer_search.htm?keywords=&n=y&netType=1%2C11&encode=utf-8&spm=a260k.dacugeneral.search.0']
     # links += ['https://www.yy.com/93479716/93479716?tempId=16777299999']
 
-    links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
+    # links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
     # links += ['https://www.6.cn/search.php?type=use&key=new']
     # links += ['https://zzk.cnblogs.com/s?t=b&w=nerw']
     # links += ['http://www.chinaso.com/search/pagesearch.htm?q=&site=eastday.com&search_scope=insite']
@@ -260,13 +252,19 @@ if __name__ == "__main__":
 
     # links += ['http://s.rednet.cn/?scope=1&title=0&q=new']
     # links += ['https://www.alibabacloud.com/s?k=new']
-          
-    # for link in links:
-    #     direct_param.start(link)
+
+
+#   Web URLs -----
+    links += ['https://www.yy.com/93479716/93479716?tempId=16777299999']
+    links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
+    links += ['https://www.6.cn/search.php?type=use&key=new']
+    
+    links += ['https://www.zentechnologies.com/']
+    links += ['https://www.cgiar.org']
+    links += ['https://www.sweetwater.com/']
 
     # READING LINKS FROM EXCEL FILE 
     # links =  read_excel('sample_data/data.xlsx')
-
 
     count = 0
     for link in links: 
@@ -277,10 +275,3 @@ if __name__ == "__main__":
         main_operation(one_link)
 
     print('\n----------------------   PROGRAM  ENDED   -----------------------------\n')
-
-'''       ^^^^^   TASKS REMAINING
-
-1. Revert Payload : uvw"xyz'</zxy
-
-
-'''

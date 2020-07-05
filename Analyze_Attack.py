@@ -29,8 +29,10 @@ class analyze_attack:
 
     def create_excel_file(self):
         print(self.base)
-        path = self.base + '/Contexts' + '.xlsx'
-        self.Excel = write_excel_file(path, self.payload)
+        context_file_path = self.base + '/Contexts' + '.xlsx'
+        attack_file_path = self.folder + '/file' + '.xlsx'
+        self.Excel = write_excel_file(context_file_path, self.payload)
+        self.Excel.create_attack_storage_excel_file(attack_file_path)
         
 
     def create_text_file(self):

@@ -14,6 +14,19 @@ class write_excel_file:
         self.filename = filename
         self.payload = payload
 
+    def create_attack_storage_excel_file(self, filepath):
+        # creating the file for the first time 
+        if not os.path.exists(filepath):
+            workbook = xlsxwriter.Workbook(filepath)
+            worksheet = workbook.add_worksheet("Sheet1")
+            workbook.close()
+            wb = op.load_workbook(filepath, False)
+            ws = wb['Sheet1']
+            ws.append(["Attack URL", "Context", "Success", "Detection" ])
+            wb.save(filepath)
+            wb.close()
+
+
     def write_contexts(self, url, attrs, htmls, scripts, urls):
         # creating the file for the first time 
         if not os.path.exists(self.filename):
