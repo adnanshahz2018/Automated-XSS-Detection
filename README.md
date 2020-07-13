@@ -42,30 +42,30 @@
   
   3. Context Data : 
       
-      a. Attribute
+    a. Attribute
       
-      b. HTML
+    b. HTML
       
-      c. Script
+    c. Script
       
-      d. URL 
+    d. URL 
       
    
    4. Source Code Analysis for Special Characters: 
       
-      a. Single Quotes
+    a. Single Quotes
       
-      b. Double Quotes
+    b. Double Quotes
       
-      c. Less-than sign
+    c. Less-than sign
       
-      d. Forward slash
+    d. Forward slash
       
    5. Attacks selected: e.g: ["'; confirm(1); '"]
    
    6. Attack URL: e.g: 
    
-      SCRIPT Attack Url:  https://www.nearlynatural.com/collections/search-results?type=product&keywords='; confirm(1); '
+    SCRIPT Attack Url:  https://www.nearlynatural.com/collections/search-results?type=product&keywords='; confirm(1); '
    
    7. Verification of Attack: e.g: [UnSuccessful with attack:  '; confirm(1); ']
    
@@ -93,7 +93,7 @@
     f. Detection or Reflection of Attacks in the web application source code
     
     
- 2. EXCEL FILE: 
+  2. EXCEL FILE: 
   
     a. Context frequency and Values
     
