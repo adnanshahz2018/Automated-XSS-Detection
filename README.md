@@ -13,7 +13,7 @@
   
   3. Submit Forms with Harmless strings, for probing the web application
   
-  # 4. Collection and Categorization of Response into 4 Contexts:
+  4. Collection and Categorization of Response into 4 Contexts:
     
     a. Attribute 
     
@@ -23,12 +23,14 @@
     
     d. URL 
   
-  # 6. Source Code Analysis
-    
+  5. Source Code Analysis
   
-  # 7. Selection of Attacks w.r.t Categorization
+  6. Selection of Attacks w.r.t Categorization
   
-  8. Verify Attack by Analyzing the Response
+  7. Verify Attack by Analyzing the Response
+  
+  8. Record Results (Text and Excel Files)
+  
   
   
 
@@ -76,7 +78,7 @@
    
   # Storage of DATA: 
   
-  # 1. TEXT FILE: (contains following data)
+  1. TEXT FILE: (contains following data)
   
     a. Response Categorization: Context frequency and Values
     
@@ -91,7 +93,7 @@
     f. Detection or Reflection of Attacks in the web application source code
     
     
- # 2. EXCEL FILE: 
+ 2. EXCEL FILE: 
   
     a. Context frequency and Values
     
@@ -104,4 +106,6 @@
     e. Detection or Reflection of the Attacks in the Response 
     
     
- #             ------------ THE END ----------------
+    
+    
+ #                                                    ------------ THE END ----------------
