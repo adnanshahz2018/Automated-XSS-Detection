@@ -13,7 +13,7 @@
   
   3. Submit Forms with Harmless strings, for probing the web application
   
-  4. Collection and Categorization of Response into 4 Contexts:
+  4. Collection and Categorization of Response into 4 Contexts: 
     
     a. Attribute 
     
