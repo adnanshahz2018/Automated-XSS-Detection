@@ -1,5 +1,5 @@
 
-# Towards Automated Detection of Cross-Site Scripting Vulnerabilities in Web Applications
+# Towards Automated Detection of Cross-Site Scripting  (XSS) Vulnerabilities in Web Applications
   
   INPUT:  Website URL or List of Website URLs
  
