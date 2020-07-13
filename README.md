@@ -2,6 +2,7 @@
 # Towards Automated Detection of Cross-Site Scripting Vulnerabilities in Web Applications
   
   INPUT:  Website URL or List of Website URLs
+ 
   OUTPUT: Summary of Source Code Analysis and XSS Vulnerabilities (if any)
   
   # Major Steps of this Tool are as follows:
@@ -25,13 +26,13 @@
   # 6. Source Code Analysis
     
   
-  #7. Selection of Attacks w.r.t Categorization
+  # 7. Selection of Attacks w.r.t Categorization
   
-  6. Verify Attack by Analyzing the Response
+  8. Verify Attack by Analyzing the Response
   
   
 
-Data Extracted From Website:
+# Data Extracted From Website:
   
   1. GET Urls (with Harmless String): [ https://www.zentechnologies.com/search/search.php?query="xyz'yxz</zxy&search=1 ]
   
