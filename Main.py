@@ -167,7 +167,8 @@ def main_operation(links):
     for bfs in range(bfs_levels):
         index, links = M.bfs_crawling(index,links)
         # print('\n INDEX = ', index ,'\n')
-        for link in links: print(link)
+        for link in links: 
+            print(link)
         print( ' Total Links = ', len(links))
 
         # if (index > 21): break      
@@ -183,7 +184,7 @@ def main_operation(links):
     # print('\n Crawler Links:', len(links), '\n')
 
 
-    """ Now the Tool Anaylyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
+    """ Now the Tool Analyzes the website, Attacks it (if possible) and Generates Reports (Text Files) """
     Analyzer = analyze_attack(base, M.folder)
     Analyzer.collect_data(links)
 
@@ -255,17 +256,22 @@ if __name__ == "__main__":
 
 
 #   Web URLs -----
-    links += ['https://www.yy.com/93479716/93479716?tempId=16777299999']
-    links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
-    links += ['https://www.6.cn/search.php?type=use&key=new']
-    
-    links += ['https://www.zentechnologies.com/']
-    links += ['https://www.cgiar.org']
-    links += ['https://www.sweetwater.com/']
+    # links += ['https://www.yy.com/93479716/93479716?tempId=16777299999']
+    # links += ['https://search.gome.com.cn/search?question=new&searchType=goods&search_mode=normal&reWrite=true&instock=1']
+    # links += ['https://www.6.cn/search.php?type=use&key=new']
+
+    # links += ['https://www.zentechnologies.com/']
+    # links += ['https://www.cgiar.org']
+    # links += ['https://www.sweetwater.com/']
+
+#
+
+    # links += ['https://www.tatsoul.com/supplies/index.php?main_page=advanced_search&search_in_description=1&keyword=none&inc_subcat=0&sort=20a']
+    # links += ['https://www.freepik.es/']
+    links += ['https://www.zentechnologies.com']
 
     # READING LINKS FROM EXCEL FILE 
     # links =  read_excel('sample_data/data.xlsx')
-
     count = 0
     for link in links: 
         count+=1

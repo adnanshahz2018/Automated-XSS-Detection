@@ -43,8 +43,7 @@ class direct_get_params:
             links.append(link)
             params = self.paramvalues.copy()
         
-        for link in links:  
-            print(link)
+        # for link in links:  print(link)
 
         return links
 

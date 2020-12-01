@@ -29,7 +29,7 @@ class analyze_attack:
 
     def create_excel_file(self):
         print(self.base)
-        context_file_path = self.base + '/Contexts' + '.xlsx'
+        context_file_path = self.folder + '/Contexts' + '.xlsx'
         attack_file_path = self.folder + '/file' + '.xlsx'
         self.Excel = write_excel_file(context_file_path, self.payload)
         self.Excel.create_attack_storage_excel_file(attack_file_path)
@@ -102,7 +102,8 @@ class analyze_attack:
                 # We receive a list of links/urls. 
                 get_params, get_urls = Search.start_search(link) 
                 self.get_params = get_params
-            else: continue
+            else: 
+                continue
             unique_get_urls = self.remove_duplicate_get_urls(get_urls)
             print('\nUnique GET URLs:[',len(unique_get_urls), ']') #, unique_get_urls)
             self.collect_response_data(link, unique_get_urls)
@@ -130,6 +131,7 @@ class analyze_attack:
     # Finding Contexts, selecting attack-Methodology and attack-payloads
     def record_data(self,url,source):
         Find = find_contexts()
+        print('nULL L ll')
         # Finding All Contexts
         attrs, htmls, scripts, urls, same_attrs, same_htmls, same_scripts, same_urls = Find.find_context(url, self.payload, str(source) )
         # Writing Contexts to Text File

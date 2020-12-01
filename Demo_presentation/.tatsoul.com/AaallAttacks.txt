@@ -1,0 +1,8 @@
+Demo_presentation/.tatsoul.com
+
+https://www.tatsoul.com/supplies/index.php?main_page=advanced_search&search_in_description=1&keyword='; confirm`1`; '&inc_subcat=0&sort=20a
+Context = SCRIPT
+Success = FALSE
+Detection:
+None
+-----------------------------------------------------------------------------------------------------

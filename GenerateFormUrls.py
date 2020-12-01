@@ -57,10 +57,10 @@ class generate_form_urls_with_payloads:
         links = []
         soup = BeautifulSoup(source, features="lxml")
 
-        # forms = soup.find_all('form')
+        forms = soup.find_all('form')
 
-        forms = soup.find_all('form', attrs = {'method' : method.upper() })
-        forms = forms + soup.find_all('form', attrs = {'method' : method.lower() })
+        # forms = soup.find_all('form', attrs = {'method' : method.upper() })
+        # forms = forms + soup.find_all('form', attrs = {'method' : method.lower() })
         
         # print('\n Forms \n', forms)
         for form in forms:
